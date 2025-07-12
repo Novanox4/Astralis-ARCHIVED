@@ -1,3 +1,4 @@
+type: StatusEffect
 name: "Lore Log: Burning Ravine"
 description: "A strong, reinforced container. It contains a pristine crystal tablet which is holographically projecting text:"
 details: "[accent]LOG #1:  FROM SCOUT TEAM #8, REPORTING BACK TO REBEL BASE MAIN SHIP. SENDING TO SUPERINTENDEND TARTAR-US.[]
