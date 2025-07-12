@@ -1,3 +1,9 @@
+name: "Lore Log: Burning Ravine"
+description: "A strong, reinforced container. It contains a pristine crystal tablet which is holographically projecting text:"
+details: "[accent]LOG #1:  FROM SCOUT TEAM #8, REPORTING BACK TO REBEL BASE MAIN SHIP. SENDING TO SUPERINTENDEND TARTAR-US.[]
+Our landing on Astralis was very rough, although the view and information inside the atmosphere is worth the ruckus. What our team suspects is lhetirask tier electromagnetic storm knocked us off course, and we crash landed into a deep rift with rocky terrain. 
+Astralis's atmosphere seems to be somewhat capable of sustaining life, too. Large crystal spikes are present here, and it seems that the material could be used to build basic infrastructure. Uranium 235 is also present, yet basic geological environment inspections do not feature any traces.
+If other factors are favorable, this place may be a perfect hideout."
 research: {
   parent: core-fort
   requiresUnlock: false
@@ -8,3 +14,4 @@ research: {
     }
   ]
 }
+requiresUnlock: false
