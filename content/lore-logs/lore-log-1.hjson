@@ -1,0 +1,10 @@
+research: {
+  parent: core-fort
+  requiresUnlock: false
+  objectives: [
+    {
+    type: SectorComplete
+    preset: burning-ravine
+    }
+  ]
+}
