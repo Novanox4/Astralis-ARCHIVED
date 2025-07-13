@@ -27,9 +27,9 @@ requirements: [
 research: {
   parent: support-unit-forge
   objectives: [
-  {
-  type: OnSector
-  preset: mineshaft
+    {
+    type: OnSector
+    preset: strait
     }
   ]
 }
