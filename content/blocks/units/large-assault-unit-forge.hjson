@@ -28,7 +28,7 @@ research: {
   objectives: [
   {
   type: OnSector
-  preset: mineshaft
+  preset: strait
     }
   ]
 }
