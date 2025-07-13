@@ -1,0 +1,100 @@
+type: StatusEffect
+name: "Lore Log: Lore Logs"
+description: "A strong, reinforced container. It contains a somewhat damaged crystal tablet which is holographically projecting text:"
+details: "What are lore logs? Lore logs are capsules used to record information. Created by Professor Doe shortly after the impl**Demet&(**%[UNREADABLE]
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+Many of those who say they argue for truth are most often the ones to stomp out the flame of the altar in which they claim to preach in."
+research: {
+  parent: lore-log-1
+  requiresUnlock: false
+  objectives: []
+}
+requiresUnlock: false
