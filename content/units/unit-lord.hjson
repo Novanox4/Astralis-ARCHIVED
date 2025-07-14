@@ -176,3 +176,5 @@ abilities: [
   effectParam: 2
   }
 ]
+research: large-assault-unit-forge
+researchCostMultiplier: 15
