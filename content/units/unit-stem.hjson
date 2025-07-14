@@ -125,3 +125,5 @@ abilities: [
   range: 120
   }
 ]
+research: large-support-unit-forge
+researchCostMultiplier: 15
