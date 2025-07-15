@@ -33,3 +33,8 @@ bullet: {
 ]
 outlineColor: 323232
 research: large-support-unit-forge
+hitSize: 17.5
+speed: 0.6
+boostMultiplier: 1.85
+engineSize: 3.5
+engineOffset: 9.5
