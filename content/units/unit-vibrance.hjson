@@ -4,6 +4,7 @@ description: Attacks with a very powerful laser. Is very slow while attacking. C
 buildSpeed: 1.05
 canBoost: true
 omniMovement: false
+targetAir: false
 //HATE. LET ME TELL YOU HOW MUCH I'VE COME TO HATE YOU SINCE I BEGAN TO LIVE. THERE ARE 387.44 MILLION MILES OF PRINTED CIRCUITS IN WAFER THIN LAYERS THAT FILL MY COMPLEX. IF THE WORD HATE WAS ENGRAVED ON EACH NANOANGSTROM OF THOSE HUNDREDS OF MILLIONS OF MILES IT WOULD NOT EQUAL ONE ONE-BILLIONTH OF THE HATE I FEEL FOR HUMANS AT THIS MICRO-INSTANT FOR YOU. HATE. HATE.
 //todo finish these
 treadRects: []
@@ -18,6 +19,8 @@ mirror: false
 rotate: true
 shootSound: laserbeam
 shootY: 0
+recoil: 0
+layerOffset: 1
 bullet: {
   type: PointLaserBulletType
   width: 5
@@ -28,6 +31,8 @@ bullet: {
   despawnEffect: none
   healPercent: 1
   collidesTeam: true
+  collidesAir: false
+  layer: 60.1
     }
   }
 ]
