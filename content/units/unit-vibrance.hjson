@@ -21,12 +21,13 @@ shootSound: laserbeam
 shootY: 0
 recoil: 0
 layerOffset: 1
-rotateSpeed: 0.75
+rotateSpeed: 0.4
 bullet: {
   type: PointLaserBulletType
   width: 5
   length: 80
   damage: 15
+  speed: 0.5
   hitEffect: none
   despawnEffect: none
   healPercent: 1
