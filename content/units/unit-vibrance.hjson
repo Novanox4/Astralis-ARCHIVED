@@ -44,6 +44,7 @@ bullet: {
   trailWidth: 0.5
   trailLength: 15
   trailColor: 7cd656
+  hitColor: 7cd656
     }
   }
 ]
