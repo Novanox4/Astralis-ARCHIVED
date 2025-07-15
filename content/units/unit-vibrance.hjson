@@ -1,5 +1,5 @@
 type: tank
-name: Spectrum
+name: Vibrance
 description: Attacks with a very powerful laser. Is very slow while attacking. Can build and boost.
 buildSpeed: 1.05
 canBoost: true
