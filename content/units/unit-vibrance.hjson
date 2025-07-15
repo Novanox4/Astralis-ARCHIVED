@@ -19,7 +19,7 @@ rotate: true
 shootSound: laserbeam
 shootY: 0
 bullet: {
-  type: ContinuousLaserBulletType
+  type: PointLaserBulletType
   width: 5
   length: 80
   damage: 15
