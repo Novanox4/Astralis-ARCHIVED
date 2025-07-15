@@ -18,7 +18,7 @@ y: 0
 mirror: false
 rotate: true
 shootSound: laserbeam
-shootY: 0
+shootY: -3
 recoil: 0
 layerOffset: 1
 rotateSpeed: 0.8
