@@ -35,7 +35,7 @@ bullet: {
   collidesTeam: true
   collidesAir: false
   layer: 60.1
-  colors: [7cd65655, 7cd656aa, 7fff5aff, ffffffff]
+  color: 7cd656ff
     }
   }
 ]
