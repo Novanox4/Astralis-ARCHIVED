@@ -4,12 +4,18 @@ description: Attacks with a very fast flurry of helixing bolts. Can build and bo
 buildSpeed: 1.05
 canBoost: true
 omniMovement: false
-targetAir: false
 health: 1500
 armor: 2
 //HATE. LET ME TELL YOU HOW MUCH I'VE COME TO HATE YOU SINCE I BEGAN TO LIVE. THERE ARE 387.44 MILLION MILES OF PRINTED CIRCUITS IN WAFER THIN LAYERS THAT FILL MY COMPLEX. IF THE WORD HATE WAS ENGRAVED ON EACH NANOANGSTROM OF THOSE HUNDREDS OF MILLIONS OF MILES IT WOULD NOT EQUAL ONE ONE-BILLIONTH OF THE HATE I FEEL FOR HUMANS AT THIS MICRO-INSTANT FOR YOU. HATE. HATE.
 //todo finish these
-treadRects: []
+treadRects: [
+  {
+  x: 0
+  y: -22
+  width: 12
+  height: 42
+  }
+]
 weapons: [
 {
 name: unit-vibrance-weapon
@@ -29,13 +35,12 @@ bullet: {
   type: BasicBulletType
   width: 5
   height: 5
-  damage: 15
+  damage: 7.5
   speed: 4
   lifetime: 50
   hitEffect: none
   healPercent: 1
   collidesTeam: true
-  collidesAir: false
   backColor: 7cd656
   frontColor: ffffff
   sprite: circle-bullet
