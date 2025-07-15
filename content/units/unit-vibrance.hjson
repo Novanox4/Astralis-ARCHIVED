@@ -11,9 +11,9 @@ armor: 2
 treadRects: [
   {
   x: 0
-  y: -22
+  y: -32
   width: 12
-  height: 50
+  height: 60
   }
 ]
 weapons: [
