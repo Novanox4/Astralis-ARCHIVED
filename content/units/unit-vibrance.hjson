@@ -17,8 +17,7 @@ mirror: false
 rotate: true
 shootSound: bolt
 shootY: -3
-recoil: 0
-reload: 17.5
+reload: 4
 rotateSpeed: 0.8
 shoot: {
   type: ShootHelix
@@ -39,6 +38,7 @@ bullet: {
   backColor: 7cd656
   frontColor: ffffff
   sprite: circle-bullet
+  shrinkY: 0
     }
   }
 ]
