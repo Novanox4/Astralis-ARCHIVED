@@ -11,8 +11,6 @@ treadRects: []
 weapons: [
 {
 name: unit-vibrance-weapon
-continuous: true
-alwaysContinuous: true
 x: 0
 y: 0
 mirror: false
@@ -20,6 +18,7 @@ rotate: true
 shootSound: bolt
 shootY: -3
 recoil: 0
+reload: 17.5
 rotateSpeed: 0.8
 shoot: {
   type: ShootHelix
