@@ -5,6 +5,8 @@ buildSpeed: 1.05
 canBoost: true
 omniMovement: false
 targetAir: false
+health: 1500
+armor: 2
 //HATE. LET ME TELL YOU HOW MUCH I'VE COME TO HATE YOU SINCE I BEGAN TO LIVE. THERE ARE 387.44 MILLION MILES OF PRINTED CIRCUITS IN WAFER THIN LAYERS THAT FILL MY COMPLEX. IF THE WORD HATE WAS ENGRAVED ON EACH NANOANGSTROM OF THOSE HUNDREDS OF MILLIONS OF MILES IT WOULD NOT EQUAL ONE ONE-BILLIONTH OF THE HATE I FEEL FOR HUMANS AT THIS MICRO-INSTANT FOR YOU. HATE. HATE.
 //todo finish these
 treadRects: []
@@ -29,7 +31,7 @@ bullet: {
   height: 5
   damage: 15
   speed: 8
-  lifetime: 20
+  lifetime: 25
   hitEffect: none
   despawnEffect: none
   healPercent: 1
@@ -39,6 +41,9 @@ bullet: {
   frontColor: ffffff
   sprite: circle-bullet
   shrinkY: 0
+  trailWidth: 0.5
+  trailLength: 15
+  trailColor: 7cd656
     }
   }
 ]
