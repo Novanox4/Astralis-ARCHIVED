@@ -20,7 +20,7 @@ rotate: true
 shootSound: bolt
 shootY: -3
 reload: 4
-rotateSpeed: 0.8
+rotateSpeed: 1.5
 shoot: {
   type: ShootHelix
   shots: 2
@@ -30,8 +30,8 @@ bullet: {
   width: 5
   height: 5
   damage: 15
-  speed: 8
-  lifetime: 25
+  speed: 4
+  lifetime: 50
   hitEffect: none
   despawnEffect: none
   healPercent: 1
@@ -55,3 +55,4 @@ speed: 0.6
 boostMultiplier: 1.85
 engineSize: 3.5
 engineOffset: 9.5
+rotateSpeed: 2
