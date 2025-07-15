@@ -7,7 +7,7 @@ requirements: [
 researchCost:  [
   item-cerium/650
   ]
-research: silver-wall
+research: cerium-wall
 category: defense
 description: "Wall that provides cover from enemy fire."
 health: 2400
