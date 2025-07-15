@@ -41,7 +41,7 @@ bullet: {
   frontColor: ffffff
   sprite: circle-bullet
   shrinkY: 0
-  trailWidth: 0.5
+  trailWidth: 1.15
   trailLength: 15
   trailColor: 7cd656
   hitColor: 7cd656
