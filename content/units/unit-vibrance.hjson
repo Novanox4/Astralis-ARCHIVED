@@ -1,6 +1,6 @@
 type: tank
 name: Vibrance
-description: Attacks with a very powerful laser. Is very slow while attacking. Can build and boost.
+description: Attacks with a very fast flurry of helixing bolts. Can build and boost.
 buildSpeed: 1.05
 canBoost: true
 omniMovement: false
