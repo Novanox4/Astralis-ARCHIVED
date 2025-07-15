@@ -22,6 +22,10 @@ shootY: -3
 recoil: 0
 layerOffset: 1
 rotateSpeed: 0.8
+shoot: {
+  type: ShootHelix
+  shots: 2
+}
 bullet: {
   type: PointLaserBulletType
   width: 5
