@@ -17,19 +17,18 @@ x: 0
 y: 0
 mirror: false
 rotate: true
-shootSound: laserbeam
+shootSound: bolt
 shootY: -3
 recoil: 0
-layerOffset: 1
 rotateSpeed: 0.8
 shoot: {
   type: ShootHelix
   shots: 2
 }
 bullet: {
-  type: PointLaserBulletType
+  type: BasicBulletType
   width: 5
-  length: 80
+  height: 5
   damage: 15
   speed: 8
   lifetime: 20
@@ -38,7 +37,9 @@ bullet: {
   healPercent: 1
   collidesTeam: true
   collidesAir: false
-  layer: 60.1
+  backColor: 7cd656
+  frontColor: ffffff
+  sprite: circle-bullet
     }
   }
 ]
