@@ -33,7 +33,6 @@ bullet: {
   speed: 4
   lifetime: 50
   hitEffect: none
-  despawnEffect: none
   healPercent: 1
   collidesTeam: true
   collidesAir: false
