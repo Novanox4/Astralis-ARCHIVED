@@ -28,6 +28,7 @@ bullet: {
   length: 80
   damage: 15
   speed: 0.5
+  lifetime: 200
   hitEffect: none
   despawnEffect: none
   healPercent: 1
