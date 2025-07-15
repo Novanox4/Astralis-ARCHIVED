@@ -46,6 +46,8 @@ contentOrder: [
     large-metaglass-wall,
     silver-wall,
     large-silver-wall,
+    cerium-wall,
+    large-cerium-wall,
     gate,
     
     //effect
