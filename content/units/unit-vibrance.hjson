@@ -44,7 +44,8 @@ bullet: {
   damage: 7.5
   speed: 4
   lifetime: 50
-  hitEffect: none
+  hitEffect: hitSquaresColor
+  despawnEffect: none
   healPercent: 1
   collidesTeam: true
   backColor: 7cd656
