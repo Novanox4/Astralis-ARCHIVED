@@ -1,0 +1,38 @@
+type: WallCrafter
+category: production
+requirements: [
+  item-crystalite/45
+  item-uranium/80
+  metaglass/50
+  item-cerium/20
+  ]
+name: Corrosion Mill
+description: Uses acid to drill into char walls more efficiently
+drillTime: 25
+consumes: {
+  power: 4
+  liquids: [
+    liquid-nitric-acid/0.35
+  ]
+}
+size: 4
+output: item-charchunk
+attribute: charchunk
+fogRadius: 6
+ambientSound: drill
+ambientSoundVolume: 0.725
+researchCost: [
+  item-crystalite/275
+  item-uranium/600
+  item-cerium/125
+  metaglass/400
+  item-silver/400
+]
+rotateSpeed: 25
+itemCapacity: 120
+research: {
+  parent: char-crusher
+  objectives: [
+    nitric-acid-synthesizer,
+    ]
+  }

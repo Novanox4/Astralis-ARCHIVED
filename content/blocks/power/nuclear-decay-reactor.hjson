@@ -1,27 +1,27 @@
 type: NuclearReactor
 name: Nuclear Decay Reactor
 description: Uses uranium to generate large amounts of power. If insufficient water is provided, the reactor will explode violently in a very small area over a long period of time
-flashThreshold: 0.275
+flashThreshold: 0.1
 explosionRadius: 4
 explosionDamage: 10000
 fuelItem: item-uranium
 itemCapacity: 25
 coolantPower: 0.0025
 consumes: {
-  liquid: water/1.75
+  liquid: water/0.85
   items: [
     item-uranium/1
     ]
   }
 requirements: [
-  item-uranium/325
-  item-crystalite/400
-  item-cerium/175
-  metaglass/250
+  item-uranium/300
+  item-crystalite/175
+  item-cerium/100
+  metaglass/150
   item-silver/275
-  item-neodymium/125
+  item-neodymium/75
     ]
-researchCostMultiplier: 0.75
+researchCostMultiplier: 0.1
 drawer: {
   type: DrawMulti
   drawers: [
@@ -63,7 +63,15 @@ explodeEffect: {
   }
 ]
 }
-powerProduction: 20
+powerProduction: 42.5
 size: 3
 category: power
 heating: 0.000625
+liquidCapacity: 150
+researchCostMultiplier: 0.1
+research: {
+  parent: boiler
+  objectives: [
+    electrostatic-separator,
+    ]
+  }

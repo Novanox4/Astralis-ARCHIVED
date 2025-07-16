@@ -6,7 +6,6 @@ legBaseOffset: 2
 speed: 3.25
 name: Hunger
 description: Abyssal spider. Attacks by exploding into void fluid.
-details: "Creature born of a highly invasive lifeform. Highly dangerous in swarms."
 legMinLength: 0.75
 legMaxLength: 1
 legExtension: 2.5

@@ -28,7 +28,6 @@ drawer: {
     {
     type: DrawLiquidTile
     drawLiquid: nitrogen
-    padding: 0.1
     }
     {
     type: DrawDefault
@@ -48,3 +47,4 @@ research: {
     }
   ]
 }
+liquidCapacity: 60

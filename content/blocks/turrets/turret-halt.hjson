@@ -1,0 +1,116 @@
+type: PowerTurret
+name: Halt
+description: Unleashes a wave of scrambling particles that stall enemies. Requires neodymium to run.
+category: turret
+range: 155
+size: 3
+squareSprite: false
+shootSound: plasmadrop
+shootY: 0.1
+recoilTime: 25
+shootEffect: shootBigColor
+smokeEffect: shootSmokeSquareSparse
+cooldownTime: 275
+reload: 245
+health: 1250
+minWarmup: 0.75
+heatColor: 452d56ff
+inaccuracy: 0
+itemCapacity: 45
+unitSort: strongest
+consumes: {
+  items: [
+    item-neodymium/45
+    ]
+  power: 15
+    }
+drawer: {
+  type: DrawTurret
+  basePrefix: astral-
+    }
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.625
+}
+coolantMultiplier: 1.3
+requirements: [
+  item-crystalite/300
+  item-silver/225
+  item-uranium/375
+  item-neodymium/85
+]
+research: {
+  parent: turret-reverberate
+  objectives: [
+    turret-malheur,
+    electrostatic-separator,
+    nuclear-decay-reactor,
+    core-agora,
+    {
+    type: SectorComplete
+    preset: explosive-armaments-facility
+    }
+  ]
+}
+researchCost: [
+  item-crystalite/1225
+  item-uranium/1050
+  item-silver/975
+  metaglass/675
+  item-cerium/100
+  item-neodymium/275
+]
+shootType: {
+  type: BasicBulletType
+  sprite: large-orb
+  lifetime: 7.65
+  speed: 2
+  damage: 0
+  collides: false
+  hitColor: 452d56ff
+  despawnHit: true
+  fragBullets: 40
+  backColor: 452d56
+  frontColor: ffffff
+  despawnEffect: none
+  hitEffect: none
+  height: 15
+  width: 15
+  fragRandomSpread: 0
+  fragVelocityMin: 1
+  fragVelocityMax: 1
+  fragLifeMin: 1
+  fragLifeMax: 1
+  fragSpread: 1
+  fragRandomSpread: 0.25
+  fragBullet: {
+    type: BasicBulletType
+    backColor: 452d56
+    frontColor: ffffff
+    hitColor: 452d56ff
+    damage: 4
+    height: 8.5
+    width: 6.25
+    speed: 4
+    lifetime: 36.25
+    hitEffect: hitSquaresColor
+    despawnEffect: hitSquaresColor
+    trailColor: 452d56
+    trailLength: 22.5
+    trailWidth: 2
+    status: status-scrambled
+    statusDuration: 100
+    knockback: 2
+    impact: true
+    }
+  }
+researchCostMultiplier: 0.5
+research: {
+  parent: turret-malheur
+  objectives: [
+    electrostatic-separator,
+    turret-benefactor,
+    ]
+  }

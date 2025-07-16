@@ -1,0 +1,5 @@
+type: StatusEffect
+name: Scrambled
+show: false
+speedMultiplier: 0.3
+reloadMultiplier: 0.3

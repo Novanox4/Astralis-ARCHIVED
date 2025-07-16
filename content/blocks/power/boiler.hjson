@@ -1,6 +1,6 @@
 type: ConsumeGenerator
 name: Boiler
-description: Uses flammable materials to boil water and produce power
+description: Uses flammable materials to boil water and produce power and heat.
 consumes: {
   itemFlammable: {} 
   liquid: water/0.15
@@ -10,7 +10,7 @@ requirements: [
     item-silver/20
     metaglass/45
   ]
-powerProduction: 4.10
+powerProduction: 5.2
 size: 2
 drawer: {
   type: DrawMulti
@@ -39,8 +39,17 @@ drawer: {
     }
   ]
 }
-research: heat-generator
+research: {
+  parent: heat-generator
+  objectives: [
+    {
+    type: OnSector
+    preset: mineshaft
+    }
+  ]
+}
 category: power
 generateEffect: vaporSmall
 ambientSound: smelter
-ambientSoundVolume: 0.95
+ambientSoundVolume: 0.9
+researchCostMultiplier: 0.3

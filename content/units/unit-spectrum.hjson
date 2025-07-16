@@ -1,0 +1,94 @@
+type: tank
+name: Spectrum
+description: Shoots a homing bolt of light. Can build and boost.
+buildSpeed: 0.25
+canBoost: true
+omniMovement: false
+parts: [
+  {
+  type: RegionPart
+  suffix: -blade
+  mirror: true
+  under: true
+  x: -3.75
+  y: 0.25
+  rotation: -90
+  layer: 59.8
+  moveRot: 75
+  moveX: -2.75
+  moveY: -1.5
+  }
+  {
+  type: RegionPart
+  suffix: -blade
+  mirror: true
+  under: true
+  x: -3.75
+  y: 0.25
+  rotation: -90
+  layer: 59.9
+  moveRot: 60
+  moveX: -2.5
+  moveY: 0
+  }
+]
+//HATE. LET ME TELL YOU HOW MUCH I'VE COME TO HATE YOU SINCE I BEGAN TO LIVE. THERE ARE 387.44 MILLION MILES OF PRINTED CIRCUITS IN WAFER THIN LAYERS THAT FILL MY COMPLEX. IF THE WORD HATE WAS ENGRAVED ON EACH NANOANGSTROM OF THOSE HUNDREDS OF MILLIONS OF MILES IT WOULD NOT EQUAL ONE ONE-BILLIONTH OF THE HATE I FEEL FOR HUMANS AT THIS MICRO-INSTANT FOR YOU. HATE. HATE.
+treadRects: [
+  {
+  x: 0
+  y: -20
+  width: 12
+  height: 40
+  }
+]
+weapons: [
+{
+name: unit-spectrum-weapon
+reload: 65
+x: 0
+y: -1.75
+mirror: false
+rotate: true
+shootSound: bolt
+bullet: {
+  type: BasicBulletType
+  sprite: missile
+  backColor: 7cd656ff
+  frontColor: ffffff
+  width: 5
+  height: 8
+  damage: 15
+  speed: 3
+  lifetime: 60
+  followAimSpeed: 2.25
+  hitEffect: none
+  despawnEffect: {
+    type: WaveEffect
+    colorTo: 7cd656ff
+    sizeTo: 30
+    strokeFrom: 1
+    }
+  trailLength: 20
+  trailColor: 7cd656
+  trailWidth: 2
+  splashDamage: 5
+  splashDamageRadius: 12
+  healPercent: 1
+  collidesTeam: true
+  parts: [
+    {
+    type: FlarePart
+    progress: life
+    radius: 22
+    radiusTo: 0
+    color1: 7cd656
+    rotation: 45
+    stroke: 3
+    followRotation: true
+        }
+      ]
+    }
+  }
+]
+outlineColor: 323232
+research: support-unit-forge

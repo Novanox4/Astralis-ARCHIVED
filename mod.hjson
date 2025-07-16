@@ -12,3 +12,143 @@ minGameVersion: 149
 hidden: false
 hideBrowser: false
 author: NV-NX, Haznobrain
+contentOrder: [
+    //items
+    
+    item-crystalite,
+    item-uranium,
+    item-charchunk,
+    item-silver,
+    item-silver-fulminate,
+    item-monazite,
+    item-cerium,
+    item-neodymium,
+    
+    //factories
+    
+    crystal-kiln,
+    cryogenic-distiller,
+    geothermal-extractor,
+    silver-fulminator,
+    electrostatic-separator,
+    crystal-crucible,
+    nitric-acid-synthesizer,
+    char-burner,
+    slag-radiator,
+    radiation-heater,
+    heat-circulator,
+    
+    //walls
+    
+    crystalite-wall,
+    large-crystalite-wall,
+    metaglass-wall,
+    large-metaglass-wall,
+    silver-wall,
+    large-silver-wall,
+    cerium-wall,
+    large-cerium-wall,
+    gate,
+    
+    //effect
+    
+    remediator,
+    lamp,
+    core-fort,
+    core-agora,
+    depository,
+    
+    //distribution
+    
+    crystal-duct,
+    crystal-router,
+    crystal-bridge,
+    crystal-overflow-gate,
+    crystal-underflow-gate,
+    crystal-unloader,
+
+    //liquids
+
+    crystal-pump,
+    
+    //liquid distribution
+    
+    crystal-aqueduct,
+    crystal-aqueduct-router,
+    crystal-aqueduct-junction,
+    crystal-aqueduct-bridge,
+    
+    //power
+    
+    crystal-node,
+    power-distributor,
+    crystal-battery,
+    heat-generator,
+    boiler,
+    nuclear-decay-reactor,
+    
+    //production
+    
+    beam-drill,
+    char-crusher,
+    corrosion-mill,
+    deep-quarry,
+
+    //turrets
+
+    turret-burn,
+    turret-slice,
+    turret-spritz,
+    turret-augur,
+    turret-reverberate,
+    turret-malheur,
+    turret-benefactor,
+    turret-vaticinate,
+    turret-halt,
+
+    //unit blocks
+
+    assault-unit-forge,
+    support-unit-forge,
+    large-assault-unit-forge,
+    large-support-unit-forge,
+    
+    //logic
+
+    small-processing-unit,
+
+    //units
+
+    unit-shards,
+    unit-chunks,
+    unit-capture,
+    unit-chieftain,
+    unit-lord,
+    unit-receptacle,
+    unit-pollen,
+    unit-stem,
+    unit-spectrum,
+    unit-hue,
+    unit-flu,
+    unit-malady,
+    unit-outbreak,
+    unit-endemic,
+    unit-microplana,
+    unit-koreni,
+    unit-lumbricus,
+    unit-hunger,
+    unit-craving,
+
+    //status
+
+    status-voidgnaw,
+    status-scrambled,
+    status-boosting,
+
+    //sectors
+
+    emergence,
+    burning-ravine,
+    mineshaft,
+    explosive-armaments-facility,
+]

@@ -14,3 +14,8 @@ category: liquid
 research: crystal-aqueduct
 liquidPadding: 1.75
 squareSprite: false
+liquidPressure: 99
+liquidCapacity: 20
+timerFlow: 0
+placeableLiquid: true
+floating: true

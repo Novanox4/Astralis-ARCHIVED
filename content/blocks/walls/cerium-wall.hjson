@@ -1,0 +1,13 @@
+type: Wall
+size: 1
+name: Cerium Wall
+requirements: [
+  item-cerium/6
+  ]
+researchCost:  [
+  item-cerium/375
+  ]
+research: silver-wall
+category: defense
+description: "Wall that provides cover from enemy fire."
+health: 600

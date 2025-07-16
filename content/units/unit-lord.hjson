@@ -1,0 +1,180 @@
+dtype: flying
+flying: true
+health: 2250
+speed: 0.725
+hitSize: 18
+rotateSpeed: 5
+itemCapacity: 50
+armor: 10
+drag: 0.05
+parts: [
+  {
+  type: RegionPart
+  suffix: -blade
+  progress: warmup
+  rotation: 90
+  x: 9
+  y: 1.25
+  layer: 114.6
+  moveRot: -75
+  mirror: true
+  heatColor: db5151
+  moveX: 3.65
+  heatLayerOffset: 0.1
+  }
+  {
+  type: RegionPart
+  suffix: -blade
+  progress: warmup
+  rotation: 90
+  x: 9.5
+  y: 1.25
+  layer: 114.4
+  moveRot: -60
+  mirror: true
+  heatColor: db5151
+  moveX: 3.25
+  moveY: 2.5
+  heatLayerOffset: 0.1
+  }
+  {
+  type: RegionPart
+  suffix: -blade
+  progress: warmup
+  rotation: 90
+  x: 9
+  y: 1.25
+  layer: 114.8
+  moveRot: -90
+  mirror: true
+  heatColor: db5151
+  moveX: 3.85
+  moveY: -2.5
+  heatLayerOffset: 0.1
+  }
+]
+engines: [
+{
+  x: 0
+  y: -9.5
+  radius: 3.25
+  rotation: 90
+}
+{
+  x: 5.25
+  y: -9.3
+  radius: 1.95
+  rotation: 90
+}
+{
+  x: -5.25
+  y: -9.3
+  radius: 1.95
+  rotation: 90
+}
+{
+  x: 9.3
+  y: -5.2
+  radius: 1.8
+  rotation: 45
+}
+{
+  x: -9.3
+  y: -5.2
+  radius: 1.8
+  rotation: 135
+}
+]
+name: Lord
+description: "Air assault unit. Very tanky and slow. Attacks by dropping bombs in quick succession. Is much faster while attacking."
+weapons: [
+  {
+  x: 2
+  y: 0
+  shootY: -5
+  reload: 4
+  mirror: true
+  alternate: true
+  layerOffset: 0
+  inaccuracy: 1
+  shootSound: none
+  ignoreRotation: true
+  shootStatus: status-lord-boosting
+  shootStatusDuration: 25
+  shootCone: 361
+  bullet: {
+  type: BombBulletType
+  damage: 0
+  lifetime: 55
+  collidesAir: false
+  sprite: large-bomb
+  width: 7.5
+  height: 7.5
+  backColor: cb3535
+  frontColor: ffffff
+  despawnSound: explosion
+  hitSound: explosion
+  randomAngleOffset: 360
+  shootEffect: none
+  smokeEffect: none
+  shrinkX: 0.5
+  shrinkY: 0.5
+  splashDamage: 12
+  scaledSplashDamage: true
+  splashDamageRadius: 36
+  maxRange: 180
+  rangeOverride: 180
+  hitEffect: none
+  despawnEffect: {
+    type: WaveEffect
+    lightColor: cb3535
+    colorTo: cb3535ff
+    sizeTo: 35
+    strokeFrom: 1.25
+      }
+    }
+  }
+]
+outlineColor: 323232
+faceTarget: false
+targetAir: false
+circleTarget: true
+range: 180
+abilities: [
+  {
+  type: MoveEffectAbility
+  teamColor: true
+  minVelocity: 1.75
+  y: -9
+  interval: -1
+  amount: 1
+  effect: missileTrail
+  chance: 1
+  }
+  {
+  type: MoveEffectAbility
+  teamColor: true
+  minVelocity: 1.75
+  y: -8.75
+  x: 5.25
+  interval: -1
+  amount: 1
+  effect: missileTrailShort
+  chance: 1
+  effectParam: 2
+  }
+  {
+  type: MoveEffectAbility
+  teamColor: true
+  minVelocity: 1.75
+  y: -8.75
+  x: -5.25
+  interval: -1
+  amount: 1
+  effect: missileTrailShort
+  chance: 1
+  effectParam: 2
+  }
+]
+research: large-assault-unit-forge
+researchCostMultiplier: 15

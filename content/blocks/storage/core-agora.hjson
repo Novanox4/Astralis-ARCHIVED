@@ -5,7 +5,7 @@ itemCapacity: 8750
 size: 4
 category: effect
 unitType: unit-chunks
-unitCapModifier: 25
+unitCapModifier: 15
 requirements: [
   item-crystalite/4500
   item-uranium/4000
@@ -17,7 +17,6 @@ research: {
   objectives: [
     turret-reverberate,
     unit-chieftain,
-    nuclear-decay-reactor,
       {
       type: SectorComplete
       preset: mineshaft
@@ -25,3 +24,5 @@ research: {
     ]
   }
 name: "Core: Agora"
+researchCostMultiplier: 0.075
+description: Core of the base. Once all of them are destroyed, the sector is lost. Stores resources for building. Higher health and resource capacity than the previous tier.

@@ -1,0 +1,46 @@
+type: AttributeCrafter
+name: Geothermal Extractor
+description: Extracts slag from hot tiles.
+baseEfficiency: 0
+minEfficiency: 0.01
+consumes: {
+  power: 0.865
+    }
+outputLiquid: slag/0.4
+updateEffect: steam
+requirements: [
+  item-crystalite/50
+  metaglass/45
+  item-silver/30
+    ]
+research: {
+  parent: crystal-kiln
+  objectives: [
+    char-burner,
+    {
+    type: OnSector
+    preset: mineshaft
+    }
+  ]
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+    type: DrawRegion
+    suffix: -bottom
+    }
+    {
+    type: DrawLiquidTile
+    drawLiquid: slag
+    padding: 1.25
+    }
+    {
+    type: DrawDefault
+    }
+  ]
+}
+size: 2
+category: crafting
+squareSprite: false
+liquidCapacity: 120
