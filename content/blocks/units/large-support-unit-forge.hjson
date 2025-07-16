@@ -30,7 +30,7 @@ requirements: [
     item-uranium/125
     item-silver/125
     item-neodymium/85
-    item-metaglass/70
+    metaglass/70
       ]
     time: 2000
     }
