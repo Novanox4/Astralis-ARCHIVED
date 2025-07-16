@@ -129,6 +129,7 @@ contentOrder: [
     unit-stem,
     unit-spectrum,
     unit-hue,
+    unit-vibrance,
     unit-flu,
     unit-malady,
     unit-outbreak,
