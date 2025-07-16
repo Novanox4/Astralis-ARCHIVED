@@ -23,6 +23,17 @@ requirements: [
       ]
     time: 2250
     }
+    {
+unit: unit-vibrance
+requirements: [
+    item-crystalite/125
+    item-uranium/125
+    item-silver/125
+    item-neodymium/85
+    item-metaglass/70
+      ]
+    time: 2000
+    }
   ]
 research: {
   parent: support-unit-forge
