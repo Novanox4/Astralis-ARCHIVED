@@ -1,0 +1,16 @@
+type: PayloadLoader
+name: Payload Packer
+description: Loads items and resources into payloads.
+size: 4
+requirements: [
+  item-crystalite/60
+  item-silver/60
+  item-neodymium/60
+  ]
+consumes: {
+  power: 2
+    }
+loadTime: 1
+itemsLoaded: 20
+liquidsLoaded: 100
+category: units
