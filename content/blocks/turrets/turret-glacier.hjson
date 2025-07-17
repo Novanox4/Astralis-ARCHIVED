@@ -1,6 +1,6 @@
 type: LiquidTurret
 name: Glacier
-description: "Launches large spikes of ice at enemy naval units. Cannot be cooled and [accent]must be placed on water.[]"
+description: "Launches large spikes of ice at enemy ground units. Specialized against naval units. Cannot be cooled and [accent]must be placed on water.[]"
 reload: 60
 category: turret
 size: 3
