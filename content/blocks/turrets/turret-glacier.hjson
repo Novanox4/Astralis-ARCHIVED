@@ -1,6 +1,6 @@
 type: LiquidTurret
 name: Glacier
-description: Launches large spikes of ice at enemy naval units. [accent] Bullets can only travel on water![] Cannot be cooled and must be placed on water.
+description: "Launches large spikes of ice at enemy naval units. [accent] Bullets can only travel on water![] Cannot be cooled and must be placed on water."
 reload: 60
 requiresWater: true
 placeableLiquid: true
@@ -36,5 +36,3 @@ ammoTypes: {
     lifetime: 45
       }
     }
-    
-    
