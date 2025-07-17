@@ -10,7 +10,9 @@ requirements: [
   item-crystalite/190
   metaglass/185
   ]
-consumes: {}
+consumes: {
+  power: 8
+}
 reload: 10
 chargeTime: 20
 size: 4
