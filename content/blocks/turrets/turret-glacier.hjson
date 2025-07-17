@@ -13,7 +13,7 @@ targetAir: false
 maxAmmo: 20
 range: 180
 squareSprite: false
-shootY: 3
+shootY: 20
 health: 1250
 requirements: [
   item-crystalite/350
