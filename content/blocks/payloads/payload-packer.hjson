@@ -1,6 +1,6 @@
 type: PayloadLoader
 name: Payload Packer
-description: Loads items and resources into payloads.
+description: Loads items and liquids into payloads.
 size: 4
 requirements: [
   item-crystalite/60
