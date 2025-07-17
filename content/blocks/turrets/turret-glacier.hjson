@@ -8,6 +8,7 @@ requiresWater: true
 placeableLiquid: true
 extinguish: false
 shootSound: shotgun
+loopSound: none
 targetAir: false
 maxAmmo: 20
 range: 180
