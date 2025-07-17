@@ -39,3 +39,4 @@ ammoTypes: {
     lifetime: 45
       }
     }
+cacheLayer: water
