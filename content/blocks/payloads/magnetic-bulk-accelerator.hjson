@@ -14,4 +14,4 @@ consumes: {}
 reload: 10
 chargeTime: 20
 size: 4
-maxPayloadSize: 3
+maxPayloadSize: 2
