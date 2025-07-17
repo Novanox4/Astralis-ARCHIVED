@@ -13,3 +13,4 @@ consumes: {
     }
 size: 4
 maxBlockSize: 3
+category: units
