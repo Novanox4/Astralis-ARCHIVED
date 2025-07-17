@@ -37,6 +37,7 @@ ammoTypes: {
     underwater: true
     serrations: 0
     lifetime: 45
+    layer: 100
       }
     }
 cacheLayer: water
