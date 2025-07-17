@@ -1,4 +1,4 @@
-type: PayloadLoader
+type: PayloadUnloader
 name: Payload Unpacker
 description: Unloads items and liquids from payloads.
 size: 4
