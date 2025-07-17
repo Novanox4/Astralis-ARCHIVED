@@ -14,3 +14,4 @@ loadTime: 1
 itemsLoaded: 20
 liquidsLoaded: 100
 category: units
+itemCapacity: 400
