@@ -29,7 +29,7 @@ ammoTypes: {
     type: ShrapnelBulletType
     fromColor: 6ed1e7
     toColor: 6ed1e7
-    width: 60
+    width: 30
     length: 190
     damage: 100
     pierce: true
