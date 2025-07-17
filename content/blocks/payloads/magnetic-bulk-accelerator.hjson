@@ -1,0 +1,17 @@
+type: PayloadMassDriver
+name: Magnetic Bulk Accelerator
+description: Uses magnets to launch payloads towards other bulk accelerators over a very long range.
+range: 2500
+category: units
+requirements: [
+  item-silver/150
+  item-neodymium/180
+  item-uranium/120
+  item-crystalite/190
+  metaglass/185
+  ]
+consumes: {}
+reload: 10
+chargeTime: 20
+size: 4
+maxPayloadSize: 3
