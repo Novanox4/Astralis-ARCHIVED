@@ -1,0 +1,40 @@
+type: LiquidTurret
+name: Glacier
+description: Launches large spikes of ice at enemy naval units. [accent] Bullets can only travel on water![] Cannot be cooled and must be placed on water.
+reload: 60
+requiresWater: true
+placeableLiquid: true
+extinguish: false
+shootSound: shotgun
+targetAir: false
+maxAmmo: 20
+range: 180
+squareSprite: false
+health: 1250
+requirements: [
+  item-crystalite/350
+  item-silver/200
+  metaglass/375
+  item-cerium/75
+  item-neodymium/20
+]
+drawer: {
+  type: DrawTurret
+  basePrefix: astral-
+    }
+ammoTypes: {
+  water: {
+    type: ShrapnelBulletType
+    fromColor: 6ed1e7
+    toColor: 6ed1e7
+    width: 60
+    length: 190
+    damage: 100
+    pierce: true
+    underwater: true
+    serrations: 0
+    lifetime: 45
+      }
+    }
+    
+    
