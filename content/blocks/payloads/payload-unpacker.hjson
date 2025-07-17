@@ -15,3 +15,4 @@ itemsLoaded: 20
 liquidsLoaded: 100
 category: units
 offloadSpeed: 10
+itemCapacity: 400
