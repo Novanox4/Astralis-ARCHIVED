@@ -10,3 +10,6 @@ consumes: {
     }
 dumpRate: 10
 deconstructSpeed: 5
+size: 4
+category: units
+payloadSpeed: 2
