@@ -14,6 +14,7 @@ maxAmmo: 20
 range: 180
 squareSprite: false
 shootY: 20
+liquidCapacity: 50
 health: 1250
 requirements: [
   item-crystalite/350
@@ -40,6 +41,7 @@ ammoTypes: {
     layer: 100
     shootEffect: hitSquaresColor
     hitColor: 6ed1e7
+    ammoMultiplier: 10
     }
   nitrogen: {
     type: ShrapnelBulletType
@@ -54,5 +56,6 @@ ammoTypes: {
     layer: 100
     shootEffect: hitSquaresColor
     hitColor: ffffff
+    ammoMultiplier: 10
   }
 }
