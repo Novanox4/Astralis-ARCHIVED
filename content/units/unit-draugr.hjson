@@ -24,7 +24,6 @@ weapons: [
   shootY: 6
   shootSound: missileSmall
   bullet: {
-    //testing placeholder to see how far it shoots
     type: BulletType
     speed: 3.2
     lifetime: 7.5
