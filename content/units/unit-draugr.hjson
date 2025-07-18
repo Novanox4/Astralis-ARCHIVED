@@ -25,9 +25,8 @@ weapons: [
   shootSound: missileSmall
   bullet: {
     //testing placeholder to see how far it shoots
-    type: BasicBulletType
-    speed: 3
-    backColor: ffff00
+    type: BulletType
+    speed: 3.2
     lifetime: 7.5
     hittable: false
     reflectable: false
