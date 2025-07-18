@@ -31,9 +31,9 @@ ammoTypes: {
     type: ShrapnelBulletType
     fromColor: 6ed1e7
     toColor: 6ed1e7
-    width: 22.5
-    length: 175
-    damage: 100
+    width: 20
+    length: 165
+    damage: 110
     pierce: true
     serrations: 0
     lifetime: 45
@@ -41,4 +41,17 @@ ammoTypes: {
     shootEffect: hitSquaresColor
     hitColor: 6ed1e7
     }
+  nitrogen:: {
+    type: ShrapnelBulletType
+    fromColor: ffffff
+    toColor: ffffff
+    width: 22.5
+    length: 170
+    damage: 190
+    pierce: true
+    serrations: 0
+    lifetime: 45
+    layer: 100
+    shootEffect: hitSquaresColor
+    hitColor: ffffff
   }
