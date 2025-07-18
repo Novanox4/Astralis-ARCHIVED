@@ -41,7 +41,7 @@ ammoTypes: {
     shootEffect: hitSquaresColor
     hitColor: 6ed1e7
     }
-  nitrogen:: {
+  nitrogen: {
     type: ShrapnelBulletType
     fromColor: ffffff
     toColor: ffffff
