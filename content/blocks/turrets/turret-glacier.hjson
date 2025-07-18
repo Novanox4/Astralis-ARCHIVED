@@ -41,7 +41,7 @@ ammoTypes: {
     layer: 100
     shootEffect: hitSquaresColor
     hitColor: 6ed1e7
-    ammoMultiplier: 100
+    ammoMultiplier: 1
     }
   nitrogen: {
     type: ShrapnelBulletType
@@ -56,6 +56,6 @@ ammoTypes: {
     layer: 100
     shootEffect: hitSquaresColor
     hitColor: ffffff
-    ammoMultiplier: 100
+    ammoMultiplier: 1
   }
 }
