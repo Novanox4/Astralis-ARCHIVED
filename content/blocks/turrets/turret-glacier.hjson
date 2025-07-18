@@ -38,5 +38,7 @@ ammoTypes: {
     serrations: 0
     lifetime: 45
     layer: 100
+    shootEffect: hitSquaresColor
+    hitColor: 6ed1e7
     }
   }
