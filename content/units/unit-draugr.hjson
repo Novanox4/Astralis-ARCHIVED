@@ -18,19 +18,22 @@ research: {
 }
 weapons: [
   {
-  reload: 40
+  reload: 17.5
   x: 0
   y: 0
   shootY: 6
+  shootSound: missileSmall
   bullet: {
     //testing placeholder to see how far it shoots
     type: BasicBulletType
-    speed: 2
+    speed: 3
     backColor: ffff00
-    lifetime: 20
+    lifetime: 7.5
     hittable: false
     reflectable: false
     damage: 42.5
+    hitEffect: none
+    despawnEffect: none
     shootEffect: {
       type: ParticleEffect
       colorFrom: ffffffff
