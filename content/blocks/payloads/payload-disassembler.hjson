@@ -1,0 +1,12 @@
+type: PayloadDeconstructor
+requirements: [
+  item-crystalite/50
+  item-uranium/65
+  item-silver/80
+  item-neodymium/70
+  ]
+consumes: {
+  power: 1.5
+    }
+dumpRate: 10
+deconstructSpeed: 5
