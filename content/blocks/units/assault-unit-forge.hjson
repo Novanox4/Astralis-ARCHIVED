@@ -28,7 +28,7 @@ requirements: [
     time: 1750
     }
     {
-unit: unit-capture
+unit: unit-draugr
 requirements: [
     item-crystalite/45
     item-uranium/45
