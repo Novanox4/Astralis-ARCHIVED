@@ -25,7 +25,7 @@ weapons: [
   shootSound: missileSmall
   bullet: {
     type: BulletType
-    speed: 3.2
+    speed: 6.4
     lifetime: 7.5
     hittable: false
     reflectable: false
@@ -35,11 +35,11 @@ weapons: [
     shootEffect: {
       type: ParticleEffect
       colorFrom: ffffffff
-      colorTo: a0a8a2ff
-      particles: 12
-      sizeFrom: 1.75
-      cone: 20
-      length: 40
+      colorTo: 3c72c9ff
+      particles: 15
+      sizeFrom: 1.85
+      cone: 17.5
+      length: 80
       lifetime: 20
         }
       }
