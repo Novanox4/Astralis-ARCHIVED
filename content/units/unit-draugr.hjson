@@ -46,3 +46,4 @@ weapons: [
       }
     }
   ]
+omniMovement: true
