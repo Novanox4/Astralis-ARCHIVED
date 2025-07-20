@@ -23,6 +23,7 @@ weapons: [
   y: 0
   shootY: 6
   shootSound: missileSmall
+  cone: 360
   bullet: {
     type: BulletType
     speed: 6.4
