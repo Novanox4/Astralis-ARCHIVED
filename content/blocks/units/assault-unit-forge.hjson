@@ -27,6 +27,15 @@ requirements: [
       ]
     time: 1750
     }
+    {
+unit: unit-capture
+requirements: [
+    item-crystalite/45
+    item-uranium/45
+    metaglass/40
+      ]
+    time: 1200
+    }
   ]
 research: {
   parent: core-fort
