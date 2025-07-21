@@ -16,12 +16,13 @@ weapons: [
   shootY: 5
   mirror: false
   shootSound: missile
+  rotates: true
   shoot: {
     type: shootAlternate
     shots: 6
     shotDelay: 5
     barrels: 2
-    spread: 2
+    spread: 2.5
       }
   bullet: {
     type: MissileBulletType
@@ -30,9 +31,10 @@ weapons: [
     speed: 6
     backColor: db5151
     frontColor: ffffff
-    weaveScale: 10
-    weaveMag: 1
+    weaveScale: 7.5
+    weaveMag: 0.85
     homingRange: 75
+    shootEffect: none
       }
     }
   ]
