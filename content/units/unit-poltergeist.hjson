@@ -10,10 +10,10 @@ research: unit-draugr
 weapons: [
   {
   name: unit-poltergeist-weapon
-  reload: 40
+  reload: 60
   x: 0
-  y: -4
-  shootY: 6
+  y: -4.5
+  shootY: 5
   mirror: false
   shootSound: missile
   shoot: {
@@ -21,7 +21,7 @@ weapons: [
     shots: 6
     shotDelay: 5
     barrels: 2
-    spread: 0.75
+    spread: 2
       }
   bullet: {
     type: MissileBulletType
@@ -31,7 +31,7 @@ weapons: [
     backColor: db5151
     frontColor: ffffff
     weaveScale: 10
-    weaveMag: 2
+    weaveMag: 1
     homingRange: 75
       }
     }
