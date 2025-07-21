@@ -16,7 +16,7 @@ weapons: [
   shootY: 5
   mirror: false
   shootSound: missile
-  rotates: true
+  rotate: true
   shoot: {
     type: shootAlternate
     shots: 6
