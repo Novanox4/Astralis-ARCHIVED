@@ -61,6 +61,7 @@ ammoTypes: {
     hitEffect: none
     pierce: true
     pierceBuilding: true
+    reloadMultiplier: 1.35
     shootEffect: {
       type: ParticleEffect
       colorFrom: ffffffff
