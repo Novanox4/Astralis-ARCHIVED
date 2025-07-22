@@ -6,6 +6,7 @@ size: 3
 heatRequirement: 10
 maxHeatEfficiency: 2
 category: turret
+rotateSpeed: 6.5
 requirements: [
   item-crystalite/125
   item-uranium/125
@@ -35,13 +36,15 @@ ammoTypes: {
     type: BulletType
     speed: 5
     lifetime: 12.5
-    damage: 175
+    damage: 150
     despawnEffect: none
     hitEffect: none
+    pierce: true
+    pierceBuilding: true
     shootEffect: {
       type: ParticleEffect
       colorFrom: ffffffff
-      colorTo: a43131ff
+      colorTo: b58327ff
       particles: 15
       sizeFrom: 1.85
       cone: 12
@@ -49,4 +52,29 @@ ammoTypes: {
       lifetime: 15
       }
     }
+    item-silver-fulminate: {
+    type: BulletType
+    speed: 5
+    lifetime: 12.5
+    damage: 200
+    despawnEffect: none
+    hitEffect: none
+    pierce: true
+    pierceBuilding: true
+    shootEffect: {
+      type: ParticleEffect
+      colorFrom: ffffffff
+      colorTo: a43131ff
+      particles: 18
+      sizeFrom: 2
+      cone: 12
+      length: 90
+      lifetime: 15
+      }
+    }
+  }
+consumes: {
+  liquids: [
+    liquid-nitric-acid/0.5
+    ]
   }
