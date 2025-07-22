@@ -33,6 +33,7 @@ weapons: [
     damage: 42.5
     hitEffect: none
     despawnEffect: none
+    status: burning
     shootEffect: {
       type: ParticleEffect
       colorFrom: ffffffff
