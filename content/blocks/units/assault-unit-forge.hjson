@@ -36,6 +36,15 @@ requirements: [
       ]
     time: 1200
     }
+     {
+unit: unit-poltergeist
+requirements: [
+    item-crystalite/60
+    item-silver/60
+    metaglass/80
+      ]
+    time: 1200
+    }
   ]
 research: {
   parent: core-fort
