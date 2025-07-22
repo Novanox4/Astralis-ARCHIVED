@@ -36,6 +36,8 @@ ammoTypes: {
     speed: 5
     lifetime: 12.5
     damage: 175
+    despawnEffect: none
+    hitEffect: none
     shootEffect: {
       type: ParticleEffect
       colorFrom: ffffffff
