@@ -15,7 +15,7 @@ research: {
   objectives: [
     {
     type: SectorComplete
-    preset: strait
+    preset: mineshaft
     }
   ]
 }
