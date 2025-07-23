@@ -5,6 +5,7 @@ speed: 2
 health: 300
 armor: -1
 hitSize: 10
+rotateSpeed: 10
 outlineColor: 323232
 trailLength: 20
 research: {
