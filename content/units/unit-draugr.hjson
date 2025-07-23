@@ -28,6 +28,8 @@ weapons: [
   shootSound: missileSmall
   cone: 361
   ignoreRotation: true
+  rotate: true
+  rotateSpeed: 0
   bullet: {
     type: BulletType
     speed: 6.4
