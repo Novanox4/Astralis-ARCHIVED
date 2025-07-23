@@ -4,7 +4,7 @@ name: Vertigo
 description: Releases a tornado of homing bullets. Requires large amounts of heat.
 consumes: {}
 heatRequirement: 18
-maxHeatEfficiency: 2.5
+maxHeatEfficiency: 3.25
 research: turret-reverberate
 heatColor: 8295b0ff
 drawer: {
@@ -32,9 +32,9 @@ requirements: [
   item-neodymium/100
   item-cerium/125
   ]
-reload: 50
+reload: 40
 cooldownTime: 80
-range: 100
+range: 250
 shootType: {
   type: BasicBulletType
   damage: 375
@@ -52,8 +52,7 @@ shootType: {
   circleShooter: true
   circleShooterRadius: 1
   circleShooterRadiusSmooth: 5000
-  circleShooterRotateSpeed: 1
+  circleShooterRotateSpeed: 1.2
   despawnEffect: none
   hitEffect: none
-  
     }
