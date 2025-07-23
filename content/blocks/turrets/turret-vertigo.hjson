@@ -1,7 +1,7 @@
 type: PowerTurret
 size: 3
 name: Vertigo
-description: Releases a tornado of homing bullets. Requires large amounts of heat.
+description: Releases a tornado of piercing bullets. Requires large amounts of heat.
 consumes: {}
 heatRequirement: 18
 maxHeatEfficiency: 3.25
