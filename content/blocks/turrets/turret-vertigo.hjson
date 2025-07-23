@@ -1,0 +1,55 @@
+type: PowerTurret
+size: 3
+name: Vertigo
+description: Releases a tornado of homing bullets. Requires large amounts of heat.
+consumes: {}
+heatRequirement: 18
+maxHeatEfficiency: 2.5
+research: turret-reverberate
+heatColor: abbbc3ff
+drawer: {
+  type: DrawTurret
+  basePrefix: astral-
+  parts: [
+    {
+    type: RegionPart
+    suffix: -extender
+    mirror: true
+    layeroffset: -2
+    heatProgress: warmup
+    moveX: 4
+    moveY: -4
+    heatColor: abbbc3ff
+    replaceOutline: true
+    }
+  ]
+}
+category: turret
+shootSound: shootAlt
+requirements: [
+  item-uranium/200
+  item-silver/200
+  item-neodymium/100
+  item-cerium/125
+  ]
+reload: 50
+cooldownTime: 80
+range: 100
+shootType: {
+  type: BasicBulletType
+  damage: 375
+  pierce: true
+  sprite: circle-bullet
+  backColor: abbbc3
+  frontColor: abbbc3
+  shrinkX: 1
+  shrinkY: 1
+  trailColor: abbbc3
+  trailLength: 65
+  trailWidth: 3
+  lifetime: 100
+  speed: 9
+  circleShooter: true
+  circleShooterRadius: 30
+  circleShooterRadiusSmooth: 35
+    }
