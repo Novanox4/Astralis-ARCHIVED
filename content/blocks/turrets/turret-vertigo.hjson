@@ -17,8 +17,8 @@ drawer: {
     mirror: true
     layeroffset: -2
     heatProgress: warmup
-    moveX: 2.3
-    moveY: -2.3
+    moveX: 2.1
+    moveY: -2.1
     heatColor: 8295b0ff
     replaceOutline: true
     }
@@ -50,8 +50,8 @@ shootType: {
   lifetime: 100
   speed: 9
   circleShooter: true
-  circleShooterRadius: 15
-  circleShooterRadiusSmooth: 1250
+  circleShooterRadius: 1
+  circleShooterRadiusSmooth: 5000
   circleShooterRotateSpeed: 1
   despawnEffect: none
   hitEffect: none
