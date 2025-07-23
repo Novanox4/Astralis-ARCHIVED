@@ -17,8 +17,8 @@ drawer: {
     mirror: true
     layeroffset: -2
     heatProgress: warmup
-    moveX: 2.5
-    moveY: -2.5
+    moveX: 2.3
+    moveY: -2.3
     heatColor: 8295b0ff
     replaceOutline: true
     }
