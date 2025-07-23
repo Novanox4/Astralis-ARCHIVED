@@ -5,8 +5,10 @@ speed: 2
 health: 300
 armor: -1
 hitSize: 10
-rotateSpeed: 10
+rotateSpeed: 25
 outlineColor: 323232
+rotateMoveFirst: true
+rotateToBuilding: true
 trailLength: 20
 research: {
   parent: assault-unit-forge
