@@ -24,6 +24,7 @@ weapons: [
   shootY: 6
   shootSound: missileSmall
   cone: 360
+  ignoreRotation: true
   bullet: {
     type: BulletType
     speed: 6.4
