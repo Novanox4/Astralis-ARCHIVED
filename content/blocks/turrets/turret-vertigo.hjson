@@ -6,7 +6,7 @@ consumes: {}
 heatRequirement: 18
 maxHeatEfficiency: 2.5
 research: turret-reverberate
-heatColor: abbbc3ff
+heatColor: 8295b0ff
 drawer: {
   type: DrawTurret
   basePrefix: astral-
@@ -17,9 +17,9 @@ drawer: {
     mirror: true
     layeroffset: -2
     heatProgress: warmup
-    moveX: 2.75
-    moveY: -2.75
-    heatColor: abbbc3ff
+    moveX: 2.5
+    moveY: -2.5
+    heatColor: 8295b0ff
     replaceOutline: true
     }
   ]
@@ -40,16 +40,19 @@ shootType: {
   damage: 375
   pierce: true
   sprite: circle-bullet
-  backColor: abbbc3
-  frontColor: abbbc3
+  backColor: 8295b0
+  frontColor: 8295b0
   shrinkX: 1
   shrinkY: 1
-  trailColor: abbbc3
+  trailColor: 8295b0
   trailLength: 65
   trailWidth: 3
   lifetime: 100
   speed: 9
   circleShooter: true
-  circleShooterRadius: 80
-  circleShooterRadiusSmooth: 35
+  circleShooterRadius: 15
+  circleShooterRadiusSmooth: 125
+  despawnEffect: none
+  hitEffect: none
+  
     }
