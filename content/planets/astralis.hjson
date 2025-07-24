@@ -29,7 +29,7 @@ prebuildBase: false
 defaultCore: core-fort
 parent: sun
 solarSystem: sun
-defaultEnv: 225
+defaultEnv: 129
 rotateTime: 680
 mesh: [
   {
