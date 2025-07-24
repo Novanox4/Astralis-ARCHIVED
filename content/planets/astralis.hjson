@@ -25,7 +25,8 @@ hasAtmosphere: true
 allowWaveSimulation: false
 clearSectorOnLose: true
 allowWaves: true
-prebuildBase: true
+//prebuild bases breaks nodes
+prebuildBase: false
 defaultCore: core-fort
 parent: sun
 solarSystem: sun
