@@ -58,4 +58,4 @@ abilities: [
    }
 ]
 outlineColor: 323232
-defaultCommand: rebuildCommand
+defaultCommand: rebuild
