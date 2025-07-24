@@ -62,3 +62,13 @@ ammoTypes: {
     statusDuration: 360
   }
 }
+research: {
+  parent: turret-reverberate
+  objectives: [
+    electrostatic-separator,
+    {
+    type: SectorComplete
+    preset: delta
+    }
+  ]
+}
