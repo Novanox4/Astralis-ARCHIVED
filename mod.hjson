@@ -8,7 +8,7 @@ Overthrow a government, kill god and ravage an entire planet now!"
 subtitle: "The void stared back"
 repo: novanox4/Astralis
 version: 0.2
-minGameVersion: 149
+minGameVersion: 150
 hidden: false
 hideBrowser: false
 author: NV-NX, Haznobrain
@@ -70,9 +70,6 @@ contentOrder: [
     //liquids
 
     crystal-pump,
-    
-    //liquid distribution
-    
     crystal-aqueduct,
     crystal-aqueduct-router,
     crystal-aqueduct-junction,
@@ -105,6 +102,9 @@ contentOrder: [
     turret-benefactor,
     turret-vaticinate,
     turret-halt,
+    turret-glacier,
+    turret-conflagration,
+    turret-vertigo,
 
     //unit blocks
 
@@ -112,6 +112,11 @@ contentOrder: [
     support-unit-forge,
     large-assault-unit-forge,
     large-support-unit-forge,
+    payload-assembler,
+    payload-disassembler,
+    payload-packer,
+    payload-unpacker,
+    magnetic-bulk-accelerator,
     
     //logic
 
@@ -124,6 +129,8 @@ contentOrder: [
     unit-capture,
     unit-chieftain,
     unit-lord,
+    unit-draugr,
+    unit-poltergeist,
     unit-receptacle,
     unit-pollen,
     unit-stem,
@@ -151,5 +158,8 @@ contentOrder: [
     emergence,
     burning-ravine,
     mineshaft,
+    remnants,
+    strait,
     explosive-armaments-facility,
+    delta,
 ]
