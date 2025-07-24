@@ -2,7 +2,7 @@ localizedName: "Astralis"
 description: A faraway, dark planet. A perfect hideout (If you don't mind spiders)
 alwaysUnlocked: true
 orbitRadius: 37.5
-sectorSize:  3.5
+sectorSize: 2.75
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
 allowLaunchLoadout: false
@@ -29,7 +29,7 @@ prebuildBase: false
 defaultCore: core-fort
 parent: sun
 solarSystem: sun
-defaultEnv: 129
+defaultEnv: 225
 rotateTime: 680
 mesh: [
   {
