@@ -12,3 +12,4 @@ unloadable: false
 category: defense
 priority: 999
 explosivenessScale: 3
+buildCostMultiplier: 20
