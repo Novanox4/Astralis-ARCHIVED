@@ -13,3 +13,4 @@ size: 1
 itemCapacity: 25
 unloadable: false
 chanceDeflect: 0.08
+hasItems: true
