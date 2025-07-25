@@ -15,24 +15,28 @@ shootEffect: none
 consumes: {}
 shootType: {
   shoot: {
-    firstShotDelay: 360
+    shotDelay: 360
   }
   shootX: 0
   shootY: 0
   bullet: {
-    type: EmptyBulletType
+    type: BulletType
     collides: false
     spawnUnit: unit-spectrum
+    speed: 0
+    lifetime: 0
+    despawnEffect: none
     chargeEffect: {
       type: MultiEffect
+      lifetime: 360
       effects: [
         {
         type: WaveEffect
         lifetime: 360
         strokeFrom: 7
         strokeTo: 7
-        sizeFrom: 200
-        sizeTo: 200
+        sizeFrom: 40
+        sizeTo: 40
         colorFrom: 2abd2bff
         colorTo: 2abd2bff
         }
@@ -42,7 +46,7 @@ shootType: {
         strokeFrom: 7
         strokeTo: 7
         sizeFrom: 0
-        sizeTo: 200
+        sizeTo: 40
         colorFrom: 2abd2bff
         colorTo: 2abd2bff
         }
