@@ -15,10 +15,10 @@ destroyBullet: {
     colorFrom: ffffffff
     colorTo: ff1100ff
     sizeFrom: 0
-    sizeTo: 9000
+    sizeTo: 600
     lifetime: 800
-    strokeFrom: 15
-    strokeTo: 15
+    strokeFrom: 0
+    strokeTo: 6
   }
 }
 name: "Scoria Nest (Pestilence)"
