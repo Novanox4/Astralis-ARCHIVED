@@ -22,10 +22,10 @@ forceTeam: malis
 destroyEffect: {
     type: WaveEffect
     colorFrom: ffffffff
-    colorTo: ff1100ff
+    colorTo: ffffffff
     sizeFrom: 0
-    sizeTo: 1200
-    lifetime: 200
+    sizeTo: 2499
+    lifetime: 250
     strokeFrom: 15
-    strokeTo: 15
+    strokeTo: 30
   }
