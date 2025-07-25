@@ -26,6 +26,6 @@ destroyEffect: {
     sizeFrom: 0
     sizeTo: 35000
     lifetime: 1450
-    strokeFrom: 0
-    strokeTo: 60
+    strokeFrom: 20
+    strokeTo: 200
   }
