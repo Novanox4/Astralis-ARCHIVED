@@ -8,7 +8,7 @@ shootEffect: none
 destroyBullet: { 
     type: EmptyBulletType
     collides: false
-    spawnUnit: unit-pestilence
+    spawnUnit: unit-endemic
     }
 name: "Scoria Nest (Pestilence)"
 squareSprite: false
