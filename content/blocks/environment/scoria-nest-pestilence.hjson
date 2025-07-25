@@ -25,7 +25,7 @@ destroyEffect: {
     colorTo: ff1100ff
     sizeFrom: 0
     sizeTo: 1200
-    lifetime: 20
+    lifetime: 200
     strokeFrom: 15
     strokeTo: 15
   }
