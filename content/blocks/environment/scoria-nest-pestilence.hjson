@@ -4,13 +4,7 @@ size: 8
 customShadow: true
 placeablePlayer: false
 drawTeamOverlay: false
-shootEffect: none
-destroyBulletSameTeam: true
-destroyBullet: { 
-  type: EmptyBulletType
-  collides: false
-  spawnUnit: unit-endemic
-  despawnEffect: {
+shootEffect: {
     type: WaveEffect
     colorFrom: ffffffff
     colorTo: ff1100ff
@@ -20,6 +14,11 @@ destroyBullet: {
     strokeFrom: 0
     strokeTo: 6
   }
+destroyBulletSameTeam: true
+destroyBullet: { 
+  type: EmptyBulletType
+  collides: false
+  spawnUnit: unit-endemic
 }
 name: "Scoria Nest (Pestilence)"
 squareSprite: false
