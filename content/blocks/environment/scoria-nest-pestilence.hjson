@@ -1,0 +1,21 @@
+type: CoreBlock
+buildVisibility: editorOnly
+size: 8
+customShadow: true
+placeablePlayer: false
+drawTeamOverlay: false
+shootEffect: none
+destroyBullet: { 
+    type: EmptyBulletType
+    collides: false
+    spawnUnit: unit-pestilence
+    }
+name: "Scoria Nest (Pestilence)"
+squareSprite: false
+drawCracks: false
+createRubble: false
+breakSound: rockBreak
+destroySound: laserbig
+placeSound: rockBreak
+health: 99999
+forceTeam: malis
