@@ -5,6 +5,7 @@ customShadow: true
 placeablePlayer: false
 drawTeamOverlay: false
 shootEffect: none
+destroyBulletSameTeam: true
 destroyBullet: { 
     type: EmptyBulletType
     collides: false
