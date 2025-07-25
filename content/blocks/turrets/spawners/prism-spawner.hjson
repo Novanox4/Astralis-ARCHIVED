@@ -49,6 +49,7 @@ shootType: {
       ]
     }
   }
+}
 rotateSpeed: 0
 drawer: {
   type: DrawTurret
