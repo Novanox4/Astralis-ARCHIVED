@@ -48,6 +48,8 @@ contentOrder: [
     large-silver-wall,
     cerium-wall,
     large-cerium-wall,
+    neodymium-wall,
+    large-neodymium-wall,
     gate,
     
     //effect
