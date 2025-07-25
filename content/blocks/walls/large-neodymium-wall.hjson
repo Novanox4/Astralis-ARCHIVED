@@ -11,4 +11,4 @@ itemCapacity: 80
 unloadable: false
 category: defense
 priority: 999
-explosivenessScale: 5
+explosivenessScale: 3
