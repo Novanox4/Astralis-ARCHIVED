@@ -1,7 +1,5 @@
 type: StorageBlock
 name: Neodymium Wall 
-description: Protects structures from enemy attacks. Can intake items. Explodes violently based on the items contained. Cannot be unloaded. Always attacked first.
-itemCapacity: 50
 health: 320
 research: cerium-wall
 requirements: [
