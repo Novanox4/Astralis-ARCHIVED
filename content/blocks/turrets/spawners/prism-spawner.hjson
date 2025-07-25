@@ -1,0 +1,64 @@
+type: PowerTurret
+buildVisibility: editorOnly
+size: 3
+customShadow: true
+placeablePlayer: false
+drawTeamOverlay: false
+squareSprite: false
+recoil: 0
+reload: 9999
+alwaysShooting: true
+shootSound: none
+shootX: 0
+shootY: 0
+shootEffect: none
+consumes: {}
+shootType: {
+  shoot: {
+    firstShotDelay: 360
+  }
+  shootX: 0
+  shootY: 0
+  bullet: {
+    type: EmptyBulletType
+    collides: false
+    spawnUnit: unit-spectrum
+    chargeEffect: {
+      type: MultiEffect
+      effects: [
+        {
+        type: WaveEffect
+        lifetime: 360
+        strokeFrom: 7
+        strokeTo: 7
+        sizeFrom: 200
+        sizeTo: 200
+        colorFrom: 2abd2bff
+        colorTo: 2abd2bff
+        }
+        {
+        type: WaveEffect
+        lifetime: 360
+        strokeFrom: 7
+        strokeTo: 7
+        sizeFrom: 0
+        sizeTo: 200
+        colorFrom: 2abd2bff
+        colorTo: 2abd2bff
+        }
+      ]
+    }
+  }
+rotateSpeed: 0
+drawer: {
+  type: DrawTurret
+  basePrefix: astral-invisible-
+  }
+name: Prism Spawner
+description: Spawns a unit after some time. Single use.
+squareSprite: false
+drawCracks: false
+createRubble: false
+breakSound: none
+destroySound: none
+placeSound: none
