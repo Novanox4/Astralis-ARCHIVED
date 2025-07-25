@@ -58,6 +58,7 @@ shootType: {
     spawnUnit: unit-lumbricus
     createChance: 0.5
     }
+  ]
 }
 rotateSpeed: 0
 drawer: {
