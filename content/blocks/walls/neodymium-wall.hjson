@@ -1,0 +1,12 @@
+type: router
+name: Neodymium Wall
+description: Protects structures from enemy attacks. Can distribute items to nearby blocks non-directionally. Explodes violently based on the items contained.
+itemCapacity: 50
+underBullets: false
+solid: true
+health: 420
+research: cerium-wall
+requirements: [
+  item-neodymium/8
+  ]
+size: 1
