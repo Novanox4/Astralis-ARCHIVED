@@ -4,16 +4,6 @@ size: 8
 customShadow: true
 placeablePlayer: false
 drawTeamOverlay: false
-shootEffect: {
-    type: WaveEffect
-    colorFrom: ffffffff
-    colorTo: ff1100ff
-    sizeFrom: 0
-    sizeTo: 600
-    lifetime: 800
-    strokeFrom: 0
-    strokeTo: 6
-  }
 destroyBulletSameTeam: true
 destroyBullet: { 
   type: EmptyBulletType
@@ -29,3 +19,13 @@ destroySound: laserbig
 placeSound: rockBreak
 health: 99999
 forceTeam: malis
+destroyEffect: {
+    type: WaveEffect
+    colorFrom: ffffffff
+    colorTo: ff1100ff
+    sizeFrom: 0
+    sizeTo: 600
+    lifetime: 800
+    strokeFrom: 0
+    strokeTo: 6
+  }
