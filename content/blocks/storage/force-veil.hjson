@@ -23,7 +23,7 @@ requirements: [
   ]
 category: effect
 shieldHealth: 450
-cooldownNormal: 0.1
+cooldownNormal: 0.05
 cooldownBrokenBase: 2
 phaseRadiusBoost: 160
 phaseShieldBoost: 750
