@@ -6,7 +6,7 @@ placeablePlayer: false
 drawTeamOverlay: false
 squareSprite: false
 recoil: 0
-reload: 2450
+reload: 3450
 alwaysShooting: true
 shootSound: none
 shootX: 0
@@ -22,12 +22,6 @@ shootType: {
   yRand: 0.3
   type: MultiBulletType
   bullets: [
-    {
-    type: EmptyBulletType
-    collides: false
-    spawnUnit: unit-flu
-    createChance: 0.9
-    }
     {
     type: EmptyBulletType
     collides: false
@@ -50,25 +44,19 @@ shootType: {
     type: EmptyBulletType
     collides: false
     spawnUnit: unit-microplana
-    createChance: 0.9
-    }
-    {
-    type: EmptyBulletType
-    collides: false
-    spawnUnit: unit-microplana
     createChance: 0.5
     }
     {
     type: EmptyBulletType
     collides: false
     spawnUnit: unit-microplana
-    createChance: 0.35
+    createChance: 0.3
     }
     {
     type: EmptyBulletType
     collides: false
     spawnUnit: unit-koreni
-    createChance: 0.225
+    createChance: 0.22
     }
     {
     type: EmptyBulletType
@@ -81,12 +69,6 @@ shootType: {
     collides: false
     spawnUnit: unit-microplana
     createChance: 0.2
-    }
-    {
-    type: EmptyBulletType
-    collides: false
-    spawnUnit: unit-flu
-    createChance: 0.3
     }
   ]
 }
