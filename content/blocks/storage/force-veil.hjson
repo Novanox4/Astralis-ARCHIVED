@@ -1,0 +1,41 @@
+type: ForceProjector
+size: 4
+name: Force Veil
+description: Creates a very large circular energy dome. Uses power. Can be boosted with neodymium
+consumes: {
+  power: 6
+  items: {
+    items: [
+      item-neodymium/1
+    ]
+    optional: true
+    booster: true
+  }
+}
+radius: 240
+sides: 100
+requirements: [
+  item-crystalite/750
+  item-silver/600
+  item-metaglass/400
+  item-neodymium/500
+  item-cerium/300
+  ]
+category: effect
+shieldHealth: 5000
+cooldownNormal: 3
+cooldownLiquid: 2.25
+cooldownBrokenBase: 0.8
+phaseRadiusBoost: 80
+coolantConsumption: 0.4
+phaseShieldBoost: 1000
+phaseUseTime: 90
+research: {
+  parent: large-neodymium-wall
+  objectives: [
+    {
+    type: SectorComplete
+    preset: strait
+    }
+  ]
+}
