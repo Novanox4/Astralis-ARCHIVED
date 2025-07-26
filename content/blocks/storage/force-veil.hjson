@@ -23,8 +23,8 @@ requirements: [
   ]
 category: effect
 shieldHealth: 450
-cooldownNormal: 0.3
-cooldownLiquid: 0.1
+cooldownNormal: 0.1
+cooldownLiquid: 0.05
 cooldownBrokenBase: 0.8
 phaseRadiusBoost: 160
 coolantConsumption: 0.4
