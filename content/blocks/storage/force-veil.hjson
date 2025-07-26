@@ -12,7 +12,7 @@ consumes: {
     booster: true
   }
 }
-320
+radius: 320
 sides: 100
 requirements: [
   item-crystalite/750
