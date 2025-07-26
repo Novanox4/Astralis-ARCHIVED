@@ -32,31 +32,19 @@ shootType: {
     type: EmptyBulletType
     collides: false
     spawnUnit: unit-outbreak
-    createChance: 0.4
-    }
-    {
-    type: EmptyBulletType
-    collides: false
-    spawnUnit: unit-outbreak
     createChance: 0.2
     }
     {
     type: EmptyBulletType
     collides: false
     spawnUnit: unit-lumbricus
-    createChance: 0.7
+    createChance: 0.8
     }
     {
     type: EmptyBulletType
     collides: false
     spawnUnit: unit-lumbricus
-    createChance: 0.6
-    }
-    {
-    type: EmptyBulletType
-    collides: false
-    spawnUnit: unit-lumbricus
-    createChance: 0.5
+    createChance: 0.2
     }
   ]
 }
@@ -72,5 +60,5 @@ createRubble: false
 breakSound: rockBreak
 destroySound: rockBreak
 placeSound: rockBreak
-health: 5000
+health: 4500
 forceTeam: malis
