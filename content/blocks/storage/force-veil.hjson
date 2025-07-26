@@ -12,7 +12,7 @@ consumes: {
     booster: true
   }
 }
-radius: 320
+radius: 600
 sides: 100
 requirements: [
   item-crystalite/750
@@ -22,13 +22,13 @@ requirements: [
   item-cerium/300
   ]
 category: effect
-shieldHealth: 5000
-cooldownNormal: 3
-cooldownLiquid: 2.25
+shieldHealth: 450
+cooldownNormal: 1
+cooldownLiquid: 0.6
 cooldownBrokenBase: 0.8
 phaseRadiusBoost: 160
 coolantConsumption: 0.4
-phaseShieldBoost: 1000
+phaseShieldBoost: 650
 phaseUseTime: 90
 research: {
   parent: large-neodymium-wall
