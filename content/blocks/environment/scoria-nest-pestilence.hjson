@@ -6,24 +6,27 @@ placeablePlayer: false
 drawTeamOverlay: false
 destroyBulletSameTeam: true
 destroyBullet: { 
-  type: EmptyBulletType
-  collides: false
-  spawnUnit: unit-endemic
-  spawnBullets: [
-    {
+  type: MultiBulletType
+  bullets: [
+  {
+    type: EmptyBulletType
+    collides: false
+    spawnUnit: unit-endemic
+  }
+  {
     type: BulletType
     hitEffect: none
     despawnEffect: none
     pierce: true
     buildingDamageMultiplier: 0
     instantDisappear: true
-    splashDamage: 10000000
+    splashDamage: 1000000
     splashDamageRadius: 99999
     splashDamagePierce: true
     collidesTiles: false
-    damage: 9999999
-    knockback: 100
-    }
+    damage: 999999
+    knockback: 25
+  }
   ]
 }
 name: "Scoria Nest (Pestilence)"
