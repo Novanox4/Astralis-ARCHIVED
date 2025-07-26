@@ -25,9 +25,8 @@ category: effect
 shieldHealth: 450
 cooldownNormal: 0.1
 cooldownLiquid: 0.05
-cooldownBrokenBase: 0.8
+cooldownBrokenBase: 0.3
 phaseRadiusBoost: 160
-coolantConsumption: 0.4
 phaseShieldBoost: 750
 phaseUseTime: 90
 research: {
