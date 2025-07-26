@@ -33,7 +33,7 @@ createRubble: false
 breakSound: rockBreak
 destroySound: laserbig
 placeSound: rockBreak
-health: 99999
+health: 1
 forceTeam: malis
 destroyEffect: {
     type: WaveEffect
