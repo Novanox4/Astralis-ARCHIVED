@@ -9,6 +9,22 @@ destroyBullet: {
   type: EmptyBulletType
   collides: false
   spawnUnit: unit-endemic
+  spawnBullets: [
+    {
+    type: BulletType
+    hitEffect: none
+    despawnEffect: none
+    pierce: true
+    buildingDamageMultiplier: 0
+    instantDisappear: true
+    splashDamage: 99999999999999999999999999999999
+    splashDamageRadius: 99999999999
+    splashDamagePierce: true
+    collidesTiles: false
+    damage: 0
+    knockback: 100
+    }
+  ]
 }
 name: "Scoria Nest (Pestilence)"
 squareSprite: false
