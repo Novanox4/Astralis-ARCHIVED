@@ -17,7 +17,7 @@ sides: 100
 requirements: [
   item-crystalite/750
   item-silver/600
-  item-metaglass/400
+  metaglass/400
   item-neodymium/500
   item-cerium/300
   ]
