@@ -146,6 +146,14 @@ abilities: [
   unit: unit-outbreak
   amount: 3
   }
+  {
+  type: StatusFieldAbility
+  effect: boss
+  range: 0.1
+  color: 00000000
+  activeEffect: none
+  display: false
+  }
 ]
 outlineColor: 121213
 planet: astralis
