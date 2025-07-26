@@ -48,3 +48,4 @@ destroyEffect: {
     strokeFrom: 80
     strokeTo: 200
   }
+unitType: unit-malady
