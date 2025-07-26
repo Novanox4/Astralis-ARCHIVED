@@ -1,7 +1,7 @@
 type: ForceProjector
 size: 5
 name: Force Veil
-description: Creates a very large but weak circular energy dome which absorbs projectiles. Uses power. Shield health be greatly bolstered with neodymium, and recharge speed via coolant.
+description: Creates a very large but weak circular energy dome which absorbs projectiles. Uses power. Shield health be greatly bolstered with neodymium.
 consumes: {
   power: 16
   items: {
@@ -39,4 +39,4 @@ research: {
     }
   ]
 }
-coolantConsumer: {}
+consumeCoolant: false
