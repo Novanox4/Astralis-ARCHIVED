@@ -53,7 +53,7 @@ drawer: {
   type: DrawTurret
   basePrefix: scoria-
   }
-name: Scoria Nest
+name: ???
 squareSprite: false
 drawCracks: false
 createRubble: false
