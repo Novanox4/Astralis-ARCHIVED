@@ -6,7 +6,7 @@ placeablePlayer: false
 drawTeamOverlay: false
 squareSprite: false
 recoil: 0
-reload: 3450
+reload: 3700
 alwaysShooting: true
 shootSound: none
 shootX: 0
