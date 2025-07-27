@@ -108,7 +108,7 @@ abilities: [
 type: ShieldArcAbility
 max: 1500
 regen: 0.2
-cooldown: 550
+cooldown: 999999999
 y: 3
 angle: 75
 radius: 75
