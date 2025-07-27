@@ -1,9 +1,9 @@
 type: BeamDrill
 drillTime: 145
-range: 5
+range: 7
 tier: 3
 name: Beam Drill
-optionalBoostIntensity: 2.85
+optionalBoostIntensity: 2.9
 description: Uses lasers to drill ores present on walls.
 consumes: {
  liquids: {
@@ -17,7 +17,7 @@ consumes: {
 }
 size: 2
 requirements: [
-  item-crystalite/45
+  item-crystalite/25
 ]
 fogRadius: 4
 category: production
