@@ -60,5 +60,5 @@ createRubble: false
 breakSound: rockBreak
 destroySound: rockBreak
 placeSound: rockBreak
-health: 4500
+health: 3000
 forceTeam: malis
