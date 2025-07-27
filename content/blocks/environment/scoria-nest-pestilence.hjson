@@ -29,7 +29,7 @@ destroyBullet: {
   }
   ]
 }
-name: "Scoria Nest (Pestilence)"
+name: "???"
 squareSprite: false
 drawCracks: false
 createRubble: false
