@@ -11,9 +11,9 @@ temperature: -0.65
 viscosity: 0.85
 explosiveness: 0.75
 research: {
-  parent: core-fort
+  parent: item-cerium
   objectives: [
-    crystal-kiln
+    exhumer,
   ]
 }
 barColor: 000000
