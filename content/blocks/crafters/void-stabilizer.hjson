@@ -6,6 +6,7 @@ liquidOutputDirections: [0]
 maxEfficiency: 1
 heatRequirement: 15
 itemCapacity: 40
+squareSprite: false
 outputLiquid: liquid-void-fluid-stable/1.5
 requirements: [
   item-crystalite/75
@@ -45,5 +46,4 @@ drawer: {
   ]
 }
 category: crafting
-squareSprite: false
 liquidCapacity: 450
