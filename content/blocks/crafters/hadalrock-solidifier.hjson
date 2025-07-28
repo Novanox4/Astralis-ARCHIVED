@@ -31,7 +31,7 @@ consumes: {
   power: 3.675
   liquids: [
     water/1.2444
-    liquid-void-fluid-stable/1.8
+    liquid-void-fluid-stable/1.2
     ]
   }
 liquidCapacity: 150
