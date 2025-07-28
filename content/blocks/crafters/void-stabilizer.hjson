@@ -1,0 +1,40 @@
+type: HeatCrafter
+name: Void Stabilizer
+description: "[accent]Part of a larger structure[]. Stabilizes void fluid and mixes it with molten silver for further processing."
+size: 3
+liquidOutputDirections: [0]
+maxEfficiency: 1
+heatRequirement: 15
+itemCapacity: 40
+outputLiquid: liquid-void-fluid-stable/1.5
+requirements: [
+  item-crystalite/75
+  item-uranium/80
+  item-silver/45
+  metaglass/55
+  item-cerium/40
+  ]
+consumes: {
+  items: [
+    item-silver/5
+    ]
+  liquids: [
+    liquid-void-fluid/1.999999
+    ]
+  }
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+    type: DrawRegion
+    suffix: -bottom
+    }
+    {
+    type: DrawDefault
+    }
+    {
+    type: DrawHeatRegion
+    suffix: -heat
+    }
+  ]
+}
