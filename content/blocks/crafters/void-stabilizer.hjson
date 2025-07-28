@@ -1,6 +1,6 @@
 type: HeatCrafter
 name: Void Stabilizer
-description: "[accent]Part of a larger structure[]. Stabilizes void fluid and mixes it with molten silver for further processing."
+description: "[accent]Half of a larger structure[]. Stabilizes void fluid and mixes it with molten silver for further processing."
 size: 3
 liquidOutputDirections: [0]
 maxEfficiency: 1
