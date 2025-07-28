@@ -1,8 +1,8 @@
 type: AttributeCrafter
 name: Exhumer
-description: Extracts void fluid from vents. Much more efficient than pumps.
+description: Extracts void fluid from void puddles. Much more efficient than pumps.
 //I LOVE HJSON ATTRIBUTES I LOVE HJSON ATTRIBUTES I LOVE HJSON ATT
-attribute: void
+attribute: voidattr
 //I shouldn't tag these anymore because of contentOrder but now it's too late
 requirements: [
   item-crystalite/80
@@ -13,8 +13,8 @@ displayEfficiency: false
 health: 200
 category: production
 baseEfficiency: 0
-minEfficiency: 8.9
-size: 3
+minEfficiency: 3
+size: 4
 outputLiquid: liquid-void-fluid/1
 drawer: {
   type: DrawMulti
