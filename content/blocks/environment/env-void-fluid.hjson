@@ -10,3 +10,6 @@ liquidMultiplier: 0.075
 shallow: false
 variants: 1
 status: status-voidgnaw
+attributes: {
+  voidattr: 0.0625
+}
