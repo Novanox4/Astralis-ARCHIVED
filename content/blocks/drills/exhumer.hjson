@@ -31,3 +31,4 @@ drawer: {
   ]
 }
 itemCapacity: 0
+liquidCapacity: 600
