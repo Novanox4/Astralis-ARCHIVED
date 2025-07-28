@@ -29,6 +29,9 @@ drawer: {
     type: DrawRegion
     suffix: -bottom
     }
+    type: DrawLiquidTile
+    drawLiquid: liquid-void-fluid
+    padding: 1
     {
     type: DrawDefault
     }
@@ -38,3 +41,6 @@ drawer: {
     }
   ]
 }
+category: crafting
+squareSprite: false
+liquidCapacity: 450
