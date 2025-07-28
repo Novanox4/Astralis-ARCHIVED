@@ -44,5 +44,6 @@ drawer: {
   ]
 }
 category: crafting
-squareSprite: false
+//whatever, go my TRUEs
+squareSprite: true
 liquidCapacity: 450
