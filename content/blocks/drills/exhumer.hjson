@@ -13,7 +13,7 @@ displayEfficiency: false
 health: 200
 category: production
 baseEfficiency: 0
-minEfficiency: 3
+minEfficiency: 1
 size: 4
 outputLiquid: liquid-void-fluid/1
 drawer: {
