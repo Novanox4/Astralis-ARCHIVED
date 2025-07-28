@@ -43,6 +43,8 @@ contentOrder: [
     electrostatic-separator,
     crystal-crucible,
     nitric-acid-synthesizer,
+    void-stabilizer,
+    hadalrock-solidifier,
     char-burner,
     slag-radiator,
     radiation-heater,
