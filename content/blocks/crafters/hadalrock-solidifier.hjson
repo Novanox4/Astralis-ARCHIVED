@@ -37,3 +37,4 @@ consumes: {
 liquidCapacity: 150
 itemCapacity: 20
 outputItem: item-hadalrock/3
+category: crafting
