@@ -71,6 +71,7 @@ contentOrder: [
     core-fort,
     core-agora,
     depository,
+    force-veil,
     
     //distribution
     
@@ -80,7 +81,6 @@ contentOrder: [
     crystal-overflow-gate,
     crystal-underflow-gate,
     crystal-unloader,
-    force-veil,
 
     //liquids
 
