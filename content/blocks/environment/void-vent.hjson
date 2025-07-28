@@ -3,5 +3,5 @@ parent: voidscar
 blendGroup: voidscar
 name: "Void Vent"
 attributes: {
-  void-attribute: 0.33333333333333333333333
+  void: 0.33333333333333333333333
   }
