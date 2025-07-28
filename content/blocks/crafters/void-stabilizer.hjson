@@ -40,6 +40,7 @@ drawer: {
     {
     type: DrawHeatRegion
     suffix: -heat
+    color: 452d56b3
     }
   ]
 }
