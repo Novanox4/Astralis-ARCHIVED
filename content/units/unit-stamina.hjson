@@ -60,9 +60,21 @@ bullet: {
       sides: 4
       rotation: 90
       followParent: false
-        }
-      ]
-    }
+      }
+      {
+      type: WaveEffect
+      strokeFrom: 4
+      colorTo: 7cd656ff
+      colorFrom: ffffffff
+      lifetime: 50
+      sizeTo: 100
+      sides: 4
+      rotation: 90
+      followParent: false
+      baseRotation: 90
+      }
+    ]
+  }
   sprite: circle-bullet
   despawnEffect: none
   }
