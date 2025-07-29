@@ -1,5 +1,4 @@
-type: flying
-internal: true
+type: MissileUnitType
 flying: true
 createWreck: false
 createScorch: false
@@ -24,3 +23,4 @@ shadowElevationScl: 0
 softShadowScl: 0
 engineSize: 0
 deathSound: thunder
+lifetime: 1
