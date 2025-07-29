@@ -14,6 +14,8 @@ buildSpeed: 1
 buildBeamOffset: 23
 legBaseOffset: 8.5
 legPairOffset: -20
-weapons: []
 legSpeed: 0.04
 legForwardScl: 1.15
+commands: [move, enterPayload, rebuild, assist, repair]
+//TODO give weapons
+weapons: []
