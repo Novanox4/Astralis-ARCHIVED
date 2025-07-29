@@ -52,8 +52,7 @@ bullet: {
     effects: [
       {
       type: WaveEffect
-      strokeFrom: 0
-      strokeTo: 4
+      strokeFrom: 4
       colorTo: 7cd656ff
       colorFrom: ffffffff
       lifetime: 30
@@ -63,8 +62,7 @@ bullet: {
       }
       {
       type: WaveEffect
-      strokeFrom: 0
-      strokeTo: 4
+      strokeFrom: 4
       colorTo: 7cd656ff
       colorFrom: ffffffff
       lifetime: 30
@@ -75,8 +73,7 @@ bullet: {
       }
       {
       type: WaveEffect
-      strokeFrom: 0
-      strokeTo: 4
+      strokeFrom: 4
       colorTo: 7cd656ff
       colorFrom: ffffffff
       lifetime: 30
@@ -87,8 +84,6 @@ bullet: {
       }
       {
       type: WaveEffect
-      strokeFrom: 0
-      strokeTo: 4
       colorTo: 7cd656ff
       colorFrom: ffffffff
       lifetime: 30
