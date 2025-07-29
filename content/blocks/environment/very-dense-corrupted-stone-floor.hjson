@@ -1,0 +1,4 @@
+type: floor
+name: Very Dense Corrupted Stone
+variants: 7
+blendGroup: corrupted-stone-floor
