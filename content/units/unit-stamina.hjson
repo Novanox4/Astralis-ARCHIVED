@@ -25,7 +25,7 @@ reload: 400
 x: 0
 y: 0
 shootX: 0
-shootY: 20 
+shootY: 18.5
 shoot: {
   firstShotDelay: 100
 }
@@ -57,7 +57,8 @@ bullet: {
       lifetime: 50
       sizeTo: 100
       sides: 4
-      rotation: 10
+      rotation: 180
+      rotWithParent: true
         }
       ]
     }
