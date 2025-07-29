@@ -35,8 +35,8 @@ bullet: {
   type: BulletType
   chargeEffect: {
     type: ParticleEffect
-    colorTo: ffffffff
-    colorFrom: 12963cbf
+    colorFrom: ffffffff
+    colorTo: 12963cbf
     particles: 20
     sizeFrom: 0
     sizeTo: 5.5
