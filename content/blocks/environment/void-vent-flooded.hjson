@@ -2,3 +2,4 @@ type: SteamVent
 parent: env-void-fluid
 blendGroup: env-void-fluid
 name: "Void Vent (Flooded)"
+cacheLayer: tar
