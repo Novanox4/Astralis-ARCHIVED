@@ -57,7 +57,7 @@ bullet: {
       lifetime: 50
       sizeTo: 100
       sides: 4
-      rotation: 180
+      rotation: 90
       followParent: false
         }
       ]
