@@ -69,7 +69,7 @@ bullet: {
       sizeTo: 100
       sides: 4
       followParent: false
-      rotation: 90
+      rotation: 89
       }
     ]
   }
