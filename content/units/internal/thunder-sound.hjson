@@ -1,4 +1,4 @@
-type: MissileUnitType
+template: MissileUnitType
 flying: true
 createWreck: false
 createScorch: false
