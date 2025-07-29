@@ -22,6 +22,10 @@ weapons: [
 {
 mirror: false
 reload: 400
+x: 0
+y: 0
+shootX: 0
+shootY: 20 
 shoot: {
   firstShotDelay: 100
 }
