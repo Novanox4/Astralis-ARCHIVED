@@ -56,7 +56,7 @@ bullet: {
       colorTo: 7cd656ff
       colorFrom: ffffffff
       lifetime: 50
-      sizeTo: 100
+      sizeTo: 50
       sides: 4
       followParent: false
       }
@@ -66,10 +66,33 @@ bullet: {
       colorTo: 7cd656ff
       colorFrom: ffffffff
       lifetime: 50
-      sizeTo: 100
+      sizeTo: 50
       sides: 4
       followParent: false
-      rotation: 89
+      rotation: 45
+      }
+      {
+      type: WaveEffect
+      strokeFrom: 4
+      colorTo: 7cd656ff
+      colorFrom: ffffffff
+      lifetime: 50
+      sizeFrom: 100
+      sizeTo: 50
+      sides: 4
+      followParent: false
+      }
+      {
+      type: WaveEffect
+      strokeFrom: 4
+      colorTo: 7cd656ff
+      colorFrom: ffffffff
+      lifetime: 50
+      sizeFrom: 100
+      sizeTo: 50
+      sides: 4
+      followParent: false
+      rotation: 45
       }
     ]
   }
