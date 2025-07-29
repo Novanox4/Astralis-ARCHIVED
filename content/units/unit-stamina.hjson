@@ -57,7 +57,7 @@ bullet: {
       colorTo: 7cd656ff
       colorFrom: ffffffff
       lifetime: 30
-      sizeTo: 100
+      sizeTo: 50
       sides: 4
       followParent: false
       }
@@ -68,7 +68,7 @@ bullet: {
       colorTo: 7cd656ff
       colorFrom: ffffffff
       lifetime: 30
-      sizeTo: 100
+      sizeTo: 50
       sides: 4
       followParent: false
       rotation: 45
@@ -81,7 +81,7 @@ bullet: {
       colorFrom: ffffffff
       lifetime: 30
       sizeFrom: 100
-      sizeTo: 0
+      sizeTo: 50
       sides: 4
       followParent: false
       }
@@ -93,7 +93,7 @@ bullet: {
       colorFrom: ffffffff
       lifetime: 30
       sizeFrom: 100
-      sizeTo: 0
+      sizeTo: 50
       sides: 4
       followParent: false
       rotation: 45
