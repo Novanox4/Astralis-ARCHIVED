@@ -27,7 +27,7 @@ y: 0
 shootX: 0
 shootY: 18.5
 shoot: {
-  firstShotDelay: 150
+  firstShotDelay: 120
 }
 shootSound: corexplode
 chargeSound: lasercharge
@@ -41,7 +41,7 @@ bullet: {
     sizeFrom: 0
     sizeTo: 5.5
     length: 40
-    lifetime: 87.5
+    lifetime: 100
     sizeInterp: linear
     interp: reverse
     rotWithParent: true
