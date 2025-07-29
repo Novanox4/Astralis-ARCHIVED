@@ -31,13 +31,15 @@ bullet: {
   type: BulletType
   chargeEffect: {
     type: ParticleEffect
-    colorTo: 7cd656bf
-    colorFrom: 12963cff
+    colorTo: ffffffff
+    colorFrom: 12963cbf
     particles: 20
     sizeFrom: 0
     sizeTo: 5.5
     length: 40
     lifetime: 87.5
+    sizeInterp: linear
+    interp: reverse
   }
   shootEffect: {
     type: MultiEffect
