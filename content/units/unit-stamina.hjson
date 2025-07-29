@@ -44,6 +44,7 @@ bullet: {
     lifetime: 87.5
     sizeInterp: linear
     interp: reverse
+    rotWithParent: true
   }
   shootEffect: {
     type: MultiEffect
