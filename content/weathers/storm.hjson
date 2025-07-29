@@ -1,6 +1,6 @@
 type: RainWeather
-yspeed: 15
+yspeed: 27.5
 xspeed: 10
 liquid: water
-color: 47548f
-density: 700
+color: 5f73a7
+density: 800
