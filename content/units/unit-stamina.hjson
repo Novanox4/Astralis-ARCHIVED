@@ -58,7 +58,7 @@ bullet: {
       sizeTo: 100
       sides: 4
       rotation: 180
-      rotWithParent: true
+      followParent: false
         }
       ]
     }
