@@ -18,4 +18,46 @@ legSpeed: 0.04
 legForwardScl: 1.15
 commands: [move, enterPayload, rebuild, assist, repair]
 //TODO give weapons
-weapons: []
+weapons: [
+{
+mirror: false
+reload: 400
+shoot: {
+  firstShotDelay: 100
+}
+shootSound: corexplode
+chargeSound: lasercharge
+bullet: {
+  type: BulletType
+  chargeEffect: {
+    type: ParticleEffect
+    colorTo: 7cd656bf
+    colorFrom: 12963cff
+    particles: 20
+    sizeFrom: 0
+    sizeTo: 5.5
+    length: 40
+    lifetime: 87.5
+  }
+  shootEffect: {
+    type: MultiEffect
+    lifetime: 60
+    effects: [
+      {
+      type: WaveEffect
+      strokeFrom: 6
+      colorTo: 7cd656ff
+      colorFrom: ffffffff
+      lifetime: 50
+      sizeTo: 160
+      sides: 4
+      rotation: 10
+        }
+      ]
+    }
+  sprite: circle-bullet
+  despawnEffect: none
+  }
+}
+
+]
