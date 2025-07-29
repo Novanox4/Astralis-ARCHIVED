@@ -51,11 +51,11 @@ bullet: {
     effects: [
       {
       type: WaveEffect
-      strokeFrom: 6
+      strokeFrom: 4
       colorTo: 7cd656ff
       colorFrom: ffffffff
       lifetime: 50
-      sizeTo: 160
+      sizeTo: 100
       sides: 4
       rotation: 10
         }
