@@ -11,7 +11,7 @@ outlineColor: 323232
 speed: 0.6
 legExtension: -6.75
 buildSpeed: 1
-buildBeamOffset: 23
+buildBeamOffset: 20
 legBaseOffset: 8.5
 legPairOffset: -20
 legSpeed: 0.04
