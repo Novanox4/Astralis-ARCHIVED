@@ -57,8 +57,7 @@ bullet: {
       colorFrom: ffffffff
       lifetime: 50
       sizeTo: 100
-      sides: 4
-      rotation: 90
+      sides: 5
       followParent: false
       }
       {
@@ -69,7 +68,6 @@ bullet: {
       lifetime: 50
       sizeTo: 100
       sides: 4
-      rotation: 90
       followParent: false
       baseRotation: 90
       }
