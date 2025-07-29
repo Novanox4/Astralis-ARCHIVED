@@ -1,17 +1,18 @@
 type: legs
 name: Stamina
-description: Powerful three legged mech. Builds lower tier units. Shoots strong bolts of energy.
-legCount: 3
+description: Powerful five legged mech. Builds lower tier units. Shoots strong bolts of energy.
+legCount: 5
 legGroupSize: 1
 legLength: 30
 hitSize: 28
 health: 6000
 armor: 3
 outlineColor: 323232
-speed: 0.78
-legExtension: -2
+speed: 0.6
+legExtension: -4
 buildSpeed: 1
 buildBeamOffset: 23
-legBaseOffset: 5
+legBaseOffset: 8.5
 legPairOffset: -20
 weapons: []
+legSpeed: 0.1
