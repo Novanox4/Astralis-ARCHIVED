@@ -21,7 +21,7 @@ commands: [move, enterPayload, rebuild, assist, repair]
 weapons: [
 {
 mirror: false
-reload: 400
+reload: 675
 x: 0
 y: 0
 shootX: 0
