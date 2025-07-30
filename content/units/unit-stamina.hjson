@@ -133,14 +133,15 @@ bullet: {
     damage: 0
     shrinkX: -8
     shrinkY: -8
-    backColor: ffffff
+    backColor: f7cd656
     frontColor: ffffff
-    mixColorFrom: ffffffff
+    mixColorFrom: ffffff00
     mixColorTo: ffffffff
     shrinkInterp: slope
     splashDamage: 600
     scaledSplashDamage: true
     splashDamageRadius: 54
+    sprite: circle-bullet
     despawnEffect: {
       type: ParticleEffect
       colorFrom: ffffffff
@@ -148,10 +149,8 @@ bullet: {
       particles: 20
       sizeFrom: 0
       sizeTo: 5.5
-      length: 40
+      length: 80
       lifetime: 130
-      sizeInterp: sineOut
-      interp: circleOut
       rotWithParent: true
         }
       }
