@@ -99,7 +99,7 @@ bullet: {
   despawnEffect: none
   lifetime: 240
   speed: 10
-  accel: -0.1125
+  accel: -0.165
   damage: 400
   pierce: true
   pierceBuilding: true
@@ -114,7 +114,7 @@ bullet: {
   mixColorFrom: 7cd656ff
   mixColorTo: ffffffff
   trailColor: 7cd656
-  shrinkInterp: pow10In
+  shrinkInterp: pow18In
   }
 }
 
