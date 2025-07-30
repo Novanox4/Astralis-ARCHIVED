@@ -103,12 +103,17 @@ bullet: {
   damage: 400
   pierce: true
   pierceBuilding: true
-  height: 8
-  width: 8
+  height: 14
+  width: 14
   trailLength: 24
   trailWidth: 3
-  shrinkX: 0.5
-  shrinkY: 0.5
+  shrinkX: 2
+  shrinkY: 2
+  backColor: 7cd656
+  frontColor: ffffff
+  mixColorFrom: 7cd656ff
+  mixColorTo: ffffffff
+  trailColor: 7cd656
   }
 }
 
