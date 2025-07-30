@@ -16,7 +16,7 @@ legBaseOffset: 8.5
 legPairOffset: -20
 legSpeed: 0.04
 legForwardScl: 1.15
-commands: [move, enterPayload, rebuild, assist, repair]
+commands: [move, enterPayload, rebuild, assist]
 weapons: [
 {
 mirror: false
