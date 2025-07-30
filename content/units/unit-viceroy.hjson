@@ -107,7 +107,7 @@ weapons: [
     width: 15
     damage: 175
     speed: 7
-    layer: 116
+    layer: 115.01
     }
   }
 ]
