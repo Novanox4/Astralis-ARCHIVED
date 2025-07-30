@@ -1,6 +1,6 @@
 type: payload
 name: Viceroy
-description: Large, bulky airship capable of carrying very large payloads. Loaded with a powerful machinegun.
+description: Large, bulky airship capable of carrying very large payloads. Loaded with a powerful machinegun. Can occasionally become fasster while shooting.
 flying: true
 //this is worse than tank treads istfg
 payloadCapacity: 1025
@@ -86,6 +86,7 @@ engines: [
 ]
 //todo make weapons
 weapons: [
+  //machinegun
   {
   name: unit-viceroy-machinegun
   x: 0
@@ -109,6 +110,24 @@ weapons: [
     damage: 175
     speed: 7
     layer: 115.01
+    }
+  }
+  //boosting
+  {
+  display: false
+  reload: 720
+  shootCone: 361
+  ignoreRotation: true
+  shootSound: none
+  shootStatus: status-viceroy-boosting
+  shootStatusDuration: 120
+  bullet: {
+    type: bulletType
+    damage: 0
+    collides: false
+    despawnEffect: none
+    shootEffect: none
+    smokeEffect: none
     }
   }
 ]
