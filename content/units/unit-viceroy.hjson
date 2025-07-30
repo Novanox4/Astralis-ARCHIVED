@@ -155,7 +155,7 @@ abilities: [
   amount: 1
   effect: missileTrailShort
   chance: 1
-  effectParam: 5
+  effectParam: 4
   }  
   {
   type: MoveEffectAbility
@@ -167,6 +167,6 @@ abilities: [
   amount: 1
   effect: missileTrailShort
   chance: 1
-  effectParam: 5
+  effectParam: 4
   }
 ]
