@@ -22,14 +22,18 @@ engines: [
   y: -16.5
   rotation: 90
   radius: 2.25
-  mirror: true
   }
   {
   x: -7.15
   y: -16.5
   rotation: 90
   radius: 2.25
-  mirror: true
+  }
+  {
+  x: 10
+  y: -17
+  rotation: 90
+  radius: 3.25
   }
 ]
 //todo make weapons
