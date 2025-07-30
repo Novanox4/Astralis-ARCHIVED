@@ -99,7 +99,7 @@ bullet: {
   despawnEffect: none
   lifetime: 240
   speed: 8
-  accel: -0.0325
+  accel: -0.08
   damage: 400
   pierce: true
   pierceBuilding: true
@@ -107,8 +107,8 @@ bullet: {
   width: 8
   trailLength: 24
   trailWidth: 3
-  shrinkX: 1.5
-  shrinkY: 1.5
+  shrinkX: 0.5
+  shrinkY: 0.5
   }
 }
 
