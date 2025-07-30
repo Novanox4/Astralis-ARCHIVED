@@ -97,7 +97,7 @@ bullet: {
   }
   sprite: circle-bullet
   despawnEffect: none
-  lifetime: 50
+  lifetime: 25
   speed: 10
   damage: 125
   pierce: true
