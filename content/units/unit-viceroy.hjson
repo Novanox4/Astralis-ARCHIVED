@@ -47,15 +47,15 @@ engines: [
   //extension engines
   {
   x: -16.75
-  y: -23
+  y: -20
   rotation: 30
-  radius: 3
+  radius: 2.75
   }
   {
-  x: 15.76
-  y: -23
+  x: 16.75
+  y: -20
   rotation: 120
-  radius: 3
+  radius: 2.75
   }
   //outer lower side engines
   {
