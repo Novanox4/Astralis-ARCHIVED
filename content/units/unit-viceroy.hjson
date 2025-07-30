@@ -32,8 +32,8 @@ engines: [
   {
   x: 12.5
   y: -18.25
-  rotation: -45
-  radius: 3.35
+  rotation: 135
+  radius: 3
   }
 ]
 //todo make weapons
