@@ -153,7 +153,7 @@ abilities: [
   x: 13.75
   interval: -1
   amount: 1
-  effect: missileTrail
+  effect: missileTrailShort
   chance: 1
   effectParam: 4
   }  
@@ -165,8 +165,8 @@ abilities: [
   x: -13.75
   interval: -1
   amount: 1
-  effect: missileTrail
+  effect: missileTrailShort
   chance: 1
-  effectParam: 5
+  effectParam: 4
   }
 ]
