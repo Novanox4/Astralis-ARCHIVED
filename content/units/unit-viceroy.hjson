@@ -2,7 +2,7 @@ type: payload
 name: Viceroy
 description: Large, bulky airship capable of carrying very large payloads. Loaded with a powerful machinegun.
 flying: true
-payloadCapacity: 750
+payloadCapacity: 800
 speed: 0.5
 hitSize: 30
 health: 7500
