@@ -114,7 +114,7 @@ bullet: {
   mixColorFrom: 7cd656ff
   mixColorTo: ffffffff
   trailColor: 7cd656
-  shrinkInterp: pow18In
+  shrinkInterp: pow10In
   }
 }
 
