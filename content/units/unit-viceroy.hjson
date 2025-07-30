@@ -5,8 +5,8 @@ flying: true
 payloadCapacity: 1025
 speed: 0.775
 hitSize: 30
-health: 7500
-armor: 20
+health: 7000
+armor: 10
 faceTarget: false
 outlineColor: 323232
 //this is worse than tank treads istfg
@@ -107,7 +107,7 @@ weapons: [
     type: BasicBulletType
     height: 16
     width: 15
-    damage: 175
+    damage: 135
     speed: 7
     layer: 115.01
     }
