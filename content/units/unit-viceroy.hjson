@@ -11,12 +11,14 @@ armor: 20
 faceTarget: false
 outlineColor: 323232
 engines: [
+  //main engine
   {
   x: 0
   y: -18
   rotation: 90
   radius: 3
   }
+  //main side engines
   {
   x: 7.15
   y: -16.5
@@ -29,6 +31,7 @@ engines: [
   rotation: 90
   radius: 2.25
   }
+  //inner engines
   {
   x: 13.75
   y: -18
@@ -41,6 +44,20 @@ engines: [
   rotation: 120
   radius: 2.75
   }
+  //extension engines
+  {
+  x: -17
+  y: -20
+  rotation: 30
+  radius: 3
+  }
+  {
+  x: 17
+  y: -20
+  rotation: 120
+  radius: 3
+  }
+  //outer lower side engines
   {
   x: -19.75
   y: -12
@@ -53,6 +70,7 @@ engines: [
   rotation: 120
   radius: 2
   }
+  //outer higher side engines
   {
   x: -19.75
   y: -7.5
