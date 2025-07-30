@@ -4,7 +4,7 @@ description: Large, bulky airship capable of carrying very large payloads. Loade
 flying: true
 //this is worse than tank treads istfg
 payloadCapacity: 1025
-speed: 0.5
+speed: 0.775
 hitSize: 30
 health: 7500
 armor: 20
@@ -85,3 +85,27 @@ engines: [
   }
 ]
 //todo make weapons
+weapons: [
+  {
+  name: unit-viceroy-machinegun
+  x: 0
+  y: 0
+  shootY: 3.5
+  mirror: false
+  rotates: true
+  rotateSpeed: 7.5
+  shootSound: bang
+  reload: 25
+  recoil: 1.75
+  shoot: {
+    type: ShootAlternate
+    spread: 8
+    }
+  bullet: {
+    type: BasicBulletType
+    height: 17
+    width: 14
+    damage: 175
+    }
+  }
+]
