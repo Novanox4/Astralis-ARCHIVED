@@ -99,7 +99,7 @@ bullet: {
   despawnEffect: none
   lifetime: 240
   speed: 14
-  accel: -0.4
+  accel: -0.75
   damage: 400
   pierce: true
   pierceBuilding: true
