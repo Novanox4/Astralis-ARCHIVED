@@ -137,7 +137,7 @@ bullet: {
     frontColor: ffffff
     mixColorFrom: ffffff00
     mixColorTo: ffffffff
-    shrinkInterp: slope
+    shrinkInterp: smoother
     splashDamage: 600
     scaledSplashDamage: true
     splashDamageRadius: 54
