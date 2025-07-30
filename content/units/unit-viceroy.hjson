@@ -144,17 +144,7 @@ abilities: [
   chance: 1
   effectParam: 5
   }
-  {
-  type: MoveEffectAbility
-  minVelocity: 1.75
-  y: -17
-  interval: -1
-  amount: 1
-  effect: missileTrailShort
-  chance: 1
-  effectParam: 4
-  }
-  //low engine right
+  //low engines
   {
   type: MoveEffectAbility
   teamColor: true
@@ -163,18 +153,20 @@ abilities: [
   x: 7.15
   interval: -1
   amount: 1
-  effect: missileTrail
+  effect: missileTrailShort
   chance: 1
   effectParam: 5
-  }
+  }  
   {
   type: MoveEffectAbility
+  teamColor: true
+  minVelocity: 1.75
   y: -16.5
-  x: 7.15
+  x: -7.15
   interval: -1
   amount: 1
   effect: missileTrailShort
   chance: 1
-  effectParam: 4
+  effectParam: 5
   }
 ]
