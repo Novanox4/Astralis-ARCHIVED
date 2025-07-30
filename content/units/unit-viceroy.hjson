@@ -55,15 +55,15 @@ engines: [
   }
   {
   x: -19.75
-  y: -10
+  y: -7.5
   rotation: 30
-  radius: 2
+  radius: 1.9
   }
   {
   x: 19.75
-  y: -10
+  y: -7.5
   rotation: 120
-  radius: 2
+  radius: 1.9
   }
 ]
 //todo make weapons
