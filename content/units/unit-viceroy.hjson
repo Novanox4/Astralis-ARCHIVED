@@ -120,7 +120,7 @@ weapons: [
   ignoreRotation: true
   shootSound: none
   shootStatus: status-viceroy-boosting
-  shootStatusDuration: 120
+  shootStatusDuration: 150
   bullet: {
     type: bulletType
     damage: 0
@@ -140,6 +140,17 @@ abilities: [
   interval: -1
   amount: 1
   effect: missileTrail
+  chance: 1
+  effectParam: 5
+  }
+  {
+  type: MoveEffectAbility
+  teamColor: true
+  minVelocity: 1.75
+  y: -17
+  interval: -1
+  amount: 1
+  effect: missileTrailShort
   chance: 1
   effectParam: 4
   }
