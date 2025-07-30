@@ -170,3 +170,11 @@ bullet: {
     }
   }
 ]
+abilities: [
+  {
+  type: UnitSpawnAbility
+  unit: unit-pollen
+  spawnTime: 1110
+  spawnY: -2
+  }
+]
