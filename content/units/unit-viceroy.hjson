@@ -97,6 +97,7 @@ weapons: [
   shootSound: bang
   reload: 12.5
   recoil: 1.75
+  layerOffset: 0.1
   shoot: {
     type: ShootAlternate
     spread: 13
