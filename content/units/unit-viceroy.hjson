@@ -2,7 +2,6 @@ type: payload
 name: Viceroy
 description: Large, bulky airship capable of carrying very large payloads. Loaded with a powerful machinegun. Can occasionally become fasster while shooting.
 flying: true
-//this is worse than tank treads istfg
 payloadCapacity: 1025
 speed: 0.775
 hitSize: 30
@@ -10,6 +9,7 @@ health: 7500
 armor: 20
 faceTarget: false
 outlineColor: 323232
+//this is worse than tank treads istfg
 engines: [
   //main engine
   {
