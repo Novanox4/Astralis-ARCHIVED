@@ -90,7 +90,7 @@ weapons: [
   name: unit-viceroy-machinegun
   x: 0
   y: 0
-  shootY: 4.5
+  shootY: 5.75
   mirror: false
   rotate: true
   rotateSpeed: 7.5
