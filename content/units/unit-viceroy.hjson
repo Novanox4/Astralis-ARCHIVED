@@ -11,9 +11,9 @@ faceTarget: false
 engines: [
   {
   x: 0
-  y: -20
-  rotation: -45
-  radius: 4
+  y: -18
+  rotation: 90
+  radius: 3
   }
 ]
 //todo make weapons
