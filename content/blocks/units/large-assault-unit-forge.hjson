@@ -25,11 +25,11 @@ requirements: [
     {
 unit: unit-viceroy
 requirements: [
-    item-crystalite/300
-    item-uranium/250
-    item-silver/150
-    item-cerium/80
-    item-hadalrock/60
+    item-crystalite/425
+    item-uranium/350
+    item-silver/275
+    item-cerium/125
+    item-hadalrock/85
       ]
 time: 4500
     }
