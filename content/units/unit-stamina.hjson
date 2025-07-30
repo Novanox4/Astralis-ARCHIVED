@@ -153,8 +153,8 @@ bullet: {
       sizeInterp: sineOut
       interp: circleOut
       rotWithParent: true
+        }
+      }
     }
   }
-}
-
 ]
