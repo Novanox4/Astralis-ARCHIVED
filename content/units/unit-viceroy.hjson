@@ -131,3 +131,16 @@ weapons: [
     }
   }
 ]
+abilities: [
+  {
+  type: MoveEffectAbility
+  teamColor: true
+  minVelocity: 1.75
+  y: -17
+  interval: -1
+  amount: 1
+  effect: missileTrail
+  chance: 1
+  effectParam: 4
+  }
+]
