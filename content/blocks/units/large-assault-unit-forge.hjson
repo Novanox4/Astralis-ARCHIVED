@@ -27,7 +27,7 @@ unit: unit-viceroy
 requirements: [
     item-crystalite/300
     item-uranium/250
-    silver/150
+    item-silver/150
     item-cerium/80
     item-hadalrock/60
       ]
