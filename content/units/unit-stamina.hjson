@@ -107,8 +107,8 @@ bullet: {
   width: 14
   trailLength: 24
   trailWidth: 3
-  shrinkX: 2
-  shrinkY: 2
+  shrinkX: -5
+  shrinkY: -5
   backColor: 7cd656
   frontColor: ffffff
   mixColorFrom: 7cd656ff
