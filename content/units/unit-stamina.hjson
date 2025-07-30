@@ -97,24 +97,63 @@ bullet: {
   }
   sprite: circle-bullet
   despawnEffect: none
-  lifetime: 240
+  lifetime: 50
   speed: 14
-  accel: -0.75
-  damage: 400
+  accel: -0.9
+  damage: 125
   pierce: true
   pierceBuilding: true
-  height: 6
-  width: 6
+  height: 8
+  width: 8
   trailLength: 24
   trailWidth: 3
-  shrinkX: -5
-  shrinkY: -5
+  shrinkX: 1
+  shrinkY: 1
   backColor: 7cd656
   frontColor: ffffff
   mixColorFrom: 7cd656ff
   mixColorTo: ffffffff
   trailColor: 7cd656
+  hitEffect: none
   shrinkInterp: pow10In
+  fragOnHit: false
+  fragOnAbsorb: false
+  fragRandomSpread: 0
+  fragBullets: 1
+  fragVelocityMin: 1
+  fragoffsetMax: 0
+  fragoffsetMin: 0
+  fragBullet: {
+    type: BasicBulletType
+    collides: false
+    speed: 0
+    lifetime: 250
+    height: 8 
+    width: 8
+    damage: 0
+    shrinkX: -8
+    shrinkY: -8
+    backColor: ffffff
+    frontColor: ffffff
+    mixColorFrom: ffffffff
+    mixColorTo: ffffffff
+    shrinkInterp: slope
+    splashDamage: 600
+    scaledSplashDamage: true
+    splashDamageRadius: 54
+    despawnEffect: {
+      type: ParticleEffect
+      colorFrom: ffffffff
+      colorTo: 12963cbf
+      particles: 20
+      sizeFrom: 0
+      sizeTo: 5.5
+      length: 40
+      lifetime: 130
+      sizeInterp: sineOut
+      interp: circleOut
+      rotWithParent: true
+    }
   }
 }
 
