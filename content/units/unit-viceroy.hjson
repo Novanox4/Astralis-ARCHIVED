@@ -46,14 +46,14 @@ engines: [
   }
   //extension engines
   {
-  x: -17
-  y: -20
+  x: -19
+  y: -23
   rotation: 30
   radius: 3
   }
   {
-  x: 17
-  y: -20
+  x: 19
+  y: -23
   rotation: 120
   radius: 3
   }
