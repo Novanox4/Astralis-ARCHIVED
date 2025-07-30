@@ -144,38 +144,13 @@ abilities: [
   chance: 1
   effectParam: 5
   }
-  //low engines
-  {
-  type: MoveEffectAbility
-  teamColor: true
-  minVelocity: 1.75
-  y: -16.5
-  x: 7.15
-  interval: -1
-  amount: 1
-  effect: missileTrailShort
-  chance: 1
-  effectParam: 4
-  }  
-  {
-  type: MoveEffectAbility
-  teamColor: true
-  minVelocity: 1.75
-  y: -16.5
-  x: -7.15
-  interval: -1
-  amount: 1
-  effect: missileTrailShort
-  chance: 1
-  effectParam: 4
-  }
   //inner engines
   {
   type: MoveEffectAbility
   teamColor: true
   minVelocity: 1.75
   y: -18
-  x: 3.75
+  x: 13.75
   interval: -1
   amount: 1
   effect: missileTrail
@@ -187,36 +162,11 @@ abilities: [
   teamColor: true
   minVelocity: 1.75
   y: -18
-  x: -3.75
+  x: -13.75
   interval: -1
   amount: 1
   effect: missileTrail
   chance: 1
   effectParam: 5
-  }
-  //extension engines
-  {
-  type: MoveEffectAbility
-  teamColor: true
-  minVelocity: 1.75
-  y: -19
-  x: -19.25
-  interval: -1
-  amount: 1
-  effect: missileTrailShort
-  chance: 1
-  effectParam: 4
-  }  
-  {
-  type: MoveEffectAbility
-  teamColor: true
-  minVelocity: 1.75
-  y: -19
-  x: -19.25
-  interval: -1
-  amount: 1
-  effect: missileTrailShort
-  chance: 1
-  effectParam: 4
   }
 ]
