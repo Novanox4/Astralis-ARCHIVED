@@ -109,13 +109,12 @@ bullet: {
   trailWidth: 3
   shrinkX: -5
   shrinkY: -5
-  shrinkInterp:
   backColor: 7cd656
   frontColor: ffffff
   mixColorFrom: 7cd656ff
   mixColorTo: ffffffff
   trailColor: 7cd656
-  shrinkInterp: pow5In
+  shrinkInterp: pow10In
   }
 }
 
