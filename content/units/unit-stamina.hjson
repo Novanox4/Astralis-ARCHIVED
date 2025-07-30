@@ -17,7 +17,6 @@ legPairOffset: -20
 legSpeed: 0.04
 legForwardScl: 1.15
 commands: [move, enterPayload, rebuild, assist, repair]
-//TODO give weapons
 weapons: [
 {
 mirror: false
