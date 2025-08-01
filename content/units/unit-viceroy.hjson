@@ -9,6 +9,7 @@ health: 7000
 armor: 10
 faceTarget: false
 outlineColor: 323232
+lowAltitude: true
 //this is worse than tank treads istfg
 engines: [
   //main engine
@@ -98,9 +99,7 @@ weapons: [
   shootSound: bang
   reload: 12.5
   recoil: 1.75
-  layerOffset: 0.1
-  shootEffect: none
-  smokeEffect: none
+  top: true
   shoot: {
     type: ShootAlternate
     spread: 13
@@ -112,13 +111,13 @@ weapons: [
     damage: 135
     speed: 7
     lifetime: 50
-    layer: 115.01
+    shootEffect: shootBig
     }
   }
   //boosting
   {
   display: false
-  reload: 720
+  reload: 780
   shootCone: 361
   ignoreRotation: true
   shootSound: none
