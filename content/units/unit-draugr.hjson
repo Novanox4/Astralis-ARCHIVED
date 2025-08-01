@@ -26,7 +26,7 @@ weapons: [
   y: 0
   shootY: 6
   shootSound: missileSmall
-  cone: 361
+  shootCone: 361
   ignoreRotation: true
   rotate: true
   rotateSpeed: 0
