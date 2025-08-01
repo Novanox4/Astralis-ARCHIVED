@@ -84,7 +84,7 @@ engines: [
   radius: 1.9
   }
 ]
-//todo make weapons
+//weapons
 weapons: [
   //machinegun
   {
@@ -99,6 +99,8 @@ weapons: [
   reload: 12.5
   recoil: 1.75
   layerOffset: 0.1
+  shootEffect: none
+  smokeEffect: none
   shoot: {
     type: ShootAlternate
     spread: 13
