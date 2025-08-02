@@ -50,4 +50,14 @@ abilities: [
   }
 ]
 //todo finish
-weapons: []
+weapons: [
+  {
+  name: unit-refraction-cannon
+  x: 0
+  y: 0
+  reload: 140
+  bullet: {
+    type: laserBulletType
+    }
+  }
+]
