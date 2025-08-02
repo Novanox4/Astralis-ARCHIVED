@@ -82,26 +82,26 @@ weapons: [
       fragOnHit: false
       fragOnAbsorb: false
       fragBullet: {
-          type: LaserBulletType
-          width: 20
-          length: 320
-          damage: 40
-          lifetime: 70
-          laserAbsorb: false
-          spawnBullets: [
-            {
-            type: BulletType
-            damage: 0
-            hitEffect: none
-            despawnEffect: none
-            lifetime: 20
-            speed: 16
-            despawnSound: laser
-            fragRandomSpread: 90
-            fragAngle: 180
-            fragBullets: 7
-            fragOnHit: false
-            fragOnAbsorb: false
+        type: LaserBulletType
+        width: 20
+        length: 320
+        damage: 40
+        lifetime: 70
+        laserAbsorb: false
+        spawnBullets: [
+          {
+          type: BulletType
+          damage: 0
+          hitEffect: none
+          despawnEffect: none
+          lifetime: 20
+          speed: 16
+          despawnSound: laser
+          fragRandomSpread: 90
+          fragAngle: 180
+          fragBullets: 7
+          fragOnHit: false
+          fragOnAbsorb: false
               }
             ]
           }
