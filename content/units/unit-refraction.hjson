@@ -65,11 +65,11 @@ weapons: [
     width: 20
     length: 320
     damage: 40
+    lifetime: 70
     spawnBullets: [
       {
       type: BasicBulletType
       damage: 0
-      despawnEffect: none
       hitEffect: none
       lifetime: 10
       speed: 32
