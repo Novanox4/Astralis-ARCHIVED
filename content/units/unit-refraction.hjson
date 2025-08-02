@@ -26,7 +26,7 @@ abilities: [
   type: ForceFieldAbility
   radius: 120
   sides: 3
-  max: 450
+  max: 330
   regen: 0.075
   cooldown: 300
   }
@@ -34,10 +34,19 @@ abilities: [
   type: ForceFieldAbility
   radius: 120
   sides: 3
-  max: 450
+  max: 330
   regen: 0.075
   cooldown: 300
   rotation: 180
+  }
+  {
+  type: ForceFieldAbility
+  radius: 120
+  sides: 3
+  max: 330
+  regen: 0.075
+  cooldown: 300
+  rotation: 90
   }
 ]
 //todo finish
