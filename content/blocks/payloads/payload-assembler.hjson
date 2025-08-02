@@ -12,6 +12,6 @@ consumes: {
   power: 4
     }
 size: 4
-maxBlockSize: 3
+maxBlockSize: 5
 category: units
 payloadSpeed: 2
