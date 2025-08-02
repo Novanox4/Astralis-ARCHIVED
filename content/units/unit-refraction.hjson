@@ -1,11 +1,11 @@
 type: tank
 name: Refraction
 description: Shoots powerful laser blasts and protects itself with an energy shield. Can boost and build. Very fast while boosting. Crushes buildings under it.
-speed: 0.2
-boostMultiplier: 3
+speed: 0.225
+boostMultiplier: 5.75
 canBoost: true
-engineSize: 15
-engineOffset: 20
+engineSize: 13
+engineOffset: 18
 buildSpeed: 1.8
 omniMovement: false
 health: 4000
@@ -26,9 +26,18 @@ abilities: [
   type: ForceFieldAbility
   radius: 120
   sides: 3
-  max: 1000
-  regen: 0.05
-  cooldown: 360
+  max: 450
+  regen: 0.075
+  cooldown: 300
+  }
+  {
+  type: ForceFieldAbility
+  radius: 120
+  sides: 3
+  max: 450
+  regen: 0.075
+  cooldown: 300
+  rotation: 45
   }
 ]
 //todo finish
