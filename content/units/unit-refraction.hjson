@@ -121,7 +121,7 @@ weapons: [
       fragBullet: {
         type: LaserBulletType
         damage: 10
-        length: 100
+        length: 150
         lifetime: 80
         width: 20
         laserAbsorb: false
