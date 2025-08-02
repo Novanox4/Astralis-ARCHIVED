@@ -16,7 +16,7 @@ consumes: {
 reload: 10
 chargeTime: 20
 size: 4
-maxPayloadSize: 3
+maxPayloadSize: 5
 grabWidth: 4
 details: When handling large payloads, the magnetic bulk accelerator can detach it's arms, holding them in place via magnetism.
 payloadSpeed: 2
