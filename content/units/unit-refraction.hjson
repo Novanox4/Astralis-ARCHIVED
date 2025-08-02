@@ -95,7 +95,7 @@ weapons: [
         {
         type: LaserBulletType
         damage: 10
-        length: 200
+        length: 100
         lifetime: 80
         width: 20
         laserAbsorb: false
@@ -106,7 +106,7 @@ weapons: [
       damage: 10
       pierce: true
       lifetime: 20
-      speed: 10
+      speed: 5
       despawnEffect: none
       hitEffect: none
       despawnSound: laser
@@ -118,6 +118,14 @@ weapons: [
       fragVelocityMin: 1
       fragOffsetMin: 0
       fragOffsetMax: 0
+      fragBullet: {
+        type: LaserBulletType
+        damage: 10
+        length: 100
+        lifetime: 80
+        width: 20
+        laserAbsorb: false
+        }
       }
     }
   }
