@@ -56,8 +56,11 @@ weapons: [
   x: 0
   y: 0
   reload: 140
+  rotate: true
+  rotateSpeed: 6
+  mirror: false
   bullet: {
-    type: laserBulletType
+    type: LaserBulletType
     }
   }
 ]
