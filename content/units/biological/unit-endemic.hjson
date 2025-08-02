@@ -12,7 +12,7 @@ details: "This creature is so large it is rotting inside. This is the largest sp
 This monstrosity could not have appeared natuarlly, could it? It HAS to be a sharded experiment gone awry, right? RIGHT?"
 legMaxLength: 1.35
 flying: false
-health: 30000
+health: 18500
 baseLegStraightness: 0
 legExtension: -15
 range: 300
@@ -119,49 +119,58 @@ bullet: {
   spawnUnit: unit-endemic-missile
   }
 }
+{
+reload: 1
+alwaysShooting: true
+shootStatus: boss
+shootSound: none
+shootEffect: none
+smokeEffect: none
+bullet: {
+  type: EmptyBulletType
+  damage: 0
+  collides: false
+  despawnEffect: none
+  hitEffect: none
+  shootEffect: none
+  smokeEffect: none
+    }
+  }
 ]
 abilities: [
   {
   type: SpawnDeathAbility
   unit: unit-flu
-  amount: 28
+  amount: 10
   }
   {
   type: SpawnDeathAbility
   unit: unit-microplana
-  amount: 45
+  amount: 10
   }
   {
   type: SpawnDeathAbility
   unit: unit-malady
-  amount: 12
+  amount: 5
   }
   {
   type: SpawnDeathAbility
   unit: unit-koreni
-  amount: 9
+  amount: 5
   }
   {
   type: SpawnDeathAbility
   unit: unit-outbreak
-  amount: 3
-  }
-  {
-  type: StatusFieldAbility
-  effect: boss
-  range: 0.1
-  color: 00000000
-  activeEffect: none
-  display: false
+  amount: 2
   }
 ]
 outlineColor: 121213
 planet: astralis
 deathExplosionEffect: none
 deathSound: plantBreak
-speed: 0.7
+speed: 0.45
 lightRadius: 0.01
 hitSize: 35
 useUnitCap: false
-legSplashRange: 70
-legSplashDamage: 240
+legSplashRange: 60
+legSplashDamage: 180
