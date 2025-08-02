@@ -15,3 +15,4 @@ category: units
 payloadSpeed: 2
 name: Payload Disassembler
 description: Destroys payloads, returning 100% of the materials used to build them. Has a higher payload capacity than other payload blocks.
+maxPayloadSize: 5
