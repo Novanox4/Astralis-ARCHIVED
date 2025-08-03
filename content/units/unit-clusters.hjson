@@ -62,7 +62,7 @@ abilities: [
     shootSound: spark
     useAmmo: false
     x: 0
-    y: -3
+    y: 0
     effectRadius: 2
     status: overdrive
     rotateSpeed: 1
@@ -84,12 +84,17 @@ abilities: [
     shootSound: spark
     useAmmo: false
     x: 0
-    y: 3
+    y: 0
     effectRadius: 2
     status: overdrive
     rotateSpeed: 5
     sectorRad: 0.12
     sectors: 3
     }
+    {
+    type: StatusFieldAbility
+    effect: overdrive
+    reload: 375
+    range: 85
 ]
 outlineColor: 323232
