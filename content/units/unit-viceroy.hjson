@@ -112,7 +112,7 @@ weapons: [
     speed: 7
     lifetime: 50
     shootEffect: shootBig
-    shieldDamageMultiplier: 0.6
+    shieldDamageMultiplier: 0.15
     }
   }
   //boosting
