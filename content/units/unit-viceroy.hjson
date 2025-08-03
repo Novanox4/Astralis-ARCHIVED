@@ -108,7 +108,7 @@ weapons: [
     type: BasicBulletType
     height: 16
     width: 15
-    damage: 135
+    damage: 115
     speed: 7
     lifetime: 50
     shootEffect: shootBig
