@@ -4,7 +4,7 @@ health: 18500
 itemCapacity: 12000
 size: 5
 category: effect
-unitType: unit-chunks
+unitType: unit-clusters
 unitCapModifier: 18
 requirements: [
   item-crystalite/5000
