@@ -18,7 +18,7 @@ groundLayer: 60
 mineRange: 170
 buildRange: 300
 research: {
-  parent: unit-shards
+  parent: unit-chunks
   requiresUnlock: false
   objectives: [
     core-castle,
