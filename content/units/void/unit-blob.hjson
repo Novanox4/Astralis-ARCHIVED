@@ -1,6 +1,5 @@
 type: crawl
 segments: 4
-segment
 crushDamage: 65
 name: Blob
 description: Crawling mass of void fluid. Heals rapidly when in void puddles.
