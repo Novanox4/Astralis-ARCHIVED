@@ -1,0 +1,31 @@
+type: crawl
+segments: 4
+crushDamage: 65
+name: Blob
+description: Crawling mass of void fluid. Heals rapidly when in void puddles.
+controller: HugAi
+speed: 1
+crushDamage: 20
+crawlSlowdown: 1.5
+health: 800
+armor: 2
+immunities: [status-voidgnaw]
+useUnitCap: false
+outlineColor: 0c0413
+deathExplosionEffect: none
+deathSound: plantBreak
+hitSize: 12
+weapons: []
+abilities: [
+  {
+  type: LiquidExplodeAbility
+  liquid: liquid-void-fluid
+  radScale: 3
+  amount: 5
+  }
+  {
+  type: LiquidRegenAbility
+  liquid: liquid-void-fluid
+  regenPerSlurp: 30
+  slurpSpeed: 7
+]
