@@ -1,5 +1,7 @@
-type: flying
+type: payload
 flying: true
+payloadCapacity: 576
+pickupUnits: false
 health: 325
 speed: 4.25
 buildSpeed: 1.35
@@ -37,7 +39,7 @@ engines: [
 }
 ]
 name: Chunks
-description: "Defender of the Core: Agora. Better than the previous iteration, but unable to attack. Builds healer drones to aid in repairing damaged structures"
+description: "Defender of the Core: Agora. Better than the previous iteration, but unable to attack. Builds healer drones to aid in repairing damaged structures. Can carry blocks."
 weapons: []
 abilities: [
     {
