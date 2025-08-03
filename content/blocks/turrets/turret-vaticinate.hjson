@@ -114,10 +114,10 @@ ammoTypes: {
         colorTo: 452d56ff
         cone: 25
         lifetime: 80
-        length: 40
+        length: 120
         sizeFrom: 5
         particles: 10
-        sizeChangeStart: 50
+        sizeChangeStart: 60
         }
       ]
     }
