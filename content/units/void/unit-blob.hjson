@@ -28,4 +28,5 @@ abilities: [
   liquid: liquid-void-fluid
   regenPerSlurp: 30
   slurpSpeed: 7
+  }
 ]
