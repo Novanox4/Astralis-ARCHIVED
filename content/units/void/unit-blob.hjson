@@ -32,5 +32,5 @@ abilities: [
 ]
 drawBody: false
 omniMovement: false
-segmentScl: 1.5
+segmentScl: 3
 segmentMag: 0.25
