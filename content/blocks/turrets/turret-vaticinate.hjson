@@ -103,7 +103,7 @@ ammoTypes: {
   item-hadalrock: {
     type: BasicBulletType
     damage: 825
-    hitEffect: {
+    despawnEffect: {
       type: MultiEffect
       effects: [
         {
@@ -113,9 +113,11 @@ ammoTypes: {
         colorFrom: ffffffff
         colorTo: 452d56ff
         cone: 25
-        lifetime: 20
-        length: 19.5
-        sizeFrom: 2.5
+        lifetime: 80
+        length: 40
+        sizeFrom: 5
+        particles: 10
+        sizeChangeStart: 50
         }
       ]
     }
@@ -146,9 +148,10 @@ ammoTypes: {
         followParent: true
         colorFrom: ffffffff
         colorTo: 452d56ff
-        cone: 25
-        lifetime: 15
-        length: 14.5
+        cone: 32.5
+        lifetime: 40
+        length: 35
+        sizeFrom: 4
         }
       }
     }
