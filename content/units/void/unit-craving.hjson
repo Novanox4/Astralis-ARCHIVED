@@ -1,6 +1,6 @@
 type: legs
-legCount: 6
-legGroupSize: 3
+legCount: 8
+legGroupSize: 4
 legLength: 32
 legBaseOffset: 4
 speed: 2.25
