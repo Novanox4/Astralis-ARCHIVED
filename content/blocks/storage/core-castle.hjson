@@ -25,3 +25,4 @@ research: {
 name: "Core: Castle"
 researchCostMultiplier: 0.075
 description: Core of the base. Once all of them are destroyed, the sector is lost. Stores resources for building. Higher health and resource capacity than the previous tier.
+lightRadius: 200
