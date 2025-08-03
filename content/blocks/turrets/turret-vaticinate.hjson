@@ -103,7 +103,8 @@ ammoTypes: {
   item-hadalrock: {
     type: BasicBulletType
     damage: 825
-    despawnEffect: {
+    despawnHit: true
+    hitEffect: {
       type: MultiEffect
       effects: [
         {
