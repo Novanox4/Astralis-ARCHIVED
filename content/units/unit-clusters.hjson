@@ -1,5 +1,7 @@
 type: flying
 flying: true
+payloadCapacity: 1024
+pickupUnits: false
 health: 450
 armor: 5
 speed: 5
