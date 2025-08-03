@@ -20,7 +20,7 @@ abilities: [
   {
   type: LiquidExplodeAbility
   liquid: liquid-void-fluid
-  radScale: 1
+  radScale: 2
   amount: 6
   }
   {
@@ -33,4 +33,4 @@ abilities: [
 drawBody: false
 omniMovement: false
 segmentScl: 1.5
-segmentMag: 0.75
+segmentMag: 2
