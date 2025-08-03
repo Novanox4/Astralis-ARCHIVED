@@ -16,7 +16,24 @@ outlineColor: 0c0413
 deathExplosionEffect: none
 deathSound: plantBreak
 hitSize: 12
-weapons: []
+//this fixes their ai for some reason idk
+weapons: [
+{
+shootSound: none
+display: false
+bullet: {
+  type: EmptyBulletType
+  damage: 0
+  heigth: 0
+  width: 0
+  collides: false
+  shootEffect: none
+  smokeEffect: none
+  despawnEffect: none
+  hitEffect: none
+    }
+  }
+]
 abilities: [
   {
   type: LiquidExplodeAbility
