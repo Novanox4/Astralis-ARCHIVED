@@ -99,7 +99,6 @@ weapons: [
   shootSound: bang
   reload: 12.5
   recoil: 1.75
-  shieldDamageMultiplier: 0.6
   top: true
   shoot: {
     type: ShootAlternate
@@ -113,6 +112,7 @@ weapons: [
     speed: 7
     lifetime: 50
     shootEffect: shootBig
+    shieldDamageMultiplier: 0.6
     }
   }
   //boosting
