@@ -117,7 +117,7 @@ ammoTypes: {
         length: 160
         sizeFrom: 5
         particles: 10
-        sizeChangeStart: 45
+        sizeChangeStart: 12.5
         interp: pow10Out
         }
       ]
