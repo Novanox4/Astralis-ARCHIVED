@@ -1,5 +1,6 @@
 type: crawl
 segments: 4
+segment
 crushDamage: 65
 name: Blob
 description: Crawling mass of void fluid. Heals rapidly when in void puddles.
@@ -20,8 +21,8 @@ abilities: [
   {
   type: LiquidExplodeAbility
   liquid: liquid-void-fluid
-  radScale: 3
-  amount: 5
+  radScale: 1
+  amount: 6
   }
   {
   type: LiquidRegenAbility
@@ -32,3 +33,5 @@ abilities: [
 ]
 drawBody: false
 omniMovement: false
+segmentScl: 1.5
+segmentMag: 0.75
