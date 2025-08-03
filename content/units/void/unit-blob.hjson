@@ -3,6 +3,7 @@ segments: 4
 crushDamage: 65
 name: Blob
 description: Crawling mass of void fluid. Heals rapidly when in void puddles.
+details: Very primitive lifeform. Strangely, captured and tested specimens seem to show high intelligence and possibly even sentience. How can you get life from a mere liquid? How can nothing become everything?
 controller: HugAi
 speed: 1
 crushDamage: 5
