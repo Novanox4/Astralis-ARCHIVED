@@ -1,6 +1,6 @@
 type: legs
 legCount: 4
-legGroupSize: 1
+legGroupSize: 2
 legLength: 30
 legBaseOffset: 2
 speed: 2.25
@@ -8,15 +8,17 @@ name: Craving
 description: Abyssal spider. Attacks by trampling buildings.
 details: "Seems oddly intelligent for a bunch of moving goop."
 legMinLength: 0.75
+lockLegBase: true
 legMaxLength: 1
 legExtension: -2.75
-legSplashDamage: 40
-legSplashRange: 17.5
+legSplashDamage: 80
+legSplashRange: 18
 crushDamage: 50
 flying: false
-health: 850
+health: 1200
 omniMovement: false
 baseLegStraightness: 0.25
+legForwardScl: 2
 weapons: [
 {
 shootSound: none
