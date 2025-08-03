@@ -11,8 +11,8 @@ legExtension: -2.75
 legSplashDamage: 80
 legSplashRange: 18
 crushDamage: 50
-flying: false
 health: 1200
+baseLegStraightness: 0.2
 omniMovement: false
 weapons: [
 {
