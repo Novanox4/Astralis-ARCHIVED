@@ -30,3 +30,5 @@ abilities: [
   slurpSpeed: 7
   }
 ]
+drawBody: false
+omniMovement: false
