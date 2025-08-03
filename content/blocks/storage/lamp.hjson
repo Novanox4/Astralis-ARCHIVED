@@ -1,5 +1,5 @@
 type: LightBlock
-radius: 135
+radius: 200
 name: Lamp
 description: Illuminates an area when powered.
 research: core-fort
