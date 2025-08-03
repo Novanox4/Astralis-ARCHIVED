@@ -96,5 +96,6 @@ abilities: [
     effect: overdrive
     reload: 375
     range: 85
+    }
 ]
 outlineColor: 323232
