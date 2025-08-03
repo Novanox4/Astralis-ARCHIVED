@@ -5,7 +5,6 @@ health: 700
 reload: 3
 category: turret
 squareSprite: false
-shootEffect: shootLiquid
 recoilTime: 35
 inaccuracy: 3.5
 range: 122.5
@@ -31,12 +30,40 @@ drawer: {
 ammoTypes: {
   water: {
     type: LiquidBulletType
+    shootEffect: shootLiquid
     liquid: water
     damage: 0.2
     status: wet
     knocknack: 0.175
     impact: true
     statusDuration: 200
+   }
+  liquid-nitric-acid: {
+    type: LiquidBulletType
+    shootEffect: shootLiquid
+    liquid: liquid-nitric-acid
+    damage: 10
+    status: corroded
+    knocknack: 0.1
+    impact: true
+    statusDuration: 120
+   }
+  liquid-void-fluid: {
+    type: LiquidBulletType
+    shootEffect: shootLiquid
+    liquid: liquid-void-fluid
+    damage: 3
+    status: status-voidgnaw
+    statusDuration: 10
+    reloadMultiplier: 0.33333
+   }
+  slag: {
+    type: LiquidBulletType
+    shootEffect: shootLiquid
+    liquid: slag
+    damage: 5
+    status: melting
+    statusDuration: 160
    }
  }
 requirements: [
