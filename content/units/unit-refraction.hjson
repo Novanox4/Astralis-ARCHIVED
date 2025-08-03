@@ -65,7 +65,7 @@ weapons: [
     spawnBullets: [
       {
       type: LaserBulletType
-      damage: 10
+      damage: 100
       length: 200
       lifetime: 80
       width: 20
@@ -74,7 +74,7 @@ weapons: [
     ]
     collides: false
     //for weapon display
-    damage: 10
+    damage: 100
     pierce: true
     lifetime: 20
     speed: 10
@@ -94,7 +94,7 @@ weapons: [
       spawnBullets: [
         {
         type: LaserBulletType
-        damage: 10
+        damage: 40
         length: 100
         lifetime: 80
         width: 20
@@ -103,7 +103,7 @@ weapons: [
       ]
       collides: false
       //for weapon display
-      damage: 10
+      damage: 40
       pierce: true
       lifetime: 20
       speed: 5
@@ -120,7 +120,7 @@ weapons: [
       fragOffsetMax: 0
       fragBullet: {
         type: LaserBulletType
-        damage: 10
+        damage: 20
         length: 150
         lifetime: 80
         width: 20
