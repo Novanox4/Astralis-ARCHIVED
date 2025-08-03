@@ -12,8 +12,9 @@ legSplashDamage: 80
 legSplashRange: 18
 crushDamage: 50
 health: 1200
-baseLegStraightness: 0.6
-legMinLength: 0.6
+baseLegStraightness: 0.25
+legMinLength: 0.8
+legMaxLength: 1
 legSpeed: 0.075
 omniMovement: false
 weapons: [
