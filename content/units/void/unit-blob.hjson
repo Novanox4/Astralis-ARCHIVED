@@ -5,8 +5,8 @@ name: Blob
 description: Crawling mass of void fluid. Heals rapidly when in void puddles.
 controller: HugAi
 speed: 1
-crushDamage: 20
-crawlSlowdown: 1.5
+crushDamage: 5
+crawlSlowdown: 2.25
 health: 800
 armor: 2
 immunities: [status-voidgnaw]
