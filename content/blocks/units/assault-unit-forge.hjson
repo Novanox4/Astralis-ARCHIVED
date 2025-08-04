@@ -30,20 +30,20 @@ requirements: [
     {
 unit: unit-draugr
 requirements: [
-    item-crystalite/45
-    item-uranium/45
-    metaglass/40
+    item-crystalite/15
+    item-uranium/20
+    metaglass/15
       ]
-    time: 1200
+    time: 300
     }
      {
 unit: unit-poltergeist
 requirements: [
-    item-crystalite/60
-    item-silver/60
-    metaglass/80
+    item-crystalite/20
+    item-silver/20
+    metaglass/28
       ]
-    time: 1200
+    time: 400
     }
   ]
 research: {
