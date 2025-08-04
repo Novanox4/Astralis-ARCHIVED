@@ -8,7 +8,7 @@ engineSize: 13
 engineOffset: 18
 buildSpeed: 1.8
 omniMovement: false
-health: 4000
+health: 3250
 armor: 5
 treadRects: [
     {
