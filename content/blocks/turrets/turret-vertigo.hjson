@@ -4,11 +4,10 @@ name: Vertigo
 description: Releases a tornado of piercing bullets. Requires large amounts of heat.
 consumes: {}
 heatRequirement: 8
-maxHeatEfficiency: 5
+maxHeatEfficiency: 2.5
 research: turret-reverberate
 heatColor: 8295b0ff
 velocityRnd: 0.5
-inaccuracy: 30
 drawer: {
   type: DrawTurret
   basePrefix: astral-
@@ -34,11 +33,12 @@ requirements: [
   item-neodymium/100
   item-cerium/125
   ]
-reload: 40
+reload: 20
 cooldownTime: 80
 range: 250
 shootType: {
   type: BasicBulletType
+  inaccuracy: 30
   damage: 200
   pierce: true
   sprite: circle-bullet
@@ -49,12 +49,12 @@ shootType: {
   trailColor: 8295b0
   trailLength: 65
   trailWidth: 3
-  lifetime: 325
+  lifetime: 400
   speed: 8.5
   circleShooter: true
   circleShooterRadius: 0.5
-  circleShooterRadiusSmooth: 60000
-  circleShooterRotateSpeed: 50
+  circleShooterRadiusSmooth: 90000
+  circleShooterRotateSpeed: 125
   despawnEffect: none
   hitEffect: none
     }
