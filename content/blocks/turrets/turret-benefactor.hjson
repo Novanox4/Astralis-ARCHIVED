@@ -100,10 +100,10 @@ drawer: {
 reload: 8.5
 shootType: {
   type: LaserBulletType
-  colors: [f5d738, d49d00, ffffff]
+  colors: [f5d73866, f5d738ff, ffffffff]
   width: 10.5
   length: 325
-  damage: 45
+  damage: 52.5
   collidesGround: false
       }
 requirements: [
