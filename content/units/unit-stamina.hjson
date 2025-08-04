@@ -5,7 +5,7 @@ legCount: 5
 legGroupSize: 1
 legLength: 30
 hitSize: 28
-health: 6000
+health: 4500
 armor: 30
 outlineColor: 323232
 speed: 0.6
