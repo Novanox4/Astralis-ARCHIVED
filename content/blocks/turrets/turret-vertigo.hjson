@@ -50,11 +50,11 @@ shootType: {
   trailLength: 65
   trailWidth: 3
   lifetime: 325
-  speed: 7
+  speed: 8.5
   circleShooter: true
-  circleShooterRadius: 1
-  circleShooterRadiusSmooth: 6000
-  circleShooterRotateSpeed: 5
+  circleShooterRadius: 0.5
+  circleShooterRadiusSmooth: 60000
+  circleShooterRotateSpeed: 50
   despawnEffect: none
   hitEffect: none
     }
