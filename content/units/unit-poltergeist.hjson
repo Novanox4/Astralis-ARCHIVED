@@ -2,7 +2,7 @@ type: naval
 name: Poltergeist
 description: Naval ship made to rush down bases quickly. Attacks with a missile cannon.
 speed: 2.5
-health: 575
+health: 625
 hitSize: 15
 outlineColor: 323232
 trailLength: 32.5
@@ -27,7 +27,7 @@ weapons: [
   bullet: {
     type: MissileBulletType
     damage: 32.5
-    lifetime: 45
+    lifetime: 55
     speed: 6
     backColor: db5151
     frontColor: ffffff
