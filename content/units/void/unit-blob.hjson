@@ -52,3 +52,4 @@ drawBody: false
 omniMovement: false
 segmentScl: 3
 segmentMag: 0.25
+lightRadius: 0
