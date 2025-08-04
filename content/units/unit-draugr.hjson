@@ -1,7 +1,7 @@
 type: naval
 name: Draugr
 description: Naval ship made to rush down bases quickly. Releases bursts of pressurized steam. Fragile yet fast and powerful.
-speed: 3.25
+speed: 4
 health: 325
 armor: -1
 hitSize: 10
