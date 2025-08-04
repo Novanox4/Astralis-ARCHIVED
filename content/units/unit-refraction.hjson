@@ -49,7 +49,6 @@ abilities: [
   rotation: 90
   }
 ]
-//todo finish
 weapons: [
   {
   name: unit-refraction-cannon
@@ -70,6 +69,7 @@ weapons: [
       lifetime: 80
       width: 20
       laserAbsorb: false
+      colors: [7cd65666, 7cd656ff, ffffffff]
       }
     ]
     collides: false
@@ -99,6 +99,7 @@ weapons: [
         lifetime: 80
         width: 20
         laserAbsorb: false
+        colors: [7cd65666, 7cd656ff, ffffffff]
         }
       ]
       collides: false
@@ -125,6 +126,7 @@ weapons: [
         lifetime: 80
         width: 20
         laserAbsorb: false
+        colors: [7cd65666, 7cd656ff, ffffffff]
         }
       }
     }
