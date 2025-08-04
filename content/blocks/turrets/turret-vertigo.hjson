@@ -3,8 +3,8 @@ size: 3
 name: Vertigo
 description: Releases a tornado of piercing bullets. Requires large amounts of heat.
 consumes: {}
-heatRequirement: 18
-maxHeatEfficiency: 3.25
+heatRequirement: 8
+maxHeatEfficiency: 5
 research: turret-reverberate
 heatColor: 8295b0ff
 velocityRnd: 0.5
@@ -38,7 +38,7 @@ cooldownTime: 80
 range: 250
 shootType: {
   type: BasicBulletType
-  damage: 375
+  damage: 200
   pierce: true
   sprite: circle-bullet
   backColor: 8295b0
@@ -48,12 +48,12 @@ shootType: {
   trailColor: 8295b0
   trailLength: 65
   trailWidth: 3
-  lifetime: 200
-  speed: 12
+  lifetime: 325
+  speed: 40
   circleShooter: true
   circleShooterRadius: 1
-  circleShooterRadiusSmooth: 5000
-  circleShooterRotateSpeed: 1.2
+  circleShooterRadiusSmooth: 600
+  circleShooterRotateSpeed: 1
   despawnEffect: none
   hitEffect: none
     }
