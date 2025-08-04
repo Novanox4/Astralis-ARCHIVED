@@ -47,7 +47,7 @@ shootType: {
   frontColor: 8295b0ff
   shrinkX: 1
   shrinkY: 1
-  trailColor: 8295b0
+  trailColor: 8295b0ff
   trailLength: 65
   trailWidth: 3
   height: 12
@@ -61,14 +61,14 @@ shootType: {
     inaccuracy: 30
     height: 12
     width: 12
-    damage: 100
+    damage: 25
     pierce: true
     sprite: circle-bullet
-    backColor: 8295b0ff
-    frontColor: 8295b0ff
+    backColor: abbbc3ff
+    frontColor: abbbc3ff
     shrinkX: 1
     shrinkY: 1
-    trailColor: 8295b0
+    trailColor: abbbc3ff
     trailLength: 65
     trailWidth: 3
     lifetime: 400
@@ -87,14 +87,14 @@ shootType: {
         inaccuracy: 30
         height: 12
         width: 12
-        damage: 100
+        damage: 25
         pierce: true
         sprite: circle-bullet
         backColor: 8295b0ff
         frontColor: 8295b0ff
         shrinkX: 1
         shrinkY: 1
-        trailColor: 8295b0
+        trailColor: 8295b0ff
         trailLength: 65
         trailWidth: 3
         lifetime: 400
