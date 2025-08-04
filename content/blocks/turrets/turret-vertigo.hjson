@@ -53,7 +53,7 @@ shootType: {
   speed: 7
   circleShooter: true
   circleShooterRadius: 1
-  circleShooterRadiusSmooth: 600
+  circleShooterRadiusSmooth: 6000
   circleShooterRotateSpeed: 5
   despawnEffect: none
   hitEffect: none
