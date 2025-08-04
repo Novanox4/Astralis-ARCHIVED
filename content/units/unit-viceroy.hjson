@@ -5,8 +5,8 @@ flying: true
 payloadCapacity: 1025
 speed: 0.775
 hitSize: 30
-health: 7000
-armor: 10
+health: 4850
+armor: 15
 faceTarget: false
 outlineColor: 323232
 lowAltitude: true
