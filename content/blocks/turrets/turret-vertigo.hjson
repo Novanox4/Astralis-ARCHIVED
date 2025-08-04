@@ -3,8 +3,8 @@ size: 3
 name: Vertigo
 description: Releases a tornado of piercing bullets. Requires large amounts of heat.
 consumes: {}
-heatRequirement: 8
-maxHeatEfficiency: 2.5
+heatRequirement: 16
+maxHeatEfficiency: 2
 research: turret-reverberate
 heatColor: 8295b0ff
 velocityRnd: 0.5
@@ -33,28 +33,81 @@ requirements: [
   item-neodymium/100
   item-cerium/125
   ]
-reload: 20
-cooldownTime: 80
+reload: 140
+cooldownTime: 200
 range: 250
 shootType: {
   type: BasicBulletType
-  inaccuracy: 30
-  damage: 200
+  damage: 30
   pierce: true
   sprite: circle-bullet
-  backColor: 8295b0
-  frontColor: 8295b0
+  lifetime: 120
+  speed: 6
+  backColor: 8295b0ff
+  frontColor: 8295b0ff
   shrinkX: 1
   shrinkY: 1
   trailColor: 8295b0
   trailLength: 65
   trailWidth: 3
-  lifetime: 400
-  speed: 8.5
-  circleShooter: true
-  circleShooterRadius: 0.5
-  circleShooterRadiusSmooth: 90000
-  circleShooterRotateSpeed: 1250
+  height: 12
+  width: 12
   despawnEffect: none
   hitEffect: none
+  bulletInterval: 2
+  intervalDelay: 20
+  intervalBullet: {
+    type: BasicBulletType
+    inaccuracy: 30
+    height: 12
+    width: 12
+    damage: 100
+    pierce: true
+    sprite: circle-bullet
+    backColor: 8295b0ff
+    frontColor: 8295b0ff
+    shrinkX: 1
+    shrinkY: 1
+    trailColor: 8295b0
+    trailLength: 65
+    trailWidth: 3
+    lifetime: 400
+    speed: 8.5
+    circleShooter: true
+    circleShooterRadius: 0.5
+    circleShooterRadiusSmooth: 90000
+    circleShooterRotateSpeed: 1250
+    despawnEffect: none
+    hitEffect: none
+    height: 12
+    width: 12
+    spawnBullets: [
+      {
+        type: BasicBulletType
+        inaccuracy: 30
+        height: 12
+        width: 12
+        damage: 100
+        pierce: true
+        sprite: circle-bullet
+        backColor: 8295b0ff
+        frontColor: 8295b0ff
+        shrinkX: 1
+        shrinkY: 1
+        trailColor: 8295b0
+        trailLength: 65
+        trailWidth: 3
+        lifetime: 400
+        speed: -8.5
+        circleShooter: true
+        circleShooterRadius: 0.5
+        circleShooterRadiusSmooth: 90000
+        circleShooterRotateSpeed: -1250
+        despawnEffect: none
+        hitEffect: none
+        height: 12
+        width: 12
+        }
+      ]
     }
+  }
