@@ -8,6 +8,7 @@ maxHeatEfficiency: 5
 research: turret-reverberate
 heatColor: 8295b0ff
 velocityRnd: 0.5
+inaccuracy: 30
 drawer: {
   type: DrawTurret
   basePrefix: astral-
@@ -49,11 +50,11 @@ shootType: {
   trailLength: 65
   trailWidth: 3
   lifetime: 325
-  speed: 40
+  speed: 7
   circleShooter: true
   circleShooterRadius: 1
   circleShooterRadiusSmooth: 600
-  circleShooterRotateSpeed: 1
+  circleShooterRotateSpeed: 5
   despawnEffect: none
   hitEffect: none
     }
