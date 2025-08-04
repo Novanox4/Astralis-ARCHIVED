@@ -6,6 +6,7 @@ health: 625
 hitSize: 15
 outlineColor: 323232
 trailLength: 32.5
+rotateSpeed: 30
 research: unit-draugr
 weapons: [
   {
