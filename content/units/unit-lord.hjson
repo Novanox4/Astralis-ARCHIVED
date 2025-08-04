@@ -1,6 +1,6 @@
 dtype: flying
 flying: true
-health: 2250
+health: 1600
 speed: 0.725
 hitSize: 18
 rotateSpeed: 5
