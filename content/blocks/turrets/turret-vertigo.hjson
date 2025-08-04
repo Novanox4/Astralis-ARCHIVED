@@ -28,21 +28,21 @@ drawer: {
 category: turret
 shootSound: shootAlt
 requirements: [
-  item-uranium/200
-  item-silver/200
-  item-neodymium/100
-  item-cerium/125
+  item-uranium/450
+  item-silver/325
+  item-neodymium/175
+  item-cerium/150
   ]
-reload: 140
-cooldownTime: 200
+reload: 200
+cooldownTime: 350
 range: 250
 shootType: {
   type: BasicBulletType
   damage: 30
   pierce: true
   sprite: circle-bullet
-  lifetime: 120
-  speed: 6
+  lifetime: 100
+  speed: 3
   backColor: 8295b0ff
   frontColor: 8295b0ff
   shrinkX: 1
@@ -54,8 +54,8 @@ shootType: {
   width: 12
   despawnEffect: none
   hitEffect: none
-  bulletInterval: 2
-  intervalDelay: 20
+  bulletInterval: 1.5
+  intervalDelay: 5
   intervalBullet: {
     type: BasicBulletType
     inaccuracy: 30
@@ -98,10 +98,10 @@ shootType: {
         trailLength: 65
         trailWidth: 3
         lifetime: 400
-        speed: -8.5
+        speed: 8.5
         circleShooter: true
-        circleShooterRadius: 0.5
-        circleShooterRadiusSmooth: 90000
+        circleShooterRadius: -0.5
+        circleShooterRadiusSmooth: -90000
         circleShooterRotateSpeed: -1250
         despawnEffect: none
         hitEffect: none
