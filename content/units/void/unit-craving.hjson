@@ -43,9 +43,11 @@ abilities: [
   {
   type: LiquidExplodeAbility
   liquid: liquid-void-fluid
-  radScale: 3.25
-  amount: 5.15
+  radScale: 1
+  radAmountScale: 3
+  amount: 20
   }
+]
 ]
 controller: HugAi
 immunities: [status-voidgnaw]
