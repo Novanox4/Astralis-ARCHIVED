@@ -88,7 +88,10 @@ bullet: {
   puddleRange: 10
   puddleAmount: 20
   puddleLiquid: liquid-void-fluid
-  lightColor: 00000000
+  lightColor: 100818ff
+  despawnSound: splash
+  hitEffect: none
+  despawnEffect: none
     }
   }
 ]
