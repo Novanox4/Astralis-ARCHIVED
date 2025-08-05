@@ -76,7 +76,7 @@ bullet: {
   lifetime: 30
   sprite: circle-bullet
   backColor: 100818ff
-  hitColor: 100818ff
+  hitColor: 100818
   frontColor: 100818ff
   mixColorFrom: 100818ff
   mixColorTo: 100818ff
