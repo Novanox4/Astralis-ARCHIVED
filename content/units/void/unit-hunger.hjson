@@ -42,8 +42,9 @@ abilities: [
   {
   type: LiquidExplodeAbility
   liquid: liquid-void-fluid
-  radScale: 3
-  amount: 5
+  radScale: 1.2
+  radAmountScale: 3
+  amount: 50
   }
 ]
 immunities: [status-voidgnaw]
