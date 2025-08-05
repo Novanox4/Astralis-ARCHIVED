@@ -75,9 +75,9 @@ bullet: {
   type: BasicBulletType
   lifetime: 30
   sprite: circle-bullet
-  backColor: 100818ff
-  hitColor: 100818
-  frontColor: 100818ff
+  backColor: 452d56
+  hitColor: 452d56
+  frontColor: 452d56
   width: 3
   height: 12
   speed: 8
@@ -90,7 +90,6 @@ bullet: {
   puddleRange: 10
   puddleAmount: 20
   puddleLiquid: liquid-void-fluid
-  lightColor: 100818ff
   despawnSound: splash
   hitEffect: none
   despawnEffect: none
