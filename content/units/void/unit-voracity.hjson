@@ -78,6 +78,8 @@ bullet: {
   backColor: 100818ff
   hitColor: 100818ff
   frontColor: 100818ff
+  mixColorFrom: 100818ff
+  mixColorTo: 100818ff
   speed: 12
   collides: false
   splashDamage: 90
