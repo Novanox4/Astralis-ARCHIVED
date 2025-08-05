@@ -7,7 +7,7 @@ baseLegStraightness: 0.25
 legMinLength: 0.8
 legMaxLength: 1
 legSpeed: 0.075
-legLength: 38
+legLength: 42
 name: Voracity
 description: Horrid amalgam of corpses and coagulated void fluid. Highly dangerous.
 details: "Codename: V-14. Common name: Voracity. Scientific name: Impius Aranea. Only a few have ever been captured and tested on. The bones found inside show uncanny similarity to human remains, yet also seem completely anomalous and purposeless."
@@ -20,6 +20,7 @@ lightRadius: 0
 outlineColor: 0c0413
 deathExplosionEffect: none
 deathSound: plantBreak
+legBaseOffset: 8
 abilities: [
   {
   type: LiquidExplodeAbility
@@ -38,6 +39,7 @@ rotate: true
 rotateSpeed: 17.5
 y: 4
 x: 12
+layerOffset: 1
 shootSound: plantBreak
 parts: [
   {
