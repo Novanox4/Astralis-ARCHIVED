@@ -96,4 +96,68 @@ bullet: {
   layer: 111
     }
   }
+{
+name: unit-voracity-weapon
+mirror: false
+reload: 55
+rotate: true
+rotateSpeed: 17.5
+y: -1
+x: 14.5
+layerOffset: 1
+shootSound: plantBreak
+shootY: 6
+parts: [
+  {
+  type: RegionPart
+  suffix: -spike
+  rotation: 90
+  mirror: true
+  layerOffset: -0.01
+  x: 0
+  y: 0
+  moveX: 4
+  moveY: 0
+  moveRot: -65
+  progress: recoil
+  }
+  {
+  type: RegionPart
+  suffix: -spike
+  rotation: 90
+  mirror: true
+  layerOffset: -0.02
+  x: 0
+  y: 0
+  moveX: 3.75
+  moveY: -3.75
+  moveRot: -90
+  progress: recoil
+  }
+]
+bullet: {
+  type: BasicBulletType
+  lifetime: 30
+  sprite: circle-bullet
+  backColor: 100818
+  hitColor: 100818
+  frontColor: 100818
+  width: 3
+  height: 22
+  speed: 8
+  collides: false
+  splashDamage: 90
+  splashDamageRadius: 24
+  scaledSplashDamage: true
+  absorbable: false
+  puddles: 4
+  puddleRange: 10
+  puddleAmount: 20
+  puddleLiquid: liquid-void-fluid
+  despawnSound: splash
+  hitEffect: none
+  despawnEffect: none
+  layer: 111
+    }
+  }
 ]
