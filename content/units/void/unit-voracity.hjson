@@ -51,7 +51,7 @@ parts: [
   x: 0
   y: 0
   moveX: 4
-  moveY: -5
+  moveY: 0
   moveRot: -65
   progress: recoil
   }
@@ -64,7 +64,7 @@ parts: [
   x: 0
   y: 0
   moveX: 3.75
-  moveY: -4
+  moveY: -3.75
   moveRot: -90
   progress: recoil
   }
