@@ -75,11 +75,11 @@ bullet: {
   type: BasicBulletType
   lifetime: 30
   sprite: circle-bullet
-  backColor: 452d56
+  backColor: 452d56ff
   hitColor: 452d56
-  frontColor: 452d56
+  frontColor: 452d56ff
   width: 3
-  height: 12
+  height: 22
   speed: 8
   collides: false
   splashDamage: 90
