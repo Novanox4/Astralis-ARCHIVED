@@ -35,11 +35,13 @@ bullet: {
   }
 ]
 abilities: [
+abilities: [
   {
   type: LiquidExplodeAbility
   liquid: liquid-void-fluid
-  radScale: 2
-  amount: 6
+  radScale: 1
+  radAmountScale: 3
+  amount: 19
   }
   {
   type: LiquidRegenAbility
