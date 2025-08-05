@@ -41,6 +41,7 @@ y: 4
 x: 12
 layerOffset: 1
 shootSound: plantBreak
+shootY: 6
 parts: [
   {
   type: RegionPart
