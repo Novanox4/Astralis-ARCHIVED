@@ -94,6 +94,7 @@ bullet: {
   hitEffect: none
   despawnEffect: none
   layer: 111
+  scaleLife: true
     }
   }
 {
@@ -158,6 +159,7 @@ bullet: {
   hitEffect: none
   despawnEffect: none
   layer: 111
+  scaleLife: true
     }
   }
 ]
