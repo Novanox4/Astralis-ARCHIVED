@@ -35,7 +35,6 @@ bullet: {
   }
 ]
 abilities: [
-abilities: [
   {
   type: LiquidExplodeAbility
   liquid: liquid-void-fluid
