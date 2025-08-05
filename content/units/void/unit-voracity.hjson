@@ -78,6 +78,8 @@ bullet: {
   backColor: 100818ff
   hitColor: 100818
   frontColor: 100818ff
+  width: 3
+  height: 12
   speed: 8
   collides: false
   splashDamage: 90
