@@ -93,8 +93,7 @@ bullet: {
   despawnSound: splash
   hitEffect: none
   despawnEffect: none
-  mixColorFrom: 100818
-  mixColorTo: 100818
+  layer: 111
     }
   }
 ]
