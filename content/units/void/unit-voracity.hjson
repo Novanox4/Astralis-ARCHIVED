@@ -99,11 +99,11 @@ bullet: {
 {
 name: unit-voracity-weapon
 mirror: false
-reload: 55
+reload: 76
 rotate: true
 rotateSpeed: 17.5
-y: -4
-x: 10
+y: -7
+x: 10.25
 layerOffset: 1
 shootSound: plantBreak
 shootY: 6
