@@ -49,10 +49,10 @@ parts: [
   mirror: true
   layerOffset: -0.01
   x: 0
-  y: 4
+  y: -7
   moveX: 4
   moveY: 0
-  moveRot: -65
+  moveRot: -75
   progress: recoil
   }
   {
@@ -62,10 +62,10 @@ parts: [
   mirror: true
   layerOffset: -0.02
   x: 0
-  y: -3.75
+  y: -8
   moveX: 3.75
   moveY: 0
-  moveRot: -50
+  moveRot: -90
   progress: recoil
   }
 ]
