@@ -48,7 +48,6 @@ abilities: [
   amount: 20
   }
 ]
-]
 controller: HugAi
 immunities: [status-voidgnaw]
 useUnitCap: false
