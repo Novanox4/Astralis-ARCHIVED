@@ -22,8 +22,9 @@ abilities: [
     //me when asthosus code:
     minVelocity: 0
     interval: 2
-    x: 7
+    x: 4
     y: 0
+    parentizeEffect: true
     rotateEffect: true
     rotation: 0
     effect: {
@@ -36,8 +37,8 @@ abilities: [
       length: 0
       spin: -25
       lifetime: 2.1
-      sizeFrom: 17
-      sizeTo: 17
+      sizeFrom: 18
+      sizeTo: 18
       baseRotation: -90
       lightOpacity: 0
     }
