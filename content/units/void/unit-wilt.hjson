@@ -42,6 +42,31 @@ abilities: [
       baseRotation: -67.5
       lightOpacity: 0
     }
+    {
+    type: MoveEffectAbility
+    //winging my ding till I gaster
+    minVelocity: 0
+    interval: 2
+    x: -1.75
+    y: 1.75
+    parentizeEffects: true
+    rotateEffect: true
+    rotation: 0
+    effect: {
+      type: ParticleEffect
+      layer: 91
+      followParent: true
+      rotWithParent: true
+      region: astralis-unit-wilt-wing-l
+      particles: 1
+      length: 0
+      spin: -25
+      lifetime: 2.1
+      sizeFrom: 18
+      sizeTo: 18
+      baseRotation: -187.5
+      lightOpacity: 0
+    }
   }
 ]
 health: 1000000
