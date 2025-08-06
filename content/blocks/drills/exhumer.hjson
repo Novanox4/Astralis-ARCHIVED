@@ -32,3 +32,10 @@ drawer: {
 }
 itemCapacity: 0
 liquidCapacity: 600
+research: {
+  parent: crystal-pump
+  objectives: [
+    type: OnSector
+    preset: bog
+    ]
+  }
