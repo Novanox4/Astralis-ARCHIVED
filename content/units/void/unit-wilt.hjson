@@ -41,6 +41,7 @@ abilities: [
       sizeTo: 18
       baseRotation: -67.5
       lightOpacity: 0
+      }
     }
     {
     type: MoveEffectAbility
@@ -68,6 +69,5 @@ abilities: [
       lightOpacity: 0
       }
     }
-  }
-]
+  ]
 health: 1000000
