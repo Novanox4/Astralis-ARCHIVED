@@ -36,7 +36,7 @@ abilities: [
       particles: 1
       length: 0
       spin: -25
-      lifetime: 2.1
+      lifetime: 2.01
       sizeFrom: 18
       sizeTo: 18
       baseRotation: -67.5
@@ -47,7 +47,7 @@ abilities: [
     type: MoveEffectAbility
     //winging my ding till I gaster
     minVelocity: 0
-    interval: 2
+    interval: 2.01
     x: -1.75
     y: 1.75
     parentizeEffects: true
