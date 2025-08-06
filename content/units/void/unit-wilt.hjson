@@ -40,11 +40,11 @@ abilities: [
         length: 0
         spin: -25
         lifetime: 2.1
-        sizeFrom: 12
-        sizeTo: 12
+        sizeFrom: 11
+        sizeTo: 11
         baseRotation: -90
         lightOpacity: 0
-        x: 20
+        x: -20
         y: 0
         }
       ]
