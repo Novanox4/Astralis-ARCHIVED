@@ -66,6 +66,7 @@ abilities: [
       sizeTo: 18
       baseRotation: -187.5
       lightOpacity: 0
+      }
     }
   }
 ]
