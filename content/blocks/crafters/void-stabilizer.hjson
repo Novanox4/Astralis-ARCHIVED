@@ -47,3 +47,10 @@ drawer: {
 }
 category: crafting
 liquidCapacity: 450
+research: {
+  parent: electrostatic-separator
+  objectives: [
+    exhumer,
+    liquid-void-fluid,
+    ]
+  }
