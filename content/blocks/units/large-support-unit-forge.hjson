@@ -28,7 +28,7 @@ unit: unit-stamina
 requirements: [
     item-crystalite/325
     item-uranium/450
-    item-metaglass/250
+    metaglass/250
     item-neodymium/165
     item-hadalrock/70
       ]
