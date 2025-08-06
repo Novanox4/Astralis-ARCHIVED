@@ -48,7 +48,7 @@ abilities: [
     type: MoveEffectAbility
     //winging my ding till I gaster
     minVelocity: 0
-    interval: 2.01
+    interval: 3
     x: -1.75
     y: 1.75
     parentizeEffects: true
