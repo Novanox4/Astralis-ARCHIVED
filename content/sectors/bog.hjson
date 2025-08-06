@@ -1,0 +1,20 @@
+localizedName: "Bog"
+description: "[accent][SIGNAL INCOMING][]
+[Incoming message from superintendent TARTAR-us]
+
+A patch of [accent]voidscar[] has been detected, along with lakes of void fluid, an incredibly viscous and volatile substance with potent uses in it's solid, much more stable form.
+
+Expect fourth tier unit enemies. Exploit the sector's potent resources and fend off the attack."
+sector: 228
+planet: astralis
+difficulty: 6
+research: {
+  parent: infestation
+  objectives: [
+    {
+      type: SectorComplete
+      preset: infestation
+    }
+  ]
+}
+captureWave: 20
