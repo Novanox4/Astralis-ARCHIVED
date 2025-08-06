@@ -24,7 +24,7 @@ abilities: [
     interval: 2
     x: 4
     y: 0
-    parentizeEffect: true
+    parentizeEffects: true
     rotateEffect: true
     rotation: 0
     effect: {
@@ -35,7 +35,7 @@ abilities: [
       region: astralis-unit-wilt-wing-r
       particles: 1
       length: 0
-      spin: -25
+      spin: -15
       lifetime: 2.1
       sizeFrom: 18
       sizeTo: 18
