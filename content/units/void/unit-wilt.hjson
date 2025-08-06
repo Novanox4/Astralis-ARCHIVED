@@ -39,7 +39,7 @@ abilities: [
       lifetime: 3.05
       sizeFrom: 18
       sizeTo: 18
-      baseRotation: -67.5
+      baseRotation: -60
       lightOpacity: 0
       }
     }
