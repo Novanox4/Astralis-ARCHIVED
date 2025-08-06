@@ -44,7 +44,7 @@ abilities: [
         sizeTo: 11
         baseRotation: -90
         lightOpacity: 0
-        x: -20
+        x: -200
         y: 0
         }
       ]
