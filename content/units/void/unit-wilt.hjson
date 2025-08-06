@@ -22,31 +22,24 @@ abilities: [
     //me when asthosus code:
     minVelocity: 0
     interval: 2
-    x: -3
+    x: 7
     y: 0
     rotateEffect: true
     rotation: 0
     effect: {
-      type: MultiEffect
-      effects: [
-        {
-        type: ParticleEffect
-        layer: 91
-        followParent: true
-        rotWithParent: true
-        region: astralis-unit-wilt-wing-r
-        particles: 1
-        length: 0
-        spin: -25
-        lifetime: 2.1
-        sizeFrom: 11
-        sizeTo: 11
-        baseRotation: -90
-        lightOpacity: 0
-        x: -20000
-        y: 0
-        }
-      ]
+      type: ParticleEffect
+      layer: 91
+      followParent: true
+      rotWithParent: true
+      region: astralis-unit-wilt-wing-r
+      particles: 1
+      length: 0
+      spin: -25
+      lifetime: 2.1
+      sizeFrom: 11
+      sizeTo: 11
+      baseRotation: -90
+      lightOpacity: 0
     }
   }
 ]
