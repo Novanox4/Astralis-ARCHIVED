@@ -38,12 +38,14 @@ abilities: [
         region: astralis-unit-wilt-wing-r
         particles: 1
         length: 0
-        spin: -15
+        spin: -25
         lifetime: 2.1
         sizeFrom: 12
         sizeTo: 12
-        baseRotation: 90
+        baseRotation: -90
         lightOpacity: 0
+        x: 4
+        y: 0
         }
       ]
     }
