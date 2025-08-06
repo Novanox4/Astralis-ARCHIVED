@@ -1,0 +1,49 @@
+type: flying
+flying: true
+lowAltitude: true
+engineSize: 0
+hitSize: 14
+immunities: [status-voidgnaw]
+useUnitCap: false
+outlineColor: 0c0413
+deathExplosionEffect: none
+deathSound: plantBreak
+speed: 4
+abilities: [
+  {
+  type: LiquidExplodeAbility
+  liquid: liquid-void-fluid
+  radScale: 1.2
+  radAmountScale: 3
+  amount: 200
+  }
+  {
+    type: MoveEffectAbility
+    //me when asthosus code:
+    minVelocity: 0
+    interval: 2
+    x: -3
+    y: 0
+    rotateEffect: true
+    rotation: 0
+    parentizeEffects: true
+    effect: {
+      type: MultiEffect
+      effects: [
+        {
+        type: ParticleEffect
+        layer: 91
+        followParent: true
+        rotWithParent: true
+        region: astralis-unit-wilt-wing-r
+        particles: 1
+        length: 0
+        spin: -15
+        lifetime: 2.1
+        sizeFrom: 20
+        sizeTo: 20
+        baseRotation: 0
+        lightOpacity: 0
+        }
+      ]
+health: 1000000
