@@ -24,6 +24,17 @@ requirements: [
     time: 2250
     }
     {
+unit: unit-stamina
+requirements: [
+    item-crystalite/325
+    item-uranium/450
+    item-metaglass/250
+    item-neodymium/165
+    item-hadalrock/70
+      ]
+time: 4500
+    }
+    {
 unit: unit-vibrance
 requirements: [
     item-crystalite/125
@@ -33,6 +44,17 @@ requirements: [
     metaglass/70
       ]
     time: 2000
+    }
+    {
+unit: unit-refraction
+requirements: [
+    item-crystalite/400
+    item-uranium/400
+    item-silver/280
+    item-neodymium/100
+    item-hadalrock/90
+      ]
+time: 4500
     }
   ]
 research: {
