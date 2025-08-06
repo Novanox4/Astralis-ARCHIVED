@@ -22,7 +22,7 @@ abilities: [
     //me when asthosus code:
     minVelocity: 0
     interval: 2
-    x: 4
+    x: 1.75
     y: 0
     parentizeEffects: true
     rotateEffect: true
@@ -35,11 +35,11 @@ abilities: [
       region: astralis-unit-wilt-wing-r
       particles: 1
       length: 0
-      spin: -15
+      spin: -25
       lifetime: 2.1
       sizeFrom: 18
       sizeTo: 18
-      baseRotation: -90
+      baseRotation: -77.5
       lightOpacity: 0
     }
   }
