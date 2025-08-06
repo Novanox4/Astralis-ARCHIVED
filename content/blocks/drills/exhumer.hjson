@@ -35,7 +35,9 @@ liquidCapacity: 600
 research: {
   parent: crystal-pump
   objectives: [
+    {
     type: OnSector
     preset: bog
-    ]
-  }
+    }
+  ]
+}
