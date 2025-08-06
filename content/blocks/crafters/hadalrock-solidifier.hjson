@@ -36,7 +36,7 @@ consumes: {
   }
 liquidCapacity: 150
 itemCapacity: 20
-outputItem: item-hadalrock/3
+outputItem: item-hadalrock/6
 category: crafting
 research: {
   parent: electrostatic-separator
