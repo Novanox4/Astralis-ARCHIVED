@@ -71,6 +71,7 @@ abilities: [
       baseRotation: -100
       lightOpacity: 0
       }
+    }
       {
     type: MoveEffectAbility
     //shadow right
@@ -99,7 +100,6 @@ abilities: [
       colorFrom: 00000038
       colorTo: 00000038
       }
-    }
     }
   ]
 health: 1000000
