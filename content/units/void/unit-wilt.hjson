@@ -10,7 +10,7 @@ deathExplosionEffect: none
 deathSound: plantBreak
 speed: 4
 name: Wilt
-description: Moth created by the void. Rams itself into buildings to attack. Flies too high to be hit, yet higlhy vulnerable after attacking.
+description: Moth created by the void. Rams itself into buildings to attack. Flies too high to be damaged properly, yet higlhy vulnerable after attacking.
 abilities: [
   {
   type: LiquidExplodeAbility
@@ -73,4 +73,25 @@ abilities: [
       }
     }
   ]
+//bro he's literally one hit
 health: 1000000
+weapons: [
+  //boosting attack
+  {
+  //me when viceroy code
+  display: false
+  reload: 780
+  shootCone: 361
+  ignoreRotation: true
+  shootSound: none
+  shootStatus: status-wilt-charging
+  shootStatusDuration: 120
+  bullet: {
+    type: BulletType
+    damage: 0
+    collides: false
+    despawnEffect: none
+    shootEffect: none
+    smokeEffect: none
+    }
+  }
