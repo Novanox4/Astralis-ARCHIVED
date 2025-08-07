@@ -123,8 +123,8 @@ abilities: [
       length: 0
       spin: 0
       lifetime: 3.1
-      sizeFrom: 1.2
-      sizeTo: 1.2
+      sizeFrom: 7
+      sizeTo: 7
       baseRotation: -90
       lightOpacity: 0
       colorFrom: 00000038
