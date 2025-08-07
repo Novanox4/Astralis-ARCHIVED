@@ -83,12 +83,12 @@ weapons: [
   {
   //me when viceroy code
   display: false
-  reload: 60
+  reload: 10
   shootCone: 361
   ignoreRotation: true
   shootSound: none
   shootStatus: status-wilt-charging
-  shootStatusDuration: 30
+  shootStatusDuration: 11
   bullet: {
     type: BulletType
     damage: 0
