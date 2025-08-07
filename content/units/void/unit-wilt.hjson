@@ -72,12 +72,12 @@ abilities: [
       lightOpacity: 0
       }
     }
-      {
+    {
     type: MoveEffectAbility
     //shadow right
     minVelocity: 0
     interval: 3
-    x: 10
+    x: 0
     y: -10
     parentizeEffects: true
     rotateEffect: true
@@ -96,6 +96,33 @@ abilities: [
       sizeTo: 18
       // worse than tank treads
       baseRotation: -85
+      lightOpacity: 0
+      colorFrom: 00000038
+      colorTo: 00000038
+      }
+    }
+    {
+    type: MoveEffectAbility
+    //main shadow
+    minVelocity: 0
+    interval: 3
+    x: 0
+    y: -10
+    parentizeEffects: true
+    rotateEffect: true
+    rotation: 0
+    effect: {
+      type: ParticleEffect
+      layer: 89
+      followParent: true
+      rotWithParent: true
+      region: astralis-unit-wilt
+      particles: 1
+      length: 0
+      spin: 0
+      lifetime: 3.05
+      sizeFrom: 18
+      baseRotation: 0
       lightOpacity: 0
       colorFrom: 00000038
       colorTo: 00000038
