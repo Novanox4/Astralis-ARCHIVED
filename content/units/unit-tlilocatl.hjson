@@ -28,6 +28,7 @@ bullet: {
   type: BulletType
   recoil: 900
   spawnUnit: unit-tlilocatl-missile
+  killShooter: true
     }
   }
 ]
