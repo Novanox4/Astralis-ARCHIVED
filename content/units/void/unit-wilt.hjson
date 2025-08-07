@@ -95,3 +95,5 @@ weapons: [
     smokeEffect: none
     }
   }
+//the mischievous missing square bracket:
+]
