@@ -9,8 +9,8 @@ outlineColor: 0c0413
 deathExplosionEffect: none
 deathSound: plantBreak
 speed: 4
-shadowElevation: -99
-shadowElevationScl: -1
+shadowElevation: 999999
+shadowElevationScl: 999
 name: Wilt
 description: Moth created by the void. Rams itself into buildings to attack. Flies too high to be hit, yet higlhy vulnerable after attacking.
 abilities: [
@@ -109,7 +109,7 @@ abilities: [
     minVelocity: 0
     interval: 3
     x: 0
-    y: -10
+    y: -14
     parentizeEffects: true
     rotateEffect: true
     rotation: 0
@@ -123,8 +123,8 @@ abilities: [
       length: 0
       spin: 0
       lifetime: 3.1
-      sizeFrom: 7
-      sizeTo: 7
+      sizeFrom: 4.5
+      sizeTo: 4.5
       baseRotation: -90
       lightOpacity: 0
       colorFrom: 00000038
