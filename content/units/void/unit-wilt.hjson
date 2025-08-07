@@ -96,6 +96,7 @@ weapons: [
     despawnEffect: none
     shootEffect: none
     smokeEffect: none
+    rangeOverride: 16
     }
   }
   {
