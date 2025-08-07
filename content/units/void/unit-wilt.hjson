@@ -88,7 +88,7 @@ weapons: [
   ignoreRotation: true
   shootSound: none
   shootStatus: status-wilt-charging
-  shootStatusDuration: 30
+  shootStatusDuration: 60
   bullet: {
     type: BulletType
     damage: 0
@@ -96,7 +96,7 @@ weapons: [
     despawnEffect: none
     shootEffect: none
     smokeEffect: none
-    rangeOverride: 32
+    rangeOverride: 64
     }
   }
   {
