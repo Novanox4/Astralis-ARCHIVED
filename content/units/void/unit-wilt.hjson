@@ -77,14 +77,14 @@ abilities: [
     //shadow right
     minVelocity: 0
     interval: 3
-    x: 0
+    x: 10
     y: -10
     parentizeEffects: true
     rotateEffect: true
     rotation: 0
     effect: {
       type: ParticleEffect
-      layer: 91
+      layer: 89
       followParent: true
       rotWithParent: true
       region: astralis-unit-wilt-wing-r
