@@ -12,6 +12,7 @@ speed: 4
 drag: 0.02
 accel: 0.1
 name: Wilt
+circleTarget: true
 description: Moth created by the void. Rams itself into buildings to attack. Flies too high to be damaged properly, yet higlhy vulnerable after attacking.
 abilities: [
   {
@@ -102,15 +103,20 @@ weapons: [
   minShootVelocity: 6
   controllable: false
   autoTarget: true
-  shootCone: 360
+  shootCone: 361
+  reload: 1
+  targetInterval: 1
+  targetSwitchInterval: 1
   shootStatus: status-wilt-stagger
   bullet: {
     type: BasicBulletType
     lifetime: 12
     speed: 1
-    despawnEffect: none
-    shootEffect: none
+    //effects for visibility purposes
+    despawnEffect: massiveExplosion
+    shootEffect: massiveExplosion
     smokeEffect: none
+    rangeOverride: 8
     }
   }
 //the mischievous missing square bracket:
