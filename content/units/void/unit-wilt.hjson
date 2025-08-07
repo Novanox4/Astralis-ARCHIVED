@@ -126,9 +126,10 @@ weapons: [
       lifetime: 220
       interp: pow10Out
       sizeInterp: smooth
-      sizeChangeStart: 140
-      length: 35
-      sizeFrom: 3
+      sizeChangeStart: 160
+      //the essence of comedy
+      length: 69
+      sizeFrom: 3.5
     }
     despawnEffect: none
     shootEffect: none
