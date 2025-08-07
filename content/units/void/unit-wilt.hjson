@@ -9,8 +9,6 @@ outlineColor: 0c0413
 deathExplosionEffect: none
 deathSound: plantBreak
 speed: 4
-shadowElevation: 999999
-shadowElevationScl: 999
 name: Wilt
 description: Moth created by the void. Rams itself into buildings to attack. Flies too high to be hit, yet higlhy vulnerable after attacking.
 abilities: [
@@ -72,63 +70,6 @@ abilities: [
       sizeTo: 18
       baseRotation: -100
       lightOpacity: 0
-      }
-    }
-    {
-    type: MoveEffectAbility
-    //shadow right
-    minVelocity: 0
-    interval: 3
-    x: 0
-    y: -10
-    parentizeEffects: true
-    rotateEffect: true
-    rotation: 0
-    effect: {
-      type: ParticleEffect
-      layer: 89
-      followParent: true
-      rotWithParent: true
-      region: astralis-unit-wilt-wing-r
-      particles: 1
-      length: 0
-      spin: -25
-      lifetime: 3.05
-      sizeFrom: 19
-      sizeTo: 19
-      // worse than tank treads
-      baseRotation: -85
-      lightOpacity: 0
-      colorFrom: 00000038
-      colorTo: 00000038
-      }
-    }
-    {
-    type: MoveEffectAbility
-    //main shadow
-    minVelocity: 0
-    interval: 3
-    x: 0
-    y: -14
-    parentizeEffects: true
-    rotateEffect: true
-    rotation: 0
-    effect: {
-      type: ParticleEffect
-      layer: 89
-      followParent: true
-      rotWithParent: true
-      region: astralis-unit-wilt
-      particles: 1
-      length: 0
-      spin: 0
-      lifetime: 3.1
-      sizeFrom: 4.5
-      sizeTo: 4.5
-      baseRotation: -90
-      lightOpacity: 0
-      colorFrom: 00000038
-      colorTo: 00000038
       }
     }
   ]
