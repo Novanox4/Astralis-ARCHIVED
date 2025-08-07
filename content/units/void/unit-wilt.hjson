@@ -33,7 +33,7 @@ abilities: [
     rotation: 0
     effect: {
       type: ParticleEffect
-      layer: 91
+      layer: 90
       followParent: true
       rotWithParent: true
       region: astralis-unit-wilt-wing-r
@@ -60,7 +60,7 @@ abilities: [
     rotation: 0
     effect: {
       type: ParticleEffect
-      layer: 91
+      layer: 90
       followParent: true
       rotWithParent: true
       region: astralis-unit-wilt-wing-l
