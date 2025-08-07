@@ -97,5 +97,21 @@ weapons: [
     smokeEffect: none
     }
   }
+  {
+  mirror: false
+  minShootVelocity: 6
+  controllable: false
+  autoTarget: true
+  shootCone: 360
+  shootStatus: status-wilt-stagger
+  bullet: {
+    type: BasicBulletType
+    lifetime: 12
+    speed: 0
+    despawnEffect: none
+    shootEffect: none
+    smokeEffect: none
+    }
+  }
 //the mischievous missing square bracket:
 ]
