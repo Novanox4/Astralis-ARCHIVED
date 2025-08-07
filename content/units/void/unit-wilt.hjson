@@ -110,13 +110,14 @@ weapons: [
   shootStatus: status-wilt-stagger
   bullet: {
     type: BasicBulletType
+    damage: 250
     lifetime: 12
     speed: 1
     //effects for visibility purposes
     despawnEffect: massiveExplosion
     shootEffect: massiveExplosion
     smokeEffect: none
-    rangeOverride: 8
+    rangeOverride: 3
     }
   }
 //the mischievous missing square bracket:
