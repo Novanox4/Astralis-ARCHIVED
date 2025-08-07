@@ -1,5 +1,5 @@
 //holy shit stagger is that a limbus company reference
 healthMultiplier: 0.000000000001
 speedMultiplier: 0
-dragMultiplier: 0
+dragMultiplier: 2.5
 reloadMultiplier: 0
