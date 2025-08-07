@@ -1,4 +1,4 @@
-type: flying
+type: payload
 flying: true
 payloadCapacity: 1024
 pickupUnits: false
