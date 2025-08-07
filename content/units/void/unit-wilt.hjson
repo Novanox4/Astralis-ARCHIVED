@@ -109,13 +109,27 @@ weapons: [
   targetInterval: 1
   targetSwitchInterval: 1
   shootStatus: status-wilt-stagger
-  shootStatus: none
+  shootStatusDuration: 120
+  shootSound: none
   bullet: {
     type: BasicBulletType
     damage: 250
     lifetime: 12
     speed: 1
-    //effects for visibility purposes
+    hitEffect: {
+      type: ParticleEffect
+      rotWithParent: false
+      followParent: false
+      colorFrom: ffffffff
+      colorTo: 452d56ff
+      cone: 32.5
+      lifetime: 220
+      interp: pow10Out
+      sizeInterp: smooth
+      sizeChangeStart: 140
+      length: 35
+      sizeFrom: 3
+    }
     despawnEffect: none
     shootEffect: none
     smokeEffect: none
