@@ -27,9 +27,9 @@ shootEffect: none
 smokeEffect: none
 shootOnDeath: true
 shoot: {
-  firstShotDelay: 30
+  firstShotDelay: 60
 }
-shootCone: 0.1
+shootCone: 0.01
 bullet: {
   type: BulletType
   collides: false
