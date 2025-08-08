@@ -51,3 +51,4 @@ abilities: [
     }
   }
 ]
+drawCell: true
