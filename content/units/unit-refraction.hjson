@@ -27,7 +27,7 @@ abilities: [
   radius: 120
   sides: 3
   max: 330
-  regen: 0.075
+  regen: 0.4
   cooldown: 300
   }
   {
@@ -35,7 +35,7 @@ abilities: [
   radius: 120
   sides: 3
   max: 330
-  regen: 0.075
+  regen: 0.4
   cooldown: 300
   rotation: 180
   }
@@ -44,7 +44,7 @@ abilities: [
   radius: 120
   sides: 3
   max: 330
-  regen: 0.075
+  regen: 0.4
   cooldown: 300
   rotation: 90
   }
