@@ -173,3 +173,12 @@ abilities: [
   effectParam: 4
   }
 ]
+research: {
+  parent: unit-lord
+  objectives: [
+    {
+    type: OnSector
+    preset: sector-gate
+    }
+  ]
+}
