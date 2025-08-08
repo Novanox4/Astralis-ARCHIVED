@@ -13,6 +13,7 @@ createWreck: false
 createScorch: false
 deathSound: missileLarge
 deathExplosionEffect: none
+rotateSpeed: 7.5
 weapons: [
 {
 mirror: false
@@ -25,6 +26,10 @@ shootSound: none
 shootEffect: none
 smokeEffect: none
 shootOnDeath: true
+shoot: {
+  firstShotDelay: 30
+}
+shootCone: 1
 bullet: {
   type: BulletType
   collides: false
