@@ -28,6 +28,7 @@ bullet: {
   type: BulletType
   spawnUnit: unit-tlilocatl-missile
   killShooter: true
+  rangeOverride: 80
     }
   }
 ]
