@@ -116,7 +116,7 @@ bullet: {
   hitEffect: none
   shrinkInterp: pow10In
   fragOnHit: false
-  fragOnAbsorb: false
+  fragOnAbsorb: true
   fragRandomSpread: 0
   fragBullets: 1
   fragVelocityMin: 1
