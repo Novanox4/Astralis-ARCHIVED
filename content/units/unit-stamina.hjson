@@ -179,3 +179,12 @@ abilities: [
   spawnY: -2
   }
 ]
+research: {
+  parent: unit-stem
+  objectives: [
+    {
+    type: OnSector
+    preset: sector-gate
+    }
+  ]
+}
