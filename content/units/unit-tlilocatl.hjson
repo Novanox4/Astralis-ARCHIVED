@@ -29,7 +29,7 @@ shootOnDeath: true
 shoot: {
   firstShotDelay: 30
 }
-shootCone: 1
+shootCone: 0.1
 bullet: {
   type: BulletType
   collides: false
