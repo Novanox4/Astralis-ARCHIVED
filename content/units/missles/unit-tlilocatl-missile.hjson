@@ -33,7 +33,6 @@ autoFindTarget: true
 circleTarget: false
 trailColor: f5d738
 targetAir: true
-drawCell: false
 engines: [
   {
   x: 0
