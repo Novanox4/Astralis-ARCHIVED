@@ -23,7 +23,7 @@ shootY: 0
 reload: 10
 shootSound: missileLarge
 shootEffect: none
-shootSound: none
+shootOnDeath: true
 bullet: {
   type: BulletType
   spawnUnit: unit-tlilocatl-missile
