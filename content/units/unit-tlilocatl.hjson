@@ -31,7 +31,7 @@ bullet: {
   damage: 85
   hitEffect: none
   killShooter: true
-  rangeOverride: 225
+  rangeOverride: 425
   despawnEffect: none
     }
   }
