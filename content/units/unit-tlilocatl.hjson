@@ -33,10 +33,10 @@ shootCone: 0.1
 bullet: {
   type: BulletType
   collides: false
-  damage: 85
+  damage: 125
   hitEffect: none
   killShooter: true
-  rangeOverride: 425
+  rangeOverride: 400
   despawnEffect: none
     }
   }
