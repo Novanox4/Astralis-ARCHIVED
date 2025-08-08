@@ -11,7 +11,7 @@ legExtension: -2
 legBaseOffset: 4
 createWreck: false
 createScorch: false
-deathSound: none
+deathSound: missileLarge
 deathExplosionEffect: none
 weapons: [
 {
@@ -21,15 +21,26 @@ y: 0
 shootX: 0
 shootY: 0
 reload: 10
-shootSound: missileLarge
+shootSound: none
 shootEffect: none
+smokeEffect: none
 shootOnDeath: true
 bullet: {
   type: BulletType
-  spawnUnit: unit-tlilocatl-missile
+  collides: false
+  damage: 85
+  hitEffect: none
   killShooter: true
   rangeOverride: 80
     }
   }
 ]
 outlineColor: 323232
+abilities: [
+  {
+  type: SpawnDeathAbility
+  spread: 0
+  faceOutwards: false
+  unit: unit-tlilocatl-missile
+  }
+]
