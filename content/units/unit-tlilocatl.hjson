@@ -31,7 +31,7 @@ bullet: {
   damage: 85
   hitEffect: none
   killShooter: true
-  rangeOverride: 80
+  rangeOverride: 95
     }
   }
 ]
@@ -42,5 +42,6 @@ abilities: [
   spread: 0
   faceOutwards: false
   unit: unit-tlilocatl-missile
+  display: false
   }
 ]
