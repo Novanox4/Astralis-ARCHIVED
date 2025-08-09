@@ -88,6 +88,8 @@ reload: 145
 ammoTypes: {
   item-crystalite: {
     type: BasicBulletType
+	  shrinkX: 0.5
+    shrinkY: 0.5
     backColor: 38a6c9
     frontColor: ffffff
     height: 14
