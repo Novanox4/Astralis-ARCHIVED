@@ -4,6 +4,7 @@ description: Powerful railcannon that propels forwards metallic payloads at high
 category: turret
 range: 650
 size: 3
+outlineColor: 323232
 squareSprite: false
 shootSound: shootBig
 cooldownTime: 125
