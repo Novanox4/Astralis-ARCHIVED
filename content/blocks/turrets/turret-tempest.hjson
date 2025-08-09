@@ -8,7 +8,7 @@ consumes: {
 ammoPerShot: 6
 squareSprite: false
 size: 4
-minWarmup: 0.77
+minWarmup: 0.87
 requirements: [
   item-crystalite/175
   item-uranium/350
