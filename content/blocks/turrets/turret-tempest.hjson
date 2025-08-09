@@ -142,9 +142,8 @@ ammoTypes: {
 				sizeChangeStart: 50
 				cone: 360
 				particles: 7
-        }
+       	}
 			]
 		}
 	}
-}
 }
