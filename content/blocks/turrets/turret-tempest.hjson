@@ -5,7 +5,7 @@ details: "My child will NOT throw rocks covered in copper wiring at power lines!
 consumes: {
  power: 6
  }
-ammoPerShot: 6
+ammoPerShot: 7
 squareSprite: false
 size: 4
 minWarmup: 0.87
@@ -20,7 +20,7 @@ shootSound: laser
 recoils: 2
 shoot: {
  type: ShootBarrel
- shots: 30
+ shots: 1
  barrels: [
     -8, 3.5, 0,
     8, 3.5, 0
@@ -89,46 +89,52 @@ reload: 145
 range: 240
 ammoTypes: {
   item-crystalite: {
-    type: BasicBulletType
-	  shrinkX: 0.5
-    shrinkY: 0.5
-    backColor: 38a6c9
-    frontColor: ffffff
-    height: 14
-    width: 14
-    sprite: large-bomb
-    velocityScaleRandMin: 0.4
-    lifeScaleRandMin: 0.5
-    lifetime: 35
-    speed: 3
-    randomAngleOffset: 15
-    damage: 0
-    splashDamage: 30
-    scaledSplashDamage: true
-    splashDamageRadius: 24
-    despawnHit: true
-    despawnEffect: none
+    type: LaserBulletType
+    length: 250
+    width: 65
+    damage: 30
+    colors: [38a6c966, 38a6c9ff, ffffffff]
+    knockback: -5
+    impact: true
     spawnBullets: [
-      {
-      type: LaserBulletType
-      length: 250
-      width: 65
-      damage: 30
-      colors: [38a6c966, 38a6c9ff, ffffffff]
-      knockback: -5
-      impact: true
-      }
-    ]
-    hitEffect: {
-      type: WaveEffect
-			colorFrom: ffffffff
-			colorTo: 38a6c9ff
-			lifetime: 40
-			sizeFrom: 8
-  		sizeTo: 0
-			strokeFrom: 1
-			strokeTo: 5
-			sides: 6
-      }
-		}
-	}
+    {
+      type: MultiBulletType
+      repeat: 30
+      bullets: [
+        {
+        type: BasicBulletType
+	      shrinkX: 0.5
+        shrinkY: 0.5
+        backColor: 38a6c9
+        frontColor: ffffff
+        height: 14
+        width: 14
+        sprite: large-bomb
+        velocityScaleRandMin: 0.4
+        lifeScaleRandMin: 0.5
+        lifetime: 35
+        speed: 3
+        randomAngleOffset: 15
+        damage: 0
+        splashDamage: 30
+        scaledSplashDamage: true
+        splashDamageRadius: 24
+        despawnHit: true
+        despawnEffect: none
+        hitEffect: {
+          type: WaveEffect
+    			colorFrom: ffffffff
+    			colorTo: 38a6c9ff
+    			lifetime: 40
+	    		sizeFrom: 8
+      		sizeTo: 0
+    			strokeFrom: 1
+    			strokeTo: 5
+    			sides: 6
+          }
+    		}
+      ]
+    }
+  ]
+}
+}
