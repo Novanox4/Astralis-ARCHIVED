@@ -89,15 +89,24 @@ reload: 145
 range: 240
 ammoTypes: {
   item-crystalite: {
-    type: LaserBulletType
-    length: 250
-    width: 65
+	  type: BulletType
+    //damage for stat purposes
     damage: 30
-    colors: [38a6c966, 38a6c9ff, ffffffff]
-    knockback: -5
-    impact: true
+    collides: false
+    hitEffect: none
+    despawnEffect: none
+    //lasers can't have spawnBullets
     spawnBullets: [
-    {
+      {
+      type: LaserBulletType
+      length: 250
+      width: 65
+      damage: 30
+      colors: [38a6c966, 38a6c9ff, ffffffff]
+      knockback: -5
+      impact: true
+      }
+      {
       type: MultiBulletType
       repeat: 30
       bullets: [
