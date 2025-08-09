@@ -129,7 +129,7 @@ ammoTypes: {
         //for random offset
         randomAngleOffset: 15
         damage: 0
-        splashDamage: 50
+        splashDamage: 10
         scaledSplashDamage: true
         splashDamageRadius: 24
         despawnHit: true
@@ -145,6 +145,10 @@ ammoTypes: {
     			strokeTo: 5
     			sides: 6
           }
+        lightningDamage: 30
+        lightningColor: 38a6c9ff
+        lightningLength: 2
+        lightningLengthRand: 5
     		}
       ]
     }
