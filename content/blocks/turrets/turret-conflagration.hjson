@@ -5,6 +5,7 @@ health: 3000
 size: 3
 heatRequirement: 10
 maxHeatEfficiency: 2
+outlineColor: 323232
 category: turret
 rotateSpeed: 6.5
 requirements: [
