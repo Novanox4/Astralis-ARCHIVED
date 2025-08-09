@@ -45,8 +45,8 @@ drawer: {
       {
       type: PartMove
       progress: recoil
-      moveRot: 22
-      moveY: -1
+      rot: 22
+      y: -1
       }
     ]
     }
