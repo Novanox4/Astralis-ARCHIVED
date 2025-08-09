@@ -1,0 +1,60 @@
+type: ItemTurret
+name: Tempest
+description: Launches a spread of electric bombs along with a beam capable of pulling targets towards it.
+consumes: {
+ power: 6
+ }
+ammoPerShot: 6
+squareSprite: false
+size: 4
+requirements: [
+  item-crystalite/175
+  item-uranium/350
+  item-silver/200
+  metaglass/150
+  item-hadalrock/125
+  ]
+drawer: {
+  type: DrawTurret
+  basePrefix: astral-
+  parts: [
+    {
+    type: RegionPart
+    suffix: -center
+    moveY: -0.2
+    progress: recoil
+    }
+    {
+    type: RegionPart
+    suffix: -side-r
+    recoilIndex: 0
+    progress: recoil
+    moveRot: 30
+    moves: [
+      {
+      type: warmup
+      rotation: -30
+      }
+    ]
+    }
+    {
+    type: RegionPart
+    suffix: -side-l
+    recoilIndex: 1
+    progress: recoil
+    moveRot: -30
+    moves: [
+      {
+      type: warmup
+      rotation: 30
+      }
+    ]
+    }
+  ]
+}
+reload: 200
+ammoTypes: {
+  item-crystalite: {
+    type: BasicBulletType
+    }
+}
