@@ -93,7 +93,7 @@ range: 240
 ammoTypes: {
   item-crystalite: {
 	  type: BulletType
-    reloadMultiplier: 0.5
+    reloadMultiplier: 1.5
     //damage for stat purposes
     damage: 30
     collides: false
