@@ -21,6 +21,7 @@ shoot: {
     8, 5, 0
   ]
 }
+outlineColor: 323232
 drawer: {
   type: DrawTurret
   basePrefix: astral-
@@ -35,8 +36,14 @@ drawer: {
     type: RegionPart
     suffix: -side-r
     recoilIndex: 0
-    progress: recoil
+    progress: warmup
     moveRot: -45
+    moves: [
+      {
+      type: recoil
+      rotation: 30
+      }
+    ]
     }
   ]
 }
