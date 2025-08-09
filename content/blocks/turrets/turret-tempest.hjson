@@ -105,12 +105,11 @@ ammoTypes: {
     hitEffect: none
     despawnEffect: {
       type: MultiEffectType
-      lifetime: 80
       effects: [
         {
         type: WaveEffect
-				colorFrom: ffffffff
-				colorTo: 38a6c9ff
+				colorFrom: ffffff
+				colorTo: 38a6c9
 				lifetime: 70
 				sizeFrom: 5
 				sizeTo: 0
@@ -120,8 +119,8 @@ ammoTypes: {
 				}
 				{
 				type: ParticleEffect
-			 	colorFrom: ffffffff
-				colorTo: 38a6c9ff
+			 	colorFrom: ffffff
+				colorTo: 38a6c9
 				lifetime: 40
 			 	line: true
 			  strokeFrom: 4
@@ -132,8 +131,8 @@ ammoTypes: {
 				}
 				{
 			  type: ParticleEffect
-			 	colorFrom: ffffffff
-			 	colorTo: 38a6c9ff
+			 	colorFrom: ffffff
+			 	colorTo: 38a6c9
 		  	lifetime: 80
 			 	sizeFrom: 6
 				length: 28
