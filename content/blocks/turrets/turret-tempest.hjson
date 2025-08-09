@@ -50,6 +50,22 @@ drawer: {
       }
     ]
     }
+    {
+    type: RegionPart
+    suffix: -side-r
+    recoilIndex: 1
+    progress: warmup
+    moveY: 1
+    moveRot: 22
+    moves: [
+      {
+      type: PartMove
+      progress: recoil
+      rot: -22
+      y: -1
+      }
+    ]
+    }
   ]
 }
 reload: 100
