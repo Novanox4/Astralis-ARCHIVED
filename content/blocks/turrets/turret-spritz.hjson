@@ -3,6 +3,7 @@ name: Spritz
 description: Shoots liquids at enemy targets or at fires
 health: 700
 reload: 3
+outlineColor: 323232
 category: turret
 squareSprite: false
 recoilTime: 35
