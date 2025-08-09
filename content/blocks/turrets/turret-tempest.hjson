@@ -95,9 +95,9 @@ ammoTypes: {
     sprite: large-bomb
     velocityScaleRandMin: 0.4
     lifeScaleRandMin: 0.5
-    lifetime: 70
-    speed: 5
-    randomAngleOffset: 60
+    lifetime: 90
+    speed: 2
+    randomAngleOffset: 20
     damage: 0
     splashDamage: 30
     scaledSplashDamage: true
