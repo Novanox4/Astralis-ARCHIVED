@@ -9,6 +9,7 @@ shootSound: shootAltLong
 reload: 4.25
 health: 2800
 minWarmup: 0.55
+outlineColor: 323232
 inaccuracy: 2
 ammoPerShot: 1
 drawer: {
