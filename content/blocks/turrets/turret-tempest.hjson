@@ -124,8 +124,8 @@ ammoTypes: {
         height: 14
         width: 14
         sprite: large-bomb
-        //for random range
         pierce: true
+        //for random range
         velocityScaleRandMin: 0.4
         velocityScaleRandMax: 2.25
         lifeScaleRandMin: 0.5
@@ -133,10 +133,7 @@ ammoTypes: {
         speed: 3.25
         //for random offset
         randomAngleOffset: 15
-        damage: 0
-        splashDamage: 10
-        scaledSplashDamage: true
-        splashDamageRadius: 24
+        damage: 20
         despawnHit: true
         despawnEffect: none
         hitSound: spark
@@ -151,7 +148,7 @@ ammoTypes: {
     			strokeTo: 5
     			sides: 6
           }
-        lightningDamage: 8
+        lightningDamage: 11
         lightningColor: 38a6c9ff
         lightningLength: 8
         lightningLengthRand: 8
