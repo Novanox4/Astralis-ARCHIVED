@@ -4,6 +4,7 @@ description: Shoots chaotically ricocheting bullets. Behavior varies from ammo t
 category: turret
 range: 390
 size: 3
+outlineColor: 323232
 squareSprite: false
 shootSound: mediumCannon
 reload: 575
