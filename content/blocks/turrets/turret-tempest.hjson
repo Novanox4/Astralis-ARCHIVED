@@ -162,7 +162,6 @@ ammoTypes: {
   item-hadalrock: {
 	  type: BulletType
     //damage for stat purposes
-    rangeChange: 58
     damage: 22
     collides: false
     hitEffect: none
@@ -251,6 +250,7 @@ ammoTypes: {
 }
 item-solacite: {
 	  type: BulletType
+    rangeChange: 58
     reloadMultiplier: 0.5
     //damage for stat purposes
     damage: 30
