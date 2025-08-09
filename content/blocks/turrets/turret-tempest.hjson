@@ -73,13 +73,15 @@ drawer: {
     moveY: -4
     progress: recoil
     recoilIndex: 0
+    layerOffset: -0.001
     }
     {
     type: RegionPart
-    suffix: -barrel-r
+    suffix: -barrel-2
     moveY: -4
     progress: recoil
     recoilIndex: 1
+    layerOffset: -0.001
     }
   ]
 }
