@@ -14,6 +14,13 @@ requirements: [
   metaglass/150
   item-hadalrock/125
   ]
+shoot: {
+ type: ShootBarrel
+  barrels: [
+    -8, 5, 0,
+    8, 5, 0
+  ]
+}
 drawer: {
   type: DrawTurret
   basePrefix: astral-
