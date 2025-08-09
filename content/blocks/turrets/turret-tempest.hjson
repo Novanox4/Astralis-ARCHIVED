@@ -7,6 +7,7 @@ consumes: {
 ammoPerShot: 6
 squareSprite: false
 size: 4
+minWarmup: 0.77
 requirements: [
   item-crystalite/175
   item-uranium/350
@@ -14,6 +15,7 @@ requirements: [
   metaglass/150
   item-hadalrock/125
   ]
+recoils: 2
 shoot: {
  type: ShootBarrel
   barrels: [
@@ -37,11 +39,14 @@ drawer: {
     suffix: -side-r
     recoilIndex: 0
     progress: warmup
-    moveRot: -15
+    moveY: 1
+    moveRot: -22
     moves: [
       {
-      type: recoil
-      moveRot: 30
+      type: PartMove
+      progress: recoil
+      moveRot: 22
+      moveY: -1
       }
     ]
     }
