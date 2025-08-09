@@ -91,7 +91,9 @@ ammoTypes: {
   item-crystalite: {
     type: BasicBulletType
     backColor: 38a6c9
-    frontColor: 38a6c9
+    frontColor: ffffff
+    height: 14
+    width: 14
     sprite: large-bomb
     velocityScaleRandMin: 0.4
     lifeScaleRandMin: 0.5
@@ -102,6 +104,7 @@ ammoTypes: {
     splashDamage: 30
     scaledSplashDamage: true
     splashDamageRadius: 24
+    despawnHit: true
     despawnEffect: none
     hitEffect: {
       type: MultiEffectType
