@@ -2,6 +2,7 @@ type: ItemTurret
 name: Tempest
 description: Launches a spread of electric bombs along with a beam capable of pulling targets towards it.
 details: "My child will NOT throw rocks covered in copper wiring at power lines!"
+//ignore the wonky text it just got bugged because of different indents
 consumes: {
  power: 6
  }
@@ -149,6 +150,7 @@ ammoTypes: {
         lightningColor: 38a6c9ff
         lightningLength: 2
         lightningLengthRand: 5
+        lightning: 3
     		}
       ]
     }
