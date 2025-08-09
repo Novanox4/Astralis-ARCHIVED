@@ -125,6 +125,7 @@ ammoTypes: {
         sprite: large-bomb
         //for random range
         velocityScaleRandMin: 0.4
+        velocityScaleRandMax: 2.25
         lifeScaleRandMin: 0.5
         lifetime: 35
         speed: 3.25
@@ -148,7 +149,7 @@ ammoTypes: {
     			strokeTo: 5
     			sides: 6
           }
-        lightningDamage: 10
+        lightningDamage: 15
         lightningColor: 38a6c9ff
         lightningLength: 8
         lightningLengthRand: 8
