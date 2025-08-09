@@ -21,8 +21,8 @@ shoot: {
  type: ShootBarrel
  shots: 30
  barrels: [
-    -8, 5, 0,
-    8, 5, 0
+    -8, 3.5, 0,
+    8, 3.5, 0
   ]
 }
 outlineColor: 323232
@@ -30,6 +30,20 @@ drawer: {
   type: DrawTurret
   basePrefix: astral-
   parts: [
+    {
+    type: RegionPart
+    suffix: -barrel-1
+    moveY: -4
+    progress: recoil
+    recoilIndex: 0
+    }
+    {
+    type: RegionPart
+    suffix: -barrel-2
+    moveY: -4
+    progress: recoil
+    recoilIndex: 1
+    }
     {
     type: RegionPart
     suffix: -center
@@ -67,22 +81,6 @@ drawer: {
       y: -1
       }
     ]
-    }
-    {
-    type: RegionPart
-    suffix: -barrel-1
-    moveY: -4
-    progress: recoil
-    recoilIndex: 0
-    layerOffset: -0.001
-    }
-    {
-    type: RegionPart
-    suffix: -barrel-2
-    moveY: -4
-    progress: recoil
-    recoilIndex: 1
-    layerOffset: -0.001
     }
   ]
 }
