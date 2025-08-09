@@ -10,6 +10,7 @@ ammoPerShot: 7
 predictTarget: false
 squareSprite: false
 size: 4
+category: turret
 minWarmup: 0.87
 requirements: [
   item-crystalite/175
@@ -124,6 +125,7 @@ ammoTypes: {
         width: 14
         sprite: large-bomb
         //for random range
+        pierce: true
         velocityScaleRandMin: 0.4
         velocityScaleRandMax: 2.25
         lifeScaleRandMin: 0.5
@@ -149,7 +151,7 @@ ammoTypes: {
     			strokeTo: 5
     			sides: 6
           }
-        lightningDamage: 15
+        lightningDamage: 8
         lightningColor: 38a6c9ff
         lightningLength: 8
         lightningLengthRand: 8
