@@ -303,10 +303,10 @@ item-solacite: {
           type: WaveEffect
     			colorFrom: ffffffff
     			colorTo: 94e3f1ff
-    			lifetime: 120
+    			lifetime: 60
 	    		sizeFrom: 0
-      		sizeTo: 200
-    			strokeFrom: 1
+      		sizeTo: 300
+    			strokeFrom: 40
     			strokeTo: 10
     			sides: 8
           }
