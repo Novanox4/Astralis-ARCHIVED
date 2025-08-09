@@ -8,6 +8,7 @@ squareSprite: false
 shootSound: plasmadrop
 shootY: 0.1
 recoilTime: 25
+outlineColor: 323232
 shootEffect: shootBigColor
 smokeEffect: shootSmokeSquareSparse
 cooldownTime: 275
