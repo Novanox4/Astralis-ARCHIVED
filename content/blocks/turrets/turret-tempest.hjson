@@ -7,6 +7,7 @@ consumes: {
  power: 6
  }
 ammoPerShot: 7
+predictTarget: false
 squareSprite: false
 size: 4
 minWarmup: 0.87
@@ -147,7 +148,7 @@ ammoTypes: {
     			strokeTo: 5
     			sides: 6
           }
-        lightningDamage: 30
+        lightningDamage: 10
         lightningColor: 38a6c9ff
         lightningLength: 8
         lightningLengthRand: 8
