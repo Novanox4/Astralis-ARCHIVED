@@ -135,6 +135,7 @@ ammoTypes: {
         splashDamageRadius: 24
         despawnHit: true
         despawnEffect: none
+        hitSound: spark
         hitEffect: {
           type: WaveEffect
     			colorFrom: ffffffff
@@ -148,8 +149,8 @@ ammoTypes: {
           }
         lightningDamage: 30
         lightningColor: 38a6c9ff
-        lightningLength: 2
-        lightningLengthRand: 5
+        lightningLength: 8
+        lightningLengthRand: 8
         lightning: 3
     		}
       ]
