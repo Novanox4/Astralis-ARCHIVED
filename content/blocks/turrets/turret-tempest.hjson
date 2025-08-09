@@ -328,6 +328,20 @@ item-solacite: {
           lightningColor: 94e3f1ff
           lightningLength: 20
           lightningLengthRand: 9
+          lightningType: {
+            type: BulletType
+            collides: false
+            despawnEffect: none
+            despawnSound: spark
+            speed: 0
+            lifetime: 10
+            lifeScaleRandMin: 0
+            lightning: 2
+            lightningDamage: 6
+            lightningColor: 94e3f1ff
+            lightningLength: 2
+            lightningLengthRand: 9
+            } 
           }
     		}
       ]
@@ -335,3 +349,10 @@ item-solacite: {
   ]
 }
 }
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.45
+}
+coolantMultiplier: 2
