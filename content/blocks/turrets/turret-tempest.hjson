@@ -37,29 +37,10 @@ drawer: {
     recoilIndex: 0
     progress: recoil
     moveRot: -45
-    moves: [
-      {
-      type: warmup
-      rotation: 30
-      }
-    ]
-    }
-    {
-    type: RegionPart
-    suffix: -side-l
-    recoilIndex: 1
-    progress: recoil
-    moveRot: 45
-    moves: [
-      {
-      type: warmup
-      rotation: -30
-      }
-    ]
     }
   ]
 }
-reload: 200
+reload: 100
 ammoTypes: {
   item-crystalite: {
     type: BasicBulletType
