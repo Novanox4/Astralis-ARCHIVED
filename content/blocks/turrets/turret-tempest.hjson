@@ -108,11 +108,11 @@ ammoTypes: {
       type: WaveEffect
 			colorFrom: ffffffff
 			colorTo: 38a6c9ff
-			lifetime: 70
-			sizeFrom: 5
+			lifetime: 40
+			sizeFrom: 8
   		sizeTo: 0
-			strokeFrom: 0
-			strokeTo: 4
+			strokeFrom: 1
+			strokeTo: 5
 			sides: 6
       }
 		}
