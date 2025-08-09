@@ -5,6 +5,7 @@ category: turret
 name: Burn
 health: 650
 shootY: 0
+outlineColor: 323232
 itemCapacity: 15
 description: Fires long range incendiary bolts that burn targets. Less effective against multiple units.
 shoot: {
