@@ -102,8 +102,8 @@ ammoTypes: {
     splashDamage: 30
     scaledSplashDamage: true
     splashDamageRadius: 24
-    hitEffect: none
-    despawnEffect: {
+    despawnEffect: none
+    hitEffect: {
       type: MultiEffectType
       effects: [
         {
