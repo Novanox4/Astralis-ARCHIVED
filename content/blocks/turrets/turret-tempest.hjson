@@ -159,4 +159,93 @@ ammoTypes: {
     }
   ]
 }
+  item-hadalrock: {
+	  type: BulletType
+    //damage for stat purposes
+    damage: 22
+    collides: false
+    hitEffect: none
+    despawnEffect: none
+    spawnBullets: [
+      {
+      type: LaserBulletType
+      //lasers can't have spawnBullets
+      length: 250
+      width: 65
+      damage: 40
+      colors: [452d5666, 452d56ff, ffffffff]
+      //for pulling in
+      knockback: -20
+      impact: true
+      }
+      {
+      type: BulletType
+      collides: false
+      hitEffect: none
+      despawnEffect: none
+      fragOffsetMax: 0
+      fragoffsetMin: 0
+      despawnSound: laser
+      fragRandomSpread: 0
+      speed: 0
+      lifetime: 20
+      fragBullet: {
+        type: LaserBulletType
+        //lasers can't have spawnBullets
+        length: 250
+        width: 65
+        damage: 40
+        colors: [452d5666, 452d56ff, ffffffff]
+        //for pulling in
+        knockback: -20
+        impact: true
+        }
+      }
+      {
+      //self explainatory
+      type: MultiBulletType
+      repeat: 15
+      bullets: [
+        {
+        type: BasicBulletType
+	      shrinkX: 0.5
+        shrinkY: 0.5
+        backColor: 452d56
+        frontColor: ffffff
+        height: 14
+        width: 14
+        sprite: large-bomb
+        //for random range
+        velocityScaleRandMin: 0.4
+        velocityScaleRandMax: 2.25
+        lifeScaleRandMin: 0.5
+        lifetime: 35
+        speed: 3.25
+        //for random offset
+        randomAngleOffset: 12
+        damage: 22
+        despawnHit: true
+        despawnEffect: none
+        hitSound: spark
+        hitEffect: {
+          type: WaveEffect
+    			colorFrom: ffffffff
+    			colorTo: 452d56ff
+    			lifetime: 50
+	    		sizeFrom: 0
+      		sizeTo: 20
+    			strokeFrom: 1
+    			strokeTo: 5
+    			sides: 6
+          }
+        lightningDamage: 4
+        lightningColor: 452d56ff
+        lightningLength: 2
+        lightningLengthRand: 6
+        lightning: 7
+    		}
+      ]
+    }
+  ]
+}
 }
