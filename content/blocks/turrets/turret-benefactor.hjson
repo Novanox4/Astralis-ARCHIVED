@@ -4,6 +4,7 @@ description: Shoots a myriad of lasers at aerial targets. Requires a one time in
 category: turret
 targetGround: false
 minWarmup: 0.4
+outlineColor: 323232
 warmupMaintainTime: 0.1
 squareSprite: false
 size: 3
