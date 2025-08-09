@@ -8,6 +8,7 @@ maxHeatEfficiency: 2
 research: turret-reverberate
 heatColor: 8295b0ff
 velocityRnd: 0.5
+outlineColor: 323232
 drawer: {
   type: DrawTurret
   basePrefix: astral-
