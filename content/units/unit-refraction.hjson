@@ -26,26 +26,26 @@ abilities: [
   type: ForceFieldAbility
   radius: 120
   sides: 3
-  max: 650
+  max: 725
   regen: 0.4
-  cooldown: 300
+  cooldown: 225
   }
   {
   type: ForceFieldAbility
   radius: 120
   sides: 3
-  max: 650
+  max: 725
   regen: 0.4
-  cooldown: 300
+  cooldown: 225
   rotation: 180
   }
   {
   type: ForceFieldAbility
   radius: 120
   sides: 3
-  max: 650
+  max: 725
   regen: 0.4
-  cooldown: 300
+  cooldown: 225
   rotation: 90
   }
 ]
