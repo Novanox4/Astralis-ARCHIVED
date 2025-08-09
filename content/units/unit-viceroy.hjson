@@ -8,6 +8,7 @@ hitSize: 30
 health: 4850
 armor: 15
 faceTarget: false
+drag: 0.3
 outlineColor: 323232
 lowAltitude: true
 //this is worse than tank treads istfg
