@@ -4,6 +4,7 @@ description: "Launches large spikes of ice at enemy ground units. Specialized ag
 reload: 60
 category: turret
 size: 3
+outlineColor: 323232
 requiresWater: true
 placeableLiquid: true
 extinguish: false
