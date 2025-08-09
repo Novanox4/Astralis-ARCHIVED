@@ -9,7 +9,7 @@ engineOffset: 18
 buildSpeed: 1.8
 omniMovement: false
 health: 3250
-armor: 5
+armor: 15
 treadRects: [
     {
         x: -13,
