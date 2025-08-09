@@ -16,6 +16,7 @@ requirements: [
   metaglass/150
   item-hadalrock/125
   ]
+shootSound: laser
 recoils: 2
 shoot: {
  type: ShootBarrel
