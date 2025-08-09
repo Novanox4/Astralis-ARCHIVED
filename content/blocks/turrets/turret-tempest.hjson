@@ -204,7 +204,7 @@ ammoTypes: {
       {
       //self explainatory
       type: MultiBulletType
-      repeat: 15
+      repeat: 20
       bullets: [
         {
         type: BasicBulletType
@@ -243,6 +243,91 @@ ammoTypes: {
         lightningLength: 2
         lightningLengthRand: 6
         lightning: 7
+    		}
+      ]
+    }
+  ]
+}
+item-solacite: {
+	  type: BulletType
+    reloadMultiplier: 0.5
+    //damage for stat purposes
+    damage: 30
+    collides: false
+    hitEffect: none
+    despawnEffect: none
+    spawnBullets: [
+      {
+      type: LaserBulletType
+      //lasers can't have spawnBullets
+      length: 250
+      width: 65
+      damage: 50
+      colors: [94e3f166, 94e3f1ff, ffffffff]
+      //for pulling in
+      knockback: -60
+      impact: true
+      lifetime: 80
+      }
+      {
+      //self explainatory
+      type: MultiBulletType
+      repeat: 15
+      bullets: [
+        {
+        type: BasicBulletType
+	      shrinkX: 0.7
+        shrinkY: 0.7
+        backColor: 94e3f1
+        frontColor: ffffff
+        height: 16
+        width: 16
+        sprite: large-bomb
+        //for random range
+        trailWidth: 2.25
+        trailLength: 20
+        trailColor: 94e3f1
+        velocityScaleRandMin: 0.4
+        velocityScaleRandMax: 2.25
+        lifeScaleRandMin: 0.5
+        lifetime: 35
+        speed: 4
+        //for random offset
+        randomAngleOffset: 17
+        damage: 40
+        despawnHit: true
+        despawnEffect: none
+        hitSound: spark
+        hitEffect: {
+          type: WaveEffect
+    			colorFrom: ffffffff
+    			colorTo: 94e3f1ff
+    			lifetime: 120
+	    		sizeFrom: 0
+      		sizeTo: 20
+    			strokeFrom: 5
+    			strokeTo: 1
+    			sides: 8
+          }
+        lightningDamage: 2
+        lightningColor: 94e3f1ff
+        lightningLength: 20
+        lightningLengthRand: 9
+        lightning: 2
+        lightningType: {
+          type: BulletType
+          collides: false
+          despawnEffect: none
+          despawnSound: spark
+          speed: 0
+          lifetime: 10
+          lifeScaleRandMin: 0
+          lightning: 2
+          lightningDamage: 2
+          lightningColor: 94e3f1ff
+          lightningLength: 20
+          lightningLengthRand: 9
+          }
     		}
       ]
     }
