@@ -85,7 +85,7 @@ drawer: {
     }
   ]
 }
-reload: 145
+reload: 107
 range: 240
 ammoTypes: {
   item-crystalite: {
@@ -95,18 +95,20 @@ ammoTypes: {
     collides: false
     hitEffect: none
     despawnEffect: none
-    //lasers can't have spawnBullets
     spawnBullets: [
       {
       type: LaserBulletType
+      //lasers can't have spawnBullets
       length: 250
       width: 65
       damage: 30
       colors: [38a6c966, 38a6c9ff, ffffffff]
-      knockback: -25
+      //for pulling in
+      knockback: -75
       impact: true
       }
       {
+      //self explainatory
       type: MultiBulletType
       repeat: 30
       bullets: [
@@ -119,13 +121,15 @@ ammoTypes: {
         height: 14
         width: 14
         sprite: large-bomb
+        //for random range
         velocityScaleRandMin: 0.4
         lifeScaleRandMin: 0.5
         lifetime: 35
         speed: 3.25
+        //for random offset
         randomAngleOffset: 15
         damage: 0
-        splashDamage: 30
+        splashDamage: 50
         scaledSplashDamage: true
         splashDamageRadius: 24
         despawnHit: true
