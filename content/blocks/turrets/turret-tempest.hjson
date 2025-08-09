@@ -114,7 +114,6 @@ ammoTypes: {
 			strokeFrom: 0
 			strokeTo: 4
 			sides: 6
-			}
+      }
 		}
 	}
-}
