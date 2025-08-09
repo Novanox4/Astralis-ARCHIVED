@@ -313,9 +313,9 @@ item-solacite: {
           }
         lightningDamage: 3
         lightningColor: 94e3f1ff
-        lightningLength: 20
-        lightningLengthRand: 9
-        lightning: 4
+        lightningLength: 10
+        lightningLengthRand: 8
+        lightning: 3
         lightningType: {
           type: BulletType
           collides: false
@@ -327,8 +327,8 @@ item-solacite: {
           lightning: 2
           lightningDamage: 6
           lightningColor: 94e3f1ff
-          lightningLength: 20
-          lightningLengthRand: 9
+          lightningLength: 2
+          lightningLengthRand: 1
           lightningType: {
             type: BulletType
             collides: false
@@ -337,11 +337,11 @@ item-solacite: {
             speed: 0
             lifetime: 10
             lifeScaleRandMin: 0
-            lightning: 2
+            lightning: 6
             lightningDamage: 6
             lightningColor: 94e3f1ff
             lightningLength: 2
-            lightningLengthRand: 9
+            lightningLengthRand: 90
             } 
           }
     		}
