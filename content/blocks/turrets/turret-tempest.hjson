@@ -29,11 +29,11 @@ drawer: {
     suffix: -side-r
     recoilIndex: 0
     progress: recoil
-    moveRot: 30
+    moveRot: -45
     moves: [
       {
       type: warmup
-      rotation: -30
+      rotation: 30
       }
     ]
     }
@@ -42,11 +42,11 @@ drawer: {
     suffix: -side-l
     recoilIndex: 1
     progress: recoil
-    moveRot: -30
+    moveRot: 45
     moves: [
       {
       type: warmup
-      rotation: 30
+      rotation: -30
       }
     ]
     }
