@@ -20,3 +20,4 @@ maxPayloadSize: 5
 grabWidth: 4
 details: When handling large payloads, the magnetic bulk accelerator can detach it's arms, holding them in place via magnetism.
 payloadSpeed: 2
+research: payload-assembler
