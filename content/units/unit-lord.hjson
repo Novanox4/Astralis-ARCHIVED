@@ -105,7 +105,7 @@ weapons: [
   bullet: {
   type: BombBulletType
   //shields go bye bye
-  damage: 30
+  damage: 3
   lifetime: 55
   collidesAir: false
   sprite: large-bomb
