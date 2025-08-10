@@ -18,3 +18,4 @@ offloadSpeed: 10
 itemCapacity: 400
 payloadSpeed: 2
 maxBlockSize: 5
+research: payload-packer
