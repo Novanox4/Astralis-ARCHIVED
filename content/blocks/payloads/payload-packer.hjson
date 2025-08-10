@@ -17,3 +17,4 @@ category: units
 itemCapacity: 400
 payloadSpeed: 2
 maxBlockSize: 5
+research: payload-assembler
