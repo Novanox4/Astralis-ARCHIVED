@@ -15,3 +15,13 @@ size: 4
 maxBlockSize: 5
 category: units
 payloadSpeed: 2
+research: {
+  parent: crystal-duct
+  objectives: [
+    depository,
+    {
+    type: OnSector
+    preset: infestation
+    }
+  ]
+}
