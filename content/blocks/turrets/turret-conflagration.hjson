@@ -40,7 +40,7 @@ ammoTypes: {
     type: MultiBulletType
     collides: false
     //stat reason
-    damage: 50
+    damage: 16
     shootEffect: none
     repeat: 5
     bullets: [
@@ -55,14 +55,14 @@ ammoTypes: {
       fragOffsetMax: 0
       fragOffsetMin: 0
       fragVelocityMin: 1
-      fragRandomSpread: 18
+      fragRandomSpread: 17
       fragBullet: {
         type: BasicBulletType
         speed: 5
         shrinkX: 0
         shrinkY: 0
         lifetime: 40
-        damage: 12
+        damage: 8
         frontColor: ffa166
         backColor: ffa166
         sprite: circle-bullet
@@ -75,7 +75,7 @@ ammoTypes: {
         //using this because I have more control on the liquid parameters
         puddles: 2
         puddleRange: 4
-        puddleAmount: 50
+        puddleAmount: 20
         puddleLiquid: slag
         collidesAir: false
         velocityScaleRandMax: 0.28
@@ -83,12 +83,50 @@ ammoTypes: {
         despawnHit: true
         }
       }
-      
+      {
+      type: BulletType
+      instantDisappear: true
+      damage: 0
+      collides: false
+      despawnEffect: none
+      hitEffect: none
+      fragBullets: 1
+      fragOffsetMax: 0
+      fragOffsetMin: 0
+      fragVelocityMin: 1
+      fragRandomSpread: 23
+      fragBullet: {
+        type: BasicBulletType
+        speed: 5
+        shrinkX: 0
+        shrinkY: 0
+        lifetime: 40
+        damage: 8
+        frontColor: b5ac10
+        backColor: b5ac10
+        sprite: circle-bullet
+        height: 10
+        width: 10
+        despawnEffect: none
+        hitEffect: none
+        shootEffect: none
+        liquid: liquid-nitric-acid
+        //using this because I have more control on the liquid parameters
+        puddles: 3
+        puddleRange: 4
+        puddleAmount: 50
+        puddleLiquid: liquid-nitric-acid
+        collidesAir: false
+        velocityScaleRandMax: 0.28
+        lifeScaleRandMax: 0.8
+        despawnHit: true
+        }
+      }
     ]
   }
 }
 consumes: {
   liquids: [
-    liquid-nitric-acid/0.5
+    liquid-nitric-acid/0.75
     ]
   }
