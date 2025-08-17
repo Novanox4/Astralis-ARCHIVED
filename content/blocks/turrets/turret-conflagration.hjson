@@ -39,11 +39,12 @@ ammoTypes: {
     collides: false
     //stat reason
     damage: 50
+    shootEffect: none
     repeat: 5
     bullets: [
       {
       type: BulletType
-      instanDisappear: true
+      instantDisappear: true
       damage: 0
       collides: false
       despawnEffect: none
@@ -64,6 +65,7 @@ ammoTypes: {
         height: 10
         width: 10
         despawnEffect: none
+        hitEffect: none
         shootEffect: none
         liquid: slag
         //using this because I have more control on the liquid parameters
