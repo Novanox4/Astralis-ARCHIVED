@@ -62,7 +62,7 @@ ammoTypes: {
         shrinkX: 0
         shrinkY: 0
         lifetime: 40
-        damage: 30
+        damage: 12
         frontColor: ffa166
         backColor: ffa166
         sprite: circle-bullet
