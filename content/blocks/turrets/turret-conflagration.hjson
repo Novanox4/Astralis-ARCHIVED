@@ -7,6 +7,7 @@ heatRequirement: 18
 maxHeatEfficiency: 1
 outlineColor: 323232
 category: turret
+inaccuracy: 30
 rotateSpeed: 6.5
 requirements: [
   item-crystalite/125
@@ -30,7 +31,7 @@ drawer: {
     }
 range: 190
 targetAir: false
-reload: 3
+reload: 60
 shootSound: flame
 ammoTypes: {
   item-charchunk: {
