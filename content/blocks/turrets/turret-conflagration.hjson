@@ -57,6 +57,8 @@ ammoTypes: {
       fragBullet: {
         type: BasicBulletType
         speed: 5
+        shrinkX: 1
+        shrinkY: 1
         lifetime: 40
         damage: 30
         frontColor: ffa166
