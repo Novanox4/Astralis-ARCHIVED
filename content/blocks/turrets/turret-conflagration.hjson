@@ -53,7 +53,7 @@ ammoTypes: {
       //using this because I have more control on the liquid parameters
       puddles: 2
       puddleRange: 4
-      puddleAmount: 6
+      puddleAmount: 50
       puddleLiquid: slag
       collidesAir: false
       inaccuracy: 30
@@ -73,7 +73,7 @@ ammoTypes: {
       //using this because I have more control on the liquid parameters
       puddles: 5
       puddleRange: 5
-      puddleAmount: 13
+      puddleAmount: 88
       puddleLiquid: liquid-nitric-acid
       collidesAir: false
       inaccuracy: 30
