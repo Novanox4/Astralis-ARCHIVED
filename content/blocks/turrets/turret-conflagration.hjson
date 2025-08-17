@@ -1,10 +1,10 @@
 type: ItemTurret
 name: Conflagration
-description: Mixes nitric acid and flammable materials to spew a powerful flammable mixture. Requires heat to run. Cannot target air units.
+description: "Mixes nitric acid and flammable materials to spew a powerful flammable mixture. Requires heat to run. Cannot target air units. [red]CAN SET YOUR BUILDINGS ON FIRE![]"
 health: 3000
 size: 3
-heatRequirement: 10
-maxHeatEfficiency: 2
+heatRequirement: 18
+maxHeatEfficiency: 1
 outlineColor: 323232
 category: turret
 rotateSpeed: 6.5
@@ -28,53 +28,53 @@ drawer: {
   type: DrawTurret
   basePrefix: astral-
     }
-range: 60
+range: 190
 targetAir: false
-reload: 30
+reload: 3
 shootSound: flame
 ammoTypes: {
   item-charchunk: {
-    type: BulletType
-    speed: 5
-    lifetime: 12.5
-    damage: 150
-    despawnEffect: none
-    hitEffect: none
-    pierce: true
-    pierceBuilding: true
-    shootEffect: {
-      type: ParticleEffect
-      colorFrom: ffffffff
-      colorTo: b58327ff
-      particles: 15
-      sizeFrom: 1.85
-      cone: 12
-      length: 90
-      lifetime: 15
+    type: MultiBulletType
+    collides: false
+    //stat reason
+    damage: 50
+    repeat: 5
+    bullets: [
+      {
+      type: LiquidBulletType
+      speed: 5
+      lifetime: 40
+      damage: 30
+      despawnEffect: none
+      shootEffect: none
+      puddleSize: 0
+      liquid: slag
+      //using this because I have more control on the liquid parameters
+      puddles: 2
+      puddleRange: 4
+      puddleAmount: 6
+      puddleLiquid: slag
+      collidesAir: false
       }
-    }
-    item-silver-fulminate: {
-    type: BulletType
-    speed: 5
-    lifetime: 12.5
-    damage: 200
-    despawnEffect: none
-    hitEffect: none
-    pierce: true
-    pierceBuilding: true
-    reloadMultiplier: 1.35
-    shootEffect: {
-      type: ParticleEffect
-      colorFrom: ffffffff
-      colorTo: a43131ff
-      particles: 18
-      sizeFrom: 2
-      cone: 12
-      length: 90
-      lifetime: 15
+      {
+      type: LiquidBulletType
+      speed: 5
+      lifetime: 40
+      damage: 42.5
+      despawnEffect: none
+      shootEffect: none
+      puddleSize: 0
+      liquid: liquid-nitric-acid
+      //using this because I have more control on the liquid parameters
+      puddles: 5
+      puddleRange: 5
+      puddleAmount: 13
+      puddleLiquid: liquid-nitric-acid
+      collidesAir: false
       }
-    }
+    ]
   }
+}
 consumes: {
   liquids: [
     liquid-nitric-acid/0.5
