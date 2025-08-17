@@ -8,9 +8,9 @@ maxHeatEfficiency: 2
 outlineColor: 323232
 category: turret
 inaccuracy: 0
-rotateSpeed: 0.8
+rotateSpeed: 0.4
 drawMinRange: true
-minRange: 65
+minRange: 76
 requirements: [
   item-crystalite/125
   item-uranium/125
@@ -31,7 +31,7 @@ drawer: {
   type: DrawTurret
   basePrefix: astral-
     }
-range: 190
+range: 210
 targetAir: false
 reload: 6
 shootSound: flame
@@ -61,7 +61,7 @@ ammoTypes: {
         speed: 5
         shrinkX: 0
         shrinkY: 0
-        lifetime: 40
+        lifetime: 60
         damage: 8
         frontColor: ffa166
         backColor: ffa166
@@ -78,8 +78,8 @@ ammoTypes: {
         puddleAmount: 20
         puddleLiquid: slag
         collidesAir: false
-        velocityScaleRandMax: 0.4
-        lifeScaleRandMax: 0.9
+        velocityScaleRandMax: 0.45
+        lifeScaleRandMax: 0.93
         despawnHit: true
         }
       }
@@ -100,7 +100,7 @@ ammoTypes: {
         speed: 5
         shrinkX: 0
         shrinkY: 0
-        lifetime: 40
+        lifetime: 60
         damage: 8
         frontColor: b5ac10
         backColor: b5ac10
@@ -117,8 +117,8 @@ ammoTypes: {
         puddleAmount: 50
         puddleLiquid: liquid-nitric-acid
         collidesAir: false
-        velocityScaleRandMax: 0.4
-        lifeScaleRandMax: 0.9
+        velocityScaleRandMax: 0.45
+        lifeScaleRandMax: 0.93
         despawnHit: true
         }
       }
