@@ -8,9 +8,9 @@ maxHeatEfficiency: 2
 outlineColor: 323232
 category: turret
 inaccuracy: 0
-rotateSpeed: 6.5
+rotateSpeed: 0.8
 drawMinRange: true
-minRange: 44
+minRange: 65
 requirements: [
   item-crystalite/125
   item-uranium/125
@@ -78,8 +78,8 @@ ammoTypes: {
         puddleAmount: 20
         puddleLiquid: slag
         collidesAir: false
-        velocityScaleRandMax: 0.28
-        lifeScaleRandMax: 0.8
+        velocityScaleRandMax: 0.4
+        lifeScaleRandMax: 0.9
         despawnHit: true
         }
       }
@@ -117,8 +117,8 @@ ammoTypes: {
         puddleAmount: 50
         puddleLiquid: liquid-nitric-acid
         collidesAir: false
-        velocityScaleRandMax: 0.28
-        lifeScaleRandMax: 0.8
+        velocityScaleRandMax: 0.4
+        lifeScaleRandMax: 0.9
         despawnHit: true
         }
       }
