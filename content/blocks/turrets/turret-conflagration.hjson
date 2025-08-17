@@ -10,7 +10,7 @@ category: turret
 inaccuracy: 0
 rotateSpeed: 6.5
 drawMinRange: true
-minRange: 36
+minRange: 44
 requirements: [
   item-crystalite/125
   item-uranium/125
@@ -59,8 +59,8 @@ ammoTypes: {
       fragBullet: {
         type: BasicBulletType
         speed: 5
-        shrinkX: 1
-        shrinkY: 1
+        shrinkX: 0
+        shrinkY: 0
         lifetime: 40
         damage: 30
         frontColor: ffa166
@@ -78,8 +78,8 @@ ammoTypes: {
         puddleAmount: 50
         puddleLiquid: slag
         collidesAir: false
-        velocityScaleRandMax: 1.2
-        lifeScaleRandMax: 1.3
+        velocityScaleRandMax: 0.28
+        lifeScaleRandMax: 0.8
         despawnHit: true
         }
       }
