@@ -108,7 +108,7 @@ ammoTypes: {
       damage: 30
       colors: [38a6c966, 38a6c9ff, ffffffff]
       //for pulling in
-      knockback: -75
+      knockback: -17.5
       impact: true
       }
       {
@@ -175,11 +175,12 @@ ammoTypes: {
       damage: 40
       colors: [452d5666, 452d56ff, ffffffff]
       //for pulling in
-      knockback: -20
+      knockback: -10
       impact: true
       }
       {
       type: BulletType
+      //time offsetting purposes
       collides: false
       hitEffect: none
       despawnEffect: none
@@ -197,7 +198,7 @@ ammoTypes: {
         damage: 40
         colors: [452d5666, 452d56ff, ffffffff]
         //for pulling in
-        knockback: -20
+        knockback: -10
         impact: true
         }
       }
@@ -266,7 +267,7 @@ item-solacite: {
       damage: 50
       colors: [94e3f166, 94e3f1ff, ffffffff]
       //for pulling in
-      knockback: -60
+      knockback: -30
       impact: true
       lifetime: 80
       }
