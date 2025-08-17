@@ -55,6 +55,10 @@ ammoTypes: {
       puddleAmount: 6
       puddleLiquid: slag
       collidesAir: false
+      inaccuracy: 30
+      velocityScaleRandMax: 1.2
+      lifeScaleRandMax: 1.3
+      despawnHit: true
       }
       {
       type: LiquidBulletType
@@ -71,6 +75,10 @@ ammoTypes: {
       puddleAmount: 13
       puddleLiquid: liquid-nitric-acid
       collidesAir: false
+      inaccuracy: 30
+      velocityScaleRandMax: 1.2
+      lifeScaleRandMax: 1.3
+      despawnHit: true
       }
     ]
   }
