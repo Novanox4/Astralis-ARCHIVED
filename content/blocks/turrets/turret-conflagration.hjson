@@ -52,7 +52,7 @@ ammoTypes: {
       fragBullets: 1
       fragOffsetMax: 0
       fragOffsetMin: 0
-      fragVelocityMin: 0
+      fragVelocityMin: 1
       fragRandomSpread: 18
       fragBullet: {
         type: BasicBulletType
