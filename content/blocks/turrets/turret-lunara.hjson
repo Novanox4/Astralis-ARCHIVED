@@ -25,8 +25,8 @@ drawer: {
     suffix: -wing
     mirror: true
     moveRot: -66
-    moveY: -4
-    moveX: -2
+    moveY: -2
+    moveX: 5
     }
   ]
 }
@@ -36,15 +36,16 @@ shoot: {
   type: ShootBarrel
   shots: 2
   barrels: [
-    -6, -9.5, 90,
+    -6, -12.5, 90,
     ]
   }
 range: 325
 ammoTypes: {
   item-silver: {
     type: BulletType
-    followAimSpeed: 2
+    homingRange: 325
     homingDelay: 25
+    homingPower: 0.4
     lifetime: 80
     speed: 2
     accel: 0.075
