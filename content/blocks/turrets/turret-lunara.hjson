@@ -13,7 +13,7 @@ requirements: [
   item-neodymium/125
 ]
 research: turret-vaticinate
-targetAir: false
+targetGround: false
 shootSound: bang
 size: 4
 drawer: {
