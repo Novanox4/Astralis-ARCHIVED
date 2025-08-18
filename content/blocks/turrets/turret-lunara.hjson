@@ -24,9 +24,9 @@ drawer: {
     type: RegionPart
     suffix: -wing
     mirror: true
-    moveRot: -48
-    moveY: -8
-    moveX: -4
+    moveRot: -66
+    moveY: -4
+    moveX: -2
     }
   ]
 }
@@ -36,7 +36,7 @@ shoot: {
   type: ShootBarrel
   shots: 2
   barrels: [
-    -6, -4, -90,
+    -6, -9.5, -90,
     ]
   }
 range: 325
