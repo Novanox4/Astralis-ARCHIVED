@@ -51,7 +51,7 @@ ammoTypes: {
     speed: 2
     accel: 0.075
     collidesGround: false
-    damage: 35
+    damage: 47.5
     trailLength: 32
     trailWidth: 2
     trailColor: c7cdc6
