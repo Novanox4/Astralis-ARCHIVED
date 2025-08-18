@@ -78,8 +78,8 @@ ammoTypes: {
     speed: 2
     accel: 0.075
     collidesGround: false
-    damage: 96
-    reloadMultiplier: 1.35
+    damage: 28
+    reloadMultiplier: 1.425
     trailLength: 32
     trailWidth: 2
     trailColor: 7cd656
