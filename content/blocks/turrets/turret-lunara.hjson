@@ -50,6 +50,7 @@ ammoTypes: {
     speed: 2
     accel: 0.075
     collidesGround: false
+    pierce: true
     damage: 37.5
     trailLength: 32
     trailWidth: 2
@@ -60,7 +61,7 @@ ammoTypes: {
       stroke: 9
       color1: c7cdc6
       rotation: 45
-      innerScl: 0.75
+      innerRadScl: 0.66
       radius: 10
       radiusTo: 20
       sides: 6
