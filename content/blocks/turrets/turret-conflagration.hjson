@@ -64,7 +64,7 @@ ammoTypes: {
         lifetime: 45
         pierce: true
         damage: 8
-        knockback: 0.1
+        knockback: 0.8
         impact: true
         frontColor: ffa166
         backColor: ffa166
@@ -105,7 +105,7 @@ ammoTypes: {
         shrinkY: 0
         lifetime: 45
         pierce: true
-        knockback: 0.1
+        knockback: 1.2
         impact: true
         damage: 8
         frontColor: b5ac10
