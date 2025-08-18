@@ -24,9 +24,9 @@ drawer: {
     type: RegionPart
     suffix: -wing
     mirror: true
-    moveRot: -38
-    moveY: 2
-    moveX: -1
+    moveRot: -48
+    moveY: -8
+    moveX: -4
     }
   ]
 }
@@ -39,7 +39,7 @@ shoot: {
     -6, -4, -90,
     ]
   }
-range: 250
+range: 325
 ammoTypes: {
   item-silver: {
     type: BulletType
@@ -56,10 +56,11 @@ ammoTypes: {
     parts: [
       {
       type: FlarePart
+      stroke: 9
       color1: c7cdc6
       rotation: 45
-      radius: 30
-      radiusTo: 120
+      radius: 10
+      radiusTo: 20
       sides: 6
       progress: life
       }
