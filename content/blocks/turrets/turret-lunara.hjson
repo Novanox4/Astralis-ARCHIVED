@@ -36,7 +36,7 @@ shoot: {
   type: ShootBarrel
   shots: 2
   barrels: [
-    -6, -15, 90,
+    -6, -16.5, 90,
     ]
   }
 range: 325
