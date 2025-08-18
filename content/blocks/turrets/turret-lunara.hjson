@@ -69,4 +69,32 @@ ammoTypes: {
       }
     ]
   }
+  item-uranium: {
+    type: BulletType
+    homingRange: 325
+    homingDelay: 25
+    homingPower: 0.4
+    lifetime: 80
+    speed: 2
+    accel: 0.075
+    collidesGround: false
+    damage: 96
+    reloadMultiplier: 1.35
+    trailLength: 32
+    trailWidth: 2
+    trailColor: 7cd656
+    parts: [
+      {
+      type: FlarePart
+      stroke: 9
+      color1: 7cd656
+      rotation: 45
+      innerRadScl: 0.66
+      radius: 3
+      radiusTo: 20
+      sides: 6
+      progress: life
+      }
+    ]
+  }
 }
