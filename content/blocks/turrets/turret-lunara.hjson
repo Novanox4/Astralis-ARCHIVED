@@ -37,6 +37,7 @@ shoot: {
   shots: 2
   barrels: [
     -6, -16.5, 90,
+    6, -16.5, -90,
     ]
   }
 range: 325
@@ -50,8 +51,7 @@ ammoTypes: {
     speed: 2
     accel: 0.075
     collidesGround: false
-    pierce: true
-    damage: 37.5
+    damage: 50
     trailLength: 32
     trailWidth: 2
     trailColor: c7cdc6
@@ -62,7 +62,7 @@ ammoTypes: {
       color1: c7cdc6
       rotation: 45
       innerRadScl: 0.66
-      radius: 10
+      radius: 3
       radiusTo: 20
       sides: 6
       progress: life
