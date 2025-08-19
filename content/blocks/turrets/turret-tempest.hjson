@@ -293,8 +293,8 @@ item-solacite: {
         velocityScaleRandMax: 2.25
         lifeScaleRandMin: 0.8
         lifeScaleRandMax: 1.2
-        lifetime: 60
-        speed: 4
+        lifetime: 37.5
+        speed: 5
         //for random offset
         randomAngleOffset: 17
         damage: 40
@@ -323,7 +323,7 @@ item-solacite: {
           despawnEffect: none
           despawnSound: spark
           speed: 0
-          lifetime: 10
+          lifetime: 20
           lifeScaleRandMin: 0
           lightning: 2
           lightningDamage: 2
@@ -336,7 +336,7 @@ item-solacite: {
             despawnEffect: none
             despawnSound: spark
             speed: 0
-            lifetime: 10
+            lifetime: 20
             lifeScaleRandMin: 0
             lightning: 6
             lightningDamage: 1
@@ -357,4 +357,4 @@ coolant: {
   allowLiquid: true
   amount: 0.45
 }
-coolantMultiplier: 2
+coolantMultiplier: 1.3
