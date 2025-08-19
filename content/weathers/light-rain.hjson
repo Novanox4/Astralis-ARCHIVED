@@ -1,0 +1,10 @@
+type: RainWeather
+yspeed: 7
+xspeed: 5
+liquid: water
+color: 5f73a7
+density: 1200
+stroke: 0.8
+sizeMin: 5
+sizeMax: 27
+name: Light Rain
