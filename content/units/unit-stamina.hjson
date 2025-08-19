@@ -179,7 +179,7 @@ bullet: {
       fragOffsetMin: 0
       fragBullet: {
         type: BasicBulletType
-        lifetime: 30
+        lifetime: 72.5
         width: 7
         height: 10
         speed: 0.1
@@ -189,10 +189,10 @@ bullet: {
         trailColor: 7cd656
         trailWidth: 1.75
         damage: 20
-        followAimSpeed: 4
+        followAimSpeed: 3
         pierceBuilding: true
         pierce: true
-        accel: 0.25
+        accel: 0.2
         }
       }
     }
