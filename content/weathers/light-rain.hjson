@@ -3,8 +3,8 @@ yspeed: 7
 xspeed: 5
 liquid: water
 color: 5f73a7
-density: 1500
-stroke: 0.8
+density: 1550
+stroke: 1.3
 sizeMin: 5
 sizeMax: 27
 name: Light Rain
