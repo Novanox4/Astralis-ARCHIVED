@@ -312,7 +312,7 @@ item-solacite: {
     			strokeTo: 0
     			sides: 8
           }
-        lightningDamage: 3
+        lightningDamage: 2
         lightningColor: 94e3f1ff
         lightningLength: 10
         lightningLengthRand: 8
@@ -326,7 +326,7 @@ item-solacite: {
           lifetime: 10
           lifeScaleRandMin: 0
           lightning: 2
-          lightningDamage: 6
+          lightningDamage: 2
           lightningColor: 94e3f1ff
           lightningLength: 2
           lightningLengthRand: 1
@@ -339,7 +339,7 @@ item-solacite: {
             lifetime: 10
             lifeScaleRandMin: 0
             lightning: 6
-            lightningDamage: 6
+            lightningDamage: 2
             lightningColor: 94e3f1ff
             lightningLength: 2
             lightningLengthRand: 90
