@@ -312,10 +312,10 @@ item-solacite: {
     			strokeTo: 0
     			sides: 8
           }
-        lightningDamage: 2
+        lightningDamage: 1
         lightningColor: 94e3f1ff
-        lightningLength: 10
-        lightningLengthRand: 8
+        lightningLength: 6
+        lightningLengthRand: 6
         lightning: 3
         lightningType: {
           type: BulletType
@@ -339,7 +339,7 @@ item-solacite: {
             lifetime: 10
             lifeScaleRandMin: 0
             lightning: 6
-            lightningDamage: 2
+            lightningDamage: 1
             lightningColor: 94e3f1ff
             lightningLength: 2
             lightningLengthRand: 90
