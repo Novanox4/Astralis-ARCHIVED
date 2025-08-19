@@ -170,7 +170,7 @@ bullet: {
           }
         ]
       }
-      fragBullets: 8
+      fragBullets: 24
       fragOnHit: false
       fragOnAbsorb: true
       fragLifeMin: 0.7
@@ -180,17 +180,17 @@ bullet: {
       fragBullet: {
         type: BasicBulletType
         lifetime: 120
-        speed: 2
+        speed: 0
         backColor: 7cd656
         frontColor: ffffff
         trailLength: 30
         trailColor: 7cd656
         trailWidth: 1.75
-        damage: 60
-        followAimSpeed: 0.8
+        damage: 20
+        followAimSpeed: 2.5
         pierceBuilding: true
         pierce: true
-        accel: 0.075
+        accel: 0.11
         }
       }
     }
