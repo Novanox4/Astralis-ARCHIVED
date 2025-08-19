@@ -193,6 +193,7 @@ bullet: {
         pierceBuilding: true
         pierce: true
         accel: 0.2
+        absorbable: false
         }
       }
     }
