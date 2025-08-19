@@ -144,7 +144,6 @@ bullet: {
     scaledSplashDamage: true
     splashDamageRadius: 54
     sprite: circle-bullet
-    suppress
     despawnSound: explosion
     hitEffect: none
     despawnEffect: {
