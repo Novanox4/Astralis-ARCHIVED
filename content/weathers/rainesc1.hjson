@@ -1,0 +1,9 @@
+type: RainWeather
+yspeed: 5
+xspeed: 3
+liquid: water
+color: 5f73a7
+density: 300
+stroke: 0.6
+sizeMin: 4
+sizeMax: 30
