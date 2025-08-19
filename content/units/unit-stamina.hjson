@@ -182,7 +182,7 @@ bullet: {
         lifetime: 120
         width: 7
         height: 10
-        speed: 0
+        speed: 0.1
         backColor: 7cd656
         frontColor: ffffff
         trailLength: 30
