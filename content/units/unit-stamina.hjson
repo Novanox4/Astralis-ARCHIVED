@@ -180,6 +180,8 @@ bullet: {
       fragBullet: {
         type: BasicBulletType
         lifetime: 120
+        width: 7
+        height: 10
         speed: 0
         backColor: 7cd656
         frontColor: ffffff
