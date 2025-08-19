@@ -20,7 +20,7 @@ commands: [move, enterPayload, rebuild, assist]
 weapons: [
 {
 mirror: false
-reload: 675
+reload: 600
 x: 0
 y: 0
 shootX: 0
@@ -129,18 +129,22 @@ bullet: {
     lifetime: 250
     height: 8 
     width: 8
-    damage: 0
+    suppressColor: 7cd656ff
+    suppressionRange: 80
+    suppressionDuration: 450
+    damage: 150
     shrinkX: -8
     shrinkY: -8
-    backColor: f7cd656
+    backColor: 7cd656
     frontColor: ffffff
     mixColorFrom: ffffff00
     mixColorTo: ffffffff
     shrinkInterp: smoother
-    splashDamage: 600
+    splashDamage: 550
     scaledSplashDamage: true
     splashDamageRadius: 54
     sprite: circle-bullet
+    suppress
     despawnSound: explosion
     hitEffect: none
     despawnEffect: {
@@ -148,7 +152,7 @@ bullet: {
        effects: [
          {
          type: ExplosionEffect
-         waveColor: f7cd656ff
+         waveColor: 7cd656ff
          smokes: 0
          sparks: 0
          lifetime: 100
@@ -157,15 +161,37 @@ bullet: {
          }
          {
          type: WrapEffect
-         color: f7cd656ff
+         color: 7cd656ff
          effect: titanSmoke
          }
          {
          type: WrapEffect
-         color: f7cd656ff
+         color: 7cd656ff
          effect: titanSmokeLarge
           }
         ]
+      }
+      fragBullets: 8
+      fragOnHit: false
+      fragOnAbsorb: true
+      fragLifeMin: 0.7
+      fragVelocityMin: 0.8
+      fragOffsetMax: 0
+      fragOffsetMin: 0
+      fragBullet: {
+        type: BasicBulletType
+        lifetime: 120
+        speed: 2
+        backColor: 7cd656
+        frontColor: ffffff
+        trailLength: 30
+        trailColor: 7cd656
+        trailWidth: 1.75
+        damage: 60
+        followAimSpeed: 0.8
+        pierceBuilding: true
+        pierce: true
+        accel: 0.075
         }
       }
     }
@@ -175,7 +201,7 @@ abilities: [
   {
   type: UnitSpawnAbility
   unit: unit-pollen
-  spawnTime: 1110
+  spawnTime: 960
   spawnY: -2
   }
 ]
