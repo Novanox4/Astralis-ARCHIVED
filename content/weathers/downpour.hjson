@@ -1,0 +1,10 @@
+type: RainWeather
+yspeed: 16
+xspeed: 11
+liquid: water
+color: 5f73a7
+density: 1450
+stroke: 1.4
+sizeMin: 8
+sizeMax: 34
+name: Downpour
