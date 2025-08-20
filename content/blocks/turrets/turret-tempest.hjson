@@ -358,3 +358,12 @@ coolant: {
   amount: 0.45
 }
 coolantMultiplier: 1.3
+research: {
+  parent: turret-vaticinate
+  objectives: [
+    {
+    type: SectorComplete
+    preset: crimp
+    }
+  ]
+}
