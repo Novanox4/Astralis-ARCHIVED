@@ -7,7 +7,7 @@ outlineColor: 323232
 health: 5000
 //stat purpose
 targetGround: false
-range: 32
+range: 24
 alwaysShooting: true
 consumes: {
   power: 14
@@ -21,30 +21,6 @@ drawer: {
     spinSprite: true
     rotateSpeed: 10
     layer: 50.02
-    }
-    {
-    type: DrawRegion
-    suffix: -spike
-    spinSprite: true
-    rotateSpeed: 10
-    layer: 50.02
-    rotation: 90
-    }
-    {
-    type: DrawRegion
-    suffix: -spike
-    spinSprite: true
-    rotateSpeed: 10
-    layer: 50.02
-    rotation: 180
-    }
-    {
-    type: DrawRegion
-    suffix: -spike
-    spinSprite: true
-    rotateSpeed: 10
-    layer: 50.02
-    rotation: 270
     }
     {
     type: DrawRegion
@@ -65,7 +41,7 @@ shootType: {
   hitEffect: none
   splashDamage: 300
   scaledSplashDamage: true
-  splashRadius: 32
+  splashDamageRadius: 24
   damage: 0
   collides: false
   lifetime: 0
