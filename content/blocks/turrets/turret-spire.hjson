@@ -18,19 +18,17 @@ drawer: {
     {
     type: DrawRegion
     suffix: -base
-    layer: 50
+    layer: 49.999
+    }
+    {
+    type: DrawRegion
+    suffix: -rod
     }
     {
     type: DrawRegion
     suffix: -spike
     spinSprite: true
     rotateSpeed: 10
-    layer: 50.02
-    }
-    {
-    type: DrawRegion
-    suffix: -rod
-    layer: 50.01
     }
   ]
 }
@@ -44,7 +42,6 @@ shootType: {
   scaledSplashDamage: true
   splashDamageRadius: 24
   damage: 0
-  collides: false
   lifetime: 0
   collidesGround: false
   }
