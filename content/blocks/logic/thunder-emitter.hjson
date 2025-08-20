@@ -19,4 +19,3 @@ priority: -999999999
 logicConfigurable: true
 privileged: true
 solid: false
-destructible: false
