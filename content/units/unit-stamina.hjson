@@ -16,7 +16,7 @@ legBaseOffset: 8.5
 legPairOffset: -20
 legSpeed: 0.04
 legForwardScl: 1.15
-range: 600
+range: 520
 commands: [move, enterPayload, rebuild, assist]
 weapons: [
 {
@@ -96,7 +96,7 @@ bullet: {
     ]
   }
   sprite: circle-bullet
-  rangeOverride: 600
+  rangeOverride: 520
   despawnEffect: none
   lifetime: 25
   scaleLife: true
@@ -190,7 +190,7 @@ bullet: {
         trailLength: 30
         trailColor: 7cd656
         trailWidth: 1.75
-        damage: 20
+        damage: 10
         followAimSpeed: 3
         pierceBuilding: true
         pierce: true
