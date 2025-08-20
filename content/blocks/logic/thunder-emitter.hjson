@@ -1,4 +1,4 @@
-type: LogicBlock
+type: ConsumeGenerator
 name: Thunder Emitter
 description: "[red]WARNING, ADVANCED USE ONLY![] Emits thunder. Will break your ears unless properly controlled by a world processor!"
 forceDark: true
