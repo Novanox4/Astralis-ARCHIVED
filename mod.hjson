@@ -33,6 +33,7 @@ contentOrder: [
     item-monazite,
     item-cerium,
     item-neodymium,
+    item-hadalrock,
     
     //factories
     
@@ -48,6 +49,7 @@ contentOrder: [
     char-burner,
     slag-radiator,
     radiation-heater,
+    abyssal-reaction-heater,
     heat-circulator,
     
     //walls
@@ -90,6 +92,7 @@ contentOrder: [
     crystal-aqueduct-router,
     crystal-aqueduct-junction,
     crystal-aqueduct-bridge,
+    pressurized-tank,
     
     //power
     
@@ -122,6 +125,8 @@ contentOrder: [
     turret-glacier,
     turret-conflagration,
     turret-vertigo,
+    turret-lunara,
+    turret-tempest,
 
     //unit blocks
 
@@ -183,6 +188,7 @@ contentOrder: [
     remnants,
     strait,
     infestation,
+    gate,
     explosive-armaments-facility,
     delta,
 ]
