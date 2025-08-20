@@ -18,3 +18,4 @@ underBullets: true
 priority: -999999999
 destructible: false
 logicConfigurable: true
+privileged: true
