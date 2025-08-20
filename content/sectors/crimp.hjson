@@ -12,13 +12,13 @@ sector: 83
 planet: astralis
 difficulty: 5
 research: {
-  parent: gate
+  parent: sector-gate
   objectives: [
     turret-lunara,
     unit-viceroy,
     {
       type: SectorComplete
-      preset: gate
+      preset: sector-gate
     }
   ]
 }
