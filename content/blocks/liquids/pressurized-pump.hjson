@@ -1,7 +1,7 @@
 type: pump
-pumpAmount: 1.2
+pumpAmount: 0.32
 name: Pressurized Pump
-description: Quickly pumps liquids it is placed on when powered. Very fragile
+description: Quickly pumps liquids it is placed on when powered. Very fragile.
 consumes: {
  power: 0.94
 }
