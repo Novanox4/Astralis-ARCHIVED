@@ -17,6 +17,11 @@ drawer: {
   drawers: [
     {
     type: DrawRegion
+    suffix: -base
+    layer: 50
+    }
+    {
+    type: DrawRegion
     suffix: -spike
     spinSprite: true
     rotateSpeed: 10
@@ -26,10 +31,6 @@ drawer: {
     type: DrawRegion
     suffix: -rod
     layer: 50.01
-    }
-    {
-    type: DrawTurret
-    basePrefix: spire-
     }
   ]
 }
