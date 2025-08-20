@@ -16,7 +16,7 @@ legBaseOffset: 8.5
 legPairOffset: -20
 legSpeed: 0.04
 legForwardScl: 1.15
-range: 800
+range: 600
 commands: [move, enterPayload, rebuild, assist]
 weapons: [
 {
@@ -96,7 +96,7 @@ bullet: {
     ]
   }
   sprite: circle-bullet
-  rangeOverride: 540
+  rangeOverride: 600
   despawnEffect: none
   lifetime: 25
   scaleLife: true
