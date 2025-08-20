@@ -18,17 +18,17 @@ drawer: {
     {
     type: DrawRegion
     suffix: -base
-    layer: 49.999
-    }
-    {
-    type: DrawRegion
-    suffix: -rod
+    layer: 30
     }
     {
     type: DrawRegion
     suffix: -spike
     spinSprite: true
     rotateSpeed: 10
+    }
+    {
+    type: DrawRegion
+    suffix: -rod
     }
   ]
 }
