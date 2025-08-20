@@ -18,7 +18,7 @@ drawer: {
     {
     type: DrawRegion
     suffix: -base
-    layer: 30
+    layer: 30.001
     }
     {
     type: DrawRegion
