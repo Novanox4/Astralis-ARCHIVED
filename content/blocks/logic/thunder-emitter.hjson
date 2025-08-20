@@ -1,4 +1,4 @@
-type: block
+type: ConsumeGenerator
 name: Thunder Emitter
 description: "[red]WARNING, ADVANCED USE ONLY![] Emits thunder. Will break your ears unless properly controlled by a world processor!"
 forceDark: true
@@ -18,5 +18,4 @@ underBullets: true
 priority: -999999999
 logicConfigurable: true
 privileged: true
-solid: true
-destructible: false
+solid: false
