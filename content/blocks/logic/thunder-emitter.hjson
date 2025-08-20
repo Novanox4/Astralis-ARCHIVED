@@ -6,7 +6,6 @@ targetable: false
 ambientSound: thunder
 requirements: []
 category: logic
-targetable: false
 buildVisibility: worldProcessorOnly
 ambientSoundVolume: 9999999
 itemDuration: 360
@@ -19,3 +18,4 @@ priority: -999999999
 logicConfigurable: true
 privileged: true
 solid: false
+breakable: false
