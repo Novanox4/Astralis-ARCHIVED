@@ -1,6 +1,6 @@
 type: PowerTurret
 name: Spire
-description: "Shreds any air unit above it with 4 rotating magnetically attached spikes. [red]Spikes do not deal damage unless the turret is powered.[]"
+description: "Shreds any air unit above it with 4 rotating magnetically attached spikes. [red]Spikes aren't powerful enough deal damage unless aided by electrical power powered.[]"
 minWarmup: 0.97
 size: 4
 outlineColor: 323232
