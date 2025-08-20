@@ -88,6 +88,7 @@ contentOrder: [
     //liquids
 
     crystal-pump,
+    pressurized-pump,
     crystal-aqueduct,
     crystal-aqueduct-router,
     crystal-aqueduct-junction,
