@@ -1,4 +1,4 @@
-type: ConsumeGenerator
+type: LogicBlock
 name: Thunder Emitter
 description: "[red]WARNING, ADVANCED USE ONLY![] Emits thunder. Will break your ears unless properly controlled by a world processor!"
 forceDark: true
@@ -12,9 +12,7 @@ itemDuration: 360
 consume: {
   item: item-crystalite
   }
-powerProduction: 0
 priority: -999999999
 logicConfigurable: true
 privileged: true
-solid: false
 breakable: false
