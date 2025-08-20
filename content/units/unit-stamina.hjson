@@ -196,7 +196,7 @@ bullet: {
         pierce: true
         accel: 0.2
         absorbable: false
-        pierceDamageFactor: 0.15
+        pierceCap: 3
         }
       }
     }
