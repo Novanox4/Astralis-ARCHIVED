@@ -14,3 +14,7 @@ consume: {
   item: item-crystalite
   }
 powerProduction: 0
+underBullets: true
+priority: -999999999
+destructible: false
+logicConfigurable: true
