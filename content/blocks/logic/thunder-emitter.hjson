@@ -7,7 +7,7 @@ ambientSound: thunder
 requirements: []
 category: logic
 targetable: false
-buildVisibility: editorOnly
+buildVisibility: worldProcessorOnly
 ambientSoundVolume: 9999999
 itemDuration: 360
 consume: {
@@ -16,6 +16,5 @@ consume: {
 powerProduction: 0
 underBullets: true
 priority: -999999999
-destructible: false
 logicConfigurable: true
 privileged: true
