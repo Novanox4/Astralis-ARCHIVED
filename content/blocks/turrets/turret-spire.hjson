@@ -1,0 +1,80 @@
+type: PowerTurret
+name: Spire
+description: Shreds any air unit above it with 4 rotating magnetically attached spikes.
+minWarmup: 0.97
+size: 4
+outlineColor: 323232
+health: 5000
+//stat purpose
+targetGround: false
+range: 32
+alwaysShooting: true
+consumes: {
+  power: 14
+    }
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+    type: DrawRegion
+    suffix: -spike
+    spinSprite: true
+    rotateSpeed: 10
+    layer: 50.02
+    }
+    {
+    type: DrawRegion
+    suffix: -spike
+    spinSprite: true
+    rotateSpeed: 10
+    layer: 50.02
+    rotation: 90
+    }
+    {
+    type: DrawRegion
+    suffix: -spike
+    spinSprite: true
+    rotateSpeed: 10
+    layer: 50.02
+    rotation: 180
+    }
+    {
+    type: DrawRegion
+    suffix: -spike
+    spinSprite: true
+    rotateSpeed: 10
+    layer: 50.02
+    rotation: 270
+    }
+    {
+    type: DrawRegion
+    suffix: -rod
+    layer: 50.01
+    }
+    {
+    type: DrawTurret
+    basePrefix: spire-
+    }
+  ]
+}
+reload: 20
+shootSound: none
+shootType: {
+  type: BulletType
+  despawnEffect: none
+  hitEffect: none
+  splashDamage: 300
+  scaledSplashDamage: true
+  splashRadius: 32
+  damage: 0
+  collides: false
+  lifetime: 0
+  collidesGround: false
+  }
+research: turret-vaticinate
+requirements: [
+  item-crystalite/100
+  item-neodymium/65
+  item-silver/76
+  item-hadalrock/125
+]
