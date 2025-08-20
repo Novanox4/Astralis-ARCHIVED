@@ -4,12 +4,6 @@ name: Force Veil
 description: Creates a very large but weak circular energy dome which absorbs projectiles. Uses power. Shield health be greatly bolstered with neodymium.
 consumes: {
   power: 13
-  items: {
-    items: [
-      item-neodymium/1
-    ]
-    optional: true
-    booster: true
   }
 }
 radius: 600
@@ -38,3 +32,9 @@ research: {
   ]
 }
 consumeCoolant: false
+itemConsumer: {
+  type: ConsumeItems
+  items: [
+    item-neodymium/1
+  ]
+}
