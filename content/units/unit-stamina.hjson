@@ -96,6 +96,7 @@ bullet: {
     ]
   }
   sprite: circle-bullet
+  rangeOverride: 540
   despawnEffect: none
   lifetime: 25
   scaleLife: true
