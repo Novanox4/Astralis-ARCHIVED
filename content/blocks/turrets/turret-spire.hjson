@@ -23,6 +23,7 @@ drawer: {
     {
     type: RegionPart
     suffix: -rod
+    layerOffset: 0.2
     moveY: 0
     }
     {
