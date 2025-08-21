@@ -26,7 +26,8 @@ drawer: {
     suffix: -spike
     progress: warmup
     layerOffset: 0.1
-    moveY: 10
+    y: 5
+    moveY: -5
     yScl: 0.1
     growY: 1
     moves: [
