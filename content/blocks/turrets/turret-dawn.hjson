@@ -60,4 +60,5 @@ shootType: {
   despawnEffect = instBomb
   length: 720
   buildingDamageMultiplier: 0.0001
+  collidesAir: false
   }
