@@ -24,20 +24,21 @@ drawer: {
     {
     type: RegionPart
     suffix: -spike
-    moveRot: 359
-    progress: recoil
+    progress: warmup
     moveY: 0
-    xScl: 0.1
+    yScl: 0.1
+    growY: 10
     moves: [
       {
       type: PartMove
-      progress: warmup
-      growX: 10
+      progress: recoil
+      moveRot: 359
       }
     ]
     }
   ]
 }
+recoil: 0
 shootY: 0
 reload: 30
 shootSound: none
