@@ -2,8 +2,8 @@ type: PowerTurret
 name: Spire
 description: "Shreds any air unit above it with 4 rotating magnetically attached spikes. Consumes power. Tanky"
 minWarmup: 0.97
-warmupMaintainTime: 60
-shootWarmupSpeed: 0.05
+warmupMaintainTime: 8
+shootWarmupSpeed: 0.025
 size: 4
 outlineColor: 323232
 armor: 30
