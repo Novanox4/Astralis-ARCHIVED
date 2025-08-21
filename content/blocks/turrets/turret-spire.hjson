@@ -14,7 +14,7 @@ targetGround: false
 range: 24
 alwaysShooting: true
 consumes: {
-  power: 14
+  power: 4
     }
 drawer: {
   type: DrawTurret
