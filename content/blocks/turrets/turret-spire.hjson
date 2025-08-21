@@ -5,6 +5,7 @@ minWarmup: 0.97
 warmupMaintainTime: 8
 shootWarmupSpeed: 0.025
 size: 4
+targetPriority: 1.5
 outlineColor: 323232
 armor: 30
 health: 8500
