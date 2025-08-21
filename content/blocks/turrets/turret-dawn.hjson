@@ -53,7 +53,7 @@ shootSound: railgun
 shootType: {
   type: RailBulletType
   damage: 125
-  shootEffect: instShoot
+  shootEffect: railShoot
   hitEffect: instHit
   pierceEffect: railHit
   smokeEffect: smokeCloud
