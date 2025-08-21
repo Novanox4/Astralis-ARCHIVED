@@ -45,8 +45,8 @@ drawer: {
     progress: warmup
     layerOffset: 0.1
     rotation: 90
-    y: 5
-    moveY: -5
+    x: 5
+    moveX: -5
     yScl: 0.1
     growY: 1
     moves: [
