@@ -37,3 +37,4 @@ itemConsumer: {
     item-neodymium/1
   ]
 }
+itemCapacity: 10
