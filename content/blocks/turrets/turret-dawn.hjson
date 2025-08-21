@@ -27,8 +27,8 @@ drawer: {
     type: RegionPart
     suffix: -capsule
     layerOffset: -0.1
-    y: -8
-    moveY: 16
+    y: 8
+    moveY: -16
     progress: recoil
     }
     {
