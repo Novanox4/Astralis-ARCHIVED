@@ -103,7 +103,7 @@ shootType: {
   type: BulletType
   despawnEffect: none
   hitEffect: none
-  splashDamage: 150
+  splashDamage: 450
   scaledSplashDamage: true
   splashDamageRadius: 24
   damage: 0
