@@ -25,10 +25,6 @@ drawer: {
     suffix: -rod
     layerOffset: 0.2
     moveY: 0
-    xScl: 0
-    growX: 1
-    yScl: 0
-    growY: 1
     progress: warmup
     }
     {
