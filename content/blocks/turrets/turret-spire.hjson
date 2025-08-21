@@ -9,7 +9,6 @@ health: 8500
 //stat purpose
 targetGround: false
 range: 24
-recoilTime: 20
 alwaysShooting: true
 consumes: {
   power: 14
@@ -36,7 +35,7 @@ drawer: {
     moves: [
       {
       type: PartMove
-      progress: recoil
+      progress: charge
       rot: 359
       }
     ]
@@ -54,7 +53,7 @@ drawer: {
     moves: [
       {
       type: PartMove
-      progress: recoil
+      progress: charge
       rot: 359
       }
     ]
@@ -72,7 +71,7 @@ drawer: {
     moves: [
       {
       type: PartMove
-      progress: recoil
+      progress: charge
       rot: 359
       }
     ]
@@ -90,7 +89,7 @@ drawer: {
     moves: [
       {
       type: PartMove
-      progress: recoil
+      progress: charge
       rot: 359
       }
     ]
@@ -99,7 +98,7 @@ drawer: {
 }
 recoil: 0
 shootY: 0
-reload: 1
+reload: 20
 shootSound: none
 shootType: {
   type: BulletType
