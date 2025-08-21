@@ -27,12 +27,12 @@ drawer: {
     progress: warmup
     moveY: 0
     yScl: 0.1
-    growY: 10
+    growY: 1
     moves: [
       {
       type: PartMove
       progress: recoil
-      moveRot: 359
+      rot: 359
       }
     ]
     }
