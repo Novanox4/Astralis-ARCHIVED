@@ -12,7 +12,7 @@ requirements: [
   item-hadalrock/250
   ]
 range: 700
-reload: 160
+reload: 600
 drawer: {
   type: DrawTurret
   basePrefix: astral-
@@ -46,7 +46,7 @@ consumes: {
 }
 shoot: {
   shots: 8
-  shotDelay: 20
+  shotDelay: 10
     }
 shootSound: railgun
 shootType: {
