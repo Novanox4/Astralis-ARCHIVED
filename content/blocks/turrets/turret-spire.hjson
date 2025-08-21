@@ -97,7 +97,7 @@ drawer: {
 }
 recoil: 0
 shootY: 0
-reload: 10
+reload: 25
 shootSound: none
 shootType: {
   type: BulletType
