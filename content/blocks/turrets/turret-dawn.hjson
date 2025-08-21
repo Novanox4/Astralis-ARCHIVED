@@ -51,7 +51,7 @@ shoot: {
 shootSound: railgun
 shootType: {
   type: RailBulletType
-  damage: 125
+  damage: 180
   shootEffect: railShoot
   hitEffect: instHit
   pierceEffect: railHit
