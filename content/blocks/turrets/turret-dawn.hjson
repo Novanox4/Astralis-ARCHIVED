@@ -53,11 +53,11 @@ shootType: {
   type: RailBulletType
   damage: 125
   shootEffect: instShoot
-  hitEffect = instHit
-  pierceEffect = railHit
-  smokeEffect = smokeCloud
-  pointEffect = instTrail
-  despawnEffect = instBomb
+  hitEffect: instHit
+  pierceEffect: railHit
+  smokeEffect: smokeCloud
+  pointEffect: instTrail
+  despawnEffect: instBomb
   length: 720
   buildingDamageMultiplier: 0.0001
   collidesAir: false
