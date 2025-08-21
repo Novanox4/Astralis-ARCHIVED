@@ -19,12 +19,22 @@ drawer: {
     {
     type: RegionPart
     suffix: -rod
+    moveY: 0
     }
     {
     type: RegionPart
     suffix: -spike
     moveRot: 359
     progress: recoil
+    moveY: 0
+    xScl: 0.1
+    moves: [
+      {
+      type: PartMove
+      progress: warmup
+      growX: 10
+      }
+    ]
     }
   ]
 }
