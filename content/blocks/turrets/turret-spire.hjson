@@ -35,7 +35,7 @@ drawer: {
     moves: [
       {
       type: PartMove
-      progress: charge
+      progress: recoil
       rot: 359
       }
     ]
@@ -53,7 +53,7 @@ drawer: {
     moves: [
       {
       type: PartMove
-      progress: charge
+      progress: recoil
       rot: 359
       }
     ]
@@ -71,7 +71,7 @@ drawer: {
     moves: [
       {
       type: PartMove
-      progress: charge
+      progress: recoil
       rot: 359
       }
     ]
@@ -89,7 +89,7 @@ drawer: {
     moves: [
       {
       type: PartMove
-      progress: charge
+      progress: recoil
       rot: 359
       }
     ]
@@ -98,7 +98,7 @@ drawer: {
 }
 recoil: 0
 shootY: 0
-reload: 20
+reload: 18
 shootSound: none
 shootType: {
   type: BulletType
