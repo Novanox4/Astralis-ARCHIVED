@@ -5,6 +5,8 @@ size: 4
 outlineColor: 323232
 health: 1000
 targetAir: false
+//funny
+cooldownTime: 420
 requirements: [
   item-uranium/175
   metaglass/150
