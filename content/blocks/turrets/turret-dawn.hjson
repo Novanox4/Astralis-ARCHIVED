@@ -1,0 +1,63 @@
+type: PowerTurret
+name: Dawn
+description: Shoots 8 incredibly powerful energy beams at ground targets. Consumes void fluid.
+size: 4
+outlineColor: 323232
+health: 1000
+targetAir: false
+requirements: [
+  item-uranium/175
+  metaglass/150
+  item-cerium/175
+  item-hadalrock/250
+  ]
+range: 700
+reload: 160
+drawer: {
+  type: DrawTurret
+  basePrefix: astral-
+  parts: [
+    {
+    type: RegionPart
+    suffix: -underside
+    layerOffset: -0.2
+    }
+    {
+    type: RegionPart
+    suffix: -capsule
+    layerOffset: -0.1
+    y: -1.5
+    moveY: 3
+    progress: reload
+    }
+    {
+    type: RegionPart
+    suffix: -barrel
+    progress: recoil
+    moveY: -3
+    }
+  ]
+}
+consumes: {
+  power: 50
+  liquids: [
+    liquid-void-fluid/0.99
+  ]
+}
+shoot: {
+  shots: 8
+  shotDelay: 20
+    }
+shootSound: railgun
+shootType: {
+  type: RailBulletType
+  damage: 125
+  shootEffect: instShoot
+  hitEffect = instHit
+  pierceEffect = railHit
+  smokeEffect = smokeCloud
+  pointEffect = instTrail
+  despawnEffect = instBomb
+  length: 720
+  buildingDamageMultiplier: 0.0001
+  }
