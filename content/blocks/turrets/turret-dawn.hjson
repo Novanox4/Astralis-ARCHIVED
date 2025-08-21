@@ -16,7 +16,6 @@ reload: 160
 drawer: {
   type: DrawTurret
   basePrefix: astral-
-  turretLayer: 51
   parts: [
     {
     type: RegionPart
@@ -26,7 +25,7 @@ drawer: {
     {
     type: RegionPart
     suffix: -capsule
-    layerOffset: -0.00001
+    layerOffset: -0.1
     y: 8
     moveY: -16
     progress: recoil
