@@ -2,7 +2,7 @@ type: Wall
 health: 1920
 size: 3
 requirements: [
-  hadalrock/32
+  item-hadalrock/32
   ]
 research: large-cerium-wall
 category: defense
