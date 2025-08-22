@@ -8,5 +8,5 @@ research: large-cerium-wall
 category: defense
 name: Hadalrock Wall
 description: Defends structures from enemy attacks. Conducts power and deflects bullets. Has no small variant.
-chanceDeflect: 10
+chanceDeflect: 60
 buildTime: 20
