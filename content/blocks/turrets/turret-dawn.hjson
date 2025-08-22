@@ -2,6 +2,7 @@ type: PowerTurret
 name: Dawn
 description: Shoots 8 incredibly powerful energy beams at ground targets. Consumes void fluid.
 size: 4
+rotateSpeed: 2
 outlineColor: 323232
 health: 1000
 targetAir: false
