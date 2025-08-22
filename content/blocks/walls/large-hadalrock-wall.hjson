@@ -2,7 +2,7 @@ type: Wall
 health: 3780
 size: 3
 requirements: [
-  hadalrock/120
+  item-hadalrock/120
   ]
 research: hadalrock-wall
 category: defense
