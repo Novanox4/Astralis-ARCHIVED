@@ -1,9 +1,9 @@
 type: ItemTurret
 name: Lunara
-description: Fires multiple homing projectiles from the main barrel's sides. Can only target air units.
+description: Fires multiple homing projectiles from the main barrel's sides. Can not be cooled.
 outlineColor: 323232
 category: turret
-cooldownTime: 40
+cooldownTime: 180
 minWarmup: 0.9
 warmupMaintainTime: 28
 requirements: [
@@ -13,7 +13,6 @@ requirements: [
   item-neodymium/125
 ]
 research: turret-vaticinate
-targetGround: false
 shootSound: bang
 size: 4
 drawer: {
@@ -30,8 +29,8 @@ drawer: {
     }
   ]
 }
-reload: 8
-ammoPerShot: 4
+reload: 12.5
+ammoPerShot: 5
 shoot: {
   type: ShootBarrel
   shots: 2
@@ -40,17 +39,16 @@ shoot: {
     6, -16.5, -90,
     ]
   }
-range: 325
+range: 240
 ammoTypes: {
   item-silver: {
     type: BulletType
     homingRange: 325
     homingDelay: 25
     homingPower: 0.4
-    lifetime: 80
+    lifetime: 70
     speed: 2
-    accel: 0.075
-    collidesGround: false
+    accel: 0.06
     damage: 47.5
     trailLength: 32
     trailWidth: 2
@@ -74,10 +72,9 @@ ammoTypes: {
     homingRange: 325
     homingDelay: 25
     homingPower: 0.4
-    lifetime: 80
+    lifetime: 70
     speed: 2
-    accel: 0.075
-    collidesGround: false
+    accel: 0.06
     damage: 28
     reloadMultiplier: 1.425
     trailLength: 32
