@@ -64,12 +64,15 @@ contentOrder: [
     large-cerium-wall,
     neodymium-wall,
     large-neodymium-wall,
+    hadalrock-wall,
+    large-hadalrock-wall,
     gate,
     
     //effect
     
     remediator,
     lamp,
+    beacon,
     core-fort,
     core-agora,
     core-castle,
@@ -128,6 +131,8 @@ contentOrder: [
     turret-vertigo,
     turret-lunara,
     turret-tempest,
+    turret-spire,
+    turret-dawn,
 
     //unit blocks
 
@@ -193,4 +198,5 @@ contentOrder: [
     explosive-armaments-facility,
     delta,
     crimp,
+    passageway,
 ]
