@@ -1,0 +1,75 @@
+type: LiquidTurret
+name: Glacier
+description: "Launches large spikes of ice at enemy ground units. Specialized against naval units. Cannot be cooled and [accent]must be placed on water.[]"
+reload: 60
+category: turret
+size: 3
+outlineColor: 323232
+requiresWater: true
+placeableLiquid: true
+extinguish: false
+shootSound: shotgun
+loopSound: none
+targetAir: false
+maxAmmo: 20
+range: 180
+squareSprite: false
+shootY: 20
+liquidCapacity: 50
+health: 1250
+requirements: [
+  item-crystalite/350
+  item-silver/200
+  metaglass/375
+  item-cerium/75
+  item-neodymium/20
+]
+drawer: {
+  type: DrawTurret
+  basePrefix: astral-
+    }
+ammoTypes: {
+  water: {
+    type: ShrapnelBulletType
+    fromColor: 6ed1e7
+    toColor: 6ed1e7
+    width: 20
+    length: 165
+    damage: 110
+    pierce: true
+    serrations: 0
+    lifetime: 45
+    layer: 100
+    shootEffect: hitSquaresColor
+    hitColor: 6ed1e7ff
+    ammoMultiplier: 0.2
+    }
+  nitrogen: {
+    type: ShrapnelBulletType
+    fromColor: ffffff
+    toColor: ffffff
+    width: 22.5
+    length: 170
+    damage: 190
+    pierce: true
+    serrations: 0
+    lifetime: 45
+    layer: 100
+    shootEffect: hitSquaresColor
+    hitColor: ffffffff
+    ammoMultiplier: 0.2
+    reloadMultiplier: 1.1
+    status: freezing
+    statusDuration: 360
+  }
+}
+research: {
+  parent: turret-reverberate
+  objectives: [
+    electrostatic-separator,
+    {
+    type: SectorComplete
+    preset: delta
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+type: naval
+name: Poltergeist
+description: Naval ship made to rush down bases quickly. Attacks with a missile cannon.
+speed: 2.5
+health: 625
+hitSize: 15
+outlineColor: 323232
+trailLength: 32.5
+rotateSpeed: 30
+research: unit-draugr
+weapons: [
+  {
+  name: unit-poltergeist-weapon
+  reload: 120
+  x: 0
+  y: -4.5
+  shootY: 5
+  mirror: false
+  shootSound: missile
+  rotate: true
+  shoot: {
+    type: shootAlternate
+    shots: 6
+    shotDelay: 6.5
+    barrels: 2
+    spread: 2.5
+      }
+  bullet: {
+    type: MissileBulletType
+    damage: 32.5
+    lifetime: 55
+    speed: 6
+    backColor: db5151
+    frontColor: ffffff
+    weaveScale: 7.5
+    weaveMag: 0.85
+    homingRange: 75
+    shootEffect: none
+      }
+    }
+  ]
+omniMovement: true

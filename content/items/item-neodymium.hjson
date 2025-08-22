@@ -4,7 +4,7 @@ flammability: 0
 radioactivity: 0
 charge: 0.05
 cost: 1
-hardness: 1.5
+hardness: 1.8
 name: Neodymium
 description: Rare earth metal. Highly magnetic. Used for powerful transportation systems and specialized radar technology.
 research: item-monazite

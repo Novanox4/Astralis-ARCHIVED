@@ -4,6 +4,7 @@ description: Powerful railcannon that propels forwards metallic payloads at high
 category: turret
 range: 650
 size: 3
+outlineColor: 323232
 squareSprite: false
 shootSound: shootBig
 cooldownTime: 125
@@ -97,6 +98,64 @@ ammoTypes: {
         lenTo: 4.75
         strokeFrom: 1.75
         strokeTo: 0
+        }
+      }
+    }
+  item-hadalrock: {
+    type: BasicBulletType
+    damage: 825
+    despawnHit: true
+    hitEffect: {
+      type: MultiEffect
+      effects: [
+        {
+        type: ParticleEffect
+        rotWithParent: true
+        followParent: true
+        colorFrom: ffffffff
+        colorTo: 452d56ff
+        cone: 25
+        lifetime: 60
+        length: 160
+        sizeFrom: 5
+        particles: 10
+        sizeChangeStart: 37.5
+        interp: pow10Out
+        sizeInterp: linear
+        }
+      ]
+    }
+    buildingDamageMultiplier: 0.05
+    frontColor: ffffff
+    backColor: 452d56
+    speed: 9.25
+    trailColor: 452d56
+    shieldDamageMultiplier: 9999999
+    trailLength: 35
+    trailWidth: 4
+    lifetime: 70
+    height: 22.5
+    width: 13.75
+    bulletInterval: 1
+    intervalBullets: 1
+    intervalRandomSpread: 2
+    intervalAngle: 180
+    intervalBullet: {
+      type: BulletType
+      display: false
+      collides: false
+      instantDisappear: true
+      damage: 0
+      despawnEffect: {
+        type: ParticleEffect
+        rotWithParent: true
+        followParent: true
+        colorFrom: ffffffff
+        colorTo: 452d56ff
+        cone: 32.5
+        lifetime: 40
+        length: 35
+        sizeFrom: 4
         }
       }
     }

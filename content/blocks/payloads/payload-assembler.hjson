@@ -7,9 +7,21 @@ requirements: [
   item-silver/80
   item-neodymium/70
   ]
-buildSpeed: 0.35
+buildSpeed: 1.65
 consumes: {
   power: 4
     }
 size: 4
-maxBlockSize: 3
+maxBlockSize: 5
+category: units
+payloadSpeed: 2
+research: {
+  parent: crystal-duct
+  objectives: [
+    depository,
+    {
+    type: OnSector
+    preset: infestation
+    }
+  ]
+}

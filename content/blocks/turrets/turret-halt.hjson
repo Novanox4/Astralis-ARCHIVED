@@ -3,11 +3,13 @@ name: Halt
 description: Unleashes a wave of scrambling particles that stall enemies. Requires neodymium to run.
 category: turret
 range: 155
+outlineColor: 323232
 size: 3
 squareSprite: false
 shootSound: plasmadrop
 shootY: 0.1
 recoilTime: 25
+outlineColor: 323232
 shootEffect: shootBigColor
 smokeEffect: shootSmokeSquareSparse
 cooldownTime: 275

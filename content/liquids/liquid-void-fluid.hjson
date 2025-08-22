@@ -1,5 +1,6 @@
 type: CellLiquid
 name: Void Fluid
+details: "Codename: V-0. Common name: Void Fluid/Liquid Void. Scientific name: Aqua Mortis. Tests have shown that it quickly spreads by consuming water, rainfall being one of it's strongest multipliers. It is higly unstable, but has industrial usages if stabilized, and is a powerful coolant and means of power production while unstable. When interacted with, it quickly coagulates and hardens, making movement near impossible."
 description: Liquid darkness. Incredibly cold, volatile and viscous, traps anything caught in it. Possibly alive.
 color: 0c0413
 colorFrom: 0c0413
@@ -8,12 +9,12 @@ gasColor: 0c0413
 boilPoint: 0.1
 heatCapacity: 1.1
 temperature: -0.65
-viscosity: 0.85
+viscosity: 0.55
 explosiveness: 0.75
 research: {
-  parent: core-fort
+  parent: item-cerium
   objectives: [
-    crystal-kiln
+    exhumer,
   ]
 }
 barColor: 000000

@@ -11,6 +11,7 @@ researchCost: [
 health: 150
 category: power
 buildTime: 175
-powerProduction: 2.25
+powerProduction: 2.4
 generateEffect: steam
 description: Produces power when placed on hot tiles. Efficiency scales with tile temperature.
+floating: true

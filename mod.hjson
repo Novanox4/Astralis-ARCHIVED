@@ -2,10 +2,20 @@ name: "astralis"
 displayName: "Astralis"
 description: "
 IN DEVELOPMENT, EXPECT BUGS AND UNFINISHED/UNPOLISHED CONTENT!
+
 Astralis is a mod focused on adding a brand new campaign on a planet harboring the same name.
+
 Set in the same universe as Hell Industries (althought not as horribly painful), fight hordes of eldritch AND mechanical horrors alike with your own mechanical horrors!
-Overthrow a government, kill god and ravage an entire planet now!"
-subtitle: "The void stared back"
+Overthrow a government, kill god and ravage an entire planet now! (or maybe when the mod is done)
+
+Difficulty: uhhh... it depends...
+Content: For now, quite a decent amount. A lot is in store for the future though :3
+Sillyness: MAXIMUM
+Eldritch Horrors: I'm just getting started!
+Quality: uhhh... it depends...
+Balancing: What even is that???????
+"
+subtitle: "[accent]Domus Dei super ungues martyris aedificata est."
 repo: novanox4/Astralis
 version: 0.3
 minGameVersion: 150
@@ -23,6 +33,7 @@ contentOrder: [
     item-monazite,
     item-cerium,
     item-neodymium,
+    item-hadalrock,
     
     //factories
     
@@ -33,9 +44,12 @@ contentOrder: [
     electrostatic-separator,
     crystal-crucible,
     nitric-acid-synthesizer,
+    void-stabilizer,
+    hadalrock-solidifier,
     char-burner,
     slag-radiator,
     radiation-heater,
+    abyssal-reaction-heater,
     heat-circulator,
     
     //walls
@@ -48,15 +62,22 @@ contentOrder: [
     large-silver-wall,
     cerium-wall,
     large-cerium-wall,
+    neodymium-wall,
+    large-neodymium-wall,
+    hadalrock-wall,
+    large-hadalrock-wall,
     gate,
     
     //effect
     
     remediator,
     lamp,
+    beacon,
     core-fort,
     core-agora,
+    core-castle,
     depository,
+    force-veil,
     
     //distribution
     
@@ -70,13 +91,12 @@ contentOrder: [
     //liquids
 
     crystal-pump,
-    
-    //liquid distribution
-    
+    pressurized-pump,
     crystal-aqueduct,
     crystal-aqueduct-router,
     crystal-aqueduct-junction,
     crystal-aqueduct-bridge,
+    pressurized-tank,
     
     //power
     
@@ -93,6 +113,7 @@ contentOrder: [
     char-crusher,
     corrosion-mill,
     deep-quarry,
+    exhumer,
 
     //turrets
 
@@ -105,6 +126,13 @@ contentOrder: [
     turret-benefactor,
     turret-vaticinate,
     turret-halt,
+    turret-glacier,
+    turret-conflagration,
+    turret-vertigo,
+    turret-lunara,
+    turret-tempest,
+    turret-spire,
+    turret-dawn,
 
     //unit blocks
 
@@ -112,6 +140,11 @@ contentOrder: [
     support-unit-forge,
     large-assault-unit-forge,
     large-support-unit-forge,
+    payload-assembler,
+    payload-disassembler,
+    payload-packer,
+    payload-unpacker,
+    magnetic-bulk-accelerator,
     
     //logic
 
@@ -121,15 +154,21 @@ contentOrder: [
 
     unit-shards,
     unit-chunks,
+    unit-clusters,
     unit-capture,
     unit-chieftain,
     unit-lord,
+    unit-viceroy,
+    unit-draugr,
+    unit-poltergeist,
     unit-receptacle,
     unit-pollen,
     unit-stem,
+    unit-stamina,
     unit-spectrum,
     unit-hue,
     unit-vibrance,
+    unit-refraction,
     unit-flu,
     unit-malady,
     unit-outbreak,
@@ -137,8 +176,11 @@ contentOrder: [
     unit-microplana,
     unit-koreni,
     unit-lumbricus,
+    unit-blob,
     unit-hunger,
     unit-craving,
+    unit-voracity,
+    unit-wilt,
 
     //status
 
@@ -151,5 +193,13 @@ contentOrder: [
     emergence,
     burning-ravine,
     mineshaft,
+    remnants,
+    strait,
+    infestation,
+    bog,
+    sector-gate,
     explosive-armaments-facility,
+    delta,
+    crimp,
+    passageway,
 ]

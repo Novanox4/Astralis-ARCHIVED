@@ -1,0 +1,18 @@
+type: LogicBlock
+name: Thunder Emitter
+description: "[red]WARNING, ADVANCED USE ONLY![] Emits thunder. Will break your ears unless properly controlled by a world processor!"
+forceDark: true
+targetable: false
+ambientSound: thunder
+requirements: []
+category: logic
+buildVisibility: worldProcessorOnly
+ambientSoundVolume: 9999999
+itemDuration: 360
+consume: {
+  item: item-crystalite
+  }
+priority: -999999999
+logicConfigurable: true
+privileged: true
+breakable: false

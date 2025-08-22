@@ -1,6 +1,6 @@
 type: flying
 flying: true
-health: 75
+health: 1
 speed: 4.5
 hitSize: 5
 controller: RepairAi

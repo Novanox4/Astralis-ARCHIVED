@@ -1,0 +1,12 @@
+type: liquid
+name: Void Fluid (Stable)
+description: Inert, diluted void fluid. Safe to use, doesn't spread through water.
+color: 0c0413
+barColor: 0c0413
+gasColor: 0c0413
+capPuddles: false
+viscosity: 0.3
+heatCapacity: 0.2
+coolant: false
+temperature: 0.375
+hidden: true

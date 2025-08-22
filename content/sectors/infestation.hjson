@@ -1,0 +1,33 @@
+localizedName: "Infestation"
+description: "[accent][SIGNAL INCOMING][]
+[Incoming message from superintendent TARTAR-us]
+[navy][EXTENSIVE BIOLOGICAL THREATS DETECTED][]
+  
+Hey, uh, you don't happen to be scared of spiders, right?
+  
+We might need to go through giant spider infested Hell Inc. transport hub. We may be on the run from our enemies after one of our large carrier ships crashed into the ocean, which was supposed to transport resources to our base, and it just so happened to have coordinates to some of our bases...
+
+Usually you wouldn't get sent to a sector of this danger with your level of tech, but we have no choice. This is the fastest and (comparatively) safest route that won't leave our bases vulnerable. 
+
+[accent]This is how it must be. Good luck.[]
+
+[Broadcast end]
+
+
+
+[slate]You hear something breathing deep inside the rocks
+"
+sector: 236
+planet: astralis
+difficulty: 7
+research: {
+  parent: strait
+  objectives: [
+    turret-vertigo,
+    force-veil,
+    {
+      type: SectorComplete
+      preset: strait
+    }
+  ]
+}

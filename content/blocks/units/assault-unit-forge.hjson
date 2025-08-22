@@ -12,11 +12,11 @@ plans: [
     {
 unit: unit-capture
 requirements: [
-    item-crystalite/30
-    item-uranium/60
-    metaglass/30
+    item-crystalite/16
+    item-uranium/20
+    metaglass/7
       ]
-    time: 1250
+    time: 600
     }
     {
 unit: unit-chieftain
@@ -26,6 +26,24 @@ requirements: [
     item-silver/65
       ]
     time: 1750
+    }
+    {
+unit: unit-draugr
+requirements: [
+    item-crystalite/13
+    item-uranium/16
+    metaglass/12
+      ]
+    time: 450
+    }
+     {
+unit: unit-poltergeist
+requirements: [
+    item-crystalite/35
+    item-silver/30
+    metaglass/40
+      ]
+    time: 1250
     }
   ]
 research: {

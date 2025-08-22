@@ -1,0 +1,53 @@
+type: legs
+name: Tlilocatl
+description: Dislodges itself from its legs, propelling its body as a single-use explosive missile.
+details: "NNNNNNNNYYYYYYYYOOOOOOOOOOOOOOMMMMMMMMMMMMMMMMM"
+health: 250
+legCount: 2
+legGroupSize: 1
+legLength: 10
+legMinLength: 1
+legExtension: -2
+legBaseOffset: 4
+createWreck: false
+createScorch: false
+deathSound: missileLarge
+deathExplosionEffect: none
+rotateSpeed: 7.5
+weapons: [
+{
+mirror: false
+x: 0
+y: 0
+shootX: 0
+shootY: 0
+reload: 10
+shootSound: none
+shootEffect: none
+smokeEffect: none
+shootOnDeath: true
+shoot: {
+  firstShotDelay: 60
+}
+shootCone: 0.01
+bullet: {
+  type: BulletType
+  collides: false
+  damage: 125
+  hitEffect: none
+  killShooter: true
+  rangeOverride: 400
+  despawnEffect: none
+    }
+  }
+]
+outlineColor: 323232
+abilities: [
+  {
+  type: SpawnDeathAbility
+  spread: 0
+  faceOutwards: false
+  unit: unit-tlilocatl-missile
+  display: false
+  }
+]

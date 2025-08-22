@@ -1,0 +1,33 @@
+localizedName: "Delta"
+description: "[accent][SIGNAL INCOMING][]
+[Incoming message from superintendent TARTAR-us]
+  
+[red][ENEMY BASE DETECTED][]
+  
+A study facility has been detected on a watery, remote sector.
+
+Most of our tech has been disabled, so you must use [accent]naval units[] to attack the base.
+
+Long range turrets have been detected. Try using walls and units to distract them while you launch a surprise attack.
+
+Uranium is quite scarce here, just like available space is.
+
+[accent]This sector is optional and not required to beat the main campaign and finish the story!"
+sector: 37
+planet: astralis
+difficulty: 4
+research: {
+  parent: mineshaft
+  objectives: [
+    turret-malheur,
+    turret-spritz,
+    cryogenic-distiller,
+    gate,
+    unit-poltergeist,
+    unit-draugr,
+    {
+      type: SectorComplete
+      preset: mineshaft
+    }
+  ]
+}

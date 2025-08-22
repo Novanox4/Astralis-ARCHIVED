@@ -1,0 +1,11 @@
+color: 94e3f1
+name: Solacite
+description: Incredibly unstable crystal compound. Has uses in high tier electrical strucutres and ammunition.
+explosiveness: 0.2
+flammability: 0.03
+radioactivity: 0
+charge: 1.75
+cost: 1.25
+hardness: 1.8
+research: item-crystalite
+details: "Your only friend"

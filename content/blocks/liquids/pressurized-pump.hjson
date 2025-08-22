@@ -1,0 +1,21 @@
+type: pump
+pumpAmount: 0.32
+name: Pressurized Pump
+description: Quickly pumps liquids it is placed on when powered. Very fragile.
+consumes: {
+ power: 0.94
+}
+size: 2
+health: 50
+requirements: [
+  metaglass/110
+  item-hadalrock/60
+  item-silver/40
+]
+research: crystal-pump
+squareSprite: false
+category: liquid
+liquidPressure: 99
+timerFlow: 0
+placeableLiquid: true
+floating: true

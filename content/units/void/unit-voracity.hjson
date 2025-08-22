@@ -1,0 +1,165 @@
+type: legs
+legCount: 6
+legGroupSize: 3
+health: 7750
+armor: 0
+baseLegStraightness: 0.25
+legMinLength: 0.8
+legMaxLength: 1
+legSpeed: 0.075
+legLength: 42
+rotateSpeed: 1.5
+name: Voracity
+description: Horrid amalgam of corpses and coagulated void fluid. Highly dangerous.
+details: "Codename: V-14. Common name: Voracity. Scientific name: Impius Aranea. Only a few have ever been captured and tested on. The bones found inside show uncanny similarity to human remains, yet also seem completely anomalous and purposeless. It has a very high amount of health, but no armor, so it is higly susceptible to many, weak attacks, such as Vertigo's projectiles."
+hitSize: 26
+legExtension: -2.75
+speed: 1.6
+immunities: [status-voidgnaw]
+useUnitCap: false
+lightRadius: 0
+outlineColor: 0c0413
+deathExplosionEffect: none
+deathSound: plantBreak
+legBaseOffset: 8
+abilities: [
+  {
+  type: LiquidExplodeAbility
+  liquid: liquid-void-fluid
+  radScale: 1
+  radAmountScale: 3
+  amount: 45
+  }
+]
+weapons: [
+{
+name: unit-voracity-weapon
+mirror: false
+reload: 40
+rotate: true
+rotateSpeed: 17.5
+y: 4
+x: 12
+layerOffset: 1
+shootSound: plantBreak
+shootY: 6
+parts: [
+  {
+  type: RegionPart
+  suffix: -spike
+  rotation: 90
+  mirror: true
+  layerOffset: -0.01
+  x: 0
+  y: 0
+  moveX: 4
+  moveY: 0
+  moveRot: -65
+  progress: recoil
+  }
+  {
+  type: RegionPart
+  suffix: -spike
+  rotation: 90
+  mirror: true
+  layerOffset: -0.02
+  x: 0
+  y: 0
+  moveX: 3.75
+  moveY: -3.75
+  moveRot: -90
+  progress: recoil
+  }
+]
+bullet: {
+  type: BasicBulletType
+  lifetime: 30
+  sprite: circle-bullet
+  backColor: 100818
+  hitColor: 100818
+  frontColor: 100818
+  width: 3
+  height: 22
+  speed: 8
+  collides: false
+  splashDamage: 90
+  splashDamageRadius: 24
+  scaledSplashDamage: true
+  absorbable: false
+  puddles: 4
+  puddleRange: 10
+  puddleAmount: 20
+  puddleLiquid: liquid-void-fluid
+  despawnSound: splash
+  hitEffect: none
+  despawnEffect: none
+  layer: 111
+  scaleLife: true
+    }
+  }
+{
+name: unit-voracity-weapon
+mirror: false
+reload: 76
+rotate: true
+rotateSpeed: 17.5
+y: -7
+x: 10.25
+layerOffset: 1
+shootSound: plantBreak
+shootY: 6
+parts: [
+  {
+  type: RegionPart
+  suffix: -spike
+  rotation: 90
+  mirror: true
+  layerOffset: -0.01
+  x: 0
+  y: 0
+  moveX: 4
+  moveY: 0
+  moveRot: -65
+  progress: recoil
+  }
+  {
+  type: RegionPart
+  suffix: -spike
+  rotation: 90
+  mirror: true
+  layerOffset: -0.02
+  x: 0
+  y: 0
+  moveX: 3.75
+  moveY: -3.75
+  moveRot: -90
+  progress: recoil
+  }
+]
+bullet: {
+  type: BasicBulletType
+  lifetime: 30
+  sprite: circle-bullet
+  backColor: 100818
+  hitColor: 100818
+  frontColor: 100818
+  width: 3
+  height: 22
+  speed: 8
+  collides: false
+  splashDamage: 90
+  splashDamageRadius: 24
+  scaledSplashDamage: true
+  absorbable: false
+  puddles: 4
+  puddleRange: 10
+  puddleAmount: 20
+  puddleLiquid: liquid-void-fluid
+  despawnSound: splash
+  hitEffect: none
+  despawnEffect: none
+  layer: 111
+  scaleLife: true
+    }
+  }
+]

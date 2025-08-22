@@ -6,6 +6,7 @@ targetAir: false
 reload: 175
 health: 650
 shootSound: missileSmall
+outlineColor: 323232
 shoot: {
   type: ShootBarrel
   barrels: 2

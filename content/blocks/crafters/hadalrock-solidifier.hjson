@@ -1,0 +1,47 @@
+type: GenericCrafter
+name: Hadalrock Solidifier
+description: "[accent]Half of a larges structure.[] Solidifies stable void fluid into hadalrock using water and power."
+size: 3
+requirements: [
+  item-crystalite/40
+  item-uranium/100
+  metaglass/70
+  item-silver/40
+  item-neodymium/20
+  ]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+    type: DrawRegion
+    suffix: -bottom
+    }
+    {
+    type: DrawLiquidTile
+    drawLiquid: liquid-void-fluid-stable
+    padding: 1
+    }
+    {
+    type: DrawDefault
+    }
+  ]
+}
+squareSprite: false
+consumes: {
+  power: 3.675
+  liquids: [
+    water/1.2444
+    liquid-void-fluid-stable/1.2
+    ]
+  }
+liquidCapacity: 150
+itemCapacity: 20
+outputItem: item-hadalrock/6
+category: crafting
+research: {
+  parent: electrostatic-separator
+  objectives: [
+    exhumer,
+    liquid-void-fluid,
+    ]
+  }

@@ -4,11 +4,11 @@ fullLightColor: d3c6c0
 size: 1
 health: 125
 consumes: {
-  powerBuffered: 500
+  powerBuffered: 1250
     }
 research: crystal-node
 requirements: [
-  item-crystalite/25
+  item-crystalite/20
   ]
 category: power
 name: Crystal Battery

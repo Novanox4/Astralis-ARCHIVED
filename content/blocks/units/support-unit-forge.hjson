@@ -15,11 +15,11 @@ plans: [
     {
 unit: unit-receptacle
 requirements: [
-    item-crystalite/35
-    item-uranium/45
-    item-silver/35
+    item-crystalite/15
+    item-uranium/25
+    item-silver/15
       ]
-    time: 1325
+    time: 525
     }
     {
 unit: unit-pollen
@@ -33,11 +33,11 @@ requirements: [
     {
 unit: unit-spectrum
 requirements: [
-    item-crystalite/25
-    item-uranium/30
-    metaglass/15
+    item-crystalite/12
+    item-uranium/12
+    metaglass/7
       ]
-    time: 750
+    time: 350
     }
     {
 unit: unit-hue

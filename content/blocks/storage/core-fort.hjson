@@ -20,3 +20,4 @@ alwaysUnlocked: true
 isFirstTier: true
 name: Core: Fort
 description: Core of the base. Once all of them are destroyed, the sector is lost. Stores resources for building.
+lightRadius: 80

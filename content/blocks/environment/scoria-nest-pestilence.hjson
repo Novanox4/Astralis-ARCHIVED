@@ -1,0 +1,51 @@
+type: CoreBlock
+buildVisibility: editorOnly
+size: 8
+customShadow: true
+placeablePlayer: false
+drawTeamOverlay: false
+destroyBulletSameTeam: true
+destroyBullet: { 
+  type: MultiBulletType
+  bullets: [
+  {
+    type: EmptyBulletType
+    collides: false
+    spawnUnit: unit-endemic
+  }
+  {
+    type: BulletType
+    hitEffect: none
+    despawnEffect: none
+    pierce: true
+    buildingDamageMultiplier: 0
+    instantDisappear: true
+    splashDamage: 1000000
+    splashDamageRadius: 99999
+    splashDamagePierce: true
+    collidesTiles: false
+    damage: 999999
+    knockback: 25
+  }
+  ]
+}
+name: "???"
+squareSprite: false
+drawCracks: false
+createRubble: false
+breakSound: rockBreak
+destroySound: laserbig
+placeSound: rockBreak
+health: 1
+forceTeam: malis
+destroyEffect: {
+    type: WaveEffect
+    colorFrom: ffffffff
+    colorTo: ffffffff
+    sizeFrom: 0
+    sizeTo: 35000
+    lifetime: 1650
+    strokeFrom: 80
+    strokeTo: 200
+  }
+unitType: unit-malady

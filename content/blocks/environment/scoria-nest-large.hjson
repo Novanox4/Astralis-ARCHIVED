@@ -1,0 +1,64 @@
+type: PowerTurret
+buildVisibility: editorOnly
+size: 8
+customShadow: true
+placeablePlayer: false
+drawTeamOverlay: false
+squareSprite: false
+recoil: 0
+reload: 5550
+alwaysShooting: true
+shootSound: none
+shootX: 0
+shootY: 0
+xRand: 0.4
+yRand: 0.3
+shootEffect: none
+consumes: {}
+shootType: {
+  shootX: 0
+  shootY: 0
+  xRand: 0.4
+  yRand: 0.3
+  type: MultiBulletType
+  bullets: [
+    {
+    type: EmptyBulletType
+    collides: false
+    spawnUnit: unit-outbreak
+    createChance: 0.8
+    }
+    {
+    type: EmptyBulletType
+    collides: false
+    spawnUnit: unit-outbreak
+    createChance: 0.2
+    }
+    {
+    type: EmptyBulletType
+    collides: false
+    spawnUnit: unit-lumbricus
+    createChance: 0.8
+    }
+    {
+    type: EmptyBulletType
+    collides: false
+    spawnUnit: unit-lumbricus
+    createChance: 0.2
+    }
+  ]
+}
+rotateSpeed: 0
+drawer: {
+  type: DrawTurret
+  basePrefix: scoria-
+  }
+name: Large Scoria Nest
+squareSprite: false
+drawCracks: false
+createRubble: false
+breakSound: rockBreak
+destroySound: rockBreak
+placeSound: rockBreak
+health: 3000
+forceTeam: malis

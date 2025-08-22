@@ -84,7 +84,7 @@ Still praying, hopeless and in vain
 I am the real John Autism"
 description: Spider mech that can build, repair, and attack buildings, while shielding allied units. Attacks using twin rebounding energy guns and a laser cannon.
 flying: false
-health: 1450
+health: 1750
 baseLegStraightness: 0
 legContinuousMove: false
 legExtension: -5
@@ -195,7 +195,7 @@ abilities: [
   {
   type: ShieldRegenFieldAbility
   amount: 5
-  max: 125
+  max: 150
   reload: 125
   range: 120
   }

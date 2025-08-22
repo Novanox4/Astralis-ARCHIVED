@@ -19,21 +19,23 @@ weapons: [
   x: 0
   y: 0
   shootY: 3
-  reload: 7.75
+  reload: 70
   mirror: false
-  layerOffset: 0
-  inaccuracy: 4.5
+  inaccuracy: 25
   shootSound: missile
-  bullet: {
-  type: MissileBulletType
-  damage: 20
-  lifetime: 55
-  width: 5
-  height: 7
-  speed: 4.10
-  backColor: cb3535
-  frontColor: ffffff
+  shoot: {
+    shots: 12
   }
+  bullet: {
+    type: MissileBulletType
+    damage: 8.5
+    lifetime: 38.5
+    width: 5
+    height: 7
+    speed: 4.10
+    backColor: cb3535
+    frontColor: ffffff
+    }
   }
 ]
 outlineColor: 323232

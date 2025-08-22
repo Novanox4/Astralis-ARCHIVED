@@ -1,0 +1,10 @@
+type: RainWeather
+yspeed: 8.5
+xspeed: 7
+liquid: water
+color: 5f73a7
+density: 1500
+stroke: 1.2
+sizeMin: 5
+sizeMax: 27
+name: Monsoon

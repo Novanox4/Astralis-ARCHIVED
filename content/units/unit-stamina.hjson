@@ -1,0 +1,221 @@
+type: legs
+name: Stamina
+description: Powerful five legged mech. Builds lower tier units. Shoots strong bolts of energy.
+legCount: 5
+legGroupSize: 1
+legLength: 30
+hitSize: 28
+health: 4500
+armor: 30
+outlineColor: 323232
+speed: 0.6
+legExtension: -6.75
+buildSpeed: 1
+buildBeamOffset: 20
+legBaseOffset: 8.5
+legPairOffset: -20
+legSpeed: 0.04
+legForwardScl: 1.15
+range: 520
+commands: [move, enterPayload, rebuild, assist]
+weapons: [
+{
+mirror: false
+reload: 600
+x: 0
+y: 0
+shootX: 0
+shootY: 18.5
+shoot: {
+  firstShotDelay: 135
+}
+shootSound: corexplode
+chargeSound: lasercharge
+bullet: {
+  type: BasicBulletType
+  chargeEffect: {
+    type: ParticleEffect
+    colorFrom: ffffffff
+    colorTo: 12963cbf
+    particles: 20
+    sizeFrom: 0
+    sizeTo: 5.5
+    length: 40
+    lifetime: 130
+    sizeInterp: linear
+    interp: reverse
+    rotWithParent: true
+  }
+  shootEffect: {
+    type: MultiEffect
+    lifetime: 60
+    effects: [
+      {
+      type: WaveEffect
+      strokeFrom: 4
+      colorTo: 7cd656ff
+      colorFrom: ffffffff
+      lifetime: 30
+      sizeTo: 50
+      sides: 4
+      followParent: false
+      }
+      {
+      type: WaveEffect
+      strokeFrom: 4
+      colorTo: 7cd656ff
+      colorFrom: ffffffff
+      lifetime: 30
+      sizeTo: 50
+      sides: 4
+      followParent: false
+      rotation: 45
+      }
+      {
+      type: WaveEffect
+      strokeFrom: 4
+      colorTo: 7cd656ff
+      colorFrom: ffffffff
+      lifetime: 30
+      sizeFrom: 100
+      sizeTo: 50
+      sides: 4
+      followParent: false
+      }
+      {
+      type: WaveEffect
+      colorTo: 7cd656ff
+      colorFrom: ffffffff
+      lifetime: 30
+      sizeFrom: 100
+      sizeTo: 50
+      sides: 4
+      followParent: false
+      rotation: 45
+      }
+    ]
+  }
+  sprite: circle-bullet
+  rangeOverride: 520
+  despawnEffect: none
+  lifetime: 25
+  scaleLife: true
+  speed: 10
+  damage: 125
+  pierce: true
+  pierceBuilding: true
+  height: 8
+  width: 8
+  trailLength: 24
+  trailWidth: 3
+  shrinkX: 1
+  shrinkY: 1
+  backColor: 7cd656
+  frontColor: ffffff
+  mixColorFrom: 7cd656ff
+  mixColorTo: ffffffff
+  trailColor: 7cd656
+  hitEffect: none
+  shrinkInterp: pow10In
+  fragOnHit: false
+  fragOnAbsorb: true
+  fragRandomSpread: 0
+  fragBullets: 1
+  fragVelocityMin: 1
+  fragoffsetMax: 0
+  fragoffsetMin: 0
+  fragBullet: {
+    type: BasicBulletType
+    collides: false
+    speed: 0
+    lifetime: 250
+    height: 8 
+    width: 8
+    suppressColor: 7cd656ff
+    suppressionRange: 80
+    suppressionDuration: 450
+    damage: 150
+    shrinkX: -8
+    shrinkY: -8
+    backColor: 7cd656
+    frontColor: ffffff
+    mixColorFrom: ffffff00
+    mixColorTo: ffffffff
+    shrinkInterp: smoother
+    splashDamage: 550
+    scaledSplashDamage: true
+    splashDamageRadius: 54
+    sprite: circle-bullet
+    despawnSound: explosion
+    hitEffect: none
+    despawnEffect: {
+       type: MultiEffect
+       effects: [
+         {
+         type: ExplosionEffect
+         waveColor: 7cd656ff
+         smokes: 0
+         sparks: 0
+         lifetime: 100
+         waveLife: 10
+         waveRad: 145
+         }
+         {
+         type: WrapEffect
+         color: 7cd656ff
+         effect: titanSmoke
+         }
+         {
+         type: WrapEffect
+         color: 7cd656ff
+         effect: titanSmokeLarge
+          }
+        ]
+      }
+      fragBullets: 24
+      fragOnHit: false
+      fragOnAbsorb: true
+      fragLifeMin: 0.7
+      fragVelocityMin: 0.8
+      fragOffsetMax: 0
+      fragOffsetMin: 0
+      fragBullet: {
+        type: BasicBulletType
+        lifetime: 72.5
+        width: 7
+        height: 10
+        speed: 0.1
+        backColor: 7cd656
+        frontColor: ffffff
+        trailLength: 30
+        trailColor: 7cd656
+        trailWidth: 1.75
+        damage: 10
+        followAimSpeed: 3
+        pierceBuilding: true
+        pierce: true
+        accel: 0.2
+        absorbable: false
+        pierceCap: 3
+        }
+      }
+    }
+  }
+]
+abilities: [
+  {
+  type: UnitSpawnAbility
+  unit: unit-pollen
+  spawnTime: 960
+  spawnY: -2
+  }
+]
+research: {
+  parent: unit-stem
+  objectives: [
+    {
+    type: OnSector
+    preset: sector-gate
+    }
+  ]
+}

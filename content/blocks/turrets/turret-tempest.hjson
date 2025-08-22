@@ -1,0 +1,369 @@
+type: ItemTurret
+name: Tempest
+description: Launches a spread of electric bombs along with a beam capable of pulling targets towards it.
+details: "My child will NOT throw rocks covered in copper wiring at power lines!"
+//ignore the wonky text it just got bugged because of different indents
+consumes: {
+ power: 6
+ }
+ammoPerShot: 7
+predictTarget: false
+squareSprite: false
+size: 4
+category: turret
+minWarmup: 0.87
+requirements: [
+  item-crystalite/175
+  item-uranium/350
+  item-silver/200
+  metaglass/150
+  item-hadalrock/125
+  ]
+shootSound: laser
+recoils: 2
+shoot: {
+ type: ShootBarrel
+ shots: 1
+ barrels: [
+    -8, 3.25, 0,
+    8, 3.25, 0
+  ]
+}
+outlineColor: 323232
+drawer: {
+  type: DrawTurret
+  basePrefix: astral-
+  parts: [
+    {
+    type: RegionPart
+    suffix: -barrel-1
+    moveY: -4
+    progress: recoil
+    recoilIndex: 0
+    }
+    {
+    type: RegionPart
+    suffix: -barrel-2
+    moveY: -4
+    progress: recoil
+    recoilIndex: 1
+    }
+    {
+    type: RegionPart
+    suffix: -center
+    moveY: -0.2
+    progress: recoil
+    }
+    {
+    type: RegionPart
+    suffix: -side-r
+    recoilIndex: 0
+    progress: warmup
+    moveY: 1
+    moveRot: -22
+    moves: [
+      {
+      type: PartMove
+      progress: recoil
+      rot: 22
+      y: -1
+      }
+    ]
+    }
+    {
+    type: RegionPart
+    suffix: -side-l
+    recoilIndex: 1
+    progress: warmup
+    moveY: 1
+    moveRot: 22
+    moves: [
+      {
+      type: PartMove
+      progress: recoil
+      rot: -22
+      y: -1
+      }
+    ]
+    }
+  ]
+}
+reload: 107
+range: 240
+ammoTypes: {
+  item-crystalite: {
+	  type: BulletType
+    reloadMultiplier: 1.5
+    //damage for stat purposes
+    damage: 30
+    collides: false
+    hitEffect: none
+    despawnEffect: none
+    spawnBullets: [
+      {
+      type: LaserBulletType
+      //lasers can't have spawnBullets
+      length: 250
+      width: 65
+      damage: 30
+      colors: [38a6c966, 38a6c9ff, ffffffff]
+      //for pulling in
+      knockback: -17.5
+      impact: true
+      }
+      {
+      //self explainatory
+      type: MultiBulletType
+      repeat: 15
+      bullets: [
+        {
+        type: BasicBulletType
+	      shrinkX: 0.5
+        shrinkY: 0.5
+        backColor: 38a6c9
+        frontColor: ffffff
+        height: 14
+        width: 14
+        sprite: large-bomb
+        pierce: true
+        //for random range
+        velocityScaleRandMin: 0.4
+        velocityScaleRandMax: 2.25
+        lifeScaleRandMin: 0.5
+        lifetime: 35
+        speed: 3.25
+        //for random offset
+        randomAngleOffset: 15
+        damage: 20
+        despawnHit: true
+        despawnEffect: none
+        hitSound: spark
+        hitEffect: {
+          type: WaveEffect
+    			colorFrom: ffffffff
+    			colorTo: 38a6c9ff
+    			lifetime: 40
+	    		sizeFrom: 8
+      		sizeTo: 0
+    			strokeFrom: 1
+    			strokeTo: 5
+    			sides: 6
+          }
+        lightningDamage: 11
+        lightningColor: 38a6c9ff
+        lightningLength: 8
+        lightningLengthRand: 8
+        lightning: 3
+    		}
+      ]
+    }
+  ]
+}
+  item-hadalrock: {
+	  type: BulletType
+    //damage for stat purposes
+    damage: 22
+    collides: false
+    hitEffect: none
+    despawnEffect: none
+    spawnBullets: [
+      {
+      type: LaserBulletType
+      //lasers can't have spawnBullets
+      length: 250
+      width: 65
+      damage: 40
+      colors: [452d5666, 452d56ff, ffffffff]
+      //for pulling in
+      knockback: -10
+      impact: true
+      }
+      {
+      type: BulletType
+      //time offsetting purposes
+      collides: false
+      hitEffect: none
+      despawnEffect: none
+      fragOffsetMax: 0
+      fragoffsetMin: 0
+      despawnSound: laser
+      fragRandomSpread: 0
+      speed: 0
+      lifetime: 20
+      fragBullet: {
+        type: LaserBulletType
+        //lasers can't have spawnBullets
+        length: 250
+        width: 65
+        damage: 40
+        colors: [452d5666, 452d56ff, ffffffff]
+        //for pulling in
+        knockback: -10
+        impact: true
+        }
+      }
+      {
+      //self explainatory
+      type: MultiBulletType
+      repeat: 20
+      bullets: [
+        {
+        type: BasicBulletType
+	      shrinkX: 0.5
+        shrinkY: 0.5
+        backColor: 452d56
+        frontColor: ffffff
+        height: 14
+        width: 14
+        sprite: large-bomb
+        //for random range
+        velocityScaleRandMin: 0.4
+        velocityScaleRandMax: 2.25
+        lifeScaleRandMin: 0.5
+        lifetime: 35
+        speed: 3.25
+        //for random offset
+        randomAngleOffset: 12
+        damage: 22
+        despawnHit: true
+        despawnEffect: none
+        hitSound: spark
+        hitEffect: {
+          type: WaveEffect
+    			colorFrom: ffffffff
+    			colorTo: 452d56ff
+    			lifetime: 50
+	    		sizeFrom: 0
+      		sizeTo: 20
+    			strokeFrom: 1
+    			strokeTo: 5
+    			sides: 6
+          }
+        lightningDamage: 4
+        lightningColor: 452d56ff
+        lightningLength: 2
+        lightningLengthRand: 6
+        lightning: 7
+    		}
+      ]
+    }
+  ]
+}
+item-solacite: {
+	  type: BulletType
+    rangeChange: 58
+    reloadMultiplier: 0.5
+    //damage for stat purposes
+    damage: 30
+    collides: false
+    hitEffect: none
+    despawnEffect: none
+    spawnBullets: [
+      {
+      type: LaserBulletType
+      //lasers can't have spawnBullets
+      length: 250
+      width: 65
+      damage: 50
+      colors: [94e3f166, 94e3f1ff, ffffffff]
+      //for pulling in
+      knockback: -30
+      impact: true
+      lifetime: 80
+      }
+      {
+      //self explainatory
+      type: MultiBulletType
+      repeat: 15
+      bullets: [
+        {
+        type: BasicBulletType
+	      shrinkX: 0.7
+        shrinkY: 0.7
+        backColor: 94e3f1
+        frontColor: ffffff
+        height: 16
+        width: 16
+        sprite: large-bomb
+        //for random range
+        trailWidth: 2.25
+        trailLength: 20
+        trailColor: 94e3f1
+        velocityScaleRandMin: 0.4
+        velocityScaleRandMax: 2.25
+        lifeScaleRandMin: 0.8
+        lifeScaleRandMax: 1.2
+        lifetime: 37.5
+        speed: 5
+        //for random offset
+        randomAngleOffset: 17
+        damage: 40
+        despawnHit: true
+        despawnEffect: none
+        hitSound: spark
+        hitEffect: {
+          type: WaveEffect
+    			colorFrom: ffffffff
+    			colorTo: 94e3f1ff
+    			lifetime: 60
+	    		sizeFrom: 0
+      		sizeTo: 100
+    			strokeFrom: 5
+    			strokeTo: 0
+    			sides: 8
+          }
+        lightningDamage: 1
+        lightningColor: 94e3f1ff
+        lightningLength: 6
+        lightningLengthRand: 6
+        lightning: 3
+        lightningType: {
+          type: BulletType
+          collides: false
+          despawnEffect: none
+          despawnSound: spark
+          speed: 0
+          lifetime: 20
+          lifeScaleRandMin: 0
+          lightning: 2
+          lightningDamage: 2
+          lightningColor: 94e3f1ff
+          lightningLength: 2
+          lightningLengthRand: 1
+          lightningType: {
+            type: BulletType
+            collides: false
+            despawnEffect: none
+            despawnSound: spark
+            speed: 0
+            lifetime: 20
+            lifeScaleRandMin: 0
+            lightning: 6
+            lightningDamage: 1
+            lightningColor: 94e3f1ff
+            lightningLength: 2
+            lightningLengthRand: 90
+            } 
+          }
+    		}
+      ]
+    }
+  ]
+}
+}
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.45
+}
+coolantMultiplier: 1.3
+research: {
+  parent: turret-vaticinate
+  objectives: [
+    {
+    type: SectorComplete
+    preset: crimp
+    }
+  ]
+}

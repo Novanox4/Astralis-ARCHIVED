@@ -5,10 +5,10 @@ legLength: 75
 legBaseOffset: 5
 name: Outbreak
 description: Native spider to Astralis. Uses an array of cannons to shoot. Fragile but is protected by a shield while shooting.
-details: "Carcass investigations show that the metal used to reinforce is not of sharded origin. The implications are... intriguing at the very least."
+details: "Carcass investigations show that the metal used to reinforce is not of Hell Inc. origin. The implications are... intriguing at the very least."
 legMaxLength: 1.1
 flying: false
-health: 700
+health: 650
 baseLegStraightness: 0
 legExtension: -15
 range: 425
@@ -47,7 +47,7 @@ name: unit-outbreak-artillery
 recoil: 2
 x: -6
 y: 0
-reload: 140
+reload: 180
 rotate: true
 range: 425
 maxRange: 425
@@ -56,7 +56,7 @@ shootSound: mediumCannon
 bullet: {
   type: BasicBulletType
   speed: 6.25
-  damage: 165
+  damage: 120
   lifetime: 50
   backColor: a40e0e
   fronColor: ac382a
@@ -87,7 +87,6 @@ bullet: {
     damage: 3
     pierce: true
     pierceBuilding: true
-    pierceCap: 99
     lifetime: 22.5
     backColor: a40e0e
     fronColor: ac382a
@@ -109,7 +108,7 @@ abilities: [
 type: ShieldArcAbility
 max: 1500
 regen: 0.2
-cooldown: 550
+cooldown: 999999999
 y: 3
 angle: 75
 radius: 75
@@ -119,7 +118,7 @@ outlineColor: 121213
 planet: astralis
 deathExplosionEffect: none
 deathSound: plantBreak
-speed: 2
+speed: 1.55
 lightRadius: 0
 hitSize: 18
 layer: 150

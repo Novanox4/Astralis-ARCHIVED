@@ -21,6 +21,17 @@ requirements: [
     item-neodymium/30
       ]
     time: 2200
+    }  
+    {
+unit: unit-viceroy
+requirements: [
+    item-crystalite/425
+    item-uranium/350
+    item-silver/275
+    item-cerium/125
+    item-hadalrock/85
+      ]
+time: 4500
     }
   ]
 research: {

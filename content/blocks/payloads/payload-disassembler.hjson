@@ -1,0 +1,19 @@
+type: PayloadDeconstructor
+requirements: [
+  item-crystalite/50
+  item-uranium/65
+  item-silver/80
+  item-neodymium/70
+  ]
+consumes: {
+  power: 1.5
+    }
+dumpRate: 10
+deconstructSpeed: 5
+size: 4
+category: units
+payloadSpeed: 2
+name: Payload Disassembler
+description: Destroys payloads, returning 100% of the materials used to build them. Has a higher payload capacity than other payload blocks.
+maxPayloadSize: 5
+research: payload-assembler

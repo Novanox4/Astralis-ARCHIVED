@@ -1,0 +1,48 @@
+type: HeatProducer
+consumes: {
+  liquids: [
+    liquid-void-fluid/0.4
+  ]
+}
+name: Abyssal Reaction Heater
+description: Causes volatile reactions using small amounts of void fluid to generate large amounts of heat
+requirements: [
+  item-crystalite/115
+  metaglass/80
+  item-cerium/65
+  item-hadalrock/75
+  ]
+category: crafting
+health: 350
+researchCostMultiplier: 0.66
+research: {
+  parent: char-burner
+  objectives: [
+    {
+    type: OnSector
+    preset: bog
+    }
+  ]
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+    type: DrawRegion
+    suffix: -bottom
+    }
+    {
+    type: DrawLiquidTile
+    drawLiquid: liquid-void-fluid
+    padding: 1
+    }
+    {
+    type: DrawDefault
+    }
+    {
+    type: DrawHeatOutput
+    }
+  ]
+}
+size: 3
+heatOutput: 12

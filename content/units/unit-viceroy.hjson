@@ -1,0 +1,185 @@
+type: payload
+name: Viceroy
+description: Large, bulky airship capable of carrying very large payloads. Loaded with a powerful machinegun. Can occasionally become fasster while shooting.
+flying: true
+payloadCapacity: 1025
+speed: 0.775
+hitSize: 30
+health: 4850
+armor: 15
+faceTarget: false
+drag: 0.15
+outlineColor: 323232
+lowAltitude: true
+//this is worse than tank treads istfg
+engines: [
+  //main engine
+  {
+  x: 0
+  y: -18
+  rotation: 90
+  radius: 3
+  }
+  //main side engines
+  {
+  x: 7.15
+  y: -16.5
+  rotation: 90
+  radius: 2.25
+  }
+  {
+  x: -7.15
+  y: -16.5
+  rotation: 90
+  radius: 2.25
+  }
+  //inner engines
+  {
+  x: 13.75
+  y: -18
+  rotation: 30
+  radius: 2.75
+  }
+  {
+  x: -13.75
+  y: -18
+  rotation: 120
+  radius: 2.75
+  }
+  //extension engines
+  {
+  x: -19.25
+  y: -19
+  rotation: 30
+  radius: 2.5
+  }
+  {
+  x: 19.25
+  y: -19
+  rotation: 120
+  radius: 2.5
+  }
+  //outer lower side engines
+  {
+  x: -19.75
+  y: -12
+  rotation: 30
+  radius: 2
+  }
+  {
+  x: 19.75
+  y: -12
+  rotation: 120
+  radius: 2
+  }
+  //outer higher side engines
+  {
+  x: -19.75
+  y: -7.5
+  rotation: 30
+  radius: 1.9
+  }
+  {
+  x: 19.75
+  y: -7.5
+  rotation: 120
+  radius: 1.9
+  }
+]
+//weapons
+weapons: [
+  //machinegun
+  {
+  name: unit-viceroy-machinegun
+  x: 0
+  y: 0
+  shootY: 12
+  mirror: false
+  rotate: true
+  rotateSpeed: 7.5
+  shootSound: bang
+  reload: 12.5
+  recoil: 1.75
+  top: true
+  shoot: {
+    type: ShootAlternate
+    spread: 13
+    }
+  bullet: {
+    type: BasicBulletType
+    height: 16
+    width: 15
+    damage: 115
+    speed: 7
+    lifetime: 50
+    shootEffect: shootBig
+    shieldDamageMultiplier: 0.15
+    }
+  }
+  //boosting
+  {
+  display: false
+  reload: 780
+  shootCone: 361
+  ignoreRotation: true
+  shootSound: none
+  shootStatus: status-viceroy-boosting
+  shootStatusDuration: 150
+  bullet: {
+    type: bulletType
+    damage: 0
+    collides: false
+    despawnEffect: none
+    shootEffect: none
+    smokeEffect: none
+    }
+  }
+]
+abilities: [
+  //middle engine
+  {
+  type: MoveEffectAbility
+  teamColor: true
+  minVelocity: 1.75
+  y: -17
+  interval: -1
+  amount: 1
+  effect: missileTrail
+  chance: 1
+  effectParam: 5
+  }
+  //inner engines
+  {
+  type: MoveEffectAbility
+  teamColor: true
+  minVelocity: 1.75
+  y: -18
+  x: 13.75
+  interval: -1
+  amount: 1
+  effect: missileTrailShort
+  chance: 1
+  effectParam: 4
+  }  
+  {
+  type: MoveEffectAbility
+  teamColor: true
+  minVelocity: 1.75
+  y: -18
+  x: -13.75
+  interval: -1
+  amount: 1
+  effect: missileTrailShort
+  chance: 1
+  effectParam: 4
+  }
+]
+research: {
+  parent: unit-lord
+  objectives: [
+    {
+    type: OnSector
+    preset: sector-gate
+    }
+  ]
+}

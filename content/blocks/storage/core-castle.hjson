@@ -1,0 +1,28 @@
+type: CoreBlock
+squareSprite: false
+health: 18500
+itemCapacity: 12000
+size: 5
+category: effect
+unitType: unit-clusters
+unitCapModifier: 18
+requirements: [
+  item-crystalite/5000
+  item-uranium/5250
+  metaglass/2500
+  item-silver/3500
+  item-cerium/1200
+  item-neodymium/1200
+  item-hadalrock/900
+  ]
+research: {
+  parent: core-agora
+  objectives: [
+    hadalrock-solidifier,
+    void-stabilizer,
+    ]
+  }
+name: "Core: Castle"
+researchCostMultiplier: 0.075
+description: Core of the base. Once all of them are destroyed, the sector is lost. Stores resources for building. Higher health and resource capacity than the previous tier.
+lightRadius: 200

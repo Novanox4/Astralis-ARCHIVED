@@ -1,0 +1,11 @@
+color: 452d56
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0.5
+cost: 1.6
+hardness: 3.5
+name: Hadalrock
+description: Durable compound made of void fluid, molten silver and water.
+research: item-cerium
+details: You are expendable. You are not expected to return.

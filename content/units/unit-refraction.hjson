@@ -1,0 +1,143 @@
+type: tank
+name: Refraction
+description: Shoots powerful laser blasts and protects itself with an energy shield. Can boost and build. Very fast while boosting. Crushes buildings under it.
+speed: 0.225
+boostMultiplier: 5.75
+canBoost: true
+engineSize: 13
+engineOffset: 18
+buildSpeed: 1.8
+omniMovement: false
+health: 3250
+armor: 5
+treadRects: [
+    {
+        x: -13,
+        y: -72.5,
+        width: 26,
+        height: 140
+    }
+]
+outlineColor: 323232
+hitSize: 32.5
+rotateSpeed: 2.1
+abilities: [
+  {
+  type: ForceFieldAbility
+  radius: 120
+  sides: 3
+  max: 725
+  regen: 0.4
+  cooldown: 225
+  }
+  {
+  type: ForceFieldAbility
+  radius: 120
+  sides: 3
+  max: 725
+  regen: 0.4
+  cooldown: 225
+  rotation: 180
+  }
+  {
+  type: ForceFieldAbility
+  radius: 120
+  sides: 3
+  max: 725
+  regen: 0.4
+  cooldown: 225
+  rotation: 90
+  }
+]
+weapons: [
+  {
+  name: unit-refraction-cannon
+  x: 0
+  y: 0
+  reload: 175
+  rotate: true
+  rotateSpeed: 6
+  mirror: false
+  shootSound: laser
+  bullet: {
+    type: BulletType
+    spawnBullets: [
+      {
+      type: LaserBulletType
+      damage: 100
+      length: 200
+      lifetime: 80
+      width: 20
+      laserAbsorb: false
+      colors: [7cd65666, 7cd656ff, ffffffff]
+      }
+    ]
+    collides: false
+    //for weapon display
+    damage: 100
+    pierce: true
+    lifetime: 20
+    speed: 10
+    despawnEffect: none
+    hitEffect: none
+    despawnSound: laser
+    fragBullets: 5
+    fragRandomSpread: 75
+    fragAngle: 180
+    fragOnHit: false
+    fragOnAbsorb: false
+    fragVelocityMin: 1
+    fragOffsetMin: 0
+    fragOffsetMax: 0
+    fragBullet: {
+      type: BulletType
+      spawnBullets: [
+        {
+        type: LaserBulletType
+        damage: 40
+        length: 100
+        lifetime: 80
+        width: 20
+        laserAbsorb: false
+        colors: [7cd65666, 7cd656ff, ffffffff]
+        }
+      ]
+      collides: false
+      //for weapon display
+      damage: 40
+      pierce: true
+      lifetime: 20
+      speed: 5
+      despawnEffect: none
+      hitEffect: none
+      despawnSound: laser
+      fragBullets: 5
+      fragRandomSpread: 75
+      fragAngle: 180
+      fragOnHit: false
+      fragOnAbsorb: false
+      fragVelocityMin: 1
+      fragOffsetMin: 0
+      fragOffsetMax: 0
+      fragBullet: {
+        type: LaserBulletType
+        damage: 20
+        length: 150
+        lifetime: 80
+        width: 20
+        laserAbsorb: false
+        colors: [7cd65666, 7cd656ff, ffffffff]
+        }
+      }
+    }
+  }
+]
+research: {
+  parent: unit-vibrance
+  objectives: [
+    {
+    type: OnSector
+    preset: sector-gate
+    }
+  ]
+}

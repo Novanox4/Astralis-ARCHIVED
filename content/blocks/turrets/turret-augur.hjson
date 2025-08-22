@@ -5,6 +5,7 @@ category: turret
 minWarmup: 0.1
 warmupMaintainTime: 0
 squareSprite: false
+outlineColor: 323232
 size: 2
 shootSound: bolt
 inaccuracy: 30

@@ -4,6 +4,7 @@ description: Shoots a myriad of lasers at aerial targets. Requires a one time in
 category: turret
 targetGround: false
 minWarmup: 0.4
+outlineColor: 323232
 warmupMaintainTime: 0.1
 squareSprite: false
 size: 3
@@ -100,10 +101,10 @@ drawer: {
 reload: 8.5
 shootType: {
   type: LaserBulletType
-  colors: [f5d738, d49d00, ffffff]
+  colors: [f5d73866, f5d738ff, ffffffff]
   width: 10.5
   length: 325
-  damage: 45
+  damage: 52.5
   collidesGround: false
       }
 requirements: [

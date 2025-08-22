@@ -1,0 +1,23 @@
+type: LightBlock
+radius: 750
+name: Beacon
+size: 3
+description: Illuminates an incredibly large area when powered.
+research: {
+  parent: lamp
+  objectives: [
+    {
+    type: SectorComplete
+    preset: crimp
+    }
+  ]
+}
+requirements: [
+  item-uranium/225
+  item-crystalite/500
+  item-neodymium/100
+  ]
+consumes: {
+  power: 6
+    }
+category: effect

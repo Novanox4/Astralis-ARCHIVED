@@ -1,6 +1,6 @@
 dtype: flying
 flying: true
-health: 2250
+health: 1600
 speed: 0.725
 hitSize: 18
 rotateSpeed: 5
@@ -104,7 +104,8 @@ weapons: [
   shootCone: 361
   bullet: {
   type: BombBulletType
-  damage: 0
+  //shield damage
+  damage: 2
   lifetime: 55
   collidesAir: false
   sprite: large-bomb

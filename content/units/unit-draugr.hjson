@@ -1,0 +1,56 @@
+type: naval
+name: Draugr
+description: Naval ship made to rush down bases quickly. Releases bursts of pressurized steam. Fragile yet fast and powerful.
+speed: 4
+health: 325
+armor: -1
+hitSize: 10
+rotateSpeed: 25
+outlineColor: 323232
+rotateMoveFirst: true
+rotateToBuilding: true
+trailLength: 20
+research: {
+  parent: assault-unit-forge
+  objectives: [
+    {
+    type: SectorComplete
+    preset: mineshaft
+    }
+  ]
+}
+weapons: [
+  {
+  reload: 17.5
+  x: 0
+  y: 0
+  shootY: 6
+  shootSound: missileSmall
+  shootCone: 361
+  ignoreRotation: true
+  rotate: true
+  rotateSpeed: 0
+  bullet: {
+    type: BulletType
+    speed: 6.4
+    lifetime: 10
+    hittable: false
+    reflectable: false
+    damage: 42.5
+    hitEffect: none
+    despawnEffect: none
+    status: burning
+    shootEffect: {
+      type: ParticleEffect
+      colorFrom: ffffffff
+      colorTo: 3c72c9ff
+      particles: 15
+      sizeFrom: 1.85
+      cone: 17.5
+      length: 80
+      lifetime: 20
+        }
+      }
+    }
+  ]
+omniMovement: true

@@ -13,7 +13,7 @@ liquidPressure: 99
 liquidCapacity: 20
 category: liquid
 research: {
-  parent: core-fort
+  parent: crystal-pump
   objectives: [
   crystal-kiln
   ]

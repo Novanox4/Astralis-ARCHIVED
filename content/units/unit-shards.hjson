@@ -38,7 +38,7 @@ abilities: [
     type: EnergyFieldAbility
     blinkSize: 0.2
     color: 4070de
-    damage: 1
+    damage: 0
     reload: 14.5
     healPercent: 1.15
     hitUnits: true

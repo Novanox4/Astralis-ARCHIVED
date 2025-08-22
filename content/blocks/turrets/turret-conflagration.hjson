@@ -1,0 +1,138 @@
+type: ItemTurret
+name: Conflagration
+description: "Mixes nitric acid and flammable materials to spew a powerful flammable mixture. Requires heat to run. Cannot target air units or shoot right next to itself. [red]CAN SET YOUR BUILDINGS ON FIRE![]"
+health: 1200
+size: 3
+heatRequirement: 10
+maxHeatEfficiency: 2
+outlineColor: 323232
+category: turret
+inaccuracy: 0
+rotateSpeed: 0.4
+drawMinRange: true
+minRange: 80
+requirements: [
+  item-crystalite/125
+  item-uranium/125
+  metaglass/150
+  item-silver/125
+  item-cerium/75
+  ]
+research: {
+  parent: turret-burn
+  objectives: [
+    {
+    type: OnSector
+    preset: remnants
+    }
+  ]
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: astral-
+    }
+range: 210
+targetAir: false
+reload: 6
+shootSound: flame
+ammoTypes: {
+  item-charchunk: {
+    type: MultiBulletType
+    collides: false
+    //stat reason
+    damage: 16
+    shootEffect: none
+    repeat: 5
+    bullets: [
+      {
+      type: BulletType
+      instantDisappear: true
+      damage: 0
+      collides: false
+      despawnEffect: none
+      hitEffect: none
+      fragBullets: 1
+      fragOffsetMax: 0
+      fragOffsetMin: 0
+      fragVelocityMin: 1
+      fragRandomSpread: 17
+      fragBullet: {
+        type: BasicBulletType
+        speed: 5
+        shrinkX: 0
+        shrinkY: 0
+        lifetime: 45
+        pierce: true
+        damage: 8
+        knockback: 0.8
+        impact: true
+        frontColor: ffa166
+        backColor: ffa166
+        sprite: circle-bullet
+        height: 10
+        width: 10
+        despawnEffect: none
+        hitEffect: none
+        shootEffect: none
+        liquid: slag
+        //using this because I have more control on the liquid parameters
+        puddles: 2
+        puddleRange: 4
+        puddleAmount: 20
+        puddleLiquid: slag
+        collidesAir: false
+        velocityScaleRandMax: 0.45
+        lifeScaleRandMax: 0.93
+        despawnHit: true
+        }
+      }
+      {
+      type: BulletType
+      instantDisappear: true
+      damage: 0
+      collides: false
+      despawnEffect: none
+      hitEffect: none
+      fragBullets: 1
+      fragOffsetMax: 0
+      fragOffsetMin: 0
+      fragVelocityMin: 1
+      fragRandomSpread: 23
+      fragBullet: {
+        type: BasicBulletType
+        speed: 5
+        shrinkX: 0
+        shrinkY: 0
+        lifetime: 45
+        pierce: true
+        knockback: 1.2
+        impact: true
+        damage: 8
+        frontColor: b5ac10
+        backColor: b5ac10
+        sprite: circle-bullet
+        height: 10
+        width: 10
+        despawnEffect: none
+        hitEffect: none
+        shootEffect: none
+        liquid: liquid-nitric-acid
+        //using this because I have more control on the liquid parameters
+        puddles: 3
+        puddleRange: 4
+        puddleAmount: 50
+        puddleLiquid: liquid-nitric-acid
+        collidesAir: false
+        velocityScaleRandMax: 0.45
+        lifeScaleRandMax: 0.93
+        despawnHit: true
+        }
+      }
+    ]
+  }
+}
+consumes: {
+  liquids: [
+    liquid-nitric-acid/0.75
+    ]
+  }

@@ -1,0 +1,40 @@
+type: ForceProjector
+size: 5
+name: Force Veil
+description: Creates a very large but weak circular energy dome which absorbs projectiles. Uses power. Shield health be greatly bolstered with neodymium.
+consumes: {
+  power: 13
+}
+radius: 600
+sides: 100
+requirements: [
+  item-crystalite/750
+  item-silver/600
+  metaglass/400
+  item-neodymium/500
+  item-cerium/300
+  ]
+category: effect
+shieldHealth: 750
+cooldownNormal: 0.05
+cooldownBrokenBase: 2
+phaseRadiusBoost: 160
+phaseShieldBoost: 475
+phaseUseTime: 90
+research: {
+  parent: large-neodymium-wall
+  objectives: [
+    {
+    type: SectorComplete
+    preset: strait
+    }
+  ]
+}
+consumeCoolant: false
+itemConsumer: {
+  type: ConsumeItems
+  items: [
+    item-neodymium/1
+  ]
+}
+itemCapacity: 10

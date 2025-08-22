@@ -4,9 +4,11 @@ description: Separates rare earth metals from monazite.
 heatRequirement: 12
 maxEfficiency: 2
 overheatScale: 1.25
+//anticlog
+itemCapacity: 20
 outputItems: [
-  item-neodymium/4
-  item-cerium/4
+  item-neodymium/6
+  item-cerium/6
   ]
 consumes: {
   power: 2.85

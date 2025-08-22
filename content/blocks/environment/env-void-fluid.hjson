@@ -3,10 +3,13 @@ name: Void Fluid
 speedMultiplier: 1
 isLiquid: true
 liquidDrop: liquid-void-fluid
-cacheLayer: water
+cacheLayer: tar
 albedo: 0.9
 supportsOverlay: true
 liquidMultiplier: 0.075
 shallow: false
 variants: 1
 status: status-voidgnaw
+attributes: {
+  voidattr: 0.0625
+}
