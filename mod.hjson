@@ -179,6 +179,8 @@ contentOrder: [
     unit-blob,
     unit-hunger,
     unit-craving,
+    unit-voracity,
+    unit-wilt,
 
     //status
 
