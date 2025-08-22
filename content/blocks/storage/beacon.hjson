@@ -1,10 +1,10 @@
 type: LightBlock
-radius: 2500
+radius: 1200
 name: Beacon
 size: 3
 description: Illuminates an incredibly large area when powered.
 research: {
-  parent: illuminator
+  parent: lamp
   objectives: [
     {
     type: SectorComplete
