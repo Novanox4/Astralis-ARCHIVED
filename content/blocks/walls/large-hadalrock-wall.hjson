@@ -8,5 +8,5 @@ research: hadalrock-wall
 category: defense
 name: Large Hadalrock Wall
 description: Defends structures from enemy attacks. Conducts power and deflects bullets.
-chanceDeflect: 10
+chanceDeflect: 60
 buildTime: 360
