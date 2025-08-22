@@ -6,7 +6,7 @@ description: Crawling mass of void fluid. Heals rapidly when in void puddles.
 details: Very primitive lifeform. Strangely, captured and tested specimens seem to show high intelligence and possibly even sentience. How can you get life from a mere liquid? How can nothing become everything?
 circleTarget: true
 speed: 1
-drag: 0.2
+drag: 0.02
 crushDamage: 5
 crawlSlowdown: 2.25
 health: 800
