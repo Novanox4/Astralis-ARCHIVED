@@ -1,5 +1,5 @@
 type: LightBlock
-radius: 1200
+radius: 750
 name: Beacon
 size: 3
 description: Illuminates an incredibly large area when powered.
