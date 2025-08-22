@@ -48,7 +48,8 @@ abilities: [
   amount: 20
   }
 ]
-controller: HugAi
+circleTarget: true
+drag: 0.02
 immunities: [status-voidgnaw]
 useUnitCap: false
 lightRadius: 0
