@@ -142,14 +142,14 @@ shootType: {
     hitEffect: none
     splashDamage: 0
     scaledSplashDamage: true
-    splashDamageRadius: 80
+    splashDamageRadius: 160
     damage: 0
     lifetime: 0
     collidesGround: false
     shootEffect: none
     smokeEffect: none
     impact: true
-    knockback: 5
+    knockback: -6
     status: slow
     statusDuration: 45
     }
@@ -159,14 +159,14 @@ shootType: {
     hitEffect: none
     splashDamage: 0
     scaledSplashDamage: true
-    splashDamageRadius: 80
+    splashDamageRadius: 120
     damage: 0
     lifetime: 6
     collidesGround: false
     shootEffect: none
     smokeEffect: none
     impact: true
-    knockback: 5
+    knockback: -6
     status: slow
     statusDuration: 45
     }
@@ -183,7 +183,7 @@ shootType: {
     shootEffect: none
     smokeEffect: none
     impact: true
-    knockback: 5
+    knockback: -6
     status: slow
     statusDuration: 45
     }
