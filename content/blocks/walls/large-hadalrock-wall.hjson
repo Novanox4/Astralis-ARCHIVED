@@ -2,11 +2,11 @@ type: Wall
 health: 3780
 size: 3
 requirements: [
-  hadalrock/32
+  hadalrock/120
   ]
 research: hadalrock-wall
 category: defense
 name: Large Hadalrock Wall
 description: Defends structures from enemy attacks. Conducts power and deflects bullets.
 chanceDeflect: 0.1
-buildTime: 160
+buildTime: 360
