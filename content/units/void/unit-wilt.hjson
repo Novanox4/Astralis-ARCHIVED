@@ -3,7 +3,6 @@ flying: true
 lowAltitude: true
 engineSize: 0
 hitSize: 14
-targetFlags: [turret, factory, core]
 immunities: [status-voidgnaw]
 useUnitCap: false
 outlineColor: 0c0413
