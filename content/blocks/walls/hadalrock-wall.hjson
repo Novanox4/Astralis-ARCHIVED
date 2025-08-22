@@ -1,0 +1,12 @@
+type: Wall
+health: 480
+size: 2
+requirements: [
+  hadalrock/8
+  ]
+research: large-cerium-wall
+category: defense
+name: Hadalrock Wall
+description: Defends structures from enemy attacks. Conducts power and deflects bullets. Larger than normal walls.
+chanceDeflect: 0.1
+buildTime: 10
