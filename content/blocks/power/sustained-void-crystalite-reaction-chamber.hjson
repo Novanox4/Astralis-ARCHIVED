@@ -53,7 +53,7 @@ requirements: [
     item-cerium/150
     item-hadalrock/100
   ]
-powerProduction: 92.5
+powerProduction: 134
 size: 4
 itemCapacity: 30
 drawer: {
