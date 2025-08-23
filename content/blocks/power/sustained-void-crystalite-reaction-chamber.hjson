@@ -4,6 +4,40 @@ description: Dissolves crystalite in void fluid to create large amounts of power
 itemDuration: 60
 squareSprite: false
 liquidCapacity: 1200
+destroyBullet: {
+  type: MultiBulletType
+  repeat: 80
+  bullets: [
+    {
+    type: BasicBulletType
+    speed: 9
+    shrinkX: 0
+    shrinkY: 0
+    lifetime: 200
+    layer: 111
+    pierce: true
+    damage: 0
+    frontColor: 0c0413
+    backColor: 0c0413
+    sprite: circle-bullet
+    height: 10
+    width: 10
+    despawnEffect: none
+    hitEffect: none
+    shootEffect: none
+    liquid: liquid-void-fluid
+    //using this because I have more control on the liquid parameters
+    puddles: 3
+    puddleRange: 5.5
+    puddleAmount: 90
+    puddleLiquid: liquid-void-fluid
+    collides: false
+    velocityScaleRandMax: 0
+    lifeScaleRandMax: 0.93
+    despawnHit: true
+    }
+  ]
+}
 consumes: {
   items: [
     item-crystalite/4
