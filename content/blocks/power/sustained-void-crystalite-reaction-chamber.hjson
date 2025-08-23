@@ -5,7 +5,7 @@ itemDuration: 60
 consumes: {
   items: [
     item-crystalite/4
-    item-metaglass/1
+    metaglass/1
     ]
   liquid: liquid-void-fluid/1.95
 }
