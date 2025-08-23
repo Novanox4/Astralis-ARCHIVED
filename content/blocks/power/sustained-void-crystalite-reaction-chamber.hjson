@@ -29,7 +29,7 @@ drawer: {
     {
     type: DrawLiquidTile
     drawLiquid: liquid-void-fluid
-    padding: 0.2
+    padding: 1
     alpha: 1
     }
     {
