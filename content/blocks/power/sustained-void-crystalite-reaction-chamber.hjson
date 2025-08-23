@@ -6,7 +6,7 @@ squareSprite: false
 liquidCapacity: 1200
 destroyBullet: {
   type: MultiBulletType
-  repeat: 80
+  repeat: 800
   bullets: [
     {
     type: BasicBulletType
