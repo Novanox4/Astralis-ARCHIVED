@@ -40,8 +40,8 @@ drawer: {
     type: DrawParticles
     color: 452d56ff
     particles: 5
-    x: 12
-    y: 12
+    x: 11
+    y: 11
     particleRad: 9
     particleLife: 60
     reverse: true
