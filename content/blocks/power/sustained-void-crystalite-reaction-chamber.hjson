@@ -47,6 +47,39 @@ drawer: {
     particleLife: 80
     particleSize: 3.75
     }
+     {
+    type: DrawParticles
+    color: 0c0413ff
+    particles: 8
+    x: -10.75
+    y: 10.75
+    alpha: 0.8
+    particleRad: 9
+    particleLife: 80
+    particleSize: 3.75
+    }
+    {
+    type: DrawParticles
+    color: 0c0413ff
+    particles: 8
+    x: 10.75
+    y: -10.75
+    alpha: 0.8
+    particleRad: 9
+    particleLife: 80
+    particleSize: 3.75
+    }
+    {
+    type: DrawParticles
+    color: 0c0413ff
+    particles: 8
+    x: -10.75
+    y: -10.75
+    alpha: 0.8
+    particleRad: 9
+    particleLife: 80
+    particleSize: 3.75
+    }
   ]
 }
 research: {
