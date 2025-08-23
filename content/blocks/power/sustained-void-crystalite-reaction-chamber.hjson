@@ -38,13 +38,14 @@ drawer: {
     }
     {
     type: DrawParticles
-    color: 452d56ff
+    color: 0c0413ff
     particles: 8
-    x: 10.5
-    y: 10.5
+    x: 10.75
+    y: 10.75
     alpha: 0.8
     particleRad: 9
-    particleLife: 60
+    particleLife: 80
+    particleSize: 3.75
     }
   ]
 }
