@@ -10,10 +10,10 @@ destroyBullet: {
   bullets: [
     {
     type: BasicBulletType
-    speed: 9
+    speed: 6
     shrinkX: 0
     shrinkY: 0
-    lifetime: 100
+    lifetime: 75
     layer: 111
     pierce: true
     damage: 0
@@ -27,9 +27,9 @@ destroyBullet: {
     shootEffect: none
     liquid: liquid-void-fluid
     //using this because I have more control on the liquid parameters
-    puddles: 10
-    puddleRange: 6
-    puddleAmount: 90
+    puddles: 14
+    puddleRange: 24
+    puddleAmount: 200
     puddleLiquid: liquid-void-fluid
     collides: false
     velocityScaleRandMin: 0
