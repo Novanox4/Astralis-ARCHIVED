@@ -1,0 +1,49 @@
+type: ConsumeGenerator
+name: Sustained Void-Crystalite Reaction Chamber
+description: Dissolves crystalite in void fluid to create large amounts of power. Explodes violently upon destruction, coating a lare area in void fluid. Requires constant metaglass input in order to repair corroded parts. Will automatically shut off if not maintained properly.
+itemDuration: 60
+consumes: {
+  items: [
+    item-crystalite/4
+    item-metaglass/1
+    ]
+  liquid: liquid-void-fluid/1.95
+}
+requirements: [
+    item-crystalite/300
+    item-uranium/225
+    metaglass/120
+    item-cerium/150
+    item-hadalrock/100
+  ]
+powerProduction: 92.5
+size: 4
+itemCapacity: 30
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+    type: DrawRegion
+    suffix: -bottom
+    }
+    {
+    type: DrawLiquidTile
+    drawLiquid: liquid-void-fluid
+    padding: 0.2
+    alpha: 1
+    }
+    {
+    type: DrawDefault
+    }
+  ]
+}
+research: {
+  parent: nuclear-decay-reactor
+  objectives: [
+    {
+    type: OnSector
+    preset: bog
+    }
+  ]
+}
+category: power
