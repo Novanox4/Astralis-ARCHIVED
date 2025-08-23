@@ -34,6 +34,15 @@ drawer: {
     alpha: 1
     }
     {
+    type: DrawParticles
+    color: 452d56ff
+    particles: 5
+    x: 14
+    y: 14
+    particleRad: 9
+    particleLife: 60
+    }
+    {
     type: DrawDefault
     }
   ]
