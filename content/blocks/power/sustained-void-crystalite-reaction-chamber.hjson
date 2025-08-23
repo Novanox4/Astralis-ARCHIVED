@@ -6,7 +6,7 @@ squareSprite: false
 liquidCapacity: 1200
 destroyBullet: {
   type: MultiBulletType
-  repeat: 800
+  repeat: 1200
   bullets: [
     {
     type: BasicBulletType
@@ -27,9 +27,9 @@ destroyBullet: {
     shootEffect: none
     liquid: liquid-void-fluid
     //using this because I have more control on the liquid parameters
-    puddles: 14
-    puddleRange: 24
-    puddleAmount: 200
+    puddles: 16
+    puddleRange: 36
+    puddleAmount: 280
     puddleLiquid: liquid-void-fluid
     collides: false
     velocityScaleRandMin: 0
