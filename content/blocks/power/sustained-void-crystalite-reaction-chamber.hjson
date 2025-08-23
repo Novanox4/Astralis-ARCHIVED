@@ -2,6 +2,7 @@ type: ConsumeGenerator
 name: Sustained Void-Crystalite Reaction Chamber
 description: Dissolves crystalite in void fluid to create large amounts of power. Explodes violently upon destruction, coating a lare area in void fluid. Requires constant metaglass input in order to repair corroded parts. Will automatically shut off if not maintained properly.
 itemDuration: 60
+squareSprite: false
 consumes: {
   items: [
     item-crystalite/4
