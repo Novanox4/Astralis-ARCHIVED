@@ -3,6 +3,7 @@ flying: true
 lowAltitude: true
 engineSize: 0
 hitSize: 14
+targetFlags: [turret, storage, generator, reactor, factory, battery, shield, core]
 immunities: [status-voidgnaw]
 useUnitCap: false
 outlineColor: 0c0413
