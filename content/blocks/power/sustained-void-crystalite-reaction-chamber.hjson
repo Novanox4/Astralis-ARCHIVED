@@ -27,8 +27,8 @@ destroyBullet: {
     shootEffect: none
     liquid: liquid-void-fluid
     //using this because I have more control on the liquid parameters
-    puddles: 3
-    puddleRange: 5.5
+    puddles: 10
+    puddleRange: 6
     puddleAmount: 90
     puddleLiquid: liquid-void-fluid
     collides: false
