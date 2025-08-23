@@ -32,8 +32,8 @@ destroyBullet: {
     puddleAmount: 90
     puddleLiquid: liquid-void-fluid
     collides: false
-    velocityScaleRandMax: 0
-    lifeScaleRandMax: 0.93
+    velocityScaleRandMin: 0
+    lifeScaleRandMin: 0
     despawnHit: true
     }
   ]
