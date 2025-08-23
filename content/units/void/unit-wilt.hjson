@@ -110,7 +110,7 @@ weapons: [
   targetInterval: 1
   targetSwitchInterval: 1
   shootStatus: status-wilt-stagger
-  shootStatusDuration: 120
+  shootStatusDuration: 240
   shootSound: none
   bullet: {
     type: BasicBulletType
