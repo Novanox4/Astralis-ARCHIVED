@@ -3,6 +3,7 @@ name: Spectrum
 description: Shoots a homing bolt of light. Can build and boost.
 buildSpeed: 0.25
 canBoost: true
+boostMultiplier: 2.25
 omniMovement: false
 parts: [
   {
