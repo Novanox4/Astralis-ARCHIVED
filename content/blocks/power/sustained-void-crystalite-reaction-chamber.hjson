@@ -44,7 +44,6 @@ drawer: {
     y: 11
     particleRad: 9
     particleLife: 60
-    reverse: true
     }
   ]
 }
