@@ -13,7 +13,7 @@ destroyBullet: {
     speed: 9
     shrinkX: 0
     shrinkY: 0
-    lifetime: 200
+    lifetime: 100
     layer: 111
     pierce: true
     damage: 0
@@ -35,6 +35,7 @@ destroyBullet: {
     velocityScaleRandMin: 0
     lifeScaleRandMin: 0
     despawnHit: true
+    randomAngleOffset: 360
     }
   ]
 }
