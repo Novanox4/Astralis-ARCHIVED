@@ -86,8 +86,8 @@ weapons: [
   reload: 600
   name: unit-bellatrix-spear
   recoil: -3
-  x: 3
-  y: 4
+  x: 4
+  y: 13
   alwaysShooting: true
   recoilTime: 300
   shootSound: none
