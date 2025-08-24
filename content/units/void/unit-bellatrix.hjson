@@ -76,12 +76,13 @@ abilities: [
       }
     }
   ]
-health: 10000
-armor: 30
+health: 17500
+armor: 45
 //work in progress
 weapons: [
   {
   //always a boss
+  display: false
   reload: 1
   alwaysShooting: true
   shootStatus: boss
@@ -114,14 +115,14 @@ weapons: [
   mirror: false
   bullet: {
     type: BulletType
-    lifetime: 25
+    lifetime: 10
     pierce: true
     pierceBuilding: true
     //locked onto Bellatrix's hitbox
     circleShooter: true
     circleShooterRadius: 0.001
     circleShooterRadiusSmooth: 0.001
-    recoil: -8.65
+    recoil: -8.2
     speed: 30
     circleShooterRotateSpeed: 99999
     shootEffect: none
