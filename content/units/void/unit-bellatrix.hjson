@@ -81,13 +81,30 @@ armor: 30
 //work in progress
 weapons: [
   {
+  reload: 1
+  alwaysShooting: true
+  shootStatus: boss
+  shootSound: none
+  shootEffect: none
+  smokeEffect: none
+  bullet: {
+    type: EmptyBulletType
+    damage: 0
+    collides: false
+    despawnEffect: none
+    hitEffect: none
+    shootEffect: none
+    smokeEffect: none
+    }
+  }
+  {
   //lunge spear
   reload: 600
   name: unit-bellatrix-spear
-  recoil: -3
+  recoil: -5.25
   x: 4
   y: 7.75
-  recoilTime: 300
+  recoilTime: 120
   shootSound: none
   rotate: false
   shootY: -4
@@ -95,7 +112,7 @@ weapons: [
   layerOffset: -0.1
   mirror: false
   bullet: {
-    type: BasicBulletType
+    type: BulletType
     lifetime: 60
     //locked onto Bellatrix's hitbox
     circleShooter: true
@@ -113,6 +130,56 @@ weapons: [
     hitEffect: none
     rangeOverride: 200
     damage: 200
-    }
+    spawnBulletRandomSpread: 0
+    spawnBullets: [
+      {
+      type: BulletType
+      createChance: 0.2
+      instantDisappear: true
+      collides: false
+      despawnEffect: none
+      hitEffect: none
+      fragOffsetMin: 0
+      fragOffsetMax: 0
+      fragLifeMin: 0
+      fragLifeMax: 1.456
+      fragVelocityMin: 0
+      fragVelocityMax: 1.645
+      fragBullet: {
+        type: BasicBulletType
+        damage: 0
+        splashDamage: 20
+        splashDamageRadius: 30
+        backColor: 452d56
+        layer: 89
+        sprite: large-bomb
+        height: 18
+        width: 18
+        shrinkX: 0
+        shrinkY: 0
+        hitEffect: {
+          type: MultiEffect
+          effects: [
+            {
+            type: ParticleEffect
+            colorFrom: 100818ff
+            colorTo: 100818ff
+            sizeFrom: 10
+            sizeTo: 0
+            length: 80
+            lifetime: 120
+            cone: 360
+            particles: 10
+            sizeChangeStart: 55
+            layer: 89
+            interp: pow10Out
+            sizeInterp: linear
+            }
+            ]
+          }
+        }
+      }
+    ]
   }
+}
 ]
