@@ -96,12 +96,12 @@ weapons: [
   mirror: false
   bullet: {
     type: BasicBulletType
-    lifetime: 60
+    lifetime: 45
     //locked onto Bellatrix's hitbox
     circleShooter: true
     circleShooterRadius: 0.1
     circleShooterRadiusSmooth: 0.1
-    recoil: -8
+    recoil: -12
     //visibility purposes, move along
     layer: 111
     height: 40
