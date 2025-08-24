@@ -102,7 +102,7 @@ weapons: [
   //lunge spear
   reload: 120
   name: unit-bellatrix-spear
-  recoil: -5.25
+  recoil: -8.75
   x: 4
   y: 7.75
   recoilTime: 55
@@ -121,7 +121,7 @@ weapons: [
     circleShooter: true
     circleShooterRadius: 0.001
     circleShooterRadiusSmooth: 0.001
-    recoil: -21
+    recoil: -15
     speed: 30
     circleShooterRotateSpeed: 99999
     shootEffect: none
@@ -129,7 +129,7 @@ weapons: [
     smokeEffect: none
     shootEffect: none
     hitEffect: none
-    rangeOverride: 200
+    rangeOverride: 400
     damage: 275
     spawnBulletRandomSpread: 0
     hitSize: 18
@@ -142,6 +142,7 @@ weapons: [
       collides: false
       despawnEffect: none
       hitEffect: none
+      fragBullets: 18
       fragOffsetMin: 0
       fragOffsetMax: 0
       fragLifeMin: 0
