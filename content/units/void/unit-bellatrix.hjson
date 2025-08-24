@@ -115,7 +115,7 @@ weapons: [
   mirror: false
   bullet: {
     type: BulletType
-    lifetime: 10
+    lifetime: 100
     pierce: true
     pierceBuilding: true
     //locked onto Bellatrix's hitbox
@@ -144,7 +144,7 @@ weapons: [
       circleShooterRadiusSmooth: 0.001
       recoil: -15
       speed: 30
-      lifetime: 90
+      lifetime: 25
       circleShooterRotateSpeed: 99999
       collides: false
       despawnEffect: none
@@ -153,7 +153,7 @@ weapons: [
       fragOffsetMin: 0
       fragOffsetMax: 0
       fragLifeMin: 0
-      fragLifeMax: 1.456
+      fragLifeMax: 1
       fragVelocityMin: 0
       fragVelocityMax: 2.25
       fragBullet: {
