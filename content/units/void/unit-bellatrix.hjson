@@ -131,6 +131,7 @@ weapons: [
     rangeOverride: 200
     damage: 200
     spawnBulletRandomSpread: 0
+    hitSize: 14
     //random bombs
     spawnBullets: [
       {
@@ -195,13 +196,13 @@ weapons: [
             }
             {
             type: WaveEffect
-            colorFrom: 381d53ff
+            colorFrom: ffffffff
             colorTo: 0c0413ff
             layer: 89
             strokeFrom: 5
             strokeTo: 0
             sizeTo: 70
-            lifetime: 120
+            lifetime: 30
             }
             ]
           }
