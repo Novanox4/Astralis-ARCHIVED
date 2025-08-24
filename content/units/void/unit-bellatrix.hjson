@@ -96,11 +96,11 @@ weapons: [
   mirror: false
   bullet: {
     type: BasicBulletType
-    lifetime: 130
+    lifetime: 11
     recoil: -8
-    speed: 3
+    speed: 400
     shootEffect: none
-    despawnEffect: none
+    despawnEffect: titanSmokeLarge
     hitEffect: none
     damage: 200
     }
