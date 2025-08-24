@@ -13,7 +13,6 @@ speed: 7
 drag: 0.02
 accel: 0.2
 name: Bellatrix
-circleTarget: true
 description: Moth created by the void. Has an incredible array of attacks. Very dangerous.
 abilities: [
   {
