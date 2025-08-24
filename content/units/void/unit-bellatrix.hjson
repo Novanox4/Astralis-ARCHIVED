@@ -46,7 +46,7 @@ abilities: [
       sizeFrom: 42
       sizeTo: 42
       //me when copying my own code
-      baseRotation: -60
+      baseRotation: -55
       lightOpacity: 0
       }
     }
