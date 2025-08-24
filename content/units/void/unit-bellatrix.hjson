@@ -114,6 +114,8 @@ weapons: [
   bullet: {
     type: BulletType
     lifetime: 60
+    pierce: true
+    pierceBuilding: true
     //locked onto Bellatrix's hitbox
     circleShooter: true
     circleShooterRadius: 0.001
@@ -133,7 +135,7 @@ weapons: [
     spawnBullets: [
       {
       type: BulletType
-      createChance: 0.333
+      createChance: 0.456
       instantDisappear: true
       collides: false
       despawnEffect: none
@@ -148,7 +150,7 @@ weapons: [
         type: BasicBulletType
         damage: 0
         splashDamage: 20
-        splashDamageRadius: 30
+        splashDamageRadius: 75
         backColor: 452d56
         layer: 89
         sprite: large-bomb
@@ -190,6 +192,16 @@ weapons: [
             layer: 89
             interp: pow10Out
             sizeInterp: linear
+            }
+            {
+            type: WaveEffect
+            colorFrom: 381d53ff
+            colorTo: 0c0413ff
+            layer: 89
+            strokeFrom: 5
+            strokeTo: 0
+            sizeTo: 70
+            lifetime: 120
             }
             ]
           }
