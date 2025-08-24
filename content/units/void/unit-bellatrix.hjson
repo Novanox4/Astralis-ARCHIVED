@@ -81,6 +81,7 @@ armor: 30
 //work in progress
 weapons: [
   {
+  //always a boss
   reload: 1
   alwaysShooting: true
   shootStatus: boss
@@ -99,12 +100,12 @@ weapons: [
   }
   {
   //lunge spear
-  reload: 600
+  reload: 450
   name: unit-bellatrix-spear
   recoil: -5.25
   x: 4
   y: 7.75
-  recoilTime: 120
+  recoilTime: 85
   shootSound: none
   rotate: false
   shootY: -4
