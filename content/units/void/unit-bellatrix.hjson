@@ -100,12 +100,12 @@ weapons: [
   }
   {
   //lunge spear
-  reload: 450
+  reload: 120
   name: unit-bellatrix-spear
   recoil: -5.25
   x: 4
   y: 7.75
-  recoilTime: 85
+  recoilTime: 55
   shootSound: none
   rotate: false
   shootY: -4
@@ -114,14 +114,14 @@ weapons: [
   mirror: false
   bullet: {
     type: BulletType
-    lifetime: 60
+    lifetime: 75
     pierce: true
     pierceBuilding: true
     //locked onto Bellatrix's hitbox
     circleShooter: true
     circleShooterRadius: 0.001
     circleShooterRadiusSmooth: 0.001
-    recoil: -13
+    recoil: -21
     speed: 15
     circleShooterRotateSpeed: 999
     shootEffect: none
@@ -130,14 +130,14 @@ weapons: [
     shootEffect: none
     hitEffect: none
     rangeOverride: 200
-    damage: 200
+    damage: 275
     spawnBulletRandomSpread: 0
     hitSize: 14
     //random bombs
     spawnBullets: [
       {
       type: BulletType
-      createChance: 0.456
+      createChance: 0.7
       instantDisappear: true
       collides: false
       despawnEffect: none
@@ -158,9 +158,10 @@ weapons: [
         sprite: large-bomb
         height: 18
         width: 18
-        shrinkX: 0
-        shrinkY: 0
-        lifetime: 120
+        shrinkX: 1
+        shrinkY: 1
+        lifetime: 90
+        speed: 5
         despawnEffect: none
         hitEffect: {
           type: MultiEffect
