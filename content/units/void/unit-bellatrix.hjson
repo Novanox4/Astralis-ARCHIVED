@@ -111,6 +111,7 @@ weapons: [
     shootEffect: none
     despawnEffect: titanSmokeLarge
     hitEffect: none
+    rangeOverride: 200
     damage: 200
     }
   }
