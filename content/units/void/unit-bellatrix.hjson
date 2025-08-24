@@ -122,8 +122,8 @@ weapons: [
     circleShooterRadius: 0.001
     circleShooterRadiusSmooth: 0.001
     recoil: -21
-    speed: 15
-    circleShooterRotateSpeed: 999
+    speed: 30
+    circleShooterRotateSpeed: 99999
     shootEffect: none
     despawnEffect: none
     smokeEffect: none
@@ -132,7 +132,7 @@ weapons: [
     rangeOverride: 200
     damage: 275
     spawnBulletRandomSpread: 0
-    hitSize: 14
+    hitSize: 18
     //random bombs
     spawnBullets: [
       {
@@ -147,7 +147,7 @@ weapons: [
       fragLifeMin: 0
       fragLifeMax: 1.456
       fragVelocityMin: 0
-      fragVelocityMax: 1.645
+      fragVelocityMax: 2.25
       fragBullet: {
         type: BasicBulletType
         damage: 0
@@ -161,7 +161,7 @@ weapons: [
         shrinkX: 1
         shrinkY: 1
         lifetime: 90
-        speed: 5
+        speed: 0.6
         despawnEffect: none
         hitEffect: {
           type: MultiEffect
