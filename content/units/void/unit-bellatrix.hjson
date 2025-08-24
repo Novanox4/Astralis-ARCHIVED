@@ -96,17 +96,17 @@ weapons: [
   mirror: false
   bullet: {
     type: BasicBulletType
-    lifetime: 45
+    lifetime: 60
     //locked onto Bellatrix's hitbox
     circleShooter: true
-    circleShooterRadius: 0.1
-    circleShooterRadiusSmooth: 0.1
+    circleShooterRadius: 0.001
+    circleShooterRadiusSmooth: 0.001
     recoil: -12
     //visibility purposes, move along
     layer: 111
     height: 40
     width: 40
-    speed: 30
+    speed: 1
     circleShooterRotateSpeed: 999
     shootEffect: none
     despawnEffect: titanSmokeLarge
