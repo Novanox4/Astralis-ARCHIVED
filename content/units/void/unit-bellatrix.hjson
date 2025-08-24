@@ -1,0 +1,83 @@
+type: flying
+flying: true
+lowAltitude: true
+engineSize: 0
+hitSize: 18
+targetFlags: [turret, extinguisher, shield, storage, generator, reactor, drill, factory, battery, repair, core]
+immunities: [status-voidgnaw]
+useUnitCap: false
+outlineColor: 0c0413
+deathExplosionEffect: none
+deathSound: plantBreak
+speed: 7
+drag: 0.02
+accel: 0.2
+name: Bellatrix
+circleTarget: true
+description: Moth created by the void. Has an incredible array of attacks. Very dangerous.
+abilities: [
+  {
+  type: LiquidExplodeAbility
+  liquid: liquid-void-fluid
+  radScale: 1.3
+  radAmountScale: 4
+  amount: 600
+  }
+  {
+    type: MoveEffectAbility
+    //me when asthosus code:
+    minVelocity: 0
+    interval: 3
+    x: 1.75
+    y: 1.75
+    parentizeEffects: true
+    rotateEffect: true
+    rotation: 0
+    effect: {
+      type: ParticleEffect
+      layer: 90
+      followParent: true
+      rotWithParent: true
+      region: astralis-unit-wilt-wing-r
+      particles: 1
+      length: 0
+      spin: -25
+      lifetime: 3.05
+      sizeFrom: 18
+      sizeTo: 18
+      //me when copying my own code
+      baseRotation: -85
+      lightOpacity: 0
+      }
+    }
+    {
+    type: MoveEffectAbility
+    //winging my ding till I gaster
+    minVelocity: 0
+    interval: 3
+    x: -1.75
+    y: 1.75
+    parentizeEffects: true
+    rotateEffect: true
+    rotation: 0
+    effect: {
+      type: ParticleEffect
+      layer: 90
+      followParent: true
+      rotWithParent: true
+      region: astralis-unit-wilt-wing-l
+      particles: 1
+      length: 0
+      spin: 25
+      lifetime: 3.05
+      sizeFrom: 18
+      sizeTo: 18
+      baseRotation: -100
+      lightOpacity: 0
+      }
+    }
+  ]
+health: 10000
+armor: 30
+//work in progress
+weapons: []
