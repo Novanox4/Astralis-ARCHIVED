@@ -38,7 +38,7 @@ abilities: [
       layer: 90
       followParent: true
       rotWithParent: true
-      region: astralis-unit-wilt-wing-r
+      region: astralis-unit-bellatrix-wing-r
       particles: 1
       length: 0
       spin: -25
@@ -65,7 +65,7 @@ abilities: [
       layer: 90
       followParent: true
       rotWithParent: true
-      region: astralis-unit-wilt-wing-l
+      region: astralis-unit-bellatrix-wing-l
       particles: 1
       length: 0
       spin: 25
