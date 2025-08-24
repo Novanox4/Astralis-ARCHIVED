@@ -134,7 +134,7 @@ weapons: [
     spawnBullets: [
       {
       type: BulletType
-      createChance: 0.2
+      createChance: 0.333
       instantDisappear: true
       collides: false
       despawnEffect: none
@@ -157,20 +157,37 @@ weapons: [
         width: 18
         shrinkX: 0
         shrinkY: 0
+        lifetime: 120
+        despawnEffect: none
         hitEffect: {
           type: MultiEffect
           effects: [
             {
             type: ParticleEffect
-            colorFrom: 100818ff
-            colorTo: 100818ff
-            sizeFrom: 10
+            colorFrom: 10081866
+            colorTo: 0c041366
+            sizeFrom: 6
             sizeTo: 0
             length: 80
             lifetime: 120
             cone: 360
-            particles: 10
+            particles: 6
             sizeChangeStart: 55
+            layer: 89
+            interp: pow10Out
+            sizeInterp: linear
+            }
+            {
+            type: ParticleEffect
+            colorFrom: 999999ff
+            colorTo: 5e5e5eff
+            sizeFrom: 9
+            sizeTo: 0
+            length: 80
+            lifetime: 300
+            cone: 360
+            particles: 30
+            sizeChangeStart: 200
             layer: 89
             interp: pow10Out
             sizeInterp: linear
