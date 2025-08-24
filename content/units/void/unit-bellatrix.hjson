@@ -28,7 +28,7 @@ abilities: [
     //me when asthosus code:
     minVelocity: 0
     interval: 3
-    x: 3
+    x: 3.25
     y: 4
     parentizeEffects: true
     rotateEffect: true
@@ -46,7 +46,7 @@ abilities: [
       sizeFrom: 40
       sizeTo: 40
       //me when copying my own code
-      baseRotation: -100
+      baseRotation: -120
       lightOpacity: 0
       }
     }
@@ -55,7 +55,7 @@ abilities: [
     //winging my ding till I gaster
     minVelocity: 0
     interval: 3
-    x: -3
+    x: -3.25
     y: 4
     parentizeEffects: true
     rotateEffect: true
@@ -72,7 +72,7 @@ abilities: [
       lifetime: 3.05
       sizeFrom: 40
       sizeTo: 40
-      baseRotation: -115
+      baseRotation: -135
       lightOpacity: 0
       }
     }
