@@ -137,7 +137,7 @@ weapons: [
     spawnBullets: [
       {
       type: BulletType
-      createChance: 0.7
+      createChance: 0.456
       instantDisappear: true
       collides: false
       despawnEffect: none
