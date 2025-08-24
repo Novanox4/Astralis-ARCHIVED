@@ -106,7 +106,7 @@ weapons: [
     layer: 111
     height: 40
     width: 40
-    speed: 1
+    speed: 15
     circleShooterRotateSpeed: 999
     shootEffect: none
     despawnEffect: titanSmokeLarge
