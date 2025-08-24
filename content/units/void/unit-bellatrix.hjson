@@ -80,4 +80,30 @@ abilities: [
 health: 10000
 armor: 30
 //work in progress
-weapons: []
+weapons: [
+  {
+  //lunge spear
+  reload: 600
+  name: unit-bellatrix-spear
+  recoil: -3
+  x: 3
+  y: 4
+  alwaysShooting: true
+  recoilTime: 300
+  shootSound: none
+  rotate: false
+  layerOffset: -0.1
+  mirror: false
+  knockback
+  bullet: {
+    type: BasicBulletType
+    lifetime: 1
+    recoil: 80
+    speed: 80
+    shootEffect: none
+    despawnEffect: none
+    hitEffect: none
+    damage: 200
+    }
+  }
+]
