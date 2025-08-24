@@ -94,7 +94,6 @@ weapons: [
   rotate: false
   layerOffset: -0.1
   mirror: false
-  knockback
   bullet: {
     type: BasicBulletType
     lifetime: 1
