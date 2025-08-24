@@ -118,19 +118,18 @@ weapons: [
     circleShooter: true
     circleShooterRadius: 0.001
     circleShooterRadiusSmooth: 0.001
-    recoil: -12
-    //visibility purposes, move along
-    layer: 111
-    height: 40
-    width: 40
+    recoil: -13
     speed: 15
     circleShooterRotateSpeed: 999
     shootEffect: none
-    despawnEffect: titanSmokeLarge
+    despawnEffect: none
+    smokeEffect: none
+    shootEffect: none
     hitEffect: none
     rangeOverride: 200
     damage: 200
     spawnBulletRandomSpread: 0
+    //random bombs
     spawnBullets: [
       {
       type: BulletType
