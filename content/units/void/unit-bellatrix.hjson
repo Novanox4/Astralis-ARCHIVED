@@ -114,7 +114,7 @@ weapons: [
   mirror: false
   bullet: {
     type: BulletType
-    lifetime: 90
+    lifetime: 45
     pierce: true
     pierceBuilding: true
     //locked onto Bellatrix's hitbox
