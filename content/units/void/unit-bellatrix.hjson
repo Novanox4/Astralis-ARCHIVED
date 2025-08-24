@@ -96,9 +96,9 @@ weapons: [
   mirror: false
   bullet: {
     type: BasicBulletType
-    lifetime: 100
-    recoil: -15
-    speed: 1
+    lifetime: 160
+    recoil: -8
+    speed: 3
     shootEffect: none
     despawnEffect: none
     hitEffect: none
