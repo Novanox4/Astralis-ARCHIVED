@@ -178,8 +178,8 @@ weapons: [
             }
             {
             type: ParticleEffect
-            colorFrom: 999999ff
-            colorTo: 5e5e5eff
+            colorFrom: 5e5e5e66
+            colorTo: 99999966
             sizeFrom: 9
             sizeTo: 0
             length: 80
