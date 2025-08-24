@@ -46,7 +46,7 @@ abilities: [
       sizeFrom: 42
       sizeTo: 42
       //me when copying my own code
-      baseRotation: -65
+      baseRotation: -60
       lightOpacity: 0
       }
     }
@@ -72,7 +72,7 @@ abilities: [
       lifetime: 3.05
       sizeFrom: 42
       sizeTo: 42
-      baseRotation: -130
+      baseRotation: -120
       lightOpacity: 0
       }
     }
