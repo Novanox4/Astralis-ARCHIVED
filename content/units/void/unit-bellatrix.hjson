@@ -43,10 +43,10 @@ abilities: [
       length: 0
       spin: -25
       lifetime: 3.05
-      sizeFrom: 40
-      sizeTo: 40
+      sizeFrom: 42
+      sizeTo: 42
       //me when copying my own code
-      baseRotation: -75
+      baseRotation: -65
       lightOpacity: 0
       }
     }
@@ -70,9 +70,9 @@ abilities: [
       length: 0
       spin: 25
       lifetime: 3.05
-      sizeFrom: 40
-      sizeTo: 40
-      baseRotation: -110
+      sizeFrom: 42
+      sizeTo: 42
+      baseRotation: -120
       lightOpacity: 0
       }
     }
