@@ -9,7 +9,7 @@ useUnitCap: false
 outlineColor: 0c0413
 deathExplosionEffect: none
 deathSound: plantBreak
-speed: 0
+speed: 0.01
 drag: 0.02
 accel: 0.2
 name: Bellatrix
@@ -129,7 +129,7 @@ weapons: [
     smokeEffect: none
     shootEffect: none
     hitEffect: none
-    rangeOverride: 400
+    rangeOverride: 999999999
     damage: 325
     spawnBulletRandomSpread: 0
     hitSize: 18
