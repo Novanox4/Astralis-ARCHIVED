@@ -235,6 +235,24 @@ weapons: [
     damage: 0
     //go my scrimblos
     spawnUnit: unit-wilt
+    randomAngleOffset: 60
+    }
+  }
+  {
+  //another one
+  display: false
+  reload: 300
+  alwaysShooting: true
+  shootStatus: boss
+  shootSound: none
+  shootEffect: none
+  smokeEffect: none
+  bullet: {
+    type: EmptyBulletType
+    damage: 0
+    //go my scrimblos
+    spawnUnit: unit-wilt
+    randomAngleOffset: 60
     }
   }
 ]
