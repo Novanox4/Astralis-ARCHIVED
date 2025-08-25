@@ -277,13 +277,13 @@ weapons: [
   shootSound: none
   shootEffect: none
   smokeEffect: none
-  shootY: 12
+  shootY: 13
   shootX: 0
   y: 0
   x: 0
   shoot: {
-    shots: 80
-    shotDelay: 2
+    shots: 200
+    shotDelay: 1
   }
   bullet: {
       type: BasicBulletType
@@ -304,8 +304,9 @@ weapons: [
       despawnEffect: none
       hitEffect: none
       shootEffect: none
+      despawnSound: splash
       //using this because I have more control on the liquid parameters
-      puddles: 4
+      puddles: 8
       puddleRange: 8
       puddleAmount: 50
       puddleLiquid: liquid-void-fluid
@@ -313,7 +314,7 @@ weapons: [
       lifeScaleRandMin: 0.3
       despawnHit: true
       smokeEffect: none
-      randomAngleOffset: 30
+      randomAngleOffset: 20
     }
   }
 ]
