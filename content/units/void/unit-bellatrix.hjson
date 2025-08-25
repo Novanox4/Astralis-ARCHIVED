@@ -229,6 +229,8 @@ weapons: [
   shootStatus: boss
   shootSound: none
   shootEffect: none
+  x: 0
+  y: 8
   smokeEffect: none
   bullet: {
     type: EmptyBulletType
@@ -250,6 +252,8 @@ weapons: [
   alwaysShooting: true
   shootStatus: boss
   shootSound: none
+  x: 0
+  y: 8
   shootEffect: none
   smokeEffect: none
   bullet: {
