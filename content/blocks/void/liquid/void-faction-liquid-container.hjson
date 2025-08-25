@@ -1,7 +1,7 @@
 type: LiquidRouter
 name: Void Tank
 squareSprite: false
-clipSize: 180
+clipSize: 1800
 customShadow: true
 drawTeamOverlay: false
 squareSprite: false
