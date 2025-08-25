@@ -277,7 +277,7 @@ weapons: [
   shootSound: none
   shootEffect: none
   smokeEffect: none
-  shootY: 8
+  shootY: 12
   shootX: 0
   y: 0
   x: 0
@@ -313,7 +313,7 @@ weapons: [
       lifeScaleRandMin: 0.3
       despawnHit: true
       smokeEffect: none
-      randomAngleOffset: 60
+      randomAngleOffset: 30
     }
   }
 ]
