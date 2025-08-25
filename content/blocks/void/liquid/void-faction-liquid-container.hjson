@@ -1,0 +1,22 @@
+type: LiquidRouter
+name: Void Tank
+squareSprite: false
+clipSize: 120
+customShadow: true
+drawTeamOverlay: false
+squareSprite: false
+drawCracks: false
+createRubble: false
+breakSound: plantBreak
+destroySound: plantBreak
+placeSound: plantBreak
+forceTeam: malis
+liquidCapacity: 1750
+buildVisibility: hidden
+size: 2
+//custom game compatability + health stats
+requirements: [
+  item-crystalite/120
+  item-uranium/100
+  metaglass/50
+  ]
