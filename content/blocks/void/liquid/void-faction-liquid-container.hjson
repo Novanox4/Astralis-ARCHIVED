@@ -19,3 +19,4 @@ requirements: [
   item-uranium/100
   metaglass/50
   ]
+liquidPadding: 2
