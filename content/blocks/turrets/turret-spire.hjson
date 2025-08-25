@@ -117,8 +117,6 @@ shootType: {
   collidesGround: false
   shootEffect: none
   smokeEffect: none
-  status: slow
-  statusDuration: 45
   //makes it look like it attacks twice as frequently
   spawnBullets: [ 
     {
@@ -133,8 +131,6 @@ shootType: {
     collidesGround: false
     shootEffect: none
     smokeEffect: none
-    status: slow
-    statusDuration: 45
     }
   ]
 }
