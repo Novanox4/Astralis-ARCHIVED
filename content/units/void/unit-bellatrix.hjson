@@ -236,6 +236,11 @@ weapons: [
     //go my scrimblos
     spawnUnit: unit-wilt
     randomAngleOffset: 60
+    collides: false
+    despawnEffect: none
+    hitEffect: none
+    shootEffect: none
+    smokeEffect: none
     }
   }
   {
@@ -253,10 +258,15 @@ weapons: [
     //go my scrimblos
     spawnUnit: unit-wilt
     randomAngleOffset: 60
+    collides: false
+    despawnEffect: none
+    hitEffect: none
+    shootEffect: none
+    smokeEffect: none
     }
   }
   {
-  //another one
+  //spray
   display: false
   reload: 750
   alwaysShooting: true
@@ -265,8 +275,8 @@ weapons: [
   shootEffect: none
   smokeEffect: none
   shoot: {
-    shots: 30
-    shotDelay: 4
+    shots: 80
+    shotDelay: 2
   }
   bullet: {
       type: BasicBulletType
@@ -275,7 +285,7 @@ weapons: [
       shrinkY: 0
       lifetime: 45
       pierce: true
-      damage: 8
+      damage: 9
       knockback: 2
       impact: true
       frontColor: 0c0413
@@ -295,6 +305,7 @@ weapons: [
       velocityScaleRandMin: 0.45
       lifeScaleRandMin: 0.3
       despawnHit: true
+      smokeEffect: none
     }
   }
 ]
