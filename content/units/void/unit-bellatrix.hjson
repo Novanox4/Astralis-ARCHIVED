@@ -269,11 +269,14 @@ weapons: [
   //spray
   display: false
   reload: 750
-  alwaysShooting: true
   shootStatus: boss
   shootSound: none
   shootEffect: none
   smokeEffect: none
+  shootY: 8
+  shootX: 0
+  y: 0
+  x: 0
   shoot: {
     shots: 80
     shotDelay: 2
