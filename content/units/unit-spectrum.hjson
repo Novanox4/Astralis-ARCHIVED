@@ -2,7 +2,10 @@ type: tank
 name: Spectrum
 description: Shoots a homing bolt of light. Can build, mine and boost.
 buildSpeed: 0.25
-mineSpeed: 1.5
+mineSpeed: 1.25
+mineTier: 1
+mineWalls: true
+mineFloor: true
 canBoost: true
 boostMultiplier: 2.25
 omniMovement: false
