@@ -10,7 +10,6 @@ createRubble: false
 breakSound: plantBreak
 destroySound: plantBreak
 placeSound: plantBreak
-forceTeam: malis
 liquidCapacity: 1750
 buildVisibility: hidden
 size: 2
