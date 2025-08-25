@@ -255,4 +255,46 @@ weapons: [
     randomAngleOffset: 60
     }
   }
+  {
+  //another one
+  display: false
+  reload: 750
+  alwaysShooting: true
+  shootStatus: boss
+  shootSound: none
+  shootEffect: none
+  smokeEffect: none
+  shoot: {
+    shots: 30
+    shotDelay: 4
+  }
+  bullet: {
+      type: BasicBulletType
+      speed: 5
+      shrinkX: 0
+      shrinkY: 0
+      lifetime: 45
+      pierce: true
+      damage: 8
+      knockback: 2
+      impact: true
+      frontColor: 0c0413
+      backColor: 0c0413
+      layer: 89
+      sprite: circle-bullet
+      height: 10
+      width: 10
+      despawnEffect: none
+      hitEffect: none
+      shootEffect: none
+      //using this because I have more control on the liquid parameters
+      puddles: 4
+      puddleRange: 8
+      puddleAmount: 50
+      puddleLiquid: liquid-void-fluid
+      velocityScaleRandMin: 0.45
+      lifeScaleRandMin: 0.3
+      despawnHit: true
+    }
+  }
 ]
