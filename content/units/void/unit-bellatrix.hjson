@@ -306,6 +306,7 @@ weapons: [
       lifeScaleRandMin: 0.3
       despawnHit: true
       smokeEffect: none
+      randomAngleOffset: 60
     }
   }
 ]
