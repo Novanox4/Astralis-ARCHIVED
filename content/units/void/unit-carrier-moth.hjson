@@ -10,6 +10,7 @@ allowedInPayloads: false
 playerControllable: false
 immunities: [status-voidgnaw]
 useUnitCap: false
+itemCapacity: 60
 outlineColor: 0c0413
 deathExplosionEffect: none
 deathSound: plantBreak
