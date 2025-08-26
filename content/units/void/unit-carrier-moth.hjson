@@ -24,13 +24,6 @@ name: Carrier Moth
 description: Moth created by the void. Transports resources.
 abilities: [
   {
-  type: LiquidExplodeAbility
-  liquid: liquid-void-fluid
-  radScale: 1.2
-  radAmountScale: 3
-  amount: 200
-  }
-  {
     type: MoveEffectAbility
     //me when asthosus code:
     minVelocity: 0
