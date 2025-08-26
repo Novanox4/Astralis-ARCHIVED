@@ -1,0 +1,18 @@
+type: Duct
+speed: 100
+health: 100
+name: Vein
+description: Moves items.
+requirements: [
+    item-crystalite/1
+    ]
+squareSprite: false
+clipSize: 1800
+drawTeamOverlay: false
+squareSprite: false
+drawCracks: false
+createRubble: false
+breakSound: plantBreak
+destroySound: plantBreak
+placeSound: plantBreak
+buildVisibility: hidden
