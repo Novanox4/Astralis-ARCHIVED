@@ -6,7 +6,7 @@ description: Moves items.
 requirements: [
     item-crystalite/1
     ]
-squareSprite: false
+squareSprite: true
 clipSize: 1800
 drawTeamOverlay: false
 squareSprite: false
