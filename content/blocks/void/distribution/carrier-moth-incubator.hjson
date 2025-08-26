@@ -1,0 +1,26 @@
+type: UnitCargoLoader
+name: Carrier Moth Incubator
+squareSprite: false
+clipSize: 1800
+customShadow: true
+drawTeamOverlay: false
+squareSprite: false
+drawCracks: false
+createRubble: false
+breakSound: plantBreak
+destroySound: plantBreak
+placeSound: plantBreak
+itemCapacity: 150
+buildVisibility: hidden
+buildTime: 300
+size: 2
+requirements: [
+  item-crystalite/125
+  item-uranium/120
+  item-silver/100
+  ]
+unitType: unit-carrier-moth
+polyColor: 000000
+polyRadius: 0
+unitBuildTime: 220
+polyStroke: 0
