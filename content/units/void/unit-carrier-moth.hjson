@@ -9,6 +9,9 @@ logicControllable: false
 allowedInPayloads: false
 playerControllable: false
 immunities: [status-voidgnaw]
+targetable: false
+hittable: false
+killable: false
 useUnitCap: false
 itemCapacity: 60
 outlineColor: 0c0413
