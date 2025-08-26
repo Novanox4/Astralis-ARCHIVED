@@ -20,3 +20,4 @@ requirements: [
   metaglass/50
   ]
 liquidPadding: 2
+category: liquid
