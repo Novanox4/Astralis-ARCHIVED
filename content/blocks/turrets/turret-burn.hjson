@@ -1,6 +1,6 @@
 type: ItemTurret
-range: 235
-reload: 95
+range: 190
+reload: 120
 category: turret
 name: Burn
 health: 650
@@ -33,22 +33,23 @@ basePrefix: astral-
 ammoTypes: {
 item-charchunk: {
   type: BasicBulletType
-  damage: 62.5
+  damage: 57.5
   backColor: 272727
   frontColor: 363636
   knockback: 0.5
   impact: true
   hitColor: 272727
   trailColor: 272727
-  lifetime: 67.5
+  lifetime: 50
   trailLength: 10
   trailWidth: 1
-  width: 9
-  height: 11
-  speed: 3.5
+  width: 8
+  height: 12
+  speed: 4
   inaccuracy: 6
   status: burning
   statusDuration: 250
+  layer: 111
     }
 }
 requirements: [
@@ -66,5 +67,5 @@ coolant: {
   allowLiquid: true
   amount: 0.45
 }
-coolantMultiplier: 2.65
+coolantMultiplier: 4
 ammoPerShot: 3
