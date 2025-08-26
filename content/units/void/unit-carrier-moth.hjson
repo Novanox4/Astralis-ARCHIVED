@@ -46,8 +46,8 @@ abilities: [
       length: 0
       spin: -25
       lifetime: 3.05
-      sizeFrom: 18
-      sizeTo: 18
+      sizeFrom: 14
+      sizeTo: 14
       // worse than tank treads
       baseRotation: -85
       lightOpacity: 0
@@ -73,8 +73,8 @@ abilities: [
       length: 0
       spin: 25
       lifetime: 3.05
-      sizeFrom: 18
-      sizeTo: 18
+      sizeFrom: 14
+      sizeTo: 14
       baseRotation: -100
       lightOpacity: 0
       }
