@@ -1,5 +1,5 @@
 type: Duct
-speed: 1
+speed: 2
 health: 100
 name: Vein
 description: Moves items.
