@@ -4,7 +4,7 @@ legGroupSize: 2
 legLength: 13
 legBaseOffset: 1
 name: Receptacle
-description: Spider mech that uses s continuous laser to attack. Heals nearby allies.
+description: Spider mech that uses a continuous laser to attack. Heals nearby allies.
 flying: false
 health: 450
 baseLegStraightness: 0
