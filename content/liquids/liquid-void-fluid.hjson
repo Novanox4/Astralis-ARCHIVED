@@ -9,7 +9,8 @@ gasColor: 0c0413
 boilPoint: 999
 heatCapacity: 1.1
 temperature: -0.65
-viscosity: 0.55
+//comedy
+viscosity: 0.69
 explosiveness: 0.75
 research: {
   parent: item-cerium
