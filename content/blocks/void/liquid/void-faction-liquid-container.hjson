@@ -1,5 +1,6 @@
-type: LiquidRouter
-name: Void Tank
+type: AttributeCrafter
+//this used to be a container but also I'm too lazy to resprite something lmfao
+name: Void Extractor
 squareSprite: false
 clipSize: 1800
 customShadow: true
@@ -10,7 +11,7 @@ createRubble: false
 breakSound: plantBreak
 destroySound: plantBreak
 placeSound: plantBreak
-liquidCapacity: 1750
+liquidCapacity: 1800
 buildVisibility: hidden
 size: 2
 //custom game compatability + health stats
@@ -19,5 +20,31 @@ requirements: [
   item-uranium/100
   metaglass/50
   ]
-liquidPadding: 2
 category: liquid
+explosivenessScale: 0
+flammabilityScale: 0
+attribute: voidattr2
+displayEfficiency: false
+health: 200
+baseEfficiency: 0
+minEfficiency: 1
+outputLiquid: liquid-void-fluid/3
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+    type: DrawRegion
+    suffix: -bottom
+    }
+    {
+    type: DrawDefault
+    }
+    {
+    type: DrawLiquidTile
+    drawLiquid: liquid-void-fluid
+    padding: 2
+    }
+  ]
+}
+itemCapacity: 0
+hasItems: false
