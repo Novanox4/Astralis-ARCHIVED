@@ -36,12 +36,12 @@ drawer: {
     suffix: -bottom
     }
     {
-    type: DrawDefault
-    }
-    {
     type: DrawLiquidTile
     drawLiquid: liquid-void-fluid
     padding: 2
+    }
+    {
+    type: DrawDefault
     }
   ]
 }
