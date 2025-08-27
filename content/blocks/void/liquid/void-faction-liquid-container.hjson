@@ -18,7 +18,6 @@ size: 2
 requirements: [
   item-crystalite/120
   item-uranium/100
-  metaglass/50
   ]
 category: liquid
 explosivenessScale: 0
