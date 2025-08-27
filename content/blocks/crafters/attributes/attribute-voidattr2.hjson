@@ -1,0 +1,6 @@
+type: AttributeCrafter
+buildVisibility: debugOnly
+inEditor: false
+
+attribute: voidattr2
+//This one is used for void extractors
