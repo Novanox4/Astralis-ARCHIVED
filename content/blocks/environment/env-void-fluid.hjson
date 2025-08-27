@@ -10,6 +10,8 @@ liquidMultiplier: 0.075
 shallow: false
 variants: 1
 status: status-voidgnaw
+//voidattr2 is used for void bases
 attributes: {
   voidattr: 0.0625
+  voidattr2: 0.25
 }
