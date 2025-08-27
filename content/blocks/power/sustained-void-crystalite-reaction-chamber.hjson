@@ -1,0 +1,130 @@
+type: ConsumeGenerator
+name: Sustained Void-Crystalite Reaction Chamber
+description: Dissolves crystalite in void fluid to create large amounts of power. Explodes violently upon destruction, coating a lare area in void fluid. Requires constant metaglass input in order to repair corroded parts. Will automatically shut off if not maintained properly.
+itemDuration: 60
+squareSprite: false
+liquidCapacity: 1200
+destroyBullet: {
+  type: MultiBulletType
+  repeat: 1200
+  bullets: [
+    {
+    type: BasicBulletType
+    speed: 6
+    shrinkX: 0
+    shrinkY: 0
+    lifetime: 75
+    layer: 111
+    pierce: true
+    damage: 0
+    frontColor: 0c0413
+    backColor: 0c0413
+    sprite: circle-bullet
+    height: 10
+    width: 10
+    despawnEffect: none
+    hitEffect: none
+    shootEffect: none
+    liquid: liquid-void-fluid
+    //using this because I have more control on the liquid parameters
+    puddles: 16
+    puddleRange: 36
+    puddleAmount: 280
+    puddleLiquid: liquid-void-fluid
+    collides: false
+    velocityScaleRandMin: 0
+    lifeScaleRandMin: 0
+    despawnHit: true
+    randomAngleOffset: 360
+    }
+  ]
+}
+consumes: {
+  items: [
+    item-crystalite/4
+    metaglass/1
+    ]
+  liquid: liquid-void-fluid/1.95
+}
+requirements: [
+    item-crystalite/300
+    item-uranium/225
+    metaglass/120
+    item-cerium/150
+    item-hadalrock/100
+  ]
+powerProduction: 134
+size: 4
+itemCapacity: 30
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+    type: DrawRegion
+    suffix: -bottom
+    }
+    {
+    type: DrawLiquidTile
+    drawLiquid: liquid-void-fluid
+    padding: 1
+    alpha: 1
+    }
+    {
+    type: DrawDefault
+    }
+    {
+    type: DrawParticles
+    color: 0c0413ff
+    particles: 8
+    x: 10.75
+    y: 10.75
+    alpha: 0.8
+    particleRad: 9
+    particleLife: 80
+    particleSize: 3.75
+    }
+     {
+    type: DrawParticles
+    color: 0c0413ff
+    particles: 8
+    x: -10.75
+    y: 10.75
+    alpha: 0.8
+    particleRad: 9
+    particleLife: 80
+    particleSize: 3.75
+    }
+    {
+    type: DrawParticles
+    color: 0c0413ff
+    particles: 8
+    x: 10.75
+    y: -10.75
+    alpha: 0.8
+    particleRad: 9
+    particleLife: 80
+    particleSize: 3.75
+    }
+    {
+    type: DrawParticles
+    color: 0c0413ff
+    particles: 8
+    x: -10.75
+    y: -10.75
+    alpha: 0.8
+    particleRad: 9
+    particleLife: 80
+    particleSize: 3.75
+    }
+  ]
+}
+research: {
+  parent: nuclear-decay-reactor
+  objectives: [
+    {
+    type: OnSector
+    preset: bog
+    }
+  ]
+}
+category: power

@@ -1,0 +1,14 @@
+type: incinerator
+name: Disposal
+description: Destroys any item or liquid inside it. Reinforced with heavy materials to resist the highly volatile resources on Astralis.
+flameColor: 452d56ff
+research: nitric-acid-synthesizer
+consumes: {
+  power: 0.2
+    }
+requirements: [
+  item-crystalite/30
+  item-cerium/20
+  item-hadalrock/10
+  ]
+category: crafting

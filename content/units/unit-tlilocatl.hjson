@@ -1,6 +1,7 @@
 type: legs
 name: Tlilocatl
 description: Dislodges itself from its legs, propelling its body as a single-use explosive missile.
+//can you beat astralis as a jihadi creeper
 details: "NNNNNNNNYYYYYYYYOOOOOOOOOOOOOOMMMMMMMMMMMMMMMMM"
 health: 250
 legCount: 2

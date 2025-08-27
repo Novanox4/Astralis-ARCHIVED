@@ -1,0 +1,320 @@
+type: flying
+flying: true
+lowAltitude: true
+engineSize: 0
+hitSize: 18
+targetFlags: [turret, shield, storage, generator, reactor, battery, core]
+immunities: [status-voidgnaw]
+useUnitCap: false
+outlineColor: 0c0413
+deathExplosionEffect: none
+deathSound: plantBreak
+speed: 0.01
+drag: 0.02
+accel: 0.2
+name: Bellatrix
+description: Moth created by the void. Has an incredible array of attacks. Very dangerous.
+abilities: [
+  {
+  type: LiquidExplodeAbility
+  liquid: liquid-void-fluid
+  radScale: 1.3
+  radAmountScale: 4
+  amount: 600
+  }
+  {
+    type: MoveEffectAbility
+    //me when asthosus code:
+    minVelocity: 0
+    interval: 3
+    x: 3.25
+    y: 4
+    parentizeEffects: true
+    rotateEffect: true
+    rotation: 0
+    effect: {
+      type: ParticleEffect
+      layer: 91
+      followParent: true
+      rotWithParent: true
+      region: astralis-unit-bellatrix-wing-r
+      particles: 1
+      length: 0
+      spin: -25
+      lifetime: 3.05
+      sizeFrom: 42
+      sizeTo: 42
+      //me when copying my own code
+      baseRotation: -57.5
+      lightOpacity: 0
+      }
+    }
+    {
+    type: MoveEffectAbility
+    //winging my ding till I gaster
+    minVelocity: 0
+    interval: 3
+    x: -3.25
+    y: 4
+    parentizeEffects: true
+    rotateEffect: true
+    rotation: 0
+    effect: {
+      type: ParticleEffect
+      layer: 91
+      followParent: true
+      rotWithParent: true
+      region: astralis-unit-bellatrix-wing-l
+      particles: 1
+      length: 0
+      spin: 25
+      lifetime: 3.05
+      sizeFrom: 42
+      sizeTo: 42
+      baseRotation: -120
+      lightOpacity: 0
+      }
+    }
+  ]
+health: 17500
+armor: 20
+//work in progress
+weapons: [
+  {
+  //always a boss
+  display: false
+  reload: 1
+  alwaysShooting: true
+  shootStatus: boss
+  shootSound: none
+  shootEffect: none
+  smokeEffect: none
+  bullet: {
+    type: EmptyBulletType
+    damage: 0
+    collides: false
+    despawnEffect: none
+    hitEffect: none
+    shootEffect: none
+    smokeEffect: none
+    }
+  }
+  {
+  //lunge spear
+  reload: 100
+  name: unit-bellatrix-spear
+  recoil: -8.75
+  x: 4
+  y: 7.75
+  recoilTime: 45
+  shootSound: none
+  rotate: false
+  shootY: -4
+  shootX: -7.75
+  layerOffset: -0.1
+  mirror: false
+  bullet: {
+    type: BulletType
+    lifetime: 100
+    pierce: true
+    pierceBuilding: true
+    //locked onto Bellatrix's hitbox
+    circleShooter: true
+    circleShooterRadius: 0.001
+    circleShooterRadiusSmooth: 0.001
+    recoil: -8.2
+    speed: 30
+    circleShooterRotateSpeed: 99999
+    shootEffect: none
+    despawnEffect: none
+    smokeEffect: none
+    shootEffect: none
+    hitEffect: none
+    rangeOverride: 999999999
+    damage: 325
+    spawnBulletRandomSpread: 0
+    hitSize: 18
+    //random bombs
+    spawnBullets: [
+      {
+      type: BulletType
+      createChance: 0.456
+      circleShooter: true
+      circleShooterRadius: 0.001
+      circleShooterRadiusSmooth: 0.001
+      recoil: -15
+      speed: 30
+      lifetime: 25
+      circleShooterRotateSpeed: 99999
+      collides: false
+      despawnEffect: none
+      hitEffect: none
+      fragBullets: 18
+      fragOffsetMin: 0
+      fragOffsetMax: 0
+      fragLifeMin: 0
+      fragLifeMax: 1
+      fragVelocityMin: 0
+      fragVelocityMax: 2.25
+      fragBullet: {
+        type: BasicBulletType
+        damage: 0
+        splashDamage: 20
+        splashDamageRadius: 75
+        backColor: 452d56
+        layer: 89
+        sprite: large-bomb
+        height: 18
+        width: 18
+        shrinkX: 1
+        shrinkY: 1
+        lifetime: 90
+        speed: 0.6
+        despawnEffect: none
+        hitEffect: {
+          type: MultiEffect
+          effects: [
+            {
+            type: ParticleEffect
+            colorFrom: 10081866
+            colorTo: 0c041366
+            sizeFrom: 6
+            sizeTo: 0
+            length: 80
+            lifetime: 120
+            cone: 360
+            particles: 6
+            sizeChangeStart: 55
+            layer: 89
+            interp: pow10Out
+            sizeInterp: linear
+            }
+            {
+            type: ParticleEffect
+            colorFrom: 5e5e5e66
+            colorTo: 99999966
+            sizeFrom: 9
+            sizeTo: 0
+            length: 80
+            lifetime: 300
+            cone: 360
+            particles: 30
+            sizeChangeStart: 200
+            layer: 89
+            interp: pow10Out
+            sizeInterp: linear
+            }
+            {
+            type: WaveEffect
+            colorFrom: ffffffff
+            colorTo: 0c0413ff
+            layer: 89
+            strokeFrom: 5
+            strokeTo: 0
+            sizeTo: 70
+            lifetime: 30
+            }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}
+{
+  //spawns wilt without that factory overlay
+  display: false
+  reload: 300
+  alwaysShooting: true
+  shootStatus: boss
+  shootSound: none
+  shootEffect: none
+  x: 0
+  y: 8
+  smokeEffect: none
+  bullet: {
+    type: EmptyBulletType
+    damage: 0
+    //go my scrimblos
+    spawnUnit: unit-wilt
+    randomAngleOffset: 60
+    collides: false
+    despawnEffect: none
+    hitEffect: none
+    shootEffect: none
+    smokeEffect: none
+    }
+  }
+  {
+  //another one
+  display: false
+  reload: 300
+  alwaysShooting: true
+  shootStatus: boss
+  shootSound: none
+  x: 0
+  y: 8
+  shootEffect: none
+  smokeEffect: none
+  bullet: {
+    type: EmptyBulletType
+    damage: 0
+    //go my scrimblos
+    spawnUnit: unit-wilt
+    randomAngleOffset: 60
+    collides: false
+    despawnEffect: none
+    hitEffect: none
+    shootEffect: none
+    smokeEffect: none
+    }
+  }
+  {
+  //spray
+  display: false
+  reload: 750
+  shootStatus: boss
+  shootSound: none
+  shootEffect: none
+  smokeEffect: none
+  shootY: 13
+  shootX: 0
+  y: 0
+  x: 0
+  shoot: {
+    shots: 200
+    shotDelay: 1
+  }
+  bullet: {
+      type: BasicBulletType
+      speed: 5
+      shrinkX: 0
+      shrinkY: 0
+      lifetime: 45
+      pierce: true
+      damage: 9
+      knockback: 2
+      impact: true
+      frontColor: 0c0413
+      backColor: 0c0413
+      layer: 89
+      sprite: circle-bullet
+      height: 10
+      width: 10
+      despawnEffect: none
+      hitEffect: none
+      shootEffect: none
+      despawnSound: splash
+      //using this because I have more control on the liquid parameters
+      puddles: 8
+      puddleRange: 8
+      puddleAmount: 50
+      puddleLiquid: liquid-void-fluid
+      velocityScaleRandMin: 0.45
+      lifeScaleRandMin: 0.3
+      despawnHit: true
+      smokeEffect: none
+      randomAngleOffset: 20
+    }
+  }
+]

@@ -44,6 +44,7 @@ contentOrder: [
     electrostatic-separator,
     crystal-crucible,
     nitric-acid-synthesizer,
+    disposal,
     void-stabilizer,
     hadalrock-solidifier,
     char-burner,

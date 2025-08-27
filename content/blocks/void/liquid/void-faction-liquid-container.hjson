@@ -1,0 +1,49 @@
+type: AttributeCrafter
+//this used to be a container but also I'm too lazy to resprite something lmfao
+name: Void Extractor
+squareSprite: false
+clipSize: 1800
+customShadow: true
+drawTeamOverlay: false
+squareSprite: false
+drawCracks: false
+createRubble: false
+breakSound: plantBreak
+destroySound: plantBreak
+placeSound: plantBreak
+liquidCapacity: 1800
+buildVisibility: hidden
+size: 2
+//custom game compatability + health stats
+requirements: [
+  item-crystalite/120
+  item-uranium/100
+  ]
+category: liquid
+explosivenessScale: 0
+flammabilityScale: 0
+attribute: voidattr2
+displayEfficiency: false
+health: 200
+baseEfficiency: 0
+minEfficiency: 1
+outputLiquid: liquid-void-fluid/3
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+    type: DrawRegion
+    suffix: -bottom
+    }
+    {
+    type: DrawLiquidTile
+    drawLiquid: liquid-void-fluid
+    padding: 2
+    }
+    {
+    type: DrawDefault
+    }
+  ]
+}
+itemCapacity: 0
+hasItems: false

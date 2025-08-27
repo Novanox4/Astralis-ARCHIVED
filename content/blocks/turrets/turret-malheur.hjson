@@ -16,7 +16,7 @@ drawer: {
   type: DrawTurret
   basePrefix: astral-
     }
-rotateSpeed: 2.6
+rotateSpeed: 7.8
 coolant: {
   type: ConsumeCoolant
   allowGas: true

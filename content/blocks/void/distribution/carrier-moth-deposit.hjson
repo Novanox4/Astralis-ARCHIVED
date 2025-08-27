@@ -1,0 +1,21 @@
+type: UnitCargoUnloadPoint
+name: Carrier Moth Deposit
+squareSprite: false
+clipSize: 1800
+customShadow: true
+drawTeamOverlay: false
+squareSprite: false
+drawCracks: false
+createRubble: false
+breakSound: plantBreak
+destroySound: plantBreak
+placeSound: plantBreak
+itemCapacity: 180
+buildVisibility: hidden
+buildTime: 300
+size: 3
+requirements: [
+  item-crystalite/75
+  item-uranium/65
+  item-silver/130
+  ]
