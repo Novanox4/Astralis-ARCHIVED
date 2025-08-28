@@ -25,6 +25,7 @@ shoot: {
   shotDelay: 100
   barrels: [
     -6, -2.5, 0,
+    0, -1.25, 0
     6, -2.5, 0,
     ]
   }
@@ -33,9 +34,8 @@ range: 200
 ammoTypes: {
   item-uranium: {
     type: BulletType
-    homingRange: 325
     homingDelay: 25
-    homingPower: 0.4
+    followAimSpeed: 0.5
     lifetime: 70
     speed: 2
     accel: 0.06
@@ -62,6 +62,6 @@ coolant: {
   type: ConsumeCoolant
   allowGas: true
   allowLiquid: true
-  amount: 1
+  amount: 0.6
 }
-coolantMultiplier: 2
+coolantMultiplier: 2.25
