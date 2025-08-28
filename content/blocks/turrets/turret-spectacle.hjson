@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Spectacle
-description: Fires a barrage of low damage missiles towards enemy targets. Gradually speeds up over time.
+description: Fires a barrage of low damage missiles towards enemy targets. Gradually speeds up over time. Takes a long amount of time to stop shooting. Greatly benefits from coolant.
 outlineColor: 323232
 category: turret
 cooldownTime: 180
