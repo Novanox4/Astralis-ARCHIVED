@@ -21,8 +21,8 @@ reload: 135
 ammoPerShot: 10
 shoot: {
   type: ShootBarrel
-  shots: 6
-  shotDelay: 160
+  shots: 9
+  shotDelay: 100
   barrels: [
     -6, -2.5, 0,
     0, -1.25, 0
