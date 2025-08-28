@@ -22,10 +22,10 @@ ammoPerShot: 4
 shoot: {
   type: ShootBarrel
   shots: 6
-  shotDelay: 30
+  shotDelay: 50
   barrels: [
-    -6, 9, 0,
-    6, 9, 0,
+    -6, 6.9, 0,
+    6, 6.9, 0,
     ]
   }
 range: 200
@@ -58,3 +58,10 @@ ammoTypes: {
     ]
   }
 }
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 1
+}
+coolantMultiplier: 3
