@@ -313,4 +313,4 @@ coolant: {
   allowLiquid: true
   amount: 0.6
 }
-coolantMultiplier: 5.6
+coolantMultiplier: 6
