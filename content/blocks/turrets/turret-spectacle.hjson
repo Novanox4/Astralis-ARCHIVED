@@ -17,12 +17,12 @@ drawer: {
   type: DrawTurret
   basePrefix: astral-
 }
-reload: 90
-ammoPerShot: 4
+reload: 180
+ammoPerShot: 10
 shoot: {
   type: ShootBarrel
   shots: 6
-  shotDelay: 100
+  shotDelay: 190
   barrels: [
     -6, -2.5, 0,
     0, -1.25, 0
@@ -35,27 +35,76 @@ ammoTypes: {
   item-uranium: {
     type: BulletType
     homingDelay: 25
-    followAimSpeed: 0.5
-    lifetime: 70
-    speed: 2
-    accel: 0.06
-    damage: 28
+    homingPower: 2
+    homingRange: 32
+    lifetime: 50
+    speed: 4
+    accel: -0.04
+    damage: 0
+    splashDamageRadius: 32
+    splashDamage: 18
     trailLength: 32
     trailWidth: 2
     trailColor: 7cd656
+    despawnHit: true
+    hitSound: shootSnap
     parts: [
       {
       type: FlarePart
-      stroke: 9
+      stroke: 5
       color1: 7cd656
       rotation: 45
-      innerRadScl: 0.66
+      innerRadScl: 0.33
       radius: 3
       radiusTo: 20
-      sides: 6
+      sides: 4
       progress: life
       }
     ]
+    fragBullets: 1
+    fragOffsetMax: 0
+    fragBullet: [
+      type: MultiBulletType
+      damage: 0
+      bullets: [
+        {
+        type: BulletType
+        despawnEffect: none
+        hitEffect: none
+        collides: false
+        fragBullets: 3
+        fragLifeMin: 0.9
+        fragVelocityMin: 0.3
+        fragOffsetMax: 0
+        fragOffsetMin: 0
+        fragBullet: {
+          type: BulletType
+          lifetime: 50
+          createChance: 0.6
+          speed: 4
+          accel: -0.04
+          damage: 0
+          collides: false
+          trailLength: 32
+          trailWidth: 1
+          trailColor: ff0000
+          parts: [
+            {
+            type: FlarePart
+            stroke: 5
+            color1: ff0000
+            rotation: 45
+            innerRadScl: 0.33
+            radius: 0
+            radiusTo: 9
+            sides: 4
+            progress: life
+            }
+          ]
+          }
+        }
+      ]
+    }
   }
 }
 coolant: {
@@ -64,4 +113,4 @@ coolant: {
   allowLiquid: true
   amount: 0.6
 }
-coolantMultiplier: 2.25
+coolantMultiplier: 3.5
