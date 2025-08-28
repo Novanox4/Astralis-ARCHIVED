@@ -17,12 +17,12 @@ drawer: {
   type: DrawTurret
   basePrefix: astral-
 }
-reload: 180
+reload: 135
 ammoPerShot: 10
 shoot: {
   type: ShootBarrel
   shots: 6
-  shotDelay: 195
+  shotDelay: 160
   barrels: [
     -6, -2.5, 0,
     0, -1.25, 0
@@ -33,15 +33,15 @@ range: 200
 ammoTypes: {
   item-uranium: {
     type: BulletType
-    homingDelay: 20
-    homingPower: 2
-    homingRange: 32
+    homingDelay: 18
+    homingPower: 1.5
+    homingRange: 80
     lifetime: 50
     speed: 6.25
     accel: -0.05
     damage: 0
     splashDamageRadius: 70
-    splashDamage: 60
+    splashDamage: 30
     scaledSplashDamage: true
     trailLength: 32
     trailWidth: 2
