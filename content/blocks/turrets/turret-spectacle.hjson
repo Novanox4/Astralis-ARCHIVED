@@ -11,18 +11,18 @@ requirements: [
   metaglass/225
 ]
 research: turret-lunara
-shootSound: missile-small
+shootSound: missileSmall
 size: 4
 drawer: {
   type: DrawTurret
   basePrefix: astral-
 }
-reload: 45
+reload: 25
 ammoPerShot: 4
 shoot: {
   type: ShootBarrel
-  shots: 12
-  shotDelay: 50
+  shots: 6
+  shotDelay: 30
   barrels: [
     -6, 9, 0,
     6, 9, 0,
@@ -40,7 +40,6 @@ ammoTypes: {
     speed: 2
     accel: 0.06
     damage: 28
-    reloadMultiplier: 1.425
     trailLength: 32
     trailWidth: 2
     trailColor: 7cd656
