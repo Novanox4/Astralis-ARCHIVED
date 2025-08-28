@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Spectacle
-description: Fires a barrage of low damage missiles towards enemy targets. Gradually speeds up over time. Takes a long amount of time to stop shooting. Greatly benefits from coolant.
+description: Fires a barrage of low damage area control  missiles towards enemy targets. Gradually speeds up over time. Takes a long amount of time to stop shooting. Greatly benefits from coolant.
 outlineColor: 323232
 category: turret
 cooldownTime: 180
@@ -22,7 +22,7 @@ ammoPerShot: 10
 shoot: {
   type: ShootBarrel
   shots: 6
-  shotDelay: 190
+  shotDelay: 195
   barrels: [
     -6, -2.5, 0,
     0, -1.25, 0
@@ -310,6 +310,6 @@ coolant: {
   type: ConsumeCoolant
   allowGas: true
   allowLiquid: true
-  amount: 0.6
+  amount: 0.75
 }
-coolantMultiplier: 6
+coolantMultiplier: 5.5
