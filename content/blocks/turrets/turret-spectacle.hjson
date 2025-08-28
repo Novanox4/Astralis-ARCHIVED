@@ -17,7 +17,7 @@ drawer: {
   type: DrawTurret
   basePrefix: astral-
 }
-reload: 135
+reload: 70
 ammoPerShot: 10
 shoot: {
   type: ShootBarrel
@@ -313,4 +313,4 @@ coolant: {
   allowLiquid: true
   amount: 0.75
 }
-coolantMultiplier: 5.5
+coolantMultiplier: 2.75
