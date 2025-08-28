@@ -4,6 +4,7 @@ description: Fires a barrage of low damage area control missiles towards enemy t
 outlineColor: 323232
 category: turret
 cooldownTime: 180
+itemCapacity: 100
 requirements: [
   item-uranium/425
   item-crystalite/125
