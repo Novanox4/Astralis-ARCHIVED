@@ -22,10 +22,10 @@ ammoPerShot: 4
 shoot: {
   type: ShootBarrel
   shots: 6
-  shotDelay: 50
+  shotDelay: 65
   barrels: [
-    -6, 6.9, 0,
-    6, 6.9, 0,
+    -6, 1, 0,
+    6, 1, 0,
     ]
   }
 range: 200
