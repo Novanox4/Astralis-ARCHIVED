@@ -1,0 +1,61 @@
+type: ItemTurret
+name: Spectacle
+description: Fires a barrage of low damage missiles towards enemy targets. Gradually speeds up over time.
+outlineColor: 323232
+category: turret
+cooldownTime: 180
+requirements: [
+  item-uranium/425
+  item-crystalite/125
+  item-hadalrock/200
+  metaglass/225
+]
+research: turret-lunara
+shootSound: missile-small
+size: 4
+drawer: {
+  type: DrawTurret
+  basePrefix: astral-
+}
+reload: 45
+ammoPerShot: 4
+shoot: {
+  type: ShootBarrel
+  shots: 12
+  shotDelay: 50
+  barrels: [
+    -6, 9, 0,
+    6, 9, 0,
+    ]
+  }
+range: 200
+//PLACEHOLDER!!!!
+ammoTypes: {
+  item-uranium: {
+    type: BulletType
+    homingRange: 325
+    homingDelay: 25
+    homingPower: 0.4
+    lifetime: 70
+    speed: 2
+    accel: 0.06
+    damage: 28
+    reloadMultiplier: 1.425
+    trailLength: 32
+    trailWidth: 2
+    trailColor: 7cd656
+    parts: [
+      {
+      type: FlarePart
+      stroke: 9
+      color1: 7cd656
+      rotation: 45
+      innerRadScl: 0.66
+      radius: 3
+      radiusTo: 20
+      sides: 6
+      progress: life
+      }
+    ]
+  }
+}
