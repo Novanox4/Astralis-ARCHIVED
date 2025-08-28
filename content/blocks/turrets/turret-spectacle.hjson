@@ -17,15 +17,15 @@ drawer: {
   type: DrawTurret
   basePrefix: astral-
 }
-reload: 25
+reload: 90
 ammoPerShot: 4
 shoot: {
   type: ShootBarrel
   shots: 6
-  shotDelay: 65
+  shotDelay: 100
   barrels: [
-    -6, 1, 0,
-    6, 1, 0,
+    -6, -2.5, 0,
+    6, -2.5, 0,
     ]
   }
 range: 200
@@ -64,4 +64,4 @@ coolant: {
   allowLiquid: true
   amount: 1
 }
-coolantMultiplier: 3
+coolantMultiplier: 2
