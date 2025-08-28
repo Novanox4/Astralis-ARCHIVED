@@ -30,7 +30,7 @@ shoot: {
     ]
   }
 range: 200
-//PLACEHOLDER!!!!
+//UNFINISHED!!!!!!!!
 ammoTypes: {
   item-uranium: {
     type: BulletType
@@ -75,7 +75,7 @@ ammoTypes: {
         hitEffect: none
         lifetime: 0
         collides: false
-        fragBullets: 3
+        fragBullets: 1
         fragLifeMin: 0.9
         fragVelocityMin: 0.3
         fragOffsetMax: 0
@@ -114,7 +114,7 @@ ammoTypes: {
         hitEffect: none
         lifetime: 0
         collides: false
-        fragBullets: 3
+        fragBullets: 1
         fragLifeMin: 0.9
         fragVelocityMin: 0.3
         fragOffsetMax: 0
@@ -153,7 +153,7 @@ ammoTypes: {
         hitEffect: none
         lifetime: 0
         collides: false
-        fragBullets: 3
+        fragBullets: 1
         fragLifeMin: 0.9
         fragVelocityMin: 0.3
         fragOffsetMax: 0
@@ -176,6 +176,123 @@ ammoTypes: {
             type: FlarePart
             stroke: 5
             color1: fb00ff
+            rotation: 45
+            innerRadScl: 0.33
+            radius: 9
+            radiusTo: 0
+            sides: 4
+            progress: life
+            }
+          ]
+          }
+        }
+       {
+        type: BulletType
+        despawnEffect: none
+        hitEffect: none
+        lifetime: 0
+        collides: false
+        fragBullets: 1
+        fragLifeMin: 0.9
+        fragVelocityMin: 0.3
+        fragOffsetMax: 0
+        fragOffsetMin: 0
+        fragBullet: {
+          type: BulletType
+          lifetime: 50
+          createChance: 0.25
+          speed: 4
+          accel: -0.04
+          damage: 0
+          collides: false
+          trailLength: 32
+          trailWidth: 1
+          trailColor: ffff00
+          hitEffect: none
+          despawnEffect: none
+          parts: [
+            {
+            type: FlarePart
+            stroke: 5
+            color1: ffff00
+            rotation: 45
+            innerRadScl: 0.33
+            radius: 9
+            radiusTo: 0
+            sides: 4
+            progress: life
+            }
+          ]
+          }
+        }
+        {
+        type: BulletType
+        despawnEffect: none
+        hitEffect: none
+        lifetime: 0
+        collides: false
+        fragBullets: 1
+        fragLifeMin: 0.9
+        fragVelocityMin: 0.3
+        fragOffsetMax: 0
+        fragOffsetMin: 0
+        fragBullet: {
+          type: BulletType
+          lifetime: 50
+          createChance: 0.25
+          speed: 4
+          accel: -0.04
+          damage: 0
+          collides: false
+          trailLength: 32
+          trailWidth: 1
+          trailColor: ffa500
+          hitEffect: none
+          despawnEffect: none
+          parts: [
+            {
+            type: FlarePart
+            stroke: 5
+            color1: ffa500
+            rotation: 45
+            innerRadScl: 0.33
+            radius: 9
+            radiusTo: 0
+            sides: 4
+            progress: life
+            }
+          ]
+          }
+        }
+        {
+        type: BulletType
+        despawnEffect: none
+        hitEffect: none
+        lifetime: 0
+        collides: false
+        fragBullets: 1
+        fragLifeMin: 0.9
+        fragVelocityMin: 0.3
+        fragOffsetMax: 0
+        fragOffsetMin: 0
+        fragBullet: {
+          type: BulletType
+          lifetime: 50
+          createChance: 0.25
+          speed: 4
+          accel: -0.04
+          damage: 0
+          collides: false
+          trailLength: 32
+          trailWidth: 1
+          trailColor: 0000ff
+          hitEffect: none
+          despawnEffect: none
+          parts: [
+            {
+            type: FlarePart
+            stroke: 5
+            color1: 0000ff
             rotation: 45
             innerRadScl: 0.33
             radius: 9
