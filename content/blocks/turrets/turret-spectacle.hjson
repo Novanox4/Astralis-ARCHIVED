@@ -63,7 +63,7 @@ ammoTypes: {
       progress: life
       }
     ]
-    fragBullets: 1
+    fragBullets: 3
     fragOffsetMax: 0
     fragBullet: {
       type: MultiBulletType
