@@ -63,7 +63,7 @@ ammoTypes: {
     ]
     fragBullets: 1
     fragOffsetMax: 0
-    fragBullet: [
+    fragBullet: {
       type: MultiBulletType
       damage: 0
       bullets: [
