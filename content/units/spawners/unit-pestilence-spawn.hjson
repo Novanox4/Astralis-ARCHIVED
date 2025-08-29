@@ -25,7 +25,6 @@ weapons: [
   alwaysShooting: true
   mirror: false
   shootCone: 360
-  controllable: false
   shootSound: none
   shootStatus: stop
   bullet: {
@@ -38,10 +37,6 @@ weapons: [
     despawnEffect: none
     smokeEffect: none
     shootEffect: {
-      type: SeqEffect
-      lifetime: 500
-      effects: [
-        {
         type: MultiEffect
         lifetime: 500
         effects: [
@@ -61,8 +56,6 @@ weapons: [
           }
         ]
       }
-    ]
+    }
   }
-}
-}
 ]
