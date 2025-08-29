@@ -39,9 +39,11 @@ weapons: [
     smokeEffect: none
     shootEffect: {
       type: SeqEffect
+      lifetime: 500
       effects: [
         {
         type: MultiEffect
+        lifetime: 500
         effects: [
           {
           type: ParticleEffect
