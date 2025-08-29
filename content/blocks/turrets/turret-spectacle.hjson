@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Spectacle
-description: Fires a barrage of low damage area control missiles towards enemy targets. Gradually speeds up over time. Takes a long amount of time to stop shooting. Greatly benefits from coolant. Weak against armor and shields.
+description: Fires a barrage of low damage area control missiles towards enemy targets. Gradually speeds up over time. Takes a long amount of time to stop shooting, and has high range to charge up before the enemy comes in contact. Greatly benefits from coolant. Weak against armor and shields.
 outlineColor: 323232
 category: turret
 cooldownTime: 180
@@ -31,7 +31,7 @@ shoot: {
     6, -2.5, 0,
     ]
   }
-range: 200
+range: 345
 ammoTypes: {
   item-uranium: {
     type: BulletType
