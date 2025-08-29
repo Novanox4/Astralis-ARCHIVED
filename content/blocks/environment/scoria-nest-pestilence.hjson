@@ -19,16 +19,18 @@ destroyBullet: {
   despawnUnit: unit-endemic
   }
   {
-  type: EmptyBulletType
-  despawnEffect: none
+  type: BulletType
   hitEffect: none
-  damage: 0
-  lifetime: 0
-  speed: 0
-  collides: false
+  despawnEffect: none
+  pierce: true
   buildingDamageMultiplier: 0
-  splashDamage: 99999999
-  splashDamageRadius: 99999999
+  instantDisappear: true
+  splashDamage: 10000000
+  splashDamageRadius: 999999
+  splashDamagePierce: true
+  collidesTiles: false
+  damage: 999999
+  knockback: 25
   }
   {
   type: EmptyBulletType
