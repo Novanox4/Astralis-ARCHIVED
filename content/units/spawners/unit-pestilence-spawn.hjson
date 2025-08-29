@@ -41,7 +41,7 @@ weapons: [
       type: SeqEffect
       effects: [
         {
-        type: MultiEffectType
+        type: MultiEffect
         effects: [
           {
           type: ParticleEffect
@@ -55,6 +55,7 @@ weapons: [
           baseLength: 20
           region: astralis-spike-effect
           interp: slope
+          lifetime: 500
           }
         ]
       }
