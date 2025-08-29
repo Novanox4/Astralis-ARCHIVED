@@ -33,13 +33,13 @@ destroyBullet: {
   fragBullet: {
     type: BasicBulletType
     sprite: astralis-spike
-    lifetime: 100
+    lifetime: 150
     damage: 0
     hitEffect: none
     despawnEffect: none
     collides: false
     speed: 14
-    accel: -0.03
+    accel: -0.06
     shrinkY: 1
     shrinkX: 0
     height: 20
