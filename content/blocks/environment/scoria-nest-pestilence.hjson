@@ -68,9 +68,18 @@ destroyEffect: {
     type: WaveEffect
     strokeFrom: 0
     strokeTo: 32
-    interp: slope
     sizeFrom: 0
     sizeTo: 500
+    interp: pow10Out
+    lifetime: 250
+    }
+    {
+    type: WaveEffect
+    strokeFrom: 32
+    strokeTo: 0
+    sizeFrom: 500
+    sizeTo: 0
+    interp: pow10In
     }
   ]
 }
