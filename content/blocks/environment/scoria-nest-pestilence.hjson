@@ -1,4 +1,4 @@
-type: CoreBlock
+  type: CoreBlock
 buildVisibility: editorOnly
 size: 8
 customShadow: true
@@ -84,12 +84,13 @@ destroyEffect: {
     }
     {
     type: WaveEffect
-    strokeFrom: 0
-    strokeTo: 800
+    colorFrom: ffffffff
+    colorTo: ffffffff
     sizeFrom: 0
-    sizeTo: 100000
-    lifetime: 60000
-    interp: pow10In
+    sizeTo: 35000
+    lifetime: 1650
+    strokeFrom: 80
+    strokeTo: 200
     }
   ]
 }
