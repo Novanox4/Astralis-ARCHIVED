@@ -26,6 +26,18 @@ destroyBullet: {
   lifetime: 0
   speed: 0
   collides: false
+  buildingDamageMultiplier: 0
+  splashDamage: 99999999
+  splashDamageRadius: 99999999
+  }
+  {
+  type: EmptyBulletType
+  despawnEffect: none
+  hitEffect: none
+  damage: 0
+  lifetime: 0
+  speed: 0
+  collides: false
   fragBullets: 40
   fragOffsetMax: 0
   fragLifeMin: 0.6
