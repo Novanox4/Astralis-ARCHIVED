@@ -3,7 +3,7 @@ legCount: 8
 legGroupSize: 4
 legLength: 22.5
 legBaseOffset: 2
-speed: 5.25
+speed: 4
 name: Hunger
 description: Abyssal spider. Attacks by exploding into void fluid.
 legMinLength: 0.75
