@@ -24,14 +24,5 @@ destroySound: laserbig
 placeSound: rockBreak
 health: 1
 forceTeam: malis
-destroyEffect: {
-    type: WaveEffect
-    colorFrom: ffffffff
-    colorTo: ffffffff
-    sizeFrom: 0
-    sizeTo: 35000
-    lifetime: 1650
-    strokeFrom: 80
-    strokeTo: 200
-  }
+destroyEffect: none
 unitType: unit-malady
