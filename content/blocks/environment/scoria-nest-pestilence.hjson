@@ -9,10 +9,44 @@ destroyBullet: {
   type: MultiBulletType
   bullets: [
   {
-    type: EmptyBulletType
-    collides: false
-    spawnUnit: unit-pestilence-spawn
+  type: EmptyBulletType
+  despawnEffect: none
+  hitEffect: none
+  damage: 0
+  lifetime: 500
+  speed: 0
+  collides: false
+  despawnUnit: unit-endemic
   }
+  {
+  type: EmptyBulletType
+  despawnEffect: none
+  hitEffect: none
+  damage: 0
+  lifetime: 0
+  speed: 0
+  collides: false
+  fragBullets: 40
+  fragOffsetMax: 0
+  fragLifeMin: 0.6
+  fragVelocityMin: 0.2
+  fragBullet: {
+    type: BasicBulletType
+    sprite: astralis-spike
+    lifetime: 100
+    damage: 0
+    hitEffect: none
+    despawnEffect: none
+    collides: false
+    speed: 7
+    shrinkY: 0
+    shrinkX: 1
+    height: 20
+    width: 20
+    frontColor: 9a87ff
+    backColor: 9a87ff
+    }
+    }
   ]
 }
 name: "???"
