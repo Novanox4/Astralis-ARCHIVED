@@ -39,8 +39,8 @@ destroyBullet: {
     despawnEffect: none
     collides: false
     speed: 7
-    shrinkY: 0
-    shrinkX: 1
+    shrinkY: 1
+    shrinkX: 0
     height: 20
     width: 20
     frontColor: 9a87ff
