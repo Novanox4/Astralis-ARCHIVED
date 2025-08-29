@@ -25,8 +25,8 @@ destroyBullet: {
   pierce: true
   buildingDamageMultiplier: 0
   instantDisappear: true
-  splashDamage: 1000000
-  splashDamageRadius: 100000
+  splashDamage: 999999
+  splashDamageRadius: 80000
   splashDamagePierce: true
   collidesTiles: false
   damage: 999999
