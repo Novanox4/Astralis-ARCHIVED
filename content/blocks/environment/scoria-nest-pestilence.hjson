@@ -11,7 +11,7 @@ destroyBullet: {
   {
     type: EmptyBulletType
     collides: false
-    spawnUnit: unit-pestilence-spawner
+    spawnUnit: unit-pestilence-spawn
   }
   ]
 }
