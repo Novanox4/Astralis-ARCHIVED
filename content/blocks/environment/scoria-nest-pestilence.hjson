@@ -45,6 +45,7 @@ destroyBullet: {
     width: 20
     frontColor: 9a87ff
     backColor: 9a87ff
+    rotationOffset: 90
     }
     }
   ]
