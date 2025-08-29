@@ -80,6 +80,16 @@ destroyEffect: {
     sizeFrom: 500
     sizeTo: 0
     interp: pow10In
+    lifetime: 251
+    }
+    {
+    type: WaveEffect
+    strokeFrom: 0
+    strokeTo: 800
+    sizeFrom: 0
+    sizeTo: 100000
+    lifetime: 6000
+    interp: pow10In
     }
   ]
 }
