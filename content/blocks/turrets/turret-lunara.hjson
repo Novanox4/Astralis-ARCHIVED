@@ -5,6 +5,7 @@ outlineColor: 323232
 category: turret
 cooldownTime: 180
 minWarmup: 0.9
+squareSprite: false
 warmupMaintainTime: 28
 requirements: [
   item-uranium/325
