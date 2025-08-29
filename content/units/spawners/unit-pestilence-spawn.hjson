@@ -57,6 +57,7 @@ weapons: [
           baseLength: 20
           interp: slope
           lifetime: 500
+          region: astralis-spike
           }
         ]
       }
