@@ -55,7 +55,6 @@ weapons: [
           particles: 40
           length: 80
           baseLength: 20
-          region: astralis-spike-effect
           interp: slope
           lifetime: 500
           }
