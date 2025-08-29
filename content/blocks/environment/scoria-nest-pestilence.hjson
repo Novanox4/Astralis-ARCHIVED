@@ -38,7 +38,8 @@ destroyBullet: {
     hitEffect: none
     despawnEffect: none
     collides: false
-    speed: 7
+    speed: 14
+    accel: -0.03
     shrinkY: 1
     shrinkX: 0
     height: 20
