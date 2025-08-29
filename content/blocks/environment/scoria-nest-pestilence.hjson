@@ -1,4 +1,4 @@
-  type: CoreBlock
+type: CoreBlock
 buildVisibility: editorOnly
 size: 8
 customShadow: true
@@ -100,9 +100,9 @@ destroyEffect: {
     colorTo: ffffffff
     sizeFrom: 0
     sizeTo: 35000
-    lifetime: 1650
+    lifetime: 2500
     strokeFrom: 80
-    strokeTo: 200
+    strokeTo: 400
     }
   ]
 }
