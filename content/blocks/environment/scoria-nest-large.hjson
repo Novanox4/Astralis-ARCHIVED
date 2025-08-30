@@ -49,6 +49,7 @@ shootType: {
   ]
 }
 rotateSpeed: 0
+rotate: false
 drawer: {
   type: DrawTurret
   basePrefix: scoria-
