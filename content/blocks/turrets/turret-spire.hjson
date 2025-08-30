@@ -135,6 +135,7 @@ shootType: {
   ]
 }
 rotateSpeed: 0
+rotate: false
 research: turret-vaticinate
 requirements: [
   item-crystalite/100
