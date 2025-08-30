@@ -135,6 +135,7 @@ shootType: {
   ]
 }
 rotateSpeed: 0
+lockRotation: true
 rotateDraw: false
 rotate: false
 research: turret-vaticinate
