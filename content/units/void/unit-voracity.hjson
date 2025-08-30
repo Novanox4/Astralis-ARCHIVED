@@ -11,7 +11,7 @@ legLength: 42
 rotateSpeed: 1
 name: Voracity
 description: Horrid amalgam of corpses and coagulated void fluid. Highly dangerous.
-details: "Codename: V-14. Common name: Voracity. Scientific name: Impius Aranea. Only a few have ever been captured and tested on. The bones found inside show uncanny similarity to human remains, yet also seem completely anomalous and purposeless. It has a very high amount of health, but no armor, so it is higly susceptible to many, weak attacks, such as Vertigo's projectiles."
+details: "Codename: V-14. Common name: Voracity. Scientific name: Impius Aranea. Only a few have ever been captured and tested on. The bones found inside show uncanny similarity to human remains, yet also seem completely anomalous and purposeless. It has a very high amount of health, but low armor, so it is higly susceptible to many, weak attacks, such as Vertigo's projectiles or a Malheur with metaglass ammo."
 hitSize: 26
 legExtension: -2.75
 speed: 0.8

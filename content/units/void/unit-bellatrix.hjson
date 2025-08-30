@@ -8,6 +8,7 @@ immunities: [status-voidgnaw]
 useUnitCap: false
 outlineColor: 0c0413
 deathExplosionEffect: none
+rotateSpeed: 6
 deathSound: plantBreak
 speed: 0.01
 drag: 0.02
@@ -76,8 +77,8 @@ abilities: [
       }
     }
   ]
-health: 17500
-armor: 20
+health: 14500
+armor: 10
 //work in progress
 weapons: [
   {
@@ -101,9 +102,10 @@ weapons: [
   }
   {
   //lunge spear
-  reload: 100
+  reload: 170
   name: unit-bellatrix-spear
-  recoil: -8.75
+  recoil: -7
+  alwaysShooting: true
   x: 4
   y: 7.75
   recoilTime: 45
@@ -115,7 +117,7 @@ weapons: [
   mirror: false
   bullet: {
     type: BulletType
-    lifetime: 100
+    lifetime: 60
     pierce: true
     pierceBuilding: true
     //locked onto Bellatrix's hitbox
@@ -130,7 +132,7 @@ weapons: [
     smokeEffect: none
     shootEffect: none
     hitEffect: none
-    rangeOverride: 999999999
+    rangeOverride: 800
     damage: 325
     spawnBulletRandomSpread: 0
     hitSize: 18
@@ -138,7 +140,7 @@ weapons: [
     spawnBullets: [
       {
       type: BulletType
-      createChance: 0.456
+      createChance: 0.35
       circleShooter: true
       circleShooterRadius: 0.001
       circleShooterRadiusSmooth: 0.001
@@ -224,7 +226,7 @@ weapons: [
 {
   //spawns wilt without that factory overlay
   display: false
-  reload: 300
+  reload: 600
   alwaysShooting: true
   shootStatus: boss
   shootSound: none
@@ -248,7 +250,7 @@ weapons: [
   {
   //another one
   display: false
-  reload: 300
+  reload: 600
   alwaysShooting: true
   shootStatus: boss
   shootSound: none
@@ -282,7 +284,7 @@ weapons: [
   y: 0
   x: 0
   shoot: {
-    shots: 200
+    shots: 175
     shotDelay: 1
   }
   bullet: {
@@ -292,7 +294,7 @@ weapons: [
       shrinkY: 0
       lifetime: 45
       pierce: true
-      damage: 9
+      damage: 6
       knockback: 2
       impact: true
       frontColor: 0c0413
@@ -305,6 +307,7 @@ weapons: [
       hitEffect: none
       shootEffect: none
       despawnSound: splash
+      hitSound: splash
       //using this because I have more control on the liquid parameters
       puddles: 8
       puddleRange: 8
