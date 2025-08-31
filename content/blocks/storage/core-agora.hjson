@@ -41,7 +41,7 @@ placeEffect: {
     strokeTo: 0
     lifetime: 300
     interp: pow10Out
-    rotation: 42
+    rotation: 41
     }
     {
     type: WaveEffect
@@ -54,7 +54,7 @@ placeEffect: {
     strokeTo: 0
     lifetime: 325
     interp: pow10Out
-    rotation: 42
+    rotation: 41
     }
   ]
 }
