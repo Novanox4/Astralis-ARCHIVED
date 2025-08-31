@@ -36,7 +36,7 @@ placeEffect: {
     strokeTo: 0
     lifetime: 300
     interp: pow10Out
-    rotation: 50
+    rotation: 45
     }
   ]
 }
