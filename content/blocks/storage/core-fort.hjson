@@ -21,3 +21,21 @@ isFirstTier: true
 name: Core: Fort
 description: Core of the base. Once all of them are destroyed, the sector is lost. Stores resources for building.
 lightRadius: 80
+placeEffect: {
+  //template for other cores
+  type: MultiEffect
+  effects: [
+    {
+    type: WaveEffect
+    colorFrom: ffffffff
+    colorTo: 4c9ef5ff
+    sizeFrom: 0
+    sizeTo: 120
+    sides: 4
+    strokeFrom: 6
+    strokeTo: 20
+    lifetime: 60
+    interp: pow10Out
+    }
+  ]
+}
