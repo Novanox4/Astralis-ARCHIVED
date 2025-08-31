@@ -30,12 +30,13 @@ placeEffect: {
     colorFrom: ffffffff
     colorTo: 4c9ef5ff
     sizeFrom: 0
-    sizeTo: 120
+    sizeTo: 180
     sides: 4
-    strokeFrom: 6
-    strokeTo: 20
-    lifetime: 60
+    strokeFrom: 30
+    strokeTo: 0
+    lifetime: 300
     interp: pow10Out
+    rotation: 45
     }
   ]
 }
