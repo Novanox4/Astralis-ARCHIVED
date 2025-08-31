@@ -26,3 +26,48 @@ name: "Core: Castle"
 researchCostMultiplier: 0.075
 description: Core of the base. Once all of them are destroyed, the sector is lost. Stores resources for building. Higher health and resource capacity than the previous tier.
 lightRadius: 200
+placeEffect: {
+  type: MultiEffect
+  effects: [
+    {
+    type: WaveEffect
+    colorFrom: ffffffff
+    colorTo: 4c9ef5ff
+    sizeFrom: 0
+    sizeTo: 180
+    sides: 4
+    strokeFrom: 30
+    strokeTo: 0
+    lifetime: 300
+    interp: pow10Out
+    rotation: 41
+    }
+    {
+    type: WaveEffect
+    colorFrom: ffffffff
+    colorTo: 4c9ef5ff
+    sizeFrom: 0
+    sizeTo: 300
+    sides: 4
+    strokeFrom: 40
+    strokeTo: 0
+    lifetime: 325
+    interp: pow10Out
+    rotation: 41
+    }
+    {
+    type: WaveEffect
+    colorFrom: ffffffff
+    colorTo: 4c9ef5ff
+    sizeFrom: 0
+    //comedy
+    sizeTo: 420
+    sides: 4
+    strokeFrom: 50
+    strokeTo: 0
+    lifetime: 350
+    interp: pow10Out
+    rotation: 41
+    }
+  ]
+}
