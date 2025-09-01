@@ -33,10 +33,10 @@ basePrefix: astral-
 ammoTypes: {
 item-charchunk: {
   type: BasicBulletType
-  damage: 57.5
+  damage: 50
   backColor: 272727
   frontColor: 363636
-  knockback: 0.5
+  knockback: 2
   impact: true
   hitColor: 272727
   trailColor: 272727
