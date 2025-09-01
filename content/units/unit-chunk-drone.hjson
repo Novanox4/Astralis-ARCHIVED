@@ -37,13 +37,15 @@ weapons: [
   mirror: false
   aimDst: 0
   shootCone: 15
+  controllable: true
+  autoTarget: false
   laserColor: ffd27e
   healColor: ffd27e
   beamWidth: 0.5
   rotate: false
   bullet: {
     type: BulletType
-    maxRange: 35
+    maxRange: 45
     }
   }
 ]
