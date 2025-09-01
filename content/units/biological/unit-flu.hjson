@@ -10,8 +10,9 @@ legMinLength: 0.75
 legMaxLength: 1
 legExtension: 2.5
 flying: false
-health: 300
+health: 260
 baseLegStraightness: 0.25
+//funny but also i think it fixed rts ai somehow
 buildSpeed: 99
 weapons: [
 {
@@ -22,20 +23,20 @@ mirror: false
 shootSound: hitLiquid
 shoot: {
   shots: 30
-  shotDelay: 0.2
+  shotDelay: 0.1
     }
 bullet: {
   type: LiquidBulletType
   liquid: arkycite
-  puddleSize: 3
+  puddleSize: 6
   orbSize: 2.5
   speed: 3
-  damage: 1
+  damage: 0.6
   status: corroded
   duration: 300
-  inaccuracy: 20
+  inaccuracy: 15
     }
-}
+  }
 ]
 outlineColor: 121213
 planet: astralis
