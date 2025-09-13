@@ -11,12 +11,14 @@ killable: false
 playerControllable: false
 logicControllable: false
 engineSize: 0
+flying: true
 weapons: [
   {
   reload: 1
   rotate: true
   shootSound: none
-  alwaysShooting: true
+  controllable: false
+  autoTarget: true
   bullet: {
     type: BulletType
     damage: 0
