@@ -1,0 +1,16 @@
+type: UnitCargoLoader
+unitType: unit-valor
+requirements: [
+  item-crystalite/600
+  item-silver/600
+  item-neodymium/500
+  item-hadalrock/100
+  ]
+name: Valor
+description: Uses magnets to intermittently hold a reflective metal shield in place.
+research: force-veil
+unitBuildTime: 0
+polyRadius: 20
+polyStroke: 3
+polySides: 3
+polyRotateSpeed: -2
