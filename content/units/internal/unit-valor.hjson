@@ -1,4 +1,5 @@
-type: flying
+type: tether
+template: MissileUnitType
 health: 999
 flying: true
 physics: false
@@ -12,21 +13,7 @@ playerControllable: false
 logicControllable: false
 engineSize: 0
 flying: true
-weapons: [
-  {
-  reload: 1
-  rotate: true
-  shootSound: none
-  bullet: {
-    type: BulletType
-    damage: 0
-    collides: false
-    despawnEffect: none
-    shootEffect: none
-    smokeEffect: none
-    }
-  }
-]
+weapons: []
 abilities: [
   {
   type: ShieldArcAbility
@@ -34,6 +21,7 @@ abilities: [
   max: 9999
   regen: 9999
   chanceDeflect: 100
+  whenShooting: false
   }
 ]
 hitSize: 0
@@ -48,3 +36,4 @@ immunities: [burning, freezing, unmoving, slow, fast, wet, muddy, melting, sappe
 lightRadius: 0
 defaultController: CommandAi
 shadowElevationScl: 0
+trailLength: 0
