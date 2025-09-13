@@ -1,4 +1,4 @@
-type: flying
+type: tether
 health: 999
 physics: false
 speed: 0
@@ -14,10 +14,22 @@ playerControllable: false
 logicControllable: false
 engineSize: 0
 weapons: []
-abilities: []
+abilities: [
+  {
+  type: ShieldArcAbility
+  cooldown: 0
+  max: 9999
+  regen: 9999
+  chanceDeflect: 10
+  }
+]
 hitSize: 0
 drawItems: false
 drawBody: false
 drawSoftShadow: false
 drawMinimap: false
 drawShields: false
+useUnitCap: false
+wobble: false
+immunities: [burning, freezing, unmoving, slow, fast, wet, muddy, melting, sapped, tarred, overdrive, overclock, shielded, shocked, blasted, corroded, boss, sporeSlowed, disarmed, electrified, invincible, dynamic] 
+lightRadius: 0
