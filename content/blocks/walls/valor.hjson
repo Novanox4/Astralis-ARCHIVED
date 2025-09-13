@@ -1,5 +1,5 @@
-type: UnitCargoLoader
-unitType: unit-valor
+type: ItemTurret
+//WORK IN PROGRESS AND BROKEN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 requirements: [
   item-crystalite/600
   item-silver/600
@@ -7,11 +7,20 @@ requirements: [
   item-hadalrock/100
   ]
 name: Valor
-description: Uses magnets to intermittently hold a reflective metal shield in place.
+shootSound: click
+description: Uses magnets to hurl defensive chunks of metal and block non-piercing attacks.
 research: force-veil
-unitBuildTime: 0
-polyRadius: 20
-polyStroke: 3
-polySides: 3
-polyRotateSpeed: -2
 size: 6
+category: defense
+reload: 20
+drawer: {
+  type: DrawTurret
+  basePrefix: valor-
+  turretLayer: -11
+}
+ammoTypes: {
+  item-silver: {
+    type: EmptyBulletType
+    spawnUnit: unit-valor-plate
+    rangeOverride:
+  }
