@@ -17,8 +17,6 @@ weapons: [
   reload: 1
   rotate: true
   shootSound: none
-  controllable: false
-  autoTarget: true
   bullet: {
     type: BulletType
     damage: 0
