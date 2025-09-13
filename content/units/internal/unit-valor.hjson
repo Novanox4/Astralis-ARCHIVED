@@ -13,7 +13,22 @@ killable: false
 playerControllable: false
 logicControllable: false
 engineSize: 0
-weapons: []
+weapons: [
+  {
+  reload: 1
+  rotate: true
+  shootSound: none
+  alwaysShooting: true
+  bullet: {
+    type: BulletType
+    damage: 0
+    collides: false
+    despawnEffect: none
+    shootEffect: none
+    smokeEffect: none
+    }
+  }
+]
 abilities: [
   {
   type: ShieldArcAbility
