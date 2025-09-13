@@ -33,7 +33,7 @@ abilities: [
   cooldown: 0
   max: 9999
   regen: 9999
-  chanceDeflect: 10
+  chanceDeflect: 100
   }
 ]
 hitSize: 0
@@ -47,3 +47,4 @@ wobble: false
 immunities: [burning, freezing, unmoving, slow, fast, wet, muddy, melting, sapped, tarred, overdrive, overclock, shielded, shocked, blasted, corroded, boss, spore-slowed, disarmed, electrified, invincible, dynamic] 
 lightRadius: 0
 defaultController: CommandAi
+shadowElevationScl: 0
