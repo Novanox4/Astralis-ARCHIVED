@@ -1,5 +1,6 @@
 type: flying
 health: 999
+flying: true
 physics: false
 speed: 0
 hidden: true
