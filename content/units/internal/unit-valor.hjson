@@ -38,3 +38,4 @@ defaultController: CommandAi
 shadowElevationScl: 0
 trailLength: 0
 loopSound: none
+lifetime: 60
