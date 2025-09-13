@@ -31,5 +31,5 @@ drawMinimap: false
 drawShields: false
 useUnitCap: false
 wobble: false
-immunities: [burning, freezing, unmoving, slow, fast, wet, muddy, melting, sapped, tarred, overdrive, overclock, shielded, shocked, blasted, corroded, boss, sporeSlowed, disarmed, electrified, invincible, dynamic] 
+immunities: [burning, freezing, unmoving, slow, fast, wet, muddy, melting, sapped, tarred, overdrive, overclock, shielded, shocked, blasted, corroded, boss, spore-slowed, disarmed, electrified, invincible, dynamic] 
 lightRadius: 0
