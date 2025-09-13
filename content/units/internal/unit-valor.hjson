@@ -2,8 +2,6 @@ type: tether
 health: 999
 physics: false
 speed: 0
-groundLayer: -11
-flyingLayer: -11
 internal: true
 hidden: true
 drawCell: false
