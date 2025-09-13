@@ -48,3 +48,4 @@ useUnitCap: false
 wobble: false
 immunities: [burning, freezing, unmoving, slow, fast, wet, muddy, melting, sapped, tarred, overdrive, overclock, shielded, shocked, blasted, corroded, boss, spore-slowed, disarmed, electrified, invincible, dynamic] 
 lightRadius: 0
+defaultController: CommandAi
