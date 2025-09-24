@@ -1,10 +1,10 @@
 type: legs
 legCount: 4
-legLength: 12
+legLength: 25
 legPairOffset: 4
 health: 800
 armor: 40
-speed: 0.8
+speed: 0.65
 outlineColor: 323232
 name: Avicularia
 description: Slow siege unit made for putting pressure on enemy defense systems from a distance or breaking exposed infrastructure. Struggles against shields. Vulnerable to concentrated, high damage single attacks but resistant to weak, plentiful attacks.
@@ -27,9 +27,13 @@ bullet: {
   damage: 10
   splashDamage: 80
   splashDamageRadius: 28
+  lifetime: 60
+  speed: 10
+  recoil: 13
   scaledSplashDamage: true
   shootEffect: {
     type: ParticleEffect
+    lifetime: 30
     colorFrom: f5d738
     colorTo: f5d738
     particles: 5
@@ -46,6 +50,7 @@ bullet: {
     effects: [
       {
       type: ExplosionEffect
+      lifetime: 40
       waveColor: f5d738ff
       waveLife: 10
       waveStroke: 5
@@ -64,8 +69,8 @@ bullet: {
       particles: 8
       sizeFrom: 8
       sizeTo: 0
-      lifetime: 90
-      sizeChangeStart: 45
+      lifetime: 40
+      sizeChangeStart: 15
       length: 60
       cone: 360
       }
