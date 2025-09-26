@@ -27,6 +27,9 @@ bullet: {
   sprite: circle-bullet
   backColor: f5d738
   frontColor: f5d738
+  trailColor: e5b224
+  trailLength: 12
+  trailWidth: 1.5
   height: 7
   width: 7
   damage: 10
