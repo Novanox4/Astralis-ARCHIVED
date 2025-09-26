@@ -62,9 +62,7 @@ bullet: {
     length: 0
     sizeFrom: 2
     sizeTo: 0
-    interp: pow10Out
-    sizeInterp: linear
-    sizeChangeStart: 47.5
+    sizeInterp: slope
     particles: 1
     offset: 45
     }
@@ -77,9 +75,7 @@ bullet: {
     length: 0
     sizeFrom: 2
     sizeTo: 0
-    interp: pow10Out
-    sizeInterp: linear
-    sizeChangeStart: 47.5
+    sizeInterp: slope
     particles: 1
     }
   ]
