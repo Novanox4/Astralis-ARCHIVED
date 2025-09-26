@@ -1,7 +1,8 @@
 type: legs
 legCount: 4
-legLength: 25
+legLength: 20
 legPairOffset: 4
+legBaseOffset: 4
 health: 800
 armor: 40
 legExtension: -4
