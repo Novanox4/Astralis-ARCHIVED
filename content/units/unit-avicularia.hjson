@@ -22,8 +22,13 @@ shootX: 0
 reload: 180
 shootSound: cannon
 mirror: false
+shoot: {
+  shots: 3
+  shotDelay: 3
+}
 bullet: {
   type: BasicBulletType
+  inaccuracy: 5
   sprite: circle-bullet
   backColor: f5d738
   frontColor: f5d738
@@ -32,15 +37,15 @@ bullet: {
   trailWidth: 1.5
   height: 7
   width: 7
-  damage: 10
-  splashDamage: 80
-  splashDamageRadius: 28
+  damage: 8
+  splashDamage: 30
+  splashDamageRadius: 26
   lifetime: 65
   speed: 7
-  recoil: 6
+  recoil: 2.5
   scaledSplashDamage: true
-  trailChance: 0.78
-  trailInterval: 20
+  trailChance: 0.75
+  trailInterval: 25
   trailEffect: [
     {
     type: ParticleEffect
