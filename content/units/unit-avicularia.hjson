@@ -58,10 +58,10 @@ bullet: {
     region: white
     colorFrom: f5d738
     colorTo: f5d738
-    lifetime: 75
+    lifetime: 40
     length: 0
-    sizeFrom: 2
-    sizeTo: 0
+    sizeFrom: 0
+    sizeTo: 2
     sizeInterp: slope
     particles: 1
     offset: 45
@@ -71,10 +71,10 @@ bullet: {
     region: white
     colorFrom: f5d738
     colorTo: f5d738
-    lifetime: 75
+    lifetime: 40
     length: 0
-    sizeFrom: 2
-    sizeTo: 0
+    sizeFrom: 0
+    sizeTo: 2
     sizeInterp: slope
     particles: 1
     }
