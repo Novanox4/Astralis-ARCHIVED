@@ -38,8 +38,7 @@ bullet: {
   scaledSplashDamage: true
   trailChance: 1
   trailInterval: 7.5
-  trailEffect: {
-    [
+  trailEffect: [
     {
     type: ParticleEffect
     region: large-orb-back
@@ -69,8 +68,7 @@ bullet: {
     particles: 1
     offset: 45
     }
-    ]
-  }
+  ]
   shootEffect: {
     type: ParticleEffect
     lifetime: 20
