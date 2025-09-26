@@ -112,7 +112,7 @@ bullet: {
     sizeFrom: 2
     sizeTo: 5
     interp: pow3Out
-    particles: 2
+    particles: 1
     }
     {
     startDelay:10
@@ -127,7 +127,7 @@ bullet: {
     sizeFrom: 2
     sizeTo: 7
     interp: pow3Out
-    particles: 2
+    particles: 1
     }
     {
     startDelay:18
@@ -141,7 +141,7 @@ bullet: {
     sizeFrom: 2
     sizeTo: 7
     interp: pow3Out
-    particles: 2
+    particles: 1
     }
     {
     startDelay: 10
@@ -153,7 +153,7 @@ bullet: {
     sizeFrom: 1.5
     sizeTo: 1.5
     interp: pow3Out
-    particles: 2
+    particles: 1
     line: true
     lenFrom: 9
     lenTo: 5
@@ -170,7 +170,7 @@ bullet: {
     sizeFrom: 1.5
     sizeTo: 1.5
     interp: pow3Out
-    particles: 2
+    particles: 1
     line: true
     lenFrom: 9
     lenTo: 5
@@ -187,7 +187,7 @@ bullet: {
     sizeFrom: 1.5
     sizeTo: 1.5
     interp: pow3Out
-    particles: 2
+    particles: 1
     line: true
     lenFrom: 9
     lenTo: 5
