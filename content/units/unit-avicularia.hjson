@@ -37,6 +37,7 @@ bullet: {
   recoil: 7
   scaledSplashDamage: true
   trailChance: 1
+  trailInterval: 5
   trailEffect: {
     type: ParticleEffect
     region: large-orb-back
