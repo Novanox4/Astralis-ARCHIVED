@@ -60,7 +60,7 @@ bullet: {
     colorTo: f5d738
     lifetime: 75
     length: 12
-    sizeFrom: 12
+    sizeFrom: 3
     sizeTo: 0
     interp: pow10Out
     sizeInterp: linear
