@@ -34,10 +34,10 @@ bullet: {
   splashDamageRadius: 28
   lifetime: 65
   speed: 7
-  recoil: 7
+  recoil: 6
   scaledSplashDamage: true
-  trailChance: 0.8
-  trailInterval: 15
+  trailChance: 0.78
+  trailInterval: 20
   trailEffect: [
     {
     type: ParticleEffect
@@ -114,7 +114,7 @@ bullet: {
     interp: pow3Out
     particles: 2
     }
-{
+    {
     startDelay:10
     type: ParticleEffect
     region:white
@@ -144,7 +144,41 @@ bullet: {
     particles: 2
     }
     {
-    startDelay: 16
+    startDelay: 10
+    type: ParticleEffect
+    colorFrom: 33918833
+    colorTo: 33918800
+    lifetime: 40
+    length: 50
+    sizeFrom: 1.5
+    sizeTo: 1.5
+    interp: pow3Out
+    particles: 2
+    line: true
+    lenFrom: 9
+    lenTo: 5
+    strokeFrom: 2.5
+    strokeTo: 0
+    }
+    {
+    startDelay: 20
+    type: ParticleEffect
+    colorFrom: 33918833
+    colorTo: 33918800
+    lifetime: 40
+    length: 50
+    sizeFrom: 1.5
+    sizeTo: 1.5
+    interp: pow3Out
+    particles: 2
+    line: true
+    lenFrom: 9
+    lenTo: 5
+    strokeFrom: 2.5
+    strokeTo: 0
+    }
+    {
+    startDelay: 30
     type: ParticleEffect
     colorFrom: 33918833
     colorTo: 33918800
