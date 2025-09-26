@@ -19,7 +19,7 @@ x: 0
 y: -1
 shootY: 0
 shootX: 0
-reload: 180
+reload: 200
 shootSound: cannon
 mirror: false
 shoot: {
@@ -28,6 +28,7 @@ shoot: {
 }
 bullet: {
   type: BasicBulletType
+  keepVelocity: false
   inaccuracy: 5
   sprite: circle-bullet
   backColor: f5d738
