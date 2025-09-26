@@ -37,7 +37,7 @@ bullet: {
   recoil: 7
   scaledSplashDamage: true
   trailChance: 1
-  trailInterval: 5
+  trailInterval: 6.5
   trailEffect: {
     type: ParticleEffect
     region: large-orb-back
@@ -45,11 +45,12 @@ bullet: {
     colorTo: f5d738
     lifetime: 75
     length: 12
-    sizeFrom: 3
+    sizeFrom: 3.5
     sizeTo: 0
     interp: pow10Out
     sizeInterp: linear
     sizeChangeStart: 47.5
+    particles: 4
   }
   shootEffect: {
     type: ParticleEffect
