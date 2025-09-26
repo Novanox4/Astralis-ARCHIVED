@@ -55,17 +55,17 @@ bullet: {
     effects: [
       {
       type: ExplosionEffect
-      lifetime: 40
+      lifetime: 50
       waveColor: f5d738ff
-      waveLife: 20
-      waveStroke: 5
+      waveLife: 30
+      waveStroke: 5.5
       waveRad: 32
       sparkColor: f5d738ff
-      sparks: 5
-      sparkStroke: 1.65
-      sparkLen: 3.8
-      smokeSize: 5
-      smokes: 5
+      sparks: 6
+      sparkStroke: 1.8
+      sparkLen: 4
+      smokeSize: 5.5
+      smokes: 6
       smokeColor: f5d738b3
       }
       {
@@ -75,9 +75,9 @@ bullet: {
       particles: 8
       sizeFrom: 8
       sizeTo: 0
-      lifetime: 40
-      sizeChangeStart: 22.5
-      length: 60
+      lifetime: 80
+      sizeChangeStart: 40
+      length: 48
       cone: 360
       sizeInterp: linear
       interp: pow10Out
