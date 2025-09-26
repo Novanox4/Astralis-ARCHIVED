@@ -1,4 +1,5 @@
 type: legs
+hitSize: 14
 legCount: 4
 legLength: 20
 legPairOffset: 4
