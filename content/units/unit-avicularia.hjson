@@ -37,7 +37,7 @@ bullet: {
   recoil: 7
   scaledSplashDamage: true
   trailChance: 1
-  trailInterval: 7.5
+  trailInterval: 12
   trailEffect: [
     {
     type: ParticleEffect
@@ -128,6 +128,24 @@ bullet: {
     sizeTo: 7
     interp: pow3Out
     particles: 2
+    }
+    {
+    startDelay: 16
+    type: ParticleEffect
+    colorFrom: 33918833
+    colorTo: 33918800
+    lifetime: 40
+    length: 36
+    spin:-1
+    sizeFrom: 2
+    sizeTo: 2
+    interp: pow3Out
+    particles: 2
+    line: true
+    lenFrom: 8
+    lenTo: 5.5
+    strokeFrom: 5
+    strokeTo: 0
     }
     ]
   shootEffect: {
