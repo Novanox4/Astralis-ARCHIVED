@@ -227,8 +227,8 @@ bullet: {
         type: WaveEffect
         rotWithParent: false
         followParent: false
-        sizeFrom: 52
-        sizeTo: 60
+        sizeFrom: 25
+        sizeTo: 42
         strokeFrom:3
         strokeTo:1
         lifetime: 53
@@ -260,7 +260,6 @@ bullet: {
         strokeFrom:2
         strokeTo:0
         lifetime: 40
-
         colorFrom: f5d7380
         colorTo: f5d738
     }
