@@ -209,40 +209,118 @@ bullet: {
     cone: 30
     length: 32
     }
-  hitEffect: {
-    type: MultiEffect
-    effects: [
-      {
-      type: ExplosionEffect
-      lifetime: 50
-      waveColor: f5d738ff
-      waveLife: 30
-      waveStroke: 5.5
-      waveRad: 32
-      sparkColor: f5d738ff
-      sparks: 6
-      sparkStroke: 1.8
-      sparkLen: 4
-      smokeSize: 5.5
-      smokes: 6
-      smokeColor: f5d738b3
-      }
-      {
-      type: ParticleEffect
-      colorFrom: 7f7f7fb3
-      colorTo: 7f7f7fb3
-      particles: 8
-      sizeFrom: 8
-      sizeTo: 0
-      lifetime: 80
-      sizeChangeStart: 40
-      length: 48
-      cone: 360
-      sizeInterp: linear
-      interp: pow10Out
-      }
+  hitEffect: [
+    {
+        type: WaveEffect
+        rotWithParent: false
+        followParent: false
+        sizeFrom: 0
+        sizeTo: 30
+        strokeFrom:7
+        strokeTo:0
+        lifetime: 60
+
+        colorFrom: f5d738
+        colorTo: f5d738
+    }
+    {
+        type: WaveEffect
+        rotWithParent: false
+        followParent: false
+        sizeFrom: 52
+        sizeTo: 60
+        strokeFrom:3
+        strokeTo:1
+        lifetime: 53
+
+        colorFrom: ffffff50
+        colorTo: ffffff30
+    }
+    {
+        type: WaveEffect
+        rotWithParent: false
+        followParent: false
+        startDelay:10
+        sizeFrom: 15
+        sizeTo: 30
+        strokeFrom:3
+        strokeTo:0
+        lifetime: 50
+
+        colorFrom: f5d73800
+        colorTo: f5d738
+    }
+    {
+        type: WaveEffect
+        rotWithParent: false
+        followParent: false
+        startDelay:20
+        sizeFrom: 5
+        sizeTo: 15
+        strokeFrom:2
+        strokeTo:0
+        lifetime: 40
+
+        colorFrom: f5d7380
+        colorTo: f5d738
+    }
+    {
+        type: ParticleEffect
+        length: 12
+        cone: 360
+        particles: 12
+        lifetime: 120
+        sizeFrom: 8
+        sizeTo: 12
+        interp: circleOut
+        sizeInterp:circleIn
+        colorFrom: f5d73830
+        colorTo: f5d73800
+    }
+    {
+        type: ParticleEffect
+        length: 23
+        cone: 360
+        region: white
+        particles: 8
+        lifetime: 120
+        sizeFrom: 5
+        spin:-0.35
+        sizeTo: 7
+        interp: circleOut
+        sizeInterp:circleIn
+        colorFrom: f5d73880
+        colorTo: f5d73800
+    }
+  {
+        type: ParticleEffect
+        length: 32
+        cone: 360
+        particles: 4
+        lifetime: 80
+        sizeFrom: 2
+        sizeTo: 5
+        interp: circleOut
+        sizeInterp:circleIn
+        colorFrom: f5d738
+        colorTo: f5d73800
+    }
+     {
+        type: ParticleEffect
+        length: 37
+        cone: 360
+        region: white
+        particles: 3
+        spin:0.65
+        lifetime: 80
+        sizeFrom: 2
+        sizeTo: 3
+        interp: circleOut
+        sizeInterp:circleIn
+        colorFrom: ffffff
+        colorTo: ffffff00
+    }
     ]
   }
-}
 }
 ]
