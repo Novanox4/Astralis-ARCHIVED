@@ -29,7 +29,7 @@ shoot: {
 bullet: {
   type: BasicBulletType
   keepVelocity: false
-  inaccuracy: 5
+  inaccuracy: 12
   sprite: circle-bullet
   backColor: f5d738
   frontColor: f5d738
