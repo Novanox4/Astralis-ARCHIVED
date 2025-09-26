@@ -39,11 +39,11 @@ bullet: {
   height: 7
   width: 7
   damage: 8
-  splashDamage: 30
-  splashDamageRadius: 26
+  splashDamage: 38
+  splashDamageRadius: 32
   lifetime: 65
   speed: 7
-  recoil: 2.5
+  recoil: 2
   scaledSplashDamage: true
   trailChance: 0.75
   trailInterval: 25
