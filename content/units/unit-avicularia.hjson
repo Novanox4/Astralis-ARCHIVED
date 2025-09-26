@@ -32,8 +32,8 @@ bullet: {
   damage: 10
   splashDamage: 80
   splashDamageRadius: 28
-  lifetime: 45
-  speed: 6
+  lifetime: 65
+  speed: 7
   recoil: 7
   scaledSplashDamage: true
   trailChance: 1
@@ -45,12 +45,12 @@ bullet: {
     colorTo: f5d738
     lifetime: 75
     length: 12
-    sizeFrom: 3.5
+    sizeFrom: 4
     sizeTo: 0
     interp: pow10Out
     sizeInterp: linear
     sizeChangeStart: 47.5
-    particles: 4
+    particles: 3
   }
   shootEffect: {
     type: ParticleEffect
