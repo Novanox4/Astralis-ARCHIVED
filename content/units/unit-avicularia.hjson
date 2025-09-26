@@ -71,8 +71,8 @@ bullet: {
     {
     type: ParticleEffect
     region: white
-    colorFrom: ffffff
-    colorTo: ffffff
+    colorFrom: f5d738
+    colorTo: f5d738
     lifetime: 75
     length: 0
     sizeFrom: 2
