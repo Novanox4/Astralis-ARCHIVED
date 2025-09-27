@@ -22,5 +22,5 @@ requirements: [
 unitType: unit-carrier-moth
 polyColor: 000000
 polyRadius: 0
-unitBuildTime: 220
+unitBuildTime: 0
 polyStroke: 0
