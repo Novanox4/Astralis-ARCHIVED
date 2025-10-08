@@ -1,12 +1,12 @@
 type: NuclearReactor
 name: Nuclear Decay Reactor
-description: Uses uranium to generate large amounts of power. If insufficient water is provided, the reactor will explode violently in a very small area over a long period of time
-flashThreshold: 0.1
-explosionRadius: 4
+description: Uses uranium to generate large amounts of power. If insufficient water is provided, the reactor will explode violently, destroying nearby infrastructure.
+flashThreshold: 0.2
+explosionRadius: 20
 explosionDamage: 10000
 fuelItem: item-uranium
 itemCapacity: 25
-coolantPower: 0.0025
+coolantPower: 0.00425
 consumes: {
   liquid: water/0.85
   items: [
@@ -66,7 +66,7 @@ explodeEffect: {
 powerProduction: 42.5
 size: 3
 category: power
-heating: 0.000625
+heating: 0.001
 liquidCapacity: 150
 researchCostMultiplier: 0.1
 research: {
