@@ -16,6 +16,17 @@ drag: 0.045
 accel: 0.3
 speed: 0.8
 baseLegStraightness: 0.8
+//unfinished af
+parts: [
+  {
+  type: RegionPart
+  suffix: -fang
+  y: 8
+  mirror: true
+  x: -6
+  moveY: 0.75
+  }
+]
 //the funny
 buildSpeed: 99
 weapons: [
@@ -24,17 +35,6 @@ x: 0
 y: 2
 reload: 200
 mirror: false
-//UNFINISHED
-parts: [
-  {
-  type: RegionPart
-  suffix: -fang-l
-  y: 16
-  mirror: true
-  x: -8
-  moveY: 1
-  }
-]
 shoot: {
   firstShotDelay: 30
     }
