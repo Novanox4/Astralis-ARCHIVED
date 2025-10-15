@@ -1,40 +1,41 @@
 type: legs
-legCount: 8
-legGroupSize: 4
-legLength: 15
-legBaseOffset: 2
+legCount: 6
+legGroupSize: 3
+legLength: 14
+legBaseOffset: 3
+lockLegBase: true
 name: Flu
-description: Native spider to Astralis. Attacks by regurgitating acid at targets.
-details: "These spiders have evolved a rudimentary defense system, regurgitating stomach acid and catapulting it at anything it sees as a threat. Due to the fact that they are barely out of their cocoon stage, this is their only means of survival. Tests have indicated that they are highly intelligent, some rarely even surpassing humans, indicated by the fact that they cover themselves in char as a means of camouflage in dark biomes or at night. Perhaps future encounters with this species will be more tricky."
+description: Native spider to Astralis. Attacks by lunging towards and biting targets with it's sharp pincers.
+details: "This animal doesn't show mindless aggression, instead opting for a strategic, calculated offense."
 legMinLength: 0.75
 legMaxLength: 1
-legExtension: 2.5
+legExtension: -2.5
 flying: false
-health: 260
-baseLegStraightness: 0.25
-//funny but also i think it fixed rts ai somehow
+health: 300
+drag: 0.045
+accel: 0.3
+speed: 0.8
+baseLegStraightness: 0.8
+//the funny
 buildSpeed: 99
 weapons: [
 {
 x: 0
 y: 2
-reload: 7
+reload: 200
 mirror: false
-shootSound: hitLiquid
 shoot: {
-  shots: 30
-  shotDelay: 0.1
+  firstShotDelay: 60
     }
 bullet: {
-  type: LiquidBulletType
-  liquid: arkycite
-  puddleSize: 6
-  orbSize: 2.5
+  type: BulletType
   speed: 3
-  damage: 0.6
-  status: corroded
-  duration: 300
-  inaccuracy: 15
+  damage: 80
+  lifetime: 60
+  circleShooter: true
+  circleShooterRadius: 0.001
+  circleShooterRadiusSmooth: 0.001
+  recoil: -8.2
     }
   }
 ]
@@ -43,6 +44,5 @@ planet: astralis
 deathExplosionEffect: none
 deathSound: plantBreak
 hitSize: 11
-layer: 77
 lightRadius: 0
 useUnitCap: false
