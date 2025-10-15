@@ -30,17 +30,12 @@ shoot: {
 shootSound
 parts: [
   {
-    type: RegionPart
-    suffix: -fang-l
-    y: 16
-    mirror: true
-    x: -8
-    moveY: 1
-    progress: {
-      type: reload
-      op: delay
-      amount: 0.33333
-    }
+  type: RegionPart
+  suffix: -fang-l
+  y: 16
+  mirror: true
+  x: -8
+  moveY: 1
   }
 ]
 bullet: {
