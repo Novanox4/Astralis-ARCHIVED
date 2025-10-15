@@ -28,6 +28,7 @@ shoot: {
   firstShotDelay: 30
     }
 shootSound
+//UNFINISHED
 parts: [
   {
   type: RegionPart
