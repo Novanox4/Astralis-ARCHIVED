@@ -21,7 +21,7 @@ parts: [
   {
   type: RegionPart
   suffix: -fang-l
-  y: 6.75
+  y: 7.5
   mirror: true
   x: -3
   moveRot: 22
@@ -30,7 +30,7 @@ parts: [
     type: PartMove
     progress: recoil
     rot: -44
-    y: 6
+    y: 1
     }
     ]
   }
