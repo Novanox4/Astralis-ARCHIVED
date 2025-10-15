@@ -24,7 +24,7 @@ parts: [
   mirror: true
   x: -3
   moveRot: 22
-  layerOffset: -0.2
+  layerOffset: -0.0001
   moves: [
     {
     type: PartMove
