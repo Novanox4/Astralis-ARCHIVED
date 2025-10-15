@@ -25,17 +25,35 @@ y: 2
 reload: 200
 mirror: false
 shoot: {
-  firstShotDelay: 60
+  firstShotDelay: 30
     }
+shootSound
+parts: [
+  {
+    type: RegionPart
+    suffix: -fang-l
+    y: 16
+    mirror: true
+    x: -8
+    moveY: 1
+    progress: {
+      type: reload
+      op: delay
+      amount: 0.33333
+    }
+  }
+]
 bullet: {
   type: BulletType
   speed: 3
   damage: 80
-  lifetime: 60
+  lifetime: 30
   circleShooter: true
   circleShooterRadius: 0.001
   circleShooterRadiusSmooth: 0.001
-  recoil: -8.2
+  recoil: -5
+  shootEffect: none
+  smokeEffect: none
     }
   }
 ]
