@@ -58,6 +58,8 @@ bullet: {
   recoil: -5
   shootEffect: none
   smokeEffect: none
+  despawnEffect: none
+  hitEffect: none
   }
 }
 ]
