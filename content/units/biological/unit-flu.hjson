@@ -38,7 +38,7 @@ parts: [
 shoot: {
   firstShotDelay: 30
     }
-shootSound
+shootSound: none
 bullet: {
   type: BulletType
   speed: 3
@@ -51,6 +51,7 @@ bullet: {
   shootEffect: none
   smokeEffect: none
   }
+}
 ]
 outlineColor: 121213
 planet: astralis
