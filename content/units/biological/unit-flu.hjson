@@ -20,11 +20,19 @@ baseLegStraightness: 0.8
 parts: [
   {
   type: RegionPart
-  suffix: -fang
+  suffix: -fang-l
   y: 8
   mirror: true
   x: -6
   moveY: 0.75
+  moveRot: -22
+  moves: [
+    {
+    type: PartMove
+    progress: recoil
+    rot: 22
+    }
+    ]
   }
 ]
 //the funny
