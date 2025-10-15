@@ -18,6 +18,12 @@ speed: 0.8
 baseLegStraightness: 0.8
 //the funny
 buildSpeed: 99
+weapons: [
+{
+x: 0
+y: 2
+reload: 200
+mirror: false
 //UNFINISHED
 parts: [
   {
@@ -29,12 +35,6 @@ parts: [
   moveY: 1
   }
 ]
-weapons: [
-{
-x: 0
-y: 2
-reload: 200
-mirror: false
 shoot: {
   firstShotDelay: 30
     }
@@ -50,7 +50,6 @@ bullet: {
   recoil: -5
   shootEffect: none
   smokeEffect: none
-    }
   }
 ]
 outlineColor: 121213
