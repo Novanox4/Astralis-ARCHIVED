@@ -16,7 +16,6 @@ drag: 0.045
 accel: 0.3
 speed: 0.8
 baseLegStraightness: 0.8
-//unfinished af
 parts: [
   {
   type: RegionPart
@@ -25,6 +24,7 @@ parts: [
   mirror: true
   x: -3
   moveRot: 22
+  layerOffset: -0.2
   moves: [
     {
     type: PartMove
