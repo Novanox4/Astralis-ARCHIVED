@@ -10,7 +10,7 @@ description: Fires six incendiary bolts that burn targets. Cheap yet weak.
 shoot: {
   type: ShootBarrel
   shots: 6
-  shotDelay: 0
+  shotDelay: 0.5
   barrels: [
     -4.8, 2.5, 0,
     4.8, 2.5, 0
