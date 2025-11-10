@@ -12,8 +12,8 @@ shoot: {
   shots: 3
   shotDelay: 3
   barrels: [
-    -6, 3.5, 0,
-    6, 3.5, 0
+    -5.25, 3.25, 0,
+    5.25, 3.25, 0
     ]
     }
 maxAmmo: 25
