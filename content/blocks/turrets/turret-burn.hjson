@@ -1,12 +1,12 @@
 type: ItemTurret
 range: 190
-reload: 120
+reload: 130
 category: turret
 name: Burn
-health: 650
-recoils: 3
+health: 400
+recoils: 4
 outlineColor: 323232
-description: Fires three incendiary bolts that burn targets. Less effective against multiple units.
+description: Fires four incendiary bolts that burn targets. Cheap yet weak.
 shoot: {
   type: ShootBarrel
   shots: 3
@@ -30,10 +30,10 @@ basePrefix: astral-
     recoilIndex: 1
     }
     {
-    suffix: -barrel-1
+    suffix: -barrel-2
     progress: recoil
     moveY: -1
-    recoilIndex: 1
+    recoilIndex: 2
     }
   ]
 }
@@ -47,12 +47,12 @@ item-charchunk: {
   impact: true
   hitColor: 272727
   trailColor: 272727
-  lifetime: 50
+  lifetime: 25
   trailLength: 10
   trailWidth: 1
   width: 8
   height: 12
-  speed: 4
+  speed: 8
   inaccuracy: 6
   status: burning
   statusDuration: 250
@@ -60,8 +60,8 @@ item-charchunk: {
     }
 }
 requirements: [
-  item-crystalite/50
-  item-uranium/35
+  item-crystalite/35
+  item-uranium/20
   ]
 researchCost: [
   item-crystalite/60
@@ -75,4 +75,4 @@ coolant: {
   amount: 0.45
 }
 coolantMultiplier: 4
-ammoPerShot: 3
+ammoPerShot: 2
