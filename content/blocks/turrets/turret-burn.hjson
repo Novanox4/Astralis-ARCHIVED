@@ -1,19 +1,19 @@
 type: ItemTurret
-range: 190
+range: 200
 reload: 130
 category: turret
 name: Burn
 health: 400
 recoils: 4
 outlineColor: 323232
-description: Fires four incendiary bolts that burn targets. Cheap yet weak.
+description: Fires six incendiary bolts that burn targets. Cheap yet weak.
 shoot: {
   type: ShootBarrel
-  shots: 3
-  shotDelay: 3
+  shots: 6
+  shotDelay: 0
   barrels: [
-    -5.2, 3, 0,
-    5.2, 3, 0
+    -4.8, 2.5, 0,
+    4.8, 2.5, 0
     ]
     }
 maxAmmo: 25
@@ -26,34 +26,35 @@ basePrefix: astral-
     {
     suffix: -barrel-1
     progress: recoil
-    moveY: -1.25
+    moveY: -1
     }
     {
     suffix: -barrel-2
     progress: recoil
-    moveY: -1.25
+    moveY: -1
     }
   ]
 }
 ammoTypes: {
 item-charchunk: {
   type: BasicBulletType
-  damage: 50
+  damage: 25
   backColor: 272727
-  frontColor: 363636
-  knockback: 2
+  frontColor: ffffff
+  knockback: 1.8
   impact: true
   hitColor: 272727
   trailColor: 272727
-  lifetime: 25
+  //what's 9 + 10
+  lifetime: 21
   trailLength: 10
   trailWidth: 1
   width: 8
   height: 12
-  speed: 8
-  inaccuracy: 6
+  speed: 10
+  inaccuracy: 5
   status: burning
-  statusDuration: 250
+  statusDuration: 300
   layer: 111
     }
 }
