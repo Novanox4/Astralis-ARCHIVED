@@ -4,16 +4,16 @@ reload: 120
 category: turret
 name: Burn
 health: 650
-shootY: 0
+recoils: 3
 outlineColor: 323232
-itemCapacity: 15
-description: Fires long range incendiary bolts that burn targets. Less effective against multiple units.
+description: Fires three incendiary bolts that burn targets. Less effective against multiple units.
 shoot: {
   type: ShootBarrel
   shots: 3
   shotDelay: 3
   barrels: [
-    0, 3.5, 0
+    -6, 3.5, 0,
+    6, 3.5, 0
     ]
     }
 maxAmmo: 25
@@ -23,10 +23,17 @@ drawer: {
 type: drawTurret
 basePrefix: astral-
   parts: [
-  {
-  suffix: -barrel
-  progress: recoil
-  moveY: -1
+    {
+    suffix: -barrel-1
+    progress: recoil
+    moveY: -1
+    recoilIndex: 1
+    }
+    {
+    suffix: -barrel-1
+    progress: recoil
+    moveY: -1
+    recoilIndex: 1
     }
   ]
 }
