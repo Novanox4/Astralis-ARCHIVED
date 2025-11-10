@@ -39,8 +39,8 @@ ammoTypes: {
 item-charchunk: {
   type: BasicBulletType
   damage: 25
-  backColor: 272727
-  frontColor: ffffff
+  backColor: 1f1f1f
+  frontColor: 595b59
   knockback: 1.8
   impact: true
   hitColor: 272727
