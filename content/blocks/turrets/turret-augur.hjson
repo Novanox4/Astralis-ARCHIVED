@@ -3,15 +3,15 @@ name: Augur
 description: Shoots explosive, homing bullets that fragment into lasers.
 category: turret
 minWarmup: 0.1
-warmupMaintainTime: 0
+warmupMaintainTime: 50
 squareSprite: false
 outlineColor: 323232
 size: 2
 shootSound: bolt
-inaccuracy: 30
+inaccuracy: 20
 health: 400
 shoot: {
-shots: 4
+shots: 400
 }
 consumes: {
  power: 5
@@ -51,6 +51,7 @@ drawer: {
   ]
 }
 reload: 60
+reloadWhileCharging: true
 shootType: {
   type: BasicBulletType
   damage: 2.75
@@ -73,6 +74,7 @@ shootType: {
   trailLength: 15
   trailColor: f5d738
   homingPower: 0.225
+  homingDelay: 45
   homingRange: 300
   fragBullet: {
     type: RailBulletType
