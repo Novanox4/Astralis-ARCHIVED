@@ -7,7 +7,7 @@ colorFrom: 0c0413
 colorTo: 0c0413
 gasColor: 0c0413
 boilPoint: 999
-heatCapacity: 1.1
+heatCapacity: 1.3
 temperature: -0.65
 //comedy
 viscosity: 0.69
