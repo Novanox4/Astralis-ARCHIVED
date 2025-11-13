@@ -1,6 +1,6 @@
 type: PowerTurret
 name: Augur
-description: Shoots explosive, homing bullets that fragment into lasers.
+description: Shoots explosive, homing bullets that fragment into lasers. Coolant has a very weak effect on it.
 category: turret
 minWarmup: 0.6
 warmupMaintainTime: 50
@@ -51,7 +51,7 @@ drawer: {
     }
   ]
 }
-reload: 45
+reload: 55
 shootType: {
   type: BasicBulletType
   shrinkX: 0
@@ -117,3 +117,9 @@ research: {
   ]
 }
 researchCostMultiplier: 0.2
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.45
+}
