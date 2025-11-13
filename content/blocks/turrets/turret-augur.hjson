@@ -64,7 +64,7 @@ shootType: {
   sprite: large-orb
   speed: 4
   width: 12
-  height: 12
+  height: 6
   fragRandomSpread: 360
   fragVelocityMin: 1
   fragOffsetMin: 0
