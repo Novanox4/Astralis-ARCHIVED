@@ -51,12 +51,12 @@ drawer: {
     }
   ]
 }
-reload: 55
+reload: 67.5
 shootType: {
   type: BasicBulletType
   shrinkX: 0
   shrinkY: 0
-  damage: 2.75
+  damage: 2
   backColor: f5d738
   frontColor: f5d738
   lifetime: 70
@@ -75,12 +75,12 @@ shootType: {
   trailLength: 12
   trailColor: f5d738
   homingPower: 0.225
-  homingDelay: 22.5
+  homingDelay: 20
   homingRange: 300
   fragBullet: {
     type: RailBulletType
     followAimSpeed: 999
-    damage: 5.5
+    damage: 3.75
     length: 150
     lifetime: 20
     buildingDamageMultiplier: 0.15
@@ -117,7 +117,6 @@ research: {
   ]
 }
 researchCostMultiplier: 0.2
-coolantMultiplier: 4
 coolant: {
   type: ConsumeCoolant
   allowGas: true
