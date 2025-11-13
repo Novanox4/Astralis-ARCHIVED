@@ -12,7 +12,7 @@ inaccuracy: 20
 health: 400
 shoot: {
 shots: 4
-firstShotDelay: 30
+firstShotDelay: 75
 }
 consumes: {
  power: 5
@@ -51,7 +51,7 @@ drawer: {
     }
   ]
 }
-reload: 30
+reload: 25
 shootType: {
   type: BasicBulletType
   damage: 2.75
