@@ -12,7 +12,7 @@ inaccuracy: 20
 health: 400
 shoot: {
 shots: 4
-shotDelay: 1
+shotDelay: 0.1
 }
 consumes: {
  power: 5
