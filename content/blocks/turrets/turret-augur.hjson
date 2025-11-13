@@ -54,6 +54,8 @@ drawer: {
 reload: 45
 shootType: {
   type: BasicBulletType
+  shrinkX: 0
+  shrinkY: -6
   damage: 2.75
   backColor: f5d738
   frontColor: f5d738
@@ -61,8 +63,8 @@ shootType: {
   buildingDamageMultiplier: 0.15
   sprite: large-orb
   speed: 4
-  width: 4
-  height: 4
+  width: 12
+  height: 12
   fragRandomSpread: 360
   fragVelocityMin: 1
   fragOffsetMin: 0
