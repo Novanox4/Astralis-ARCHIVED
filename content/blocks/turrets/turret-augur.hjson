@@ -12,7 +12,7 @@ inaccuracy: 20
 health: 400
 shoot: {
 shots: 4
-firstShotDelay: 75
+shotDelay: 1
 }
 consumes: {
  power: 5
@@ -51,7 +51,7 @@ drawer: {
     }
   ]
 }
-reload: 25
+reload: 45
 shootType: {
   type: BasicBulletType
   damage: 2.75
@@ -59,7 +59,7 @@ shootType: {
   frontColor: f5d738
   lifetime: 70
   buildingDamageMultiplier: 0.15
-  sprite: circle-bullet
+  sprite: large-orb
   speed: 4
   width: 4
   height: 4
@@ -68,13 +68,12 @@ shootType: {
   fragOffsetMin: 0
   fragOffsetMax: 0
   fragBullets: 7
-  followAimSpeed: 999
   despawnSound: shotgun
   hitSound: shotgun
-  trailLength: 15
+  trailLength: 3
   trailColor: f5d738
   homingPower: 0.225
-  homingDelay: 45
+  homingDelay: 22.5
   homingRange: 300
   fragBullet: {
     type: RailBulletType
