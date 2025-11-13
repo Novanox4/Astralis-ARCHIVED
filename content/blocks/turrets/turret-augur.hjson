@@ -55,15 +55,15 @@ reload: 45
 shootType: {
   type: BasicBulletType
   shrinkX: 0
-  shrinkY: -6
+  shrinkY: 0
   damage: 2.75
   backColor: f5d738
   frontColor: f5d738
   lifetime: 70
   buildingDamageMultiplier: 0.15
-  sprite: large-orb
+  sprite: circle-bullet
   speed: 4
-  width: 12
+  width: 4
   height: 6
   fragRandomSpread: 360
   fragVelocityMin: 1
@@ -72,7 +72,7 @@ shootType: {
   fragBullets: 7
   despawnSound: shotgun
   hitSound: shotgun
-  trailLength: 3
+  trailLength: 12
   trailColor: f5d738
   homingPower: 0.225
   homingDelay: 22.5
