@@ -2,7 +2,7 @@ type: PowerTurret
 name: Augur
 description: Shoots explosive, homing bullets that fragment into lasers.
 category: turret
-minWarmup: 0.1
+minWarmup: 0.6
 warmupMaintainTime: 50
 squareSprite: false
 outlineColor: 323232
@@ -11,7 +11,8 @@ shootSound: bolt
 inaccuracy: 20
 health: 400
 shoot: {
-shots: 400
+shots: 4
+firstShotDelay: 30
 }
 consumes: {
  power: 5
@@ -50,8 +51,7 @@ drawer: {
     }
   ]
 }
-reload: 60
-reloadWhileCharging: true
+reload: 30
 shootType: {
   type: BasicBulletType
   damage: 2.75
