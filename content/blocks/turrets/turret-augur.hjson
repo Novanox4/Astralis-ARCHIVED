@@ -11,8 +11,7 @@ shootSound: bolt
 inaccuracy: 20
 health: 400
 shoot: {
-shots: 4
-shotDelay: 0.1
+ shots: 4
 }
 consumes: {
  power: 5
@@ -75,11 +74,10 @@ shootType: {
   trailLength: 12
   trailColor: f5d738
   homingPower: 0.225
-  homingDelay: 20
+  homingDelay: 17.5
   homingRange: 300
   fragBullet: {
     type: RailBulletType
-    followAimSpeed: 999
     damage: 3.75
     length: 150
     lifetime: 20
@@ -117,9 +115,10 @@ research: {
   ]
 }
 researchCostMultiplier: 0.2
+coolantMultiplier: 1
 coolant: {
   type: ConsumeCoolant
   allowGas: true
   allowLiquid: true
-  amount: 2
+  amount: 5
 }
