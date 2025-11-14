@@ -115,9 +115,9 @@ research: {
   ]
 }
 researchCostMultiplier: 0.2
-coolantMultiplier: 2
+coolantMultiplier: 2.6
 coolant: {
 type: ConsumeLiquid
 liquid: water
-amount: 3
+amount: 3.25
 }
