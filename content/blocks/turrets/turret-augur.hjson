@@ -55,13 +55,13 @@ shootType: {
   type: BasicBulletType
   shrinkX: 0
   shrinkY: 0
-  damage: 0
+  damage: 2
   backColor: f5d738
   frontColor: f5d738
-  lifetime: 70
+  lifetime: 50
   buildingDamageMultiplier: 0.15
   sprite: circle-bullet
-  speed: 4
+  speed: 4.2
   width: 4
   height: 6
   fragRandomSpread: 360
@@ -79,7 +79,7 @@ shootType: {
   fragBullet: {
     type: RailBulletType
     damage: 3.75
-    length: 150
+    length: 160
     lifetime: 20
     buildingDamageMultiplier: 0.15
     lineEffect: {
@@ -93,7 +93,7 @@ shootType: {
       lenFrom: 150
       lenTo: 150
       cone: 0
-      length: 1
+      length: 1.1
       lifetime: 35
       useRotation: true
        }
