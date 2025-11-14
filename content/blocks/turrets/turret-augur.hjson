@@ -115,7 +115,7 @@ research: {
   ]
 }
 researchCostMultiplier: 0.2
-coolantMultiplier: 1.2
+coolantMultiplier: 1.5
 coolant: {
   type: ConsumeCoolant
   allowGas: true
