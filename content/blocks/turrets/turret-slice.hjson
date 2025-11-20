@@ -43,7 +43,7 @@ drawer: {
     type: RegionPart
     //YES I KNOW I SPELT IT WRONG BUT I AM LAZY ASF
     suffix: -missle
-    mirror: true
+    mirror: false
     progress: recoil
     moveX: -2.25
     x: 2.25
