@@ -2,7 +2,7 @@ type: ItemTurret
 name: Slice
 description: Fires powerful long-range bolts. Low firerate.
 size: 2
-recoil: -0.2
+recoil: -0.5
 reload: 300
 health: 650
 recoilTime: 250
@@ -12,8 +12,8 @@ ammoTypes: {
   item-uranium: {
     type: BasicBulletType
     lifetime: 100
-    length: 100
-    width: 1
+    length: 8
+    width: 8
     speed: 0
     shrinkY: 0
      }
