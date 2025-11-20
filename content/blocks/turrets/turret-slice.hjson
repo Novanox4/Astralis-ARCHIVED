@@ -40,13 +40,14 @@ drawer: {
   parts: [
     {
     type: RegionPart
+    //YES I KNOW I SPELT IT WRONG BUT I AM LAZY ASF
     suffix: -missle
     mirror: true
     progress: recoil
     moveX: -2.25
     x: 2.25
     y: 0
-    layerOffset: -0.1
+    under: true
     }
   ]
 }
