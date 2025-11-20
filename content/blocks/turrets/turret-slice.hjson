@@ -27,19 +27,20 @@ researchCost: [
   item-uranium/225
 ]
 drawer: {
+  type: DrawTurret
+  basePrefix: astral-
   parts: [
     {
     type: RegionPart
-    suffix: -missle-l
+    suffix: -pointers
     moveX: 0
     moveY: -2
     progress: warmup
+    heatProgress: warmup
     under: true
     y: 0.05
     }
   ]
-  type: DrawTurret
-  basePrefix: astral-
 }
 range: 345
 coolant: {
