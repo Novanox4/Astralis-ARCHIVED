@@ -5,7 +5,8 @@ size: 2
 recoil: 0
 reload: 300
 health: 650
-shootSound: noammo
+recoilTime: 250
+shootSound: bang
 outlineColor: 323232
 shoot: {
   type: ShootBarrel
@@ -36,6 +37,17 @@ researchCost: [
 drawer: {
   type: DrawTurret
   basePrefix: astral-
+  parts: [
+    {
+    type: RegionPart
+    suffix: -missile
+    mirror: true
+    progress: recoil
+    moveX: -2.25
+    x: 2.25
+    y: 0
+    }
+  ]
 }
 range: 345
 coolant: {
