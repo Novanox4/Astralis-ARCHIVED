@@ -12,7 +12,7 @@ shoot: {
   shots: 4
   barrels: [
     3, -6, 90,
-    3, -10, 90
+    3, -10.25, 90
   ]
 }
 ammoTypes: {
