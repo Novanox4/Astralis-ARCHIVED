@@ -34,6 +34,7 @@ drawer: {
     moveX: 0
     moveY: -2
     progress: warmup
+    under: true
     y: 0.05
     }
   ]
