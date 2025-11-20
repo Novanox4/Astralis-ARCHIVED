@@ -2,7 +2,7 @@ type: ItemTurret
 name: Slice
 description: Fires powerful long-range bolts. Low firerate.
 size: 2
-recoil: 0
+recoil: -0.2
 reload: 300
 health: 650
 recoilTime: 250
@@ -32,12 +32,10 @@ drawer: {
   parts: [
     {
     type: RegionPart
-    //YES I KNOW I SPELT IT WRONG BUT I AM LAZY ASF
     suffix: -missle-l
     moveX: 0
     moveY: 0
     progress: recoil
-    under: true
     x: 0.05
     }
   ]
