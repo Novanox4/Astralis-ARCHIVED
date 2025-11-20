@@ -40,7 +40,7 @@ drawer: {
   parts: [
     {
     type: RegionPart
-    suffix: -missile
+    suffix: -missle
     mirror: true
     progress: recoil
     moveX: -2.25
