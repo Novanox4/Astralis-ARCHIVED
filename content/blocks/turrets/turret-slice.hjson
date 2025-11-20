@@ -11,8 +11,8 @@ shoot: {
   type: ShootBarrel
   shots: 4
   barrels: [
-    3, -8, 90,
-    3, -12, 90
+    3, -6, 90,
+    3, -10, 90
   ]
 }
 ammoTypes: {
@@ -22,6 +22,7 @@ ammoTypes: {
     length: 100
     width: 1
     speed: 0
+    shrinkY: 0
      }
   }
 requirements: [
