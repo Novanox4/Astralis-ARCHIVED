@@ -34,9 +34,11 @@ drawer: {
     type: RegionPart
     suffix: -missle-l
     moveX: 0
-    moveY: 0
-    progress: recoil
-    x: 0.05
+    moveY: -2
+    progress: warmup
+    heatProgress: warmup
+    under: true
+    y: 0.05
     }
   ]
 }
