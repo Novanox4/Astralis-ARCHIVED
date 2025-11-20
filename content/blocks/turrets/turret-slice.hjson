@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Slice
-description: Fires homing missles from it's sides. Low firerate.
+description: Fires powerful long-range bolts. Low firerate.
 size: 2
 recoil: 0
 reload: 300
@@ -34,12 +34,11 @@ drawer: {
     type: RegionPart
     //YES I KNOW I SPELT IT WRONG BUT I AM LAZY ASF
     suffix: -missle-l
-    mirror: false
+    moveX: 0
+    moveY: 0
     progress: recoil
-    moveX: -2.25
-    x: 2.25
-    y: 0
     under: true
+    x: 0.05
     }
   ]
 }
