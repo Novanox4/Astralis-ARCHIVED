@@ -11,16 +11,17 @@ shoot: {
   type: ShootBarrel
   shots: 4
   barrels: [
-    3, -4, 90,
-    3, -6, 90
+    3, -8, 90,
+    3, -12, 90
   ]
 }
 ammoTypes: {
   item-uranium: {
     type: BasicBulletType
     lifetime: 100
-    length: 20
+    length: 100
     width: 1
+    speed: 0
      }
   }
 requirements: [
