@@ -46,6 +46,7 @@ drawer: {
     moveX: -2.25
     x: 2.25
     y: 0
+    layerOffset: -0.1
     }
   ]
 }
