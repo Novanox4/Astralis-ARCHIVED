@@ -9,14 +9,6 @@ recoilTime: 250
 shootSound: bang
 shootY: 0
 outlineColor: 323232
-shoot: {
-  type: ShootBarrel
-  shots: 4
-  barrels: [
-    3, -6, 90,
-    3, -10.25, 90
-  ]
-}
 ammoTypes: {
   item-uranium: {
     type: BasicBulletType
@@ -42,7 +34,7 @@ drawer: {
     {
     type: RegionPart
     //YES I KNOW I SPELT IT WRONG BUT I AM LAZY ASF
-    suffix: -missle
+    suffix: -missle-l
     mirror: false
     progress: recoil
     moveX: -2.25
