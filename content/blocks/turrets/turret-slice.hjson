@@ -7,7 +7,6 @@ reload: 300
 health: 650
 recoilTime: 250
 shootSound: bang
-shootY: 0
 outlineColor: 323232
 ammoTypes: {
   item-uranium: {
