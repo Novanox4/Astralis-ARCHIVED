@@ -1,31 +1,21 @@
-type: ItemTurret
+type: PowerTurret
 name: Slice
-description: Fires powerful long-range bolts. Low firerate.
-size: 2
-recoil: -0.2
-reload: 300
-health: 650
-recoilTime: 250
-shootSound: bang
+description: WIP
+category: turret
+minWarmup: 0.6
+warmupMaintainTime: 50
+squareSprite: false
 outlineColor: 323232
-ammoTypes: {
-  item-uranium: {
-    type: BasicBulletType
-    lifetime: 100
-    length: 100
-    width: 1
-    speed: 0
-    shrinkY: 0
-     }
-  }
-requirements: [
-  item-crystalite/60
-  item-uranium/75
-  ]
-researchCost: [
-  item-crystalite/275
-  item-uranium/225
-]
+size: 2
+shootSound: bolt
+inaccuracy: 20
+health: 400
+shoot: {
+ shots: 4
+}
+consumes: {
+ power: 5
+   }
 drawer: {
   type: DrawTurret
   basePrefix: astral-
@@ -40,24 +30,86 @@ drawer: {
     under: true
     y: 0.05
     }
-  ]
-}
-range: 345
-coolant: {
-  type: ConsumeCoolant
-  allowGas: true
-  allowLiquid: true
-  amount: 0.45
-}
-coolantMultiplier: 2.65
-squareSprite: false
-research: {
-  parent: turret-burn
-  objectives: [
-  {
-  type: SectorComplete
-  preset: emergence
+    {
+    type: RegionPart
+    suffix: -wing-right
+    moveX: 1
+    moveY: -1
+    progress: warmup
+    heatProgress: warmup
+    x: -0.05
+    }
+    {
+    type: RegionPart
+    suffix: -wing-left
+    moveX: -1
+    moveY: -1
+    progress: warmup
+    heatProgress: warmup
+    x: 0.05
     }
   ]
 }
-category: turret
+reload: 60
+shootType: {
+  type: BasicBulletType
+  shrinkX: 0
+  shrinkY: 0
+  damage: 2
+  backColor: f5d738
+  frontColor: f5d738
+  lifetime: 50
+  buildingDamageMultiplier: 0.15
+  sprite: circle-bullet
+  speed: 4.2
+  width: 4
+  height: 6
+  fragRandomSpread: 360
+  fragVelocityMin: 1
+  fragOffsetMin: 0
+  fragOffsetMax: 0
+  fragBullets: 7
+  despawnSound: shotgun
+  hitSound: shotgun
+  trailLength: 12
+  trailColor: f5d738
+  homingPower: 0.225
+  homingDelay: 17.5
+  homingRange: 300
+  fragBullet: {
+    type: RailBulletType
+    damage: 3.75
+    length: 160
+    lifetime: 20
+    buildingDamageMultiplier: 0.15
+    lineEffect: {
+      type: ParticleEffect
+      line: true
+      particles: 1
+      strokeFrom: 1
+      strokeTo: 0
+      colorFrom: f5d738
+      colorTo: f5d738
+      lenFrom: 150
+      lenTo: 150
+      cone: 0
+      length: 1.1
+      lifetime: 35
+      useRotation: true
+       }
+      }
+     }
+requirements: [
+  item-crystalite/100
+  item-silver/85
+  item-uranium/35
+]
+range: 225
+research: turret-burn
+researchCostMultiplier: 0.2
+coolantMultiplier: 1.8
+coolant: {
+type: ConsumeLiquid
+liquid: water
+amount: 0.45
+}
