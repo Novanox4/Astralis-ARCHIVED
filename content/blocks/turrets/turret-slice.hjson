@@ -36,7 +36,7 @@ drawer: {
     moveX: 0
     moveY: -2
     progress: warmup
-    layerOffset: -0.0000000001
+    layerOffset: -0.00001
     y: 0.05
     }
   ]
