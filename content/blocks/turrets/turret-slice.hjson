@@ -37,8 +37,9 @@ ammoTypes: {
         strokeTo: 0
         }
         ]
-     }
-  }
+      }
+   }
+}
 requirements: [
   item-crystalite/60
   item-uranium/75
