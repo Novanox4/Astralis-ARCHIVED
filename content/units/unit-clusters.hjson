@@ -41,7 +41,7 @@ engines: [
 }
 ]
 name: Clusters
-description: "Defender of the Core: Castle. Better than the previous iteration, a mix between the previous iterations. Builds healer drones to aid in repairing damaged structures and has two powerful electric fields."
+description: "Defender of the Core: Castle. A better mix between the previous iterations. Builds healer drones to aid in repairing damaged structures and has two powerful electric fields."
 weapons: []
 abilities: [
     {
@@ -66,7 +66,6 @@ abilities: [
     x: 0
     y: 0
     effectRadius: 2
-    status: overdrive
     rotateSpeed: 1
     sectorRad: 0.12
     sectors: 5
@@ -88,7 +87,6 @@ abilities: [
     x: 0
     y: 0
     effectRadius: 2
-    status: overdrive
     rotateSpeed: 5
     sectorRad: 0.12
     sectors: 3
