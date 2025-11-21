@@ -18,7 +18,7 @@ ammoTypes: {
     shrinkY: 0
     backColor: a43131
     frontColor: ffffff
-    accel: -1
+    accel: -1.2
      }
   }
 requirements: [
