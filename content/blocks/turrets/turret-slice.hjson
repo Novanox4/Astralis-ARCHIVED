@@ -20,10 +20,23 @@ ammoTypes: {
     frontColor: ffffff
     accel: -1.2
     pierce: true
-    damage: 60
+    damage: 90
     collidesAir: false
     despawnEffect: none
-    hitEffect: none
+    hitEffect: {
+      type: MultiEffect
+      effects: [
+        {
+        type: ParticleEffect
+        colorFrom: ffffff
+        colorTo: a43131
+        particles: 4
+        lenFrom: 18
+        lenTo: 8
+        strokeFrom: 8
+        strokeTo: 0
+        }
+        ]
      }
   }
 requirements: [
