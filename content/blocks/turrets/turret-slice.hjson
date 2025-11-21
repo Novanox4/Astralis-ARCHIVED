@@ -12,10 +12,13 @@ ammoTypes: {
   item-uranium: {
     type: BasicBulletType
     lifetime: 40
+    speed: 9
     length: 8
     width: 8
-    speed: 4
     shrinkY: 0
+    backColor: a43131
+    frontColor: ffffff
+    accel: -0.225
      }
   }
 requirements: [
