@@ -32,11 +32,11 @@ ammoTypes: {
         colorTo: a43131
         particles: 4
         line: true
-        lenFrom: 12
-        lenTo: 5
-        strokeFrom: 3
+        lenFrom: 3
+        lenTo: 2
+        strokeFrom: 1
         strokeTo: 0
-        length: 0
+        length: 60
         }
         ]
       }
