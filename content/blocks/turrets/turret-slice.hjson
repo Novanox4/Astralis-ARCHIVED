@@ -31,6 +31,7 @@ ammoTypes: {
         colorFrom: ffffff
         colorTo: a43131
         particles: 4
+        line: true
         lenFrom: 18
         lenTo: 8
         strokeFrom: 8
