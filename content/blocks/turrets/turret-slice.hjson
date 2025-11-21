@@ -11,7 +11,7 @@ outlineColor: 323232
 ammoTypes: {
   item-uranium: {
     type: BasicBulletType
-    lifetime: 40
+    lifetime: 60
     speed: 9
     length: 8
     width: 8
