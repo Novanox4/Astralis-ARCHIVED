@@ -22,7 +22,7 @@ ammoTypes: {
     frontColor: ffffff
     accel: -1.2
     pierce: true
-    damage: 90
+    damage: 105
     collidesAir: false
     despawnEffect: none
     hitEffect: {
@@ -90,6 +90,37 @@ ammoTypes: {
         }
         ]
       }
+    spawnBullets: [
+    {
+    type: BulletType
+    lifetime: 30
+    speed: 30
+    hitSize: 6
+    backColor: a43131
+    frontColor: ffffff
+    accel: -1.2
+    pierce: true
+    damage: 35
+    collidesGround: false
+    despawnEffect: none
+    hitEffect: {
+      type: ParticleEffect
+      colorFrom: ffffff
+      colorTo: a43131
+      particles: 9
+      line: true
+      lenFrom: 5
+      lenTo: 3.75
+      strokeFrom: 2
+      strokeTo: 0
+      length: 20
+      lifetime: 50
+      sizeChangeStart: 20
+      sizeInterp: linear
+      interp: pow10Out
+      }
+    }
+    ]
    }
 }
 requirements: [
