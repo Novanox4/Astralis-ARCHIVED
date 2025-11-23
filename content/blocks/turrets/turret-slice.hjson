@@ -54,7 +54,7 @@ ammoTypes: {
         lifetime: 200
         sizeChangeStart: 120
         sizeInterp: linear
-        interp: pow5Out
+        interp: pow10Out
         }
         ]
       }
