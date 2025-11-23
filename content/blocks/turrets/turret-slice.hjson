@@ -30,13 +30,14 @@ ammoTypes: {
         type: ParticleEffect
         colorFrom: ffffff
         colorTo: a43131
-        particles: 4
+        particles: 8
         line: true
         lenFrom: 3
         lenTo: 2
         strokeFrom: 1
         strokeTo: 0
-        length: 60
+        length: 20
+        lifetime: 30
         }
         ]
       }
