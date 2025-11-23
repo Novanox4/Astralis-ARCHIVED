@@ -69,9 +69,9 @@ ammoTypes: {
           sizeFrom: 0
           sizeTo: 50
           sides: 4
-          strokeFrom: 1
-          strokeTo: 5
-          interp: pow10Out
+          strokeFrom: 0
+          strokeTo: 3.25
+          interp: pow4Out
           }
           {
           type: WaveEffect
@@ -81,9 +81,9 @@ ammoTypes: {
           sizeFrom: 50
           sizeTo: 0
           sides: 4
-          strokeFrom: 5
+          strokeFrom: 3.25
           strokeTo: 0
-          interp: pow10In
+          interp: pow4In
           }
           ]
         }
