@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Slice
-description: Fires powerful long-range bolts. Low firerate. Deals far more damage to grounded targets.
+description: Fires powerful long-range bolts. Low firerate. Deals far less damage to flying targets.
 size: 2
 recoil: -0.5
 reload: 300
