@@ -42,6 +42,20 @@ ammoTypes: {
         sizeInterp: linear
         interp: pow10Out
         }
+        {
+        type: ParticleEffect
+        colorFrom: 323232b0
+        colorTo: 323232b0
+        //fun fact the b0 at the end of the colorFrom and colorTo makes it have exactly 69% opacity
+        //until we meet again
+        particles: 8
+        sizeFrom: 8
+        length: 30
+        lifetime: 80
+        sizeChangeStart: 50
+        sizeInterp: linear
+        interp: pow10Out
+        }
         ]
       }
    }
