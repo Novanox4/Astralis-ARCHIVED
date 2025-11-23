@@ -16,6 +16,7 @@ ammoTypes: {
     speed: 30
     length: 8
     width: 8
+    hitSize: 6.25
     shrinkY: 0
     backColor: a43131
     frontColor: ffffff
