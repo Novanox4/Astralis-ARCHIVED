@@ -37,7 +37,8 @@ ammoTypes: {
         strokeFrom: 2
         strokeTo: 0
         length: 20
-        lifetime: 30
+        lifetime: 60
+        sizeChangeStart: 20
         sizeInterp: linear
         interp: pow10Out
         }
