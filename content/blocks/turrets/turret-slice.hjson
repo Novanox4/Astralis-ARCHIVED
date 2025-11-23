@@ -48,11 +48,11 @@ ammoTypes: {
         colorTo: 323232b0
         //fun fact the b0 at the end of the colorFrom and colorTo makes it have exactly 69% opacity
         //until we meet again
-        particles: 15
-        sizeFrom: 7.5
-        length: 30
-        lifetime: 80
-        sizeChangeStart: 50
+        particles: 22
+        sizeFrom: 7
+        length: 60
+        lifetime: 200
+        sizeChangeStart: 120
         sizeInterp: linear
         interp: pow5Out
         }
