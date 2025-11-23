@@ -31,7 +31,7 @@ ammoTypes: {
         type: ParticleEffect
         colorFrom: ffffff
         colorTo: a43131
-        particles: 8
+        particles: 16
         line: true
         lenFrom: 5
         lenTo: 3.75
@@ -65,23 +65,23 @@ ammoTypes: {
           type: WaveEffect
           colorFrom: a43131
           colorTo: a43131
-          lifetime: 30
+          lifetime: 20
           sizeFrom: 0
-          sizeTo: 50
+          sizeTo: 40
           sides: 4
           strokeFrom: 0
-          strokeTo: 3.25
+          strokeTo: 2.5
           interp: pow4Out
           }
           {
           type: WaveEffect
           colorFrom: a43131
           colorTo: a43131
-          lifetime: 30
-          sizeFrom: 50
+          lifetime: 20
+          sizeFrom: 40
           sizeTo: 0
           sides: 4
-          strokeFrom: 3.25
+          strokeFrom: 2.5
           strokeTo: 0
           interp: pow4In
           }
