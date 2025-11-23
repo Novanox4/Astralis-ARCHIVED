@@ -32,12 +32,14 @@ ammoTypes: {
         colorTo: a43131
         particles: 8
         line: true
-        lenFrom: 3
-        lenTo: 2
-        strokeFrom: 1
+        lenFrom: 5
+        lenTo: 3.75
+        strokeFrom: 2
         strokeTo: 0
         length: 20
         lifetime: 30
+        sizeInterp: linear
+        interp: pow10Out
         }
         ]
       }
