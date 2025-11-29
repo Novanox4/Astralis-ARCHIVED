@@ -1,30 +1,128 @@
 type: ItemTurret
 name: Slice
-description: Fires homing missles at ground units.
+description: Fires powerful long-range bolts. Low firerate. Deals far less damage to flying targets.
 size: 2
-targetAir: false
-reload: 175
+recoil: -0.5
+reload: 300
 health: 650
-shootSound: missileSmall
+recoilTime: 250
+shootSound: bang
 outlineColor: 323232
-shoot: {
-  type: ShootBarrel
-  barrels: 2
-  shots: 2
-  shotDelay: 4
-  barrelOffset: 1
-  barrels: [
-    -3, 2, 0,
-    3, 2, 0
-  ]
-}
+shootCone: 2
 ammoTypes: {
   item-uranium: {
-   type: EmptyBulletType
-   spawnUnit: turret-slice-missle
-   lifetime: 0
-     }
-  }
+    type: BasicBulletType
+    lifetime: 30
+    speed: 30
+    length: 8
+    width: 8
+    hitSize: 6.25
+    shrinkY: 0
+    backColor: a43131
+    frontColor: ffffff
+    accel: -1.2
+    pierce: true
+    damage: 105
+    collidesAir: false
+    despawnEffect: none
+    hitEffect: {
+      type: MultiEffect
+      effects: [
+        {
+        type: ParticleEffect
+        colorFrom: ffffff
+        colorTo: a43131
+        particles: 16
+        line: true
+        lenFrom: 5
+        lenTo: 3.75
+        strokeFrom: 2
+        strokeTo: 0
+        length: 20
+        lifetime: 60
+        sizeChangeStart: 20
+        sizeInterp: linear
+        interp: pow10Out
+        }
+        {
+        type: ParticleEffect
+        colorFrom: 323232b0
+        colorTo: 323232b0
+        //fun fact the b0 at the end of the colorFrom and colorTo makes it have exactly 69% opacity
+        //until we meet again
+        particles: 22
+        sizeFrom: 6.75
+        length: 52.5
+        lifetime: 150
+        sizeChangeStart: 75
+        sizeInterp: linear
+        interp: pow10Out
+        }
+        {
+        type: SeqEffect
+        lifetime: 60
+        effects: [
+          {
+          type: WaveEffect
+          colorFrom: a43131
+          colorTo: a43131
+          lifetime: 20
+          sizeFrom: 0
+          sizeTo: 40
+          sides: 4
+          strokeFrom: 0
+          strokeTo: 2.5
+          interp: pow4Out
+          }
+          {
+          type: WaveEffect
+          colorFrom: a43131
+          colorTo: a43131
+          lifetime: 20
+          sizeFrom: 40
+          sizeTo: 0
+          sides: 4
+          strokeFrom: 2.5
+          strokeTo: 0
+          interp: pow4In
+          }
+          ]
+        }
+        ]
+      }
+    spawnBullets: [
+    {
+    type: BulletType
+    lifetime: 30
+    speed: 30
+    hitSize: 6
+    backColor: a43131
+    frontColor: ffffff
+    accel: -1.2
+    pierce: true
+    damage: 35
+    collidesGround: false
+    despawnEffect: none
+    hitEffect: {
+      type: ParticleEffect
+      colorFrom: ffffff
+      colorTo: a43131
+      particles: 9
+      line: true
+      lenFrom: 5
+      lenTo: 3.75
+      strokeFrom: 2
+      strokeTo: 0
+      length: 20
+      lifetime: 50
+      sizeChangeStart: 20
+      sizeInterp: linear
+      interp: pow10Out
+      }
+    }
+    ]
+   }
+}
 requirements: [
   item-crystalite/60
   item-uranium/75

@@ -1,19 +1,19 @@
 type: ItemTurret
-range: 190
-reload: 120
+range: 200
+reload: 130
 category: turret
 name: Burn
-health: 650
-shootY: 0
+health: 400
+recoils: 4
 outlineColor: 323232
-itemCapacity: 15
-description: Fires long range incendiary bolts that burn targets. Less effective against multiple units.
+description: Fires a powerful burst of six incendiary bolts that burn targets. Cheap yet weak.
 shoot: {
   type: ShootBarrel
-  shots: 3
-  shotDelay: 3
+  shots: 6
+  shotDelay: 0.6
   barrels: [
-    0, 3.5, 0
+    -4.8, 2.5, 0,
+    4.8, 2.5, 0
     ]
     }
 maxAmmo: 25
@@ -23,38 +23,44 @@ drawer: {
 type: drawTurret
 basePrefix: astral-
   parts: [
-  {
-  suffix: -barrel
-  progress: recoil
-  moveY: -1
+    {
+    suffix: -barrel-1
+    progress: recoil
+    moveY: -1
+    }
+    {
+    suffix: -barrel-2
+    progress: recoil
+    moveY: -1
     }
   ]
 }
 ammoTypes: {
 item-charchunk: {
   type: BasicBulletType
-  damage: 57.5
-  backColor: 272727
-  frontColor: 363636
-  knockback: 0.5
+  damage: 20
+  backColor: 1f1f1f
+  frontColor: 595b59
+  knockback: 1
   impact: true
   hitColor: 272727
   trailColor: 272727
-  lifetime: 50
+  //what's 9 + 10
+  lifetime: 21
   trailLength: 10
   trailWidth: 1
-  width: 8
-  height: 12
-  speed: 4
-  inaccuracy: 6
+  width: 6
+  height: 13
+  speed: 10
+  inaccuracy: 7
   status: burning
-  statusDuration: 250
+  statusDuration: 300
   layer: 111
     }
 }
 requirements: [
-  item-crystalite/50
-  item-uranium/35
+  item-crystalite/35
+  item-uranium/20
   ]
 researchCost: [
   item-crystalite/60
@@ -68,4 +74,4 @@ coolant: {
   amount: 0.45
 }
 coolantMultiplier: 4
-ammoPerShot: 3
+ammoPerShot: 2

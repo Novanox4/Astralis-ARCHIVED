@@ -1,0 +1,334 @@
+type: legs
+hitSize: 14
+legCount: 4
+legLength: 20
+legPairOffset: 4
+legBaseOffset: 4
+health: 800
+armor: 40
+legExtension: -4
+speed: 0.65
+outlineColor: 323232
+drag: 0.1
+accel: 0.1
+name: Avicularia
+description: Slow siege unit made for putting pressure on enemy defense systems from a distance or breaking exposed infrastructure. Struggles against shields. Vulnerable to concentrated, high damage single attacks but resistant to weak, plentiful attacks.
+weapons: [
+{
+x: 0
+y: -1
+shootY: 0
+shootX: 0
+reload: 200
+shootSound: cannon
+mirror: false
+shoot: {
+  shots: 3
+  shotDelay: 3
+}
+bullet: {
+  type: BasicBulletType
+  keepVelocity: false
+  inaccuracy: 12
+  sprite: circle-bullet
+  backColor: f5d738
+  frontColor: f5d738
+  trailColor: e5b224
+  trailLength: 12
+  trailWidth: 1.5
+  height: 7
+  width: 7
+  damage: 8
+  splashDamage: 38
+  splashDamageRadius: 32
+  lifetime: 65
+  speed: 7
+  recoil: 2
+  scaledSplashDamage: true
+  trailChance: 0.75
+  trailInterval: 25
+  trailEffect: [
+    {
+    type: ParticleEffect
+    cone:270
+    region: large-orb-back
+    colorFrom: f5d738
+    colorTo: f5d738
+    lifetime: 65
+    length: 12
+    sizeFrom: 4
+    sizeTo: 0
+    offset: 180
+    interp: pow10Out
+    sizeInterp: linear
+    sizeChangeStart: 47.5
+    particles: 1
+    }
+    {
+    type: ParticleEffect
+    cone:270
+    startDelay:4
+    region: large-orb-back
+    colorFrom: f5d73860
+    colorTo: f5d738
+    lifetime: 35
+    length: 6
+    sizeFrom: 2
+    sizeTo: 0
+    offset: 180
+    interp: pow10Out
+    sizeInterp: linear
+    sizeChangeStart: 47.5
+    particles: 1
+    }
+    {
+    type: ParticleEffect
+    region: white
+    colorFrom: f5d738
+    colorTo: f5d738
+    lifetime: 75
+    length: 12
+    sizeFrom: 2
+    sizeTo: 0
+    interp: pow3Out
+    sizeInterp: linear
+    sizeChangeStart: 47.5
+    particles: 1
+    offset: 45
+    }
+    {
+    type: ParticleEffect
+    region: white
+    colorFrom: ffffff
+    colorTo: ffffff
+    lifetime: 75
+    length: 12
+    sizeFrom: 2
+    sizeTo: 0
+    interp: pow5Out
+    sizeInterp: linear
+    sizeChangeStart: 47.5
+    particles: 1
+    }
+    {
+    startDelay:8
+    type: ParticleEffect
+    region:large-orb-back
+    colorFrom: f5d73870
+    colorTo: f5d73800
+    lifetime: 60
+    length: 18
+    sizeFrom: 2
+    sizeTo: 5
+    interp: pow3Out
+    particles: 1
+    }
+    {
+    startDelay:10
+    type: ParticleEffect
+    region:white
+    colorFrom: f5d73860
+    colorTo: f5d73800
+    lifetime: 60
+    length: 40
+    spin:1.5
+    offset: 16
+    sizeFrom: 2
+    sizeTo: 7
+    interp: pow3Out
+    particles: 1
+    }
+    {
+    startDelay:18
+    type: ParticleEffect
+    region: white
+    colorFrom: f5d73850
+    colorTo: f5d73800
+    lifetime: 56
+    length: 36
+    spin:-1
+    sizeFrom: 2
+    sizeTo: 7
+    interp: pow3Out
+    particles: 1
+    }
+    {
+    startDelay: 10
+    type: ParticleEffect
+    colorFrom: 33918833
+    colorTo: 33918800
+    lifetime: 40
+    length: 50
+    sizeFrom: 1.5
+    sizeTo: 1.5
+    interp: pow3Out
+    particles: 1
+    line: true
+    lenFrom: 9
+    lenTo: 5
+    strokeFrom: 2.5
+    strokeTo: 0
+    }
+    {
+    startDelay: 20
+    type: ParticleEffect
+    colorFrom: 33918833
+    colorTo: 33918800
+    lifetime: 40
+    length: 50
+    sizeFrom: 1.5
+    sizeTo: 1.5
+    interp: pow3Out
+    particles: 1
+    line: true
+    lenFrom: 9
+    lenTo: 5
+    strokeFrom: 2.5
+    strokeTo: 0
+    }
+    {
+    startDelay: 30
+    type: ParticleEffect
+    colorFrom: 33918833
+    colorTo: 33918800
+    lifetime: 40
+    length: 50
+    sizeFrom: 1.5
+    sizeTo: 1.5
+    interp: pow3Out
+    particles: 1
+    line: true
+    lenFrom: 9
+    lenTo: 5
+    strokeFrom: 2.5
+    strokeTo: 0
+    }
+    ]
+  shootEffect: {
+    type: ParticleEffect
+    lifetime: 20
+    colorFrom: f5d738
+    colorTo: f5d738
+    particles: 5
+    sizeFrom: 2
+    sizeTo: 2
+    line: true
+    strokeFrom: 2
+    lenFrom: 3
+    cone: 30
+    length: 32
+    }
+  hitEffect: [
+    {
+        type: WaveEffect
+        rotWithParent: false
+        followParent: false
+        sizeFrom: 0
+        sizeTo: 30
+        strokeFrom:7
+        strokeTo:0
+        lifetime: 60
+
+        colorFrom: f5d738
+        colorTo: f5d738
+    }
+    {
+        type: WaveEffect
+        rotWithParent: false
+        followParent: false
+        sizeFrom: 25
+        sizeTo: 42
+        strokeFrom:3
+        strokeTo:1
+        lifetime: 53
+
+        colorFrom: ffffff50
+        colorTo: ffffff30
+    }
+    {
+        type: WaveEffect
+        rotWithParent: false
+        followParent: false
+        startDelay:10
+        sizeFrom: 15
+        sizeTo: 30
+        strokeFrom:3
+        strokeTo:0
+        lifetime: 50
+
+        colorFrom: f5d73800
+        colorTo: f5d738
+    }
+    {
+        type: WaveEffect
+        rotWithParent: false
+        followParent: false
+        startDelay:20
+        sizeFrom: 5
+        sizeTo: 15
+        strokeFrom:2
+        strokeTo:0
+        lifetime: 40
+        colorFrom: f5d7380
+        colorTo: f5d738
+    }
+    {
+        type: ParticleEffect
+        length: 12
+        cone: 360
+        particles: 12
+        lifetime: 120
+        sizeFrom: 8
+        sizeTo: 12
+        interp: circleOut
+        sizeInterp:circleIn
+        colorFrom: f5d73830
+        colorTo: f5d73800
+    }
+    {
+        type: ParticleEffect
+        length: 23
+        cone: 360
+        region: white
+        particles: 8
+        lifetime: 120
+        sizeFrom: 5
+        spin:-0.35
+        sizeTo: 7
+        interp: circleOut
+        sizeInterp:circleIn
+        colorFrom: f5d73880
+        colorTo: f5d73800
+    }
+  {
+        type: ParticleEffect
+        length: 32
+        cone: 360
+        particles: 4
+        lifetime: 80
+        sizeFrom: 2
+        sizeTo: 5
+        interp: circleOut
+        sizeInterp:circleIn
+        colorFrom: f5d738
+        colorTo: f5d73800
+    }
+     {
+        type: ParticleEffect
+        length: 37
+        cone: 360
+        region: white
+        particles: 3
+        spin:0.65
+        lifetime: 80
+        sizeFrom: 2
+        sizeTo: 3
+        interp: circleOut
+        sizeInterp:circleIn
+        colorFrom: ffffff
+        colorTo: ffffff00
+    }
+    ]
+  }
+}
+]

@@ -1,17 +1,17 @@
 type: PowerTurret
 name: Augur
-description: Shoots explosive, homing bullets that fragment into lasers.
+description: Shoots explosive, homing bullets that fragment into lasers. Coolant is very effective yet hard to use to it's full potential.
 category: turret
-minWarmup: 0.1
-warmupMaintainTime: 0
+minWarmup: 0.6
+warmupMaintainTime: 50
 squareSprite: false
 outlineColor: 323232
 size: 2
 shootSound: bolt
-inaccuracy: 30
+inaccuracy: 20
 health: 400
 shoot: {
-shots: 4
+ shots: 4
 }
 consumes: {
  power: 5
@@ -53,32 +53,33 @@ drawer: {
 reload: 60
 shootType: {
   type: BasicBulletType
-  damage: 2.75
+  shrinkX: 0
+  shrinkY: 0
+  damage: 2
   backColor: f5d738
   frontColor: f5d738
-  lifetime: 70
+  lifetime: 50
   buildingDamageMultiplier: 0.15
   sprite: circle-bullet
-  speed: 4
+  speed: 4.2
   width: 4
-  height: 4
+  height: 6
   fragRandomSpread: 360
   fragVelocityMin: 1
   fragOffsetMin: 0
   fragOffsetMax: 0
   fragBullets: 7
-  followAimSpeed: 999
   despawnSound: shotgun
   hitSound: shotgun
-  trailLength: 15
+  trailLength: 12
   trailColor: f5d738
   homingPower: 0.225
+  homingDelay: 17.5
   homingRange: 300
   fragBullet: {
     type: RailBulletType
-    followAimSpeed: 999
-    damage: 5.5
-    length: 150
+    damage: 3.75
+    length: 160
     lifetime: 20
     buildingDamageMultiplier: 0.15
     lineEffect: {
@@ -92,7 +93,7 @@ shootType: {
       lenFrom: 150
       lenTo: 150
       cone: 0
-      length: 1
+      length: 1.1
       lifetime: 35
       useRotation: true
        }
@@ -114,3 +115,9 @@ research: {
   ]
 }
 researchCostMultiplier: 0.2
+coolantMultiplier: 2.6
+coolant: {
+type: ConsumeLiquid
+liquid: water
+amount: 3.25
+}

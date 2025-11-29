@@ -17,10 +17,10 @@ Balancing: If everything is op then everything is balanced
 "
 subtitle: "[accent]The silksong is real."
 repo: novanox4/Astralis
-version: 0.32
-minGameVersion: 150
+version: 0.4
+minGameVersion: 152
 hidden: false
-hideBrowser: false
+hideBrowser: true
 author: NV-NX, Haznobrain
 contentOrder: [
     //items
